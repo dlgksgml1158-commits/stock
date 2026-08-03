@@ -14,7 +14,7 @@ from __future__ import annotations
 import argparse
 import json
 import time
-from datetime import datetime, timezone
+from datetime import datetime, timedelta, timezone
 from pathlib import Path
 
 import requests
@@ -112,6 +112,26 @@ def fetch_industry_snapshot() -> list[dict]:
     return records
 
 
+def already_collected_today(history: list[dict], label: str) -> bool:
+    """같은 KST 날짜에 같은 라벨로 이미 수집된 게 있으면 True.
+
+    버퍼용 cron(같은 라벨을 몇 시간 간격으로 여러 번 걸어둔 것) 때문에 정상 실행된
+    첫 번째 이후로도 계속 도는데, 이게 다 히스토리에 쌓이면 근접 중복 스냅샷으로
+    "연속 상위권" 집계가 왜곡된다. manual(workflow_dispatch로 사용자가 직접 실행)은
+    항상 다시 수집한다 — 명시적으로 요청한 실행까지 건너뛰면 놀랄 수 있음.
+    """
+    if label == "manual":
+        return False
+    today_kst = (datetime.now(timezone.utc) + timedelta(hours=9)).date()
+    for entry in history:
+        if entry.get("label") != label:
+            continue
+        entry_kst = (datetime.fromisoformat(entry["timestamp"]) + timedelta(hours=9)).date()
+        if entry_kst == today_kst:
+            return True
+    return False
+
+
 def load_history() -> list[dict]:
     if not _HISTORY_PATH.exists():
         return []
@@ -133,6 +153,11 @@ def main() -> None:
     )
     args = parser.parse_args()
 
+    history = load_history()
+    if already_collected_today(history, args.label):
+        print(f"오늘 이미 label={args.label}로 수집됨 — 버퍼용 재실행이라 건너뜁니다.")
+        return
+
     try:
         industries = fetch_industry_snapshot()
     except Exception as e:  # noqa: BLE001 - 실패해도 기존 히스토리는 보존
@@ -144,7 +169,6 @@ def main() -> None:
         print("파싱된 업종이 0개라 히스토리를 갱신하지 않습니다.")
         return
 
-    history = load_history()
     history.append(
         {
             "timestamp": datetime.now(timezone.utc).isoformat(),

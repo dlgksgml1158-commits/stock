@@ -2,11 +2,19 @@ name: 업종 스냅샷 수집
 
 on:
   schedule:
-    # GitHub Actions는 부하 상황에 따라 스케줄이 몇 시간씩 밀리는 경우가 있음
-    # (다른 프로젝트에서 실제로 관측됨). 정확한 시각이 중요한 건 아니라서
-    # (HFT 신호가 아니라 "장 시작/자정 무렵 분위기" 확인용) 지금은 2개만 걸어둠.
-    - cron: '35 13 * * 1-5'  # 미국 장 시작 무렵(~9:35am ET), 평일만. DST 미보정.
-    - cron: '3 15 * * *'     # 한국시간 00:03, 매일
+    # GitHub Actions는 부하 상황에 따라 스케줄이 몇 시간씩(관측 사례로는 9~14시간까지)
+    # 밀리는 경우가 있음 (다른 프로젝트에서 실제로 관측됨). 그래서 목표 시각마다
+    # 2시간 간격 버퍼 cron을 3개씩 더 걸어둠 — 정시 실행이 성공하면
+    # collect_sector_snapshot.py의 same-day 가드가 버퍼 실행을 그냥 스킵하고,
+    # 정시 실행이 지연/실패하면 버퍼 중 하나가 그날 안에 대신 잡아준다.
+    - cron: '35 13 * * 1-5'  # 미국 장 시작(~9:35am ET) 정시, 평일만. DST 미보정.
+    - cron: '35 15 * * 1-5'  # 장 시작 버퍼 +2h
+    - cron: '35 17 * * 1-5'  # 장 시작 버퍼 +4h
+    - cron: '35 19 * * 1-5'  # 장 시작 버퍼 +6h
+    - cron: '3 15 * * *'     # 한국시간 00:03 정시, 매일
+    - cron: '3 17 * * *'     # 자정 버퍼 +2h
+    - cron: '3 19 * * *'     # 자정 버퍼 +4h
+    - cron: '3 21 * * *'     # 자정 버퍼 +6h
   workflow_dispatch:
 
 permissions:
@@ -32,13 +40,14 @@ jobs:
       - name: 🏷 라벨 결정
         id: label
         run: |
-          if [ "${{ github.event.schedule }}" = "35 13 * * 1-5" ]; then
-            echo "value=market_open" >> "$GITHUB_OUTPUT"
-          elif [ "${{ github.event.schedule }}" = "3 15 * * *" ]; then
-            echo "value=midnight_kst" >> "$GITHUB_OUTPUT"
-          else
-            echo "value=manual" >> "$GITHUB_OUTPUT"
-          fi
+          case "${{ github.event.schedule }}" in
+            "35 13 * * 1-5" | "35 15 * * 1-5" | "35 17 * * 1-5" | "35 19 * * 1-5")
+              echo "value=market_open" >> "$GITHUB_OUTPUT" ;;
+            "3 15 * * *" | "3 17 * * *" | "3 19 * * *" | "3 21 * * *")
+              echo "value=midnight_kst" >> "$GITHUB_OUTPUT" ;;
+            *)
+              echo "value=manual" >> "$GITHUB_OUTPUT" ;;
+          esac
 
       - name: 📊 업종 스냅샷 수집
         run: python scripts/collect_sector_snapshot.py --label "${{ steps.label.outputs.value }}"
