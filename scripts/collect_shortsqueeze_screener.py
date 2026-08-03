@@ -1,16 +1,21 @@
 #!/usr/bin/env python3
-"""Finviz 스크리너에서 숏스퀴즈 가능성이 있는 종목을 찾아
-data/shortsqueeze_history.json에 스냅샷을 추가한다.
+"""Finviz 스크리너에서 "오늘 급등할 가능성이 있고, 급등하면 숏스퀴즈로 이어질 수
+있는" 종목을 찾아 data/shortsqueeze_history.json에 스냅샷을 추가한다.
 
-숏스퀴즈 기본 조건: 공매도 비중(Short Float, 유통주식 대비 공매도 잔량 비율)이
-높고, 숏 커버링에 걸리는 일수(Short Ratio, 공매도 잔량 / 평균거래량)도 길면
-공매도 세력이 빠르게 빠져나가기 어렵다.
+세 조건을 모두 만족해야 한다:
+1. 스퀴즈 구조: 공매도비중(Short Float) 20% 이상 + 커버일수(Short Ratio, 공매도
+   잔량을 평소 거래량으로 다 청산하는 데 걸리는 날짜 수)가 길면, 공매도 세력이
+   주가 상승 시 빠르게 못 빠져나가서 강제 숏커버링(매수)이 매수를 더 부르는
+   되먹임이 걸릴 수 있다.
+2. 오늘 실제로 움직이는 중: 상대거래량(relvol, 오늘 거래량/평소 평균거래량)
+   1.5배 이상. Short Float/Short Ratio는 거래소가 2주에 한 번 집계하는 정적
+   지표라 이것만 보면 "오늘 아무 일도 없는" 종목이 계속 1등으로 나온다(실제로
+   확인해보니 당일 거래량이 평소보다 오히려 적은 종목이 상위였음).
+3. 아직 안 터짐: 당일 등락률이 완만한(-3%~+6%) 종목만. relvol이 높아도 이미
+   +107%, -27%처럼 크게 움직인 종목은 "오늘 급등 가능성이 있는" 게 아니라
+   "오늘 이미 터진" 종목이라 제외한다 — collect_presurge_screener.py와 같은
+   기준의 밴드.
 
-Short Float/Short Ratio는 거래소가 2주에 한 번 집계하는 정적 지표라, 이 둘만으로
-줄을 세우면 "오늘" 아무 일도 없는 종목이 계속 1등으로 나온다(실제로 확인해보니
-당일 거래량이 평소보다 오히려 적은 종목들이 상위였음). 그래서 오늘 실제로 거래가
-몰리고 있는지(상대거래량, relvol = 오늘 거래량 / 평소 평균거래량)를 추가 조건으로
-걸어서 "구조적으로 스퀴즈가 가능한데 + 오늘 진짜로 움직이고 있는" 종목만 남긴다.
 스퀴즈 점수 = 공매도비중 x 커버일수 x 상대거래량. 레버리지/인버스 ETF는 이 개념
 자체가 안 맞으므로 ind_stocksonly로 제외.
 
@@ -36,6 +41,7 @@ _MAX_TOP_STORED = 30
 
 _FILTERS = "sh_short_o20,sh_relvol_o1.5,sh_avgvol_o200,sh_price_o2,ind_stocksonly"
 _MAX_PAGES = 5  # 페이지당 20개 (오늘 relvol 조건까지 걸려서 전체 매칭 수 자체가 적음)
+_CHANGE_MIN, _CHANGE_MAX = -3.0, 6.0  # 이 밖이면 "아직 안 터짐"이 아니라 "이미 터짐"
 
 
 def _get_with_retry(url: str, params: dict, max_retries: int = 5, backoff: float = 8.0) -> requests.Response:
@@ -68,8 +74,9 @@ def _parse_size(text: str) -> float | None:
 
 
 def fetch_squeeze_candidates() -> list[dict]:
-    """공매도비중≥20% + 오늘 relvol≥1.5(서버 필터)인 종목을, 스퀴즈 점수
-    (공매도비중 x 커버일수 x 오늘 relvol) 내림차순으로 정렬해 상위만 반환."""
+    """공매도비중≥20% + 오늘 relvol≥1.5(서버 필터) + 등락률 -3~+6%(아직 안 터짐,
+    로컬 필터)인 종목을, 스퀴즈 점수(공매도비중 x 커버일수 x 오늘 relvol)
+    내림차순으로 정렬해 상위만 반환."""
     candidates = []
     for page_start in range(1, _MAX_PAGES * 20, 20):
         resp = _get_with_retry(
@@ -130,8 +137,9 @@ def fetch_squeeze_candidates() -> list[dict]:
             break
         time.sleep(1.5)  # 페이지 사이 딜레이 (429 예방)
 
-    candidates.sort(key=lambda c: c["squeeze_score"], reverse=True)
-    return candidates[:_MAX_TOP_STORED]
+    not_yet_popped = [c for c in candidates if _CHANGE_MIN <= c["change_pct"] <= _CHANGE_MAX]
+    not_yet_popped.sort(key=lambda c: c["squeeze_score"], reverse=True)
+    return not_yet_popped[:_MAX_TOP_STORED]
 
 
 def already_collected_today(history: list[dict], label: str) -> bool:
@@ -163,7 +171,7 @@ def save_history(history: list[dict]) -> None:
 
 
 def main() -> None:
-    parser = argparse.ArgumentParser(description="Finviz 숏스퀴즈 후보(공매도 비중 x 커버일수) 수집")
+    parser = argparse.ArgumentParser(description="Finviz 급등 전 숏스퀴즈 후보(공매도비중 x 커버일수 x relvol, 아직 안 터진 것만) 수집")
     parser.add_argument(
         "--label", default="manual", help="이 스냅샷을 구분할 라벨 (market_open / midnight_kst / manual)"
     )
