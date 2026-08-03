@@ -1,6 +1,7 @@
 <meta charset="utf-8" />
 <title>주식</title>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
+<meta name="google" content="notranslate" />
 <style>
   :root {
     color-scheme: light;
@@ -53,7 +54,7 @@
     -webkit-font-smoothing: antialiased;
   }
   .wrap {
-    max-width: 860px;
+    max-width: 1080px;
     margin: 0 auto;
     padding: 20px 16px 60px;
   }
@@ -101,6 +102,54 @@
     color: var(--muted);
     font-size: 0.8rem;
   }
+  .grid-2 {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(380px, 1fr));
+    gap: 18px;
+    align-items: start;
+    margin-bottom: 18px;
+  }
+  .grid-2 > .card { margin-bottom: 0; }
+  .stat-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 12px;
+    margin-bottom: 18px;
+  }
+  .stat-tile {
+    background: var(--surface-1);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: 13px 16px;
+  }
+  .stat-tile .label {
+    font-size: 0.74rem;
+    color: var(--muted);
+    text-transform: uppercase;
+    letter-spacing: 0.02em;
+    margin-bottom: 7px;
+  }
+  .stat-main {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    gap: 10px;
+  }
+  .stat-name {
+    font-size: 1.05rem;
+    font-weight: 700;
+    line-height: 1.25;
+  }
+  .stat-delta {
+    font-variant-numeric: tabular-nums;
+    font-weight: 700;
+    white-space: nowrap;
+  }
+  .stat-tile .sub {
+    font-size: 0.8rem;
+    color: var(--text-secondary);
+    margin-top: 4px;
+  }
   table {
     width: 100%;
     border-collapse: collapse;
@@ -139,7 +188,7 @@
   footer a { color: inherit; }
 </style>
 
-<div class="wrap">
+<div class="wrap" translate="no">
   <header>
     <h1>🇺🇸 주식</h1>
     <p>Finviz 업종(~140개) 당일 등락률 기준. 자동 수집 — 하루 2회(미국 장 시작 / 한국시간 자정).</p>
@@ -319,6 +368,43 @@
       </div>`;
   }
 
+  function statTile(label, name, deltaPct, sub) {
+    return `
+      <div class="stat-tile">
+        <div class="label">${label}</div>
+        <div class="stat-main">
+          <span class="stat-name">${name}</span>
+          <span class="stat-delta ${deltaClass(deltaPct)}">${fmtPct(deltaPct)}</span>
+        </div>
+        ${sub ? `<div class="sub">${sub}</div>` : ""}
+      </div>`;
+  }
+
+  function statTiles(top10, bottom5, presurgeEntry) {
+    const tiles = [];
+    const strongest = top10[0];
+    const weakest = bottom5[0];
+    if (strongest) {
+      tiles.push(statTile("가장 강한 업종", strongest.name, strongest.change_pct));
+    }
+    if (weakest) {
+      tiles.push(statTile("가장 약한 업종", weakest.name, weakest.change_pct));
+    }
+    const topCandidate = presurgeEntry && presurgeEntry.candidates[0];
+    if (topCandidate) {
+      tiles.push(
+        statTile(
+          "급등 전 후보 1위",
+          topCandidate.ticker,
+          topCandidate.change_pct,
+          `relvol ${topCandidate.rel_volume.toFixed(2)}x · ${topCandidate.company}`
+        )
+      );
+    }
+    if (tiles.length === 0) return "";
+    return `<div class="stat-grid">${tiles.join("")}</div>`;
+  }
+
   function render(history, presurgeHistory, index) {
     const content = document.getElementById("content");
     const entry = history[index];
@@ -331,9 +417,12 @@
       `${fmtTimestamp(entry.timestamp)} · ${LABEL_KR[entry.label] || entry.label}`;
 
     content.innerHTML =
+      statTiles(top10, bottom5, presurgeEntry) +
       presurgeTable(presurgeEntry ? presurgeEntry.candidates : null) +
-      rankTable(top10, "강한 업종 TOP 10", "등락률 내림차순") +
-      rankTable(bottom5, "약한 업종 BOTTOM 5", "등락률 오름차순") +
+      `<div class="grid-2">
+        ${rankTable(top10, "강한 업종 TOP 10", "등락률 내림차순")}
+        ${rankTable(bottom5, "약한 업종 BOTTOM 5", "등락률 오름차순")}
+      </div>` +
       streakTable(history.slice(0, index + 1), entry.industries);
   }
 
