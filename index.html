@@ -275,17 +275,63 @@
       </div>`;
   }
 
-  function render(history, index) {
+  function kstDate(iso) {
+    const d = new Date(new Date(iso).getTime() + 9 * 3600 * 1000);
+    return d.toISOString().slice(0, 10);
+  }
+
+  function findPresurgeEntry(presurgeHistory, entry) {
+    // sector_history와 presurge_history는 같은 워크플로 실행에서 각각 독립적으로
+    // now()를 찍기 때문에 timestamp가 정확히 일치하지 않는다. label + KST 날짜로 매칭.
+    return presurgeHistory.find(
+      (p) => p.label === entry.label && kstDate(p.timestamp) === kstDate(entry.timestamp)
+    );
+  }
+
+  function presurgeTable(candidates) {
+    if (!candidates || candidates.length === 0) {
+      return `
+        <div class="card">
+          <h2>급등 전 후보 <span class="hint">거래량 몰림(relvol≥2x) + 등락률 -3~+6%, ETF 제외</span></h2>
+          <p class="empty">이번 스냅샷엔 조건에 맞는 종목이 없었습니다.</p>
+        </div>`;
+    }
+    const trs = candidates
+      .slice(0, 15)
+      .map(
+        (c) => `
+      <tr>
+        <td class="name">${c.ticker} <span class="hint">${c.company}</span></td>
+        <td class="num">${c.sector}</td>
+        <td class="num ${deltaClass(c.change_pct)}">${fmtPct(c.change_pct)}</td>
+        <td class="num">${c.rel_volume.toFixed(2)}x</td>
+        <td class="num">$${c.price.toFixed(2)}</td>
+      </tr>`
+      )
+      .join("");
+    return `
+      <div class="card">
+        <h2>급등 전 후보 <span class="hint">거래량 몰림(relvol≥2x) + 등락률 -3~+6%, ETF 제외, relvol 내림차순</span></h2>
+        <table>
+          <thead><tr><th>종목</th><th>업종</th><th>등락률</th><th>상대거래량</th><th>현재가</th></tr></thead>
+          <tbody>${trs}</tbody>
+        </table>
+      </div>`;
+  }
+
+  function render(history, presurgeHistory, index) {
     const content = document.getElementById("content");
     const entry = history[index];
     const sorted = [...entry.industries].sort((a, b) => b.change_pct - a.change_pct);
     const top10 = sorted.slice(0, 10);
     const bottom5 = sorted.slice(-5).reverse();
+    const presurgeEntry = findPresurgeEntry(presurgeHistory, entry);
 
     document.getElementById("updated-label").textContent =
       `${fmtTimestamp(entry.timestamp)} · ${LABEL_KR[entry.label] || entry.label}`;
 
     content.innerHTML =
+      presurgeTable(presurgeEntry ? presurgeEntry.candidates : null) +
       rankTable(top10, "강한 업종 TOP 10", "등락률 내림차순") +
       rankTable(bottom5, "약한 업종 BOTTOM 5", "등락률 오름차순") +
       streakTable(history.slice(0, index + 1), entry.industries);
@@ -307,6 +353,15 @@
       return;
     }
 
+    let presurgeHistory = [];
+    try {
+      const res = await fetch(`data/presurge_history.json?_=${Date.now()}`);
+      presurgeHistory = await res.json();
+    } catch (e) {
+      // 급등 전 후보 데이터는 부가 기능이라, 못 불러와도 업종 대시보드는 정상 표시.
+      console.warn("presurge_history 로드 실패:", e);
+    }
+
     const picker = document.getElementById("snapshot-picker");
     history.forEach((entry, i) => {
       const opt = document.createElement("option");
@@ -315,9 +370,9 @@
       picker.appendChild(opt);
     });
     picker.value = history.length - 1;
-    picker.addEventListener("change", () => render(history, Number(picker.value)));
+    picker.addEventListener("change", () => render(history, presurgeHistory, Number(picker.value)));
 
-    render(history, history.length - 1);
+    render(history, presurgeHistory, history.length - 1);
   }
 
   main();
