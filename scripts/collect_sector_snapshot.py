@@ -26,10 +26,10 @@ _HISTORY_PATH = Path(__file__).resolve().parent.parent / "data" / "sector_histor
 _MAX_HISTORY = 60  # 하루 2회 기준 약 30일치
 
 
-def _parse_size(text: str) -> float:
+def _parse_size(text: str) -> float | None:
     text = text.strip()
     if text in ("-", ""):
-        return float("nan")
+        return None  # JSON has no NaN literal; None -> JSON null
     mult = 1.0
     if text.endswith("B"):
         mult, text = 1e9, text[:-1]
@@ -40,10 +40,10 @@ def _parse_size(text: str) -> float:
     return float(text) * mult
 
 
-def _parse_float_or_nan(text: str) -> float:
+def _parse_float_or_nan(text: str) -> float | None:
     text = text.strip()
     if text in ("-", ""):
-        return float("nan")
+        return None  # JSON has no NaN literal; None -> JSON null
     return float(text)
 
 
@@ -123,7 +123,7 @@ def load_history() -> list[dict]:
 
 def save_history(history: list[dict]) -> None:
     _HISTORY_PATH.parent.mkdir(parents=True, exist_ok=True)
-    _HISTORY_PATH.write_text(json.dumps(history, ensure_ascii=False, indent=2))
+    _HISTORY_PATH.write_text(json.dumps(history, ensure_ascii=False, indent=2, allow_nan=False))
 
 
 def main() -> None:
