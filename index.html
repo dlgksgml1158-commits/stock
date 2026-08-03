@@ -77,6 +77,30 @@
     margin: 0 0 16px;
     font-size: 0.9rem;
   }
+  .market-toggle {
+    display: inline-flex;
+    gap: 4px;
+    background: var(--surface-1);
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    padding: 4px;
+    margin-bottom: 14px;
+  }
+  .market-btn {
+    font: inherit;
+    font-weight: 600;
+    font-size: 0.86rem;
+    padding: 7px 14px;
+    border: none;
+    border-radius: 7px;
+    background: transparent;
+    color: var(--text-secondary);
+    cursor: pointer;
+  }
+  .market-btn.active {
+    background: var(--row-hover);
+    color: var(--text-primary);
+  }
   .controls {
     display: flex;
     gap: 10px;
@@ -252,6 +276,11 @@
     <p>Finviz 업종(~140개) 당일 등락률 기준. 자동 수집 — 하루 2회(미국 장 시작 / 한국시간 자정).</p>
   </header>
 
+  <div class="market-toggle" id="market-toggle">
+    <button type="button" class="market-btn active" data-market="overseas">🇺🇸 해외</button>
+    <button type="button" class="market-btn" data-market="domestic">🇰🇷 국내</button>
+  </div>
+
   <div class="controls">
     <select id="snapshot-picker"></select>
     <span class="updated" id="updated-label"></span>
@@ -260,7 +289,9 @@
   <div id="content"></div>
 
   <footer>
-    데이터: <a href="https://finviz.com/groups.ashx?g=industry&v=152" target="_blank" rel="noopener">Finviz</a>
+    데이터: <span id="data-source-links">
+      <a href="https://finviz.com/groups.ashx?g=industry&v=152" target="_blank" rel="noopener">Finviz</a>
+    </span>
     · <a href="https://github.com/dlgksgml1158-commits/stock" target="_blank" rel="noopener">소스</a>
   </footer>
 </div>
@@ -320,6 +351,32 @@
         <table>
           <thead>
             <tr><th>업종</th><th>등락률</th><th>거래량비율</th><th>시총</th><th>종목수</th></tr>
+          </thead>
+          <tbody>${trs}</tbody>
+        </table>
+      </div>`;
+  }
+
+  function krRankTable(rows, title, hint) {
+    // 네이버 업종별 시세는 거래량비율/시총을 안 주는 대신 상승/보합/하락 종목수를 준다.
+    const trs = rows
+      .map(
+        (r) => `
+      <tr>
+        <td class="name">${r.name}</td>
+        <td class="num ${deltaClass(r.change_pct)}">${fmtPct(r.change_pct)}</td>
+        <td class="num">${r.up_ratio_pct.toFixed(1)}%</td>
+        <td class="num">${r.up}/${r.flat}/${r.down}</td>
+        <td class="num">${r.total ?? "-"}</td>
+      </tr>`
+      )
+      .join("");
+    return `
+      <div class="card">
+        <h2>${title} <span class="hint">${hint}</span></h2>
+        <table>
+          <thead>
+            <tr><th>업종</th><th>등락률</th><th>상승비율</th><th>상승/보합/하락</th><th>종목수</th></tr>
           </thead>
           <tbody>${trs}</tbody>
         </table>
@@ -553,8 +610,10 @@
     return changePct >= 0 ? lerpColor(neutral, strong, t) : lerpColor(neutral, weak, t);
   }
 
-  function treemapCard(industries) {
-    const containerId = "sector-treemap";
+  function treemapCard(industries, opts = {}) {
+    const containerId = opts.containerId || "sector-treemap";
+    const sizeField = opts.sizeField || "market_cap";
+    const sizeLabel = opts.sizeLabel || "시가총액";
     const maxAbs = Math.max(...industries.map((i) => Math.abs(i.change_pct)), 1);
     // 실제 렌더 후(DOM에 붙은 뒤) 폭을 재서 채워 넣는다 — innerHTML 삽입 시점엔 레이아웃 폭을 모름.
     window.__renderTreemap = () => {
@@ -563,8 +622,8 @@
       const width = el.clientWidth;
       const height = el.clientHeight;
       const items = industries
-        .filter((i) => i.market_cap)
-        .map((i) => ({ value: i.market_cap, item: i }));
+        .filter((i) => i[sizeField])
+        .map((i) => ({ value: i[sizeField], item: i }));
       const total = items.reduce((s, i) => s + i.value, 0);
       const scale = total > 0 ? (width * height) / total : 0;
       const scaled = items.map((i) => ({ value: i.value * scale, item: i.item }));
@@ -586,7 +645,7 @@
     };
     return `
       <div class="card">
-        <h2>업종 트리맵 <span class="hint">사각형 크기=시가총액, 색상=등락률 (강세 빨강 · 약세 초록)</span></h2>
+        <h2>업종 트리맵 <span class="hint">사각형 크기=${sizeLabel}, 색상=등락률 (강세 빨강 · 약세 초록)</span></h2>
         <div class="treemap-wrap" id="${containerId}"></div>
         <div class="treemap-legend">
           <span>약세</span>
@@ -644,8 +703,9 @@
     return `<div class="stat-grid">${tiles.join("")}</div>`;
   }
 
-  function render(history, presurgeHistory, squeezeHistory, index) {
+  function renderOverseas(index) {
     const content = document.getElementById("content");
+    const { history, presurgeHistory, squeezeHistory } = DATA.overseas;
     const entry = history[index];
     const sorted = [...entry.industries].sort((a, b) => b.change_pct - a.change_pct);
     const top10 = sorted.slice(0, 10);
@@ -658,7 +718,7 @@
 
     content.innerHTML =
       statTiles(top10, bottom5, presurgeEntry, squeezeEntry) +
-      treemapCard(entry.industries) +
+      treemapCard(entry.industries, { sizeField: "market_cap", sizeLabel: "시가총액" }) +
       `<div class="grid-2">
         ${presurgeTable(presurgeEntry ? presurgeEntry.candidates : null)}
         ${shortsqueezeTable(squeezeEntry ? squeezeEntry.candidates : null)}
@@ -669,44 +729,43 @@
       </div>` +
       streakTable(history.slice(0, index + 1), entry.industries);
 
-    // treemap-wrap이 실제 DOM에 붙어 폭을 잴 수 있게 된 다음에 채운다.
     if (window.__renderTreemap) window.__renderTreemap();
   }
 
-  async function main() {
+  function renderDomestic(index) {
     const content = document.getElementById("content");
-    let history;
-    try {
-      const res = await fetch(`data/sector_history.json?_=${Date.now()}`);
-      history = await res.json();
-    } catch (e) {
-      content.innerHTML = `<p class="empty">데이터를 불러오지 못했습니다: ${e}</p>`;
-      return;
-    }
+    const { history } = DATA.domestic;
+    const entry = history[index];
+    const sorted = [...entry.industries].sort((a, b) => b.change_pct - a.change_pct);
+    const top10 = sorted.slice(0, 10);
+    const bottom5 = sorted.slice(-5).reverse();
 
-    if (!history || history.length === 0) {
-      content.innerHTML = `<p class="empty">아직 수집된 데이터가 없습니다. 첫 자동 수집을 기다려주세요.</p>`;
-      return;
-    }
+    document.getElementById("updated-label").textContent =
+      `${fmtTimestamp(entry.timestamp)} · ${LABEL_KR[entry.label] || entry.label}`;
 
-    let presurgeHistory = [];
-    try {
-      const res = await fetch(`data/presurge_history.json?_=${Date.now()}`);
-      presurgeHistory = await res.json();
-    } catch (e) {
-      // 급등 전 후보 데이터는 부가 기능이라, 못 불러와도 업종 대시보드는 정상 표시.
-      console.warn("presurge_history 로드 실패:", e);
-    }
+    const tiles = [];
+    if (top10[0]) tiles.push(statTile("가장 강한 업종", top10[0].name, top10[0].change_pct));
+    if (bottom5[0]) tiles.push(statTile("가장 약한 업종", bottom5[0].name, bottom5[0].change_pct));
 
-    let squeezeHistory = [];
-    try {
-      const res = await fetch(`data/shortsqueeze_history.json?_=${Date.now()}`);
-      squeezeHistory = await res.json();
-    } catch (e) {
-      console.warn("shortsqueeze_history 로드 실패:", e);
-    }
+    content.innerHTML =
+      (tiles.length ? `<div class="stat-grid">${tiles.join("")}</div>` : "") +
+      treemapCard(entry.industries, {
+        containerId: "sector-treemap-kr",
+        sizeField: "total",
+        sizeLabel: "업종 소속 종목수",
+      }) +
+      `<div class="grid-2">
+        ${krRankTable(top10, "강한 업종 TOP 10", "등락률 내림차순")}
+        ${krRankTable(bottom5, "약한 업종 BOTTOM 5", "등락률 오름차순")}
+      </div>` +
+      streakTable(history.slice(0, index + 1), entry.industries);
 
+    if (window.__renderTreemap) window.__renderTreemap();
+  }
+
+  function populatePicker(history) {
     const picker = document.getElementById("snapshot-picker");
+    picker.innerHTML = "";
     history.forEach((entry, i) => {
       const opt = document.createElement("option");
       opt.value = i;
@@ -714,11 +773,76 @@
       picker.appendChild(opt);
     });
     picker.value = history.length - 1;
-    picker.addEventListener("change", () =>
-      render(history, presurgeHistory, squeezeHistory, Number(picker.value))
-    );
+  }
 
-    render(history, presurgeHistory, squeezeHistory, history.length - 1);
+  function renderCurrent() {
+    const picker = document.getElementById("snapshot-picker");
+    const index = Number(picker.value);
+    if (CURRENT_MARKET === "overseas") renderOverseas(index);
+    else renderDomestic(index);
+  }
+
+  const DATA_SOURCE_LINKS = {
+    overseas: `<a href="https://finviz.com/groups.ashx?g=industry&v=152" target="_blank" rel="noopener">Finviz</a>`,
+    domestic: `<a href="https://finance.naver.com/sise/sise_group.naver?type=upjong" target="_blank" rel="noopener">네이버 증권</a>`,
+  };
+
+  function switchMarket(market) {
+    document.getElementById("data-source-links").innerHTML = DATA_SOURCE_LINKS[market];
+    if (!DATA[market] || !DATA[market].history || DATA[market].history.length === 0) {
+      document.getElementById("content").innerHTML =
+        `<p class="empty">${market === "domestic" ? "국내" : "해외"} 데이터가 아직 없습니다.</p>`;
+      document.getElementById("snapshot-picker").innerHTML = "";
+      document.getElementById("updated-label").textContent = "";
+      CURRENT_MARKET = market;
+      document.querySelectorAll(".market-btn").forEach((b) => b.classList.toggle("active", b.dataset.market === market));
+      return;
+    }
+    CURRENT_MARKET = market;
+    document.querySelectorAll(".market-btn").forEach((b) => b.classList.toggle("active", b.dataset.market === market));
+    populatePicker(DATA[market].history);
+    renderCurrent();
+  }
+
+  let CURRENT_MARKET = "overseas";
+  const DATA = { overseas: { history: [] }, domestic: { history: [] } };
+
+  async function fetchJson(path) {
+    try {
+      const res = await fetch(`${path}?_=${Date.now()}`);
+      return await res.json();
+    } catch (e) {
+      console.warn(`${path} 로드 실패:`, e);
+      return [];
+    }
+  }
+
+  async function main() {
+    const [sectorHistory, presurgeHistory, squeezeHistory, krSectorHistory] = await Promise.all([
+      fetchJson("data/sector_history.json"),
+      fetchJson("data/presurge_history.json"),
+      fetchJson("data/shortsqueeze_history.json"),
+      fetchJson("data/kr_sector_history.json"),
+    ]);
+
+    DATA.overseas = { history: sectorHistory || [], presurgeHistory: presurgeHistory || [], squeezeHistory: squeezeHistory || [] };
+    DATA.domestic = { history: krSectorHistory || [] };
+
+    if (DATA.overseas.history.length === 0 && DATA.domestic.history.length === 0) {
+      document.getElementById("content").innerHTML =
+        `<p class="empty">아직 수집된 데이터가 없습니다. 첫 자동 수집을 기다려주세요.</p>`;
+      return;
+    }
+
+    document.querySelectorAll(".market-btn").forEach((btn) => {
+      btn.addEventListener("click", () => switchMarket(btn.dataset.market));
+    });
+
+    const picker = document.getElementById("snapshot-picker");
+    picker.addEventListener("change", () => renderCurrent());
+
+    // 해외 데이터가 없으면(있을 일은 거의 없지만) 국내로 기본 진입.
+    switchMarket(DATA.overseas.history.length > 0 ? "overseas" : "domestic");
   }
 
   main();

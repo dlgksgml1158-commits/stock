@@ -1,4 +1,4 @@
-name: 데이터 수집 (업종 + 급등 전 후보 + 숏스퀴즈)
+name: 데이터 수집 (해외 업종/급등전/숏스퀴즈 + 국내 업종)
 
 on:
   schedule:
@@ -64,11 +64,14 @@ jobs:
       - name: 🩳 숏스퀴즈 후보 수집
         run: python scripts/collect_shortsqueeze_screener.py --label "${{ steps.label.outputs.value }}"
 
+      - name: 🇰🇷 국내 업종 스냅샷 수집
+        run: python scripts/collect_kr_sector_snapshot.py --label "${{ steps.label.outputs.value }}"
+
       - name: 💾 변경사항 커밋 & 푸시
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "섹터 봇"
-          git add data/sector_history.json data/presurge_history.json data/shortsqueeze_history.json
+          git add data/sector_history.json data/presurge_history.json data/shortsqueeze_history.json data/kr_sector_history.json
           if git diff --staged --quiet; then
             echo "변경사항 없음 — 커밋 스킵"
           else
