@@ -7,14 +7,18 @@ on:
     # 2시간 간격 버퍼 cron을 3개씩 더 걸어둠 — 정시 실행이 성공하면
     # collect_sector_snapshot.py의 same-day 가드가 버퍼 실행을 그냥 스킵하고,
     # 정시 실행이 지연/실패하면 버퍼 중 하나가 그날 안에 대신 잡아준다.
-    - cron: '35 13 * * 1-5'  # 미국 장 시작(~9:35am ET) 정시, 평일만. DST 미보정.
-    - cron: '35 15 * * 1-5'  # 장 시작 버퍼 +2h
-    - cron: '35 17 * * 1-5'  # 장 시작 버퍼 +4h
-    - cron: '35 19 * * 1-5'  # 장 시작 버퍼 +6h
-    - cron: '3 15 * * *'     # 한국시간 00:03 정시, 매일
-    - cron: '3 17 * * *'     # 자정 버퍼 +2h
-    - cron: '3 19 * * *'     # 자정 버퍼 +4h
-    - cron: '3 21 * * *'     # 자정 버퍼 +6h
+    - cron: '35 13 * * 1-5'  # [해외] 미국 장 시작(~9:35am ET=22:35 KST) 정시, 평일만. DST 미보정.
+    - cron: '35 15 * * 1-5'  # [해외] 장 시작 버퍼 +2h
+    - cron: '35 17 * * 1-5'  # [해외] 장 시작 버퍼 +4h
+    - cron: '35 19 * * 1-5'  # [해외] 장 시작 버퍼 +6h
+    - cron: '3 15 * * *'     # [해외] 한국시간 00:03 정시, 매일
+    - cron: '3 17 * * *'     # [해외] 자정 버퍼 +2h
+    - cron: '3 19 * * *'     # [해외] 자정 버퍼 +4h
+    - cron: '3 21 * * *'     # [해외] 자정 버퍼 +6h
+    - cron: '3 0 * * 1-5'    # [국내] 한국 장 시작(09:03 KST) 정시, 평일만
+    - cron: '3 2 * * 1-5'    # [국내] 장 시작 버퍼 +2h
+    - cron: '3 4 * * 1-5'    # [국내] 장 시작 버퍼 +4h
+    - cron: '3 6 * * 1-5'    # [국내] 장 시작 버퍼 +6h
   workflow_dispatch:
 
 permissions:
@@ -45,26 +49,37 @@ jobs:
               echo "value=market_open" >> "$GITHUB_OUTPUT" ;;
             "3 15 * * *" | "3 17 * * *" | "3 19 * * *" | "3 21 * * *")
               echo "value=midnight_kst" >> "$GITHUB_OUTPUT" ;;
+            "3 0 * * 1-5" | "3 2 * * 1-5" | "3 4 * * 1-5" | "3 6 * * 1-5")
+              echo "value=kr_market_open" >> "$GITHUB_OUTPUT" ;;
             *)
               echo "value=manual" >> "$GITHUB_OUTPUT" ;;
           esac
 
+      # 해외(미국) 3종 — market_open/midnight_kst/manual 트리거에서만 실행.
+      # kr_market_open 트리거(한국 장 시작 전용)에서는 건너뛴다.
       - name: 📊 업종 스냅샷 수집
+        if: ${{ steps.label.outputs.value != 'kr_market_open' }}
         run: python scripts/collect_sector_snapshot.py --label "${{ steps.label.outputs.value }}"
 
       - name: ⏳ Finviz 레이트리밋 방지 대기
+        if: ${{ steps.label.outputs.value != 'kr_market_open' }}
         run: sleep 30
 
       - name: 🚀 급등 전 후보 수집
+        if: ${{ steps.label.outputs.value != 'kr_market_open' }}
         run: python scripts/collect_presurge_screener.py --label "${{ steps.label.outputs.value }}"
 
       - name: ⏳ Finviz 레이트리밋 방지 대기
+        if: ${{ steps.label.outputs.value != 'kr_market_open' }}
         run: sleep 30
 
       - name: 🩳 숏스퀴즈 후보 수집
+        if: ${{ steps.label.outputs.value != 'kr_market_open' }}
         run: python scripts/collect_shortsqueeze_screener.py --label "${{ steps.label.outputs.value }}"
 
+      # 국내 — kr_market_open/manual 트리거에서만 실행. market_open/midnight_kst에서는 건너뛴다.
       - name: 🇰🇷 국내 업종 스냅샷 수집
+        if: ${{ steps.label.outputs.value == 'kr_market_open' || steps.label.outputs.value == 'manual' }}
         run: python scripts/collect_kr_sector_snapshot.py --label "${{ steps.label.outputs.value }}"
 
       - name: 💾 변경사항 커밋 & 푸시

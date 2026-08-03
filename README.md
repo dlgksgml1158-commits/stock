@@ -46,7 +46,10 @@ pykrx 쪽 엔드포인트가 현재 깨져 있어(2026-08 확인) 나중에 별�
 - `index.html` — 정적 대시보드 (빌드 단계 없음). 상단 해외/국내 토글로
   `DATA.overseas`/`DATA.domestic` 중 하나를 렌더링. 해외 쪽은 네 JSON을 fetch해서
   라벨+KST 날짜로 서로 매칭
-- `.github/workflows/collect.yml` — 하루 2회(+버퍼 cron) 네 스크립트 실행 후 커밋/푸시
+- `.github/workflows/collect.yml` — 해외 3종은 하루 2회(미국 장 시작/한국시간
+  자정, +버퍼 cron), 국내는 별도로 하루 1회(한국 장 시작 09:03 KST, +버퍼 cron).
+  라벨(market_open/midnight_kst/kr_market_open/manual)에 따라 해외/국내 스텝이
+  서로 건너뛰도록 `if:` 조건이 걸려 있음
 
 ## GitHub Pages 배포 방법
 

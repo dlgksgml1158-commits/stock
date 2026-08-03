@@ -272,7 +272,7 @@
 
 <div class="wrap" translate="no">
   <header>
-    <p>업종 당일 등락률 기준. 자동 수집 — 하루 2회(미국 장 시작 / 한국시간 자정).</p>
+    <p>업종 당일 등락률 기준. 자동 수집 — 해외 하루 2회(미국 장 시작 / 한국시간 자정), 국내 하루 1회(한국 장 시작).</p>
   </header>
 
   <div class="market-toggle" id="market-toggle">
@@ -296,7 +296,12 @@
 </div>
 
 <script>
-  const LABEL_KR = { market_open: "미국 장 시작", midnight_kst: "한국시간 자정", manual: "수동 실행" };
+  const LABEL_KR = {
+    market_open: "미국 장 시작",
+    midnight_kst: "한국시간 자정",
+    kr_market_open: "한국 장 시작",
+    manual: "수동 실행",
+  };
 
   function fmtPct(v) {
     if (v === null || v === undefined || Number.isNaN(v)) return "-";
