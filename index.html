@@ -303,6 +303,197 @@
     manual: "수동 실행",
   };
 
+  // Finviz 업종(~140개) 한글 번역. 미국 탭 전용 — 국내 탭은 이미 네이버가 한글로 준다.
+  const INDUSTRY_KR = {
+    "Advertising Agencies": "광고 대행사",
+    "Aerospace & Defense": "항공우주·방위",
+    "Agricultural Inputs": "농업용 자재",
+    "Airlines": "항공사",
+    "Airports & Air Services": "공항·항공 서비스",
+    "Aluminum": "알루미늄",
+    "Apparel Manufacturing": "의류 제조",
+    "Apparel Retail": "의류 소매",
+    "Asset Management": "자산운용",
+    "Auto & Truck Dealerships": "자동차·트럭 딜러",
+    "Auto Manufacturers": "자동차 제조",
+    "Auto Parts": "자동차 부품",
+    "Banks - Diversified": "은행-종합",
+    "Banks - Regional": "은행-지방",
+    "Beverages - Brewers": "음료-맥주",
+    "Beverages - Non-Alcoholic": "음료-비알코올",
+    "Beverages - Wineries & Distilleries": "음료-와이너리·증류주",
+    "Biotechnology": "바이오테크",
+    "Broadcasting": "방송",
+    "Building Materials": "건축자재",
+    "Building Products & Equipment": "건축용 제품·장비",
+    "Business Equipment & Supplies": "사무용 장비·소모품",
+    "Capital Markets": "자본시장",
+    "Chemicals": "화학",
+    "Coking Coal": "코크스탄",
+    "Communication Equipment": "통신장비",
+    "Computer Hardware": "컴퓨터 하드웨어",
+    "Confectioners": "제과",
+    "Conglomerates": "복합기업",
+    "Consulting Services": "컨설팅 서비스",
+    "Consumer Electronics": "가전제품",
+    "Copper": "구리",
+    "Credit Services": "신용 서비스",
+    "Department Stores": "백화점",
+    "Diagnostics & Research": "진단·연구",
+    "Discount Stores": "할인점",
+    "Drug Manufacturers - General": "제약-일반",
+    "Drug Manufacturers - Specialty & Generic": "제약-특수·제네릭",
+    "Education & Training Services": "교육·훈련 서비스",
+    "Electrical Equipment & Parts": "전기장비·부품",
+    "Electronic Components": "전자부품",
+    "Electronic Gaming & Multimedia": "전자게임·멀티미디어",
+    "Electronics & Computer Distribution": "전자·컴퓨터 유통",
+    "Engineering & Construction": "엔지니어링·건설",
+    "Entertainment": "엔터테인먼트",
+    "Farm & Heavy Construction Machinery": "농기계·중장비",
+    "Farm Products": "농산물",
+    "Financial Conglomerates": "금융복합기업",
+    "Financial Data & Stock Exchanges": "금융데이터·거래소",
+    "Food Distribution": "식품 유통",
+    "Footwear & Accessories": "신발·액세서리",
+    "Furnishings, Fixtures & Appliances": "가구·비품·가전",
+    "Gambling": "도박",
+    "Gold": "금",
+    "Grocery Stores": "식료품점",
+    "Health Information Services": "헬스케어 정보 서비스",
+    "Healthcare Plans": "헬스케어 보험",
+    "Home Improvement Retail": "홈인테리어 소매",
+    "Household & Personal Products": "생활·개인용품",
+    "Industrial Distribution": "산업재 유통",
+    "Information Technology Services": "IT 서비스",
+    "Insurance - Diversified": "보험-종합",
+    "Insurance - Life": "보험-생명",
+    "Insurance - Property & Casualty": "보험-손해",
+    "Insurance - Reinsurance": "보험-재보험",
+    "Insurance - Specialty": "보험-특수",
+    "Insurance Brokers": "보험 중개",
+    "Integrated Freight & Logistics": "종합 물류",
+    "Internet Content & Information": "인터넷 콘텐츠·정보",
+    "Internet Retail": "인터넷 소매",
+    "Leisure": "레저",
+    "Lodging": "숙박",
+    "Lumber & Wood Production": "목재 생산",
+    "Luxury Goods": "명품",
+    "Marine Shipping": "해운",
+    "Medical Care Facilities": "의료시설",
+    "Medical Devices": "의료기기",
+    "Medical Distribution": "의료품 유통",
+    "Medical Instruments & Supplies": "의료기구·소모품",
+    "Metal Fabrication": "금속가공",
+    "Mortgage Finance": "모기지 금융",
+    "Oil & Gas Drilling": "석유·가스 시추",
+    "Oil & Gas E&P": "석유·가스 탐사개발",
+    "Oil & Gas Equipment & Services": "석유·가스 장비·서비스",
+    "Oil & Gas Integrated": "석유·가스 통합",
+    "Oil & Gas Midstream": "석유·가스 미드스트림",
+    "Oil & Gas Refining & Marketing": "석유·가스 정제·판매",
+    "Other Industrial Metals & Mining": "기타 산업금속·광업",
+    "Other Precious Metals & Mining": "기타 귀금속·광업",
+    "Packaged Foods": "가공식품",
+    "Packaging & Containers": "포장·용기",
+    "Paper & Paper Products": "제지",
+    "Personal Services": "개인 서비스",
+    "Pollution & Treatment Controls": "환경오염 관리",
+    "Publishing": "출판",
+    "REIT - Diversified": "리츠-종합",
+    "REIT - Healthcare Facilities": "리츠-의료시설",
+    "REIT - Hotel & Motel": "리츠-호텔·모텔",
+    "REIT - Industrial": "리츠-산업용",
+    "REIT - Mortgage": "리츠-모기지",
+    "REIT - Office": "리츠-오피스",
+    "REIT - Residential": "리츠-주거용",
+    "REIT - Retail": "리츠-상업용",
+    "REIT - Specialty": "리츠-특수",
+    "Railroads": "철도",
+    "Real Estate - Development": "부동산-개발",
+    "Real Estate - Diversified": "부동산-종합",
+    "Real Estate Services": "부동산 서비스",
+    "Recreational Vehicles": "레저용 차량",
+    "Rental & Leasing Services": "렌탈·리스 서비스",
+    "Residential Construction": "주택건설",
+    "Resorts & Casinos": "리조트·카지노",
+    "Restaurants": "외식업",
+    "Scientific & Technical Instruments": "과학·기술 계측기",
+    "Security & Protection Services": "보안 서비스",
+    "Semiconductor Equipment & Materials": "반도체 장비·소재",
+    "Semiconductors": "반도체",
+    "Silver": "은",
+    "Software - Application": "소프트웨어-애플리케이션",
+    "Software - Infrastructure": "소프트웨어-인프라",
+    "Solar": "태양광",
+    "Specialty Business Services": "특수 비즈니스 서비스",
+    "Specialty Chemicals": "특수화학",
+    "Specialty Industrial Machinery": "특수 산업기계",
+    "Specialty Retail": "특수 소매",
+    "Staffing & Employment Services": "인력·채용 서비스",
+    "Steel": "철강",
+    "Telecom Services": "통신 서비스",
+    "Textile Manufacturing": "섬유 제조",
+    "Thermal Coal": "유연탄",
+    "Tobacco": "담배",
+    "Tools & Accessories": "공구·액세서리",
+    "Travel Services": "여행 서비스",
+    "Trucking": "화물운송",
+    "Uranium": "우라늄",
+    "Utilities - Diversified": "유틸리티-종합",
+    "Utilities - Independent Power Producers": "유틸리티-독립발전",
+    "Utilities - Regulated Electric": "유틸리티-규제전력",
+    "Utilities - Regulated Gas": "유틸리티-규제가스",
+    "Utilities - Regulated Water": "유틸리티-규제수도",
+    "Utilities - Renewable": "유틸리티-재생에너지",
+    "Waste Management": "폐기물 관리",
+  };
+
+  function industryLabel(name) {
+    const kr = INDUSTRY_KR[name];
+    return kr ? `${kr} (${name})` : name;
+  }
+
+  // 잘 알려진 회사만 커버하는 best-effort 매핑. 여기 없는 티커는 영문 회사명 그대로 표시.
+  const COMPANY_KR = {
+    AAPL: "애플", MSFT: "마이크로소프트", GOOGL: "알파벳(구글)", GOOG: "알파벳(구글)",
+    AMZN: "아마존", NVDA: "엔비디아", META: "메타", TSLA: "테슬라", AVGO: "브로드컴",
+    AMD: "AMD", INTC: "인텔", QCOM: "퀄컴", CRM: "세일즈포스", ORCL: "오라클",
+    ADBE: "어도비", NFLX: "넷플릭스", DIS: "디즈니", PYPL: "페이팔", UBER: "우버",
+    ABNB: "에어비앤비", SHOP: "쇼피파이", SQ: "블록(스퀘어)", COIN: "코인베이스",
+    PLTR: "팔란티어", SNOW: "스노우플레이크", CRWD: "크라우드스트라이크",
+    JPM: "JP모건", BAC: "뱅크오브아메리카", WFC: "웰스파고", GS: "골드만삭스",
+    MS: "모건스탠리", C: "씨티그룹", V: "비자", MA: "마스터카드", AXP: "아멕스",
+    JNJ: "존슨앤드존슨", PFE: "화이자", MRK: "머크", UNH: "유나이티드헬스",
+    LLY: "일라이릴리", ABBV: "애브비", MRNA: "모더나", BMY: "브리스톨마이어스",
+    XOM: "엑슨모빌", CVX: "셰브론", COP: "코노코필립스", OXY: "옥시덴탈",
+    WMT: "월마트", COST: "코스트코", TGT: "타겟", HD: "홈디포", LOW: "로우스",
+    KO: "코카콜라", PEP: "펩시코", MCD: "맥도날드", SBUX: "스타벅스", NKE: "나이키",
+    BA: "보잉", CAT: "캐터필러", GE: "GE(제너럴일렉트릭)", HON: "허니웰",
+    LMT: "록히드마틴", RTX: "레이시온", F: "포드", GM: "GM(제너럴모터스)",
+    T: "AT&T", VZ: "버라이즌", TMUS: "T모바일", CMCSA: "컴캐스트",
+    IBM: "IBM", CSCO: "시스코", TXN: "텍사스인스트루먼트", MU: "마이크론",
+    AMAT: "어플라이드머티어리얼즈", LRCX: "램리서치", KLAC: "KLA",
+    ARM: "ARM홀딩스", SMCI: "슈퍼마이크로", DELL: "델", HPQ: "HP",
+    RIVN: "리비안", LCID: "루시드", NIO: "니오", XPEV: "샤오펑", LI: "리오토",
+    RBLX: "로블록스", U: "유니티", SPOT: "스포티파이", PINS: "핀터레스트",
+    SNAP: "스냅", TWLO: "트윌리오", ZM: "줌", DOCU: "docuSign",
+    GME: "게임스탑", AMC: "AMC엔터테인먼트", BBBY: "베드배스앤비욘드",
+    BABA: "알리바바", JD: "징동닷컴", PDD: "핀둬둬", BIDU: "바이두",
+    SOFI: "소파이", HOOD: "로빈후드", AFRM: "어펌",
+    ENPH: "엔페이즈에너지", FSLR: "퍼스트솔라", NEE: "넥스트에라에너지",
+    DPZ: "도미노피자", CMG: "치폴레", YUM: "얌브랜즈",
+    UPS: "UPS", FDX: "페덱스", DAL: "델타항공", UAL: "유나이티드항공",
+    LUV: "사우스웨스트항공", AAL: "아메리칸항공",
+    PG: "P&G", CL: "콜게이트", KMB: "킴벌리클라크",
+    SPY: "S&P500 ETF", QQQ: "나스닥100 ETF", VOO: "뱅가드S&P500 ETF",
+  };
+
+  function companyLabel(ticker, company) {
+    const kr = COMPANY_KR[ticker];
+    return kr ? `${kr} (${company})` : company;
+  }
+
   function fmtPct(v) {
     if (v === null || v === undefined || Number.isNaN(v)) return "-";
     const sign = v > 0 ? "+" : "";
@@ -341,7 +532,7 @@
       .map(
         (r) => `
       <tr>
-        <td class="name">${r.name}</td>
+        <td class="name">${industryLabel(r.name)}</td>
         <td class="num ${deltaClass(r.change_pct)}">${fmtPct(r.change_pct)}</td>
         <td class="num">${fmtVolRatio(r.volume_ratio)}</td>
         <td class="num">${fmtMarketCap(r.market_cap)}</td>
@@ -470,7 +661,7 @@
       .map(
         (c) => `
       <tr>
-        <td class="name">${c.ticker} <span class="hint">${c.company}</span></td>
+        <td class="name">${c.ticker} <span class="hint">${companyLabel(c.ticker, c.company)}</span></td>
         <td class="num ${deltaClass(c.change_pct)}">${fmtPct(c.change_pct)}</td>
         <td class="num">${c.rel_volume.toFixed(2)}x</td>
         <td class="num">$${c.price.toFixed(2)}</td>
@@ -500,7 +691,7 @@
       .map(
         (c) => `
       <tr>
-        <td class="name">${c.ticker} <span class="hint">${c.company}</span></td>
+        <td class="name">${c.ticker} <span class="hint">${companyLabel(c.ticker, c.company)}</span></td>
         <td class="num ${deltaClass(c.change_pct)}">${fmtPct(c.change_pct)}</td>
         <td class="num">${c.rel_volume.toFixed(2)}x</td>
         <td class="num">${c.short_float_pct.toFixed(1)}%</td>
@@ -638,10 +829,11 @@
           const ind = r.item;
           const showLabel = r.width >= 46 && r.height >= 26;
           const showPct = r.width >= 46 && r.height >= 40;
+          const cellName = INDUSTRY_KR[ind.name] || ind.name;
           return `
-          <div class="treemap-cell" title="${ind.name}: ${fmtPct(ind.change_pct)}"
+          <div class="treemap-cell" title="${industryLabel(ind.name)}: ${fmtPct(ind.change_pct)}"
                style="left:${r.x}px; top:${r.y}px; width:${r.width}px; height:${r.height}px; background:${treemapColor(ind.change_pct, maxAbs)};">
-            ${showLabel ? `<span class="tm-name">${ind.name}</span>` : ""}
+            ${showLabel ? `<span class="tm-name">${cellName}</span>` : ""}
             ${showPct ? `<span class="tm-pct">${fmtPct(ind.change_pct)}</span>` : ""}
           </div>`;
         })
@@ -676,10 +868,10 @@
     const strongest = top10[0];
     const weakest = bottom5[0];
     if (strongest) {
-      tiles.push(statTile("가장 강한 업종", strongest.name, strongest.change_pct));
+      tiles.push(statTile("가장 강한 업종", industryLabel(strongest.name), strongest.change_pct));
     }
     if (weakest) {
-      tiles.push(statTile("가장 약한 업종", weakest.name, weakest.change_pct));
+      tiles.push(statTile("가장 약한 업종", industryLabel(weakest.name), weakest.change_pct));
     }
     const topCandidate = presurgeEntry && presurgeEntry.candidates[0];
     if (topCandidate) {
@@ -688,7 +880,7 @@
           "급등 전 후보 1위",
           topCandidate.ticker,
           topCandidate.change_pct,
-          `relvol ${topCandidate.rel_volume.toFixed(2)}x · ${topCandidate.company}`
+          `relvol ${topCandidate.rel_volume.toFixed(2)}x · ${companyLabel(topCandidate.ticker, topCandidate.company)}`
         )
       );
     }
