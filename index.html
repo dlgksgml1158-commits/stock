@@ -372,7 +372,7 @@
     if (!candidates || candidates.length === 0) {
       return `
         <div class="card">
-          <h2>숏스퀴즈 후보 <span class="hint">공매도비중≥20% x 커버일수, 스퀴즈점수 내림차순</span></h2>
+          <h2>숏스퀴즈 후보 <span class="hint">공매도비중≥20% + 오늘 거래량 몰림(relvol≥1.5x)</span></h2>
           <p class="empty">이번 스냅샷엔 조건에 맞는 종목이 없었습니다.</p>
         </div>`;
     }
@@ -383,6 +383,7 @@
       <tr>
         <td class="name">${c.ticker} <span class="hint">${c.company}</span></td>
         <td class="num ${deltaClass(c.change_pct)}">${fmtPct(c.change_pct)}</td>
+        <td class="num">${c.rel_volume.toFixed(2)}x</td>
         <td class="num">${c.short_float_pct.toFixed(1)}%</td>
         <td class="num">${c.short_ratio_days.toFixed(1)}일</td>
         <td class="num">$${c.price.toFixed(2)}</td>
@@ -391,9 +392,9 @@
       .join("");
     return `
       <div class="card">
-        <h2>숏스퀴즈 후보 <span class="hint">공매도비중≥20% x 커버일수(스퀴즈점수) 내림차순, ETF 제외</span></h2>
+        <h2>숏스퀴즈 후보 <span class="hint">공매도비중≥20% x 커버일수 x 오늘relvol(스퀴즈점수) 내림차순, ETF 제외</span></h2>
         <table>
-          <thead><tr><th>종목</th><th>등락률</th><th>공매도비중</th><th>커버일수</th><th>현재가</th></tr></thead>
+          <thead><tr><th>종목</th><th>등락률</th><th>상대거래량</th><th>공매도비중</th><th>커버일수</th><th>현재가</th></tr></thead>
           <tbody>${trs}</tbody>
         </table>
       </div>`;
@@ -439,7 +440,7 @@
           "숏스퀴즈 후보 1위",
           topSqueeze.ticker,
           topSqueeze.change_pct,
-          `공매도 ${topSqueeze.short_float_pct.toFixed(1)}% · 커버 ${topSqueeze.short_ratio_days.toFixed(1)}일`
+          `relvol ${topSqueeze.rel_volume.toFixed(2)}x · 공매도 ${topSqueeze.short_float_pct.toFixed(1)}% · 커버 ${topSqueeze.short_ratio_days.toFixed(1)}일`
         )
       );
     }

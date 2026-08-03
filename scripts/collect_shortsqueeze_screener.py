@@ -4,10 +4,15 @@ data/shortsqueeze_history.json에 스냅샷을 추가한다.
 
 숏스퀴즈 기본 조건: 공매도 비중(Short Float, 유통주식 대비 공매도 잔량 비율)이
 높고, 숏 커버링에 걸리는 일수(Short Ratio, 공매도 잔량 / 평균거래량)도 길면
-공매도 세력이 빠르게 빠져나가기 어렵다 — 여기에 주가가 오르기 시작하면 손실을
-줄이려는 강제 숏커버링(=매수)이 매수를 더 부르는 되먹임이 걸릴 수 있다.
-Short Float와 Short Ratio를 곱한 값을 "스퀴즈 점수"로 써서 둘 다 높은 종목을
-우선한다. 레버리지/인버스 ETF는 이 개념 자체가 안 맞으므로 ind_stocksonly로 제외.
+공매도 세력이 빠르게 빠져나가기 어렵다.
+
+Short Float/Short Ratio는 거래소가 2주에 한 번 집계하는 정적 지표라, 이 둘만으로
+줄을 세우면 "오늘" 아무 일도 없는 종목이 계속 1등으로 나온다(실제로 확인해보니
+당일 거래량이 평소보다 오히려 적은 종목들이 상위였음). 그래서 오늘 실제로 거래가
+몰리고 있는지(상대거래량, relvol = 오늘 거래량 / 평소 평균거래량)를 추가 조건으로
+걸어서 "구조적으로 스퀴즈가 가능한데 + 오늘 진짜로 움직이고 있는" 종목만 남긴다.
+스퀴즈 점수 = 공매도비중 x 커버일수 x 상대거래량. 레버리지/인버스 ETF는 이 개념
+자체가 안 맞으므로 ind_stocksonly로 제외.
 
 사용 예:
     python scripts/collect_shortsqueeze_screener.py --label market_open
@@ -29,8 +34,8 @@ _HISTORY_PATH = Path(__file__).resolve().parent.parent / "data" / "shortsqueeze_
 _MAX_HISTORY = 60  # 하루 2회 기준 약 30일치
 _MAX_TOP_STORED = 30
 
-_FILTERS = "sh_short_o20,sh_avgvol_o200,sh_price_o2,ind_stocksonly"
-_MAX_PAGES = 5  # 페이지당 20개, Short Float 상위 100개 풀에서 스퀴즈 점수로 재정렬
+_FILTERS = "sh_short_o20,sh_relvol_o1.5,sh_avgvol_o200,sh_price_o2,ind_stocksonly"
+_MAX_PAGES = 5  # 페이지당 20개 (오늘 relvol 조건까지 걸려서 전체 매칭 수 자체가 적음)
 
 
 def _get_with_retry(url: str, params: dict, max_retries: int = 5, backoff: float = 8.0) -> requests.Response:
@@ -63,7 +68,8 @@ def _parse_size(text: str) -> float | None:
 
 
 def fetch_squeeze_candidates() -> list[dict]:
-    """Short Float 상위 풀을 모은 뒤, Short Float x Short Ratio(스퀴즈 점수) 내림차순 상위."""
+    """공매도비중≥20% + 오늘 relvol≥1.5(서버 필터)인 종목을, 스퀴즈 점수
+    (공매도비중 x 커버일수 x 오늘 relvol) 내림차순으로 정렬해 상위만 반환."""
     candidates = []
     for page_start in range(1, _MAX_PAGES * 20, 20):
         resp = _get_with_retry(
@@ -101,6 +107,9 @@ def fetch_squeeze_candidates() -> list[dict]:
                 volume = float(vals[14].replace(",", ""))
             except ValueError:
                 continue
+            if not avg_volume:
+                continue  # relvol을 못 구하면 "오늘" 조건을 판단할 수 없어 제외
+            rel_volume = round(volume / avg_volume, 2)
             candidates.append(
                 {
                     "ticker": ticker,
@@ -108,7 +117,8 @@ def fetch_squeeze_candidates() -> list[dict]:
                     "float_shares": float_shares,
                     "short_float_pct": short_float_pct,
                     "short_ratio_days": short_ratio,
-                    "squeeze_score": round(short_float_pct * short_ratio, 1),
+                    "rel_volume": rel_volume,
+                    "squeeze_score": round(short_float_pct * short_ratio * rel_volume, 1),
                     "avg_volume": avg_volume,
                     "price": price,
                     "change_pct": change_pct,
