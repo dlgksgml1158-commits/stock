@@ -8,6 +8,14 @@ Finviz를 하루 2번(미국 장 시작 무렵 / 한국시간 자정) 자동 스
 2. **급등 전 후보** — 상대거래량(오늘 거래량/평소 평균거래량)이 2배 이상으로
    튀었는데 아직 등락률은 완만한(-3%~+6%) 종목. "매수세는 몰리는데 아직 가격은
    안 튄" 종목을 찾는 용도. 이미 크게 움직인 종목/레버리지·인버스 ETF는 제외.
+   `~/stock-orchestra/backtest/presurge_signal_study.py`로 S&P500 2년치 검증한
+   결과, 신호 후 3~5거래일 구간에서 통계적으로 유의한(작지만 진짜) 초과수익이
+   있었음 — 자세한 내용은 그 스크립트 실행 결과 참고.
+3. **숏스퀴즈 후보** — 공매도비중(Short Float) 20% 이상 x 커버일수(Short Ratio,
+   숏 물량을 평소 거래량으로 다 청산하는 데 걸리는 날짜 수)를 곱한 "스퀴즈 점수"
+   내림차순. 둘 다 높으면 숏 세력이 빠르게 못 빠져나가서 주가 상승 시 강제
+   숏커버링(매수)이 매수를 더 부르는 되먹임이 걸릴 수 있는 종목. 레버리지·인버스
+   ETF는 제외.
 
 ## 구성
 
@@ -15,10 +23,13 @@ Finviz를 하루 2번(미국 장 시작 무렵 / 한국시간 자정) 자동 스
   업종 스냅샷 추가 (최근 60개 = 약 30일치 유지, 빈 응답이면 기존 데이터 보존)
 - `scripts/collect_presurge_screener.py` — Finviz 스크리너 스크래핑 후
   `data/presurge_history.json`에 급등 전 후보 스냅샷 추가 (같은 보존 정책)
-- `data/sector_history.json`, `data/presurge_history.json` — 스냅샷 히스토리
-- `index.html` — 정적 대시보드 (빌드 단계 없음, 두 JSON을 fetch해서 라벨+KST
+- `scripts/collect_shortsqueeze_screener.py` — Finviz 스크리너 스크래핑 후
+  `data/shortsqueeze_history.json`에 숏스퀴즈 후보 스냅샷 추가 (같은 보존 정책)
+- `data/sector_history.json`, `data/presurge_history.json`, `data/shortsqueeze_history.json`
+  — 스냅샷 히스토리
+- `index.html` — 정적 대시보드 (빌드 단계 없음, 세 JSON을 fetch해서 라벨+KST
   날짜로 서로 매칭)
-- `.github/workflows/collect.yml` — 하루 2회(+버퍼 cron) 두 스크립트 실행 후 커밋/푸시
+- `.github/workflows/collect.yml` — 하루 2회(+버퍼 cron) 세 스크립트 실행 후 커밋/푸시
 
 ## GitHub Pages 배포 방법
 
@@ -27,7 +38,7 @@ Finviz를 하루 2번(미국 장 시작 무렵 / 한국시간 자정) 자동 스
    Branch: **main** / **/ (root)** → Save
 3. 저장소 → **Settings** → **Actions** → **General** → **Workflow permissions** →
    **Read and write permissions** 선택 → Save (자동 커밋에 필요)
-4. **Actions** 탭 → `데이터 수집 (업종 + 급등 전 후보)` → **Run workflow** 로 첫 데이터 수집 실행
+4. **Actions** 탭 → `데이터 수집 (업종 + 급등 전 후보 + 숏스퀴즈)` → **Run workflow** 로 첫 데이터 수집 실행
 5. 약 1~2분 후 `https://dlgksgml1158-commits.github.io/stock/` 에서 확인
 
 ## 로컬 실행
@@ -37,5 +48,6 @@ python3 -m venv .venv && source .venv/bin/activate
 pip install requests beautifulsoup4 lxml
 python scripts/collect_sector_snapshot.py --label manual
 python scripts/collect_presurge_screener.py --label manual
+python scripts/collect_shortsqueeze_screener.py --label manual
 python -m http.server 8000   # 이후 http://localhost:8000 접속
 ```

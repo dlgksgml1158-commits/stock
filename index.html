@@ -329,10 +329,11 @@
     return d.toISOString().slice(0, 10);
   }
 
-  function findPresurgeEntry(presurgeHistory, entry) {
-    // sector_history와 presurge_history는 같은 워크플로 실행에서 각각 독립적으로
-    // now()를 찍기 때문에 timestamp가 정확히 일치하지 않는다. label + KST 날짜로 매칭.
-    return presurgeHistory.find(
+  function findMatchingEntry(otherHistory, entry) {
+    // sector_history와 presurge/shortsqueeze_history는 같은 워크플로 실행에서
+    // 각각 독립적으로 now()를 찍기 때문에 timestamp가 정확히 일치하지 않는다.
+    // label + KST 날짜로 매칭.
+    return otherHistory.find(
       (p) => p.label === entry.label && kstDate(p.timestamp) === kstDate(entry.timestamp)
     );
   }
@@ -351,7 +352,6 @@
         (c) => `
       <tr>
         <td class="name">${c.ticker} <span class="hint">${c.company}</span></td>
-        <td class="num">${c.sector}</td>
         <td class="num ${deltaClass(c.change_pct)}">${fmtPct(c.change_pct)}</td>
         <td class="num">${c.rel_volume.toFixed(2)}x</td>
         <td class="num">$${c.price.toFixed(2)}</td>
@@ -362,7 +362,38 @@
       <div class="card">
         <h2>급등 전 후보 <span class="hint">거래량 몰림(relvol≥2x) + 등락률 -3~+6%, ETF 제외, relvol 내림차순</span></h2>
         <table>
-          <thead><tr><th>종목</th><th>업종</th><th>등락률</th><th>상대거래량</th><th>현재가</th></tr></thead>
+          <thead><tr><th>종목</th><th>등락률</th><th>상대거래량</th><th>현재가</th></tr></thead>
+          <tbody>${trs}</tbody>
+        </table>
+      </div>`;
+  }
+
+  function shortsqueezeTable(candidates) {
+    if (!candidates || candidates.length === 0) {
+      return `
+        <div class="card">
+          <h2>숏스퀴즈 후보 <span class="hint">공매도비중≥20% x 커버일수, 스퀴즈점수 내림차순</span></h2>
+          <p class="empty">이번 스냅샷엔 조건에 맞는 종목이 없었습니다.</p>
+        </div>`;
+    }
+    const trs = candidates
+      .slice(0, 15)
+      .map(
+        (c) => `
+      <tr>
+        <td class="name">${c.ticker} <span class="hint">${c.company}</span></td>
+        <td class="num ${deltaClass(c.change_pct)}">${fmtPct(c.change_pct)}</td>
+        <td class="num">${c.short_float_pct.toFixed(1)}%</td>
+        <td class="num">${c.short_ratio_days.toFixed(1)}일</td>
+        <td class="num">$${c.price.toFixed(2)}</td>
+      </tr>`
+      )
+      .join("");
+    return `
+      <div class="card">
+        <h2>숏스퀴즈 후보 <span class="hint">공매도비중≥20% x 커버일수(스퀴즈점수) 내림차순, ETF 제외</span></h2>
+        <table>
+          <thead><tr><th>종목</th><th>등락률</th><th>공매도비중</th><th>커버일수</th><th>현재가</th></tr></thead>
           <tbody>${trs}</tbody>
         </table>
       </div>`;
@@ -380,7 +411,7 @@
       </div>`;
   }
 
-  function statTiles(top10, bottom5, presurgeEntry) {
+  function statTiles(top10, bottom5, presurgeEntry, squeezeEntry) {
     const tiles = [];
     const strongest = top10[0];
     const weakest = bottom5[0];
@@ -401,24 +432,39 @@
         )
       );
     }
+    const topSqueeze = squeezeEntry && squeezeEntry.candidates[0];
+    if (topSqueeze) {
+      tiles.push(
+        statTile(
+          "숏스퀴즈 후보 1위",
+          topSqueeze.ticker,
+          topSqueeze.change_pct,
+          `공매도 ${topSqueeze.short_float_pct.toFixed(1)}% · 커버 ${topSqueeze.short_ratio_days.toFixed(1)}일`
+        )
+      );
+    }
     if (tiles.length === 0) return "";
     return `<div class="stat-grid">${tiles.join("")}</div>`;
   }
 
-  function render(history, presurgeHistory, index) {
+  function render(history, presurgeHistory, squeezeHistory, index) {
     const content = document.getElementById("content");
     const entry = history[index];
     const sorted = [...entry.industries].sort((a, b) => b.change_pct - a.change_pct);
     const top10 = sorted.slice(0, 10);
     const bottom5 = sorted.slice(-5).reverse();
-    const presurgeEntry = findPresurgeEntry(presurgeHistory, entry);
+    const presurgeEntry = findMatchingEntry(presurgeHistory, entry);
+    const squeezeEntry = findMatchingEntry(squeezeHistory, entry);
 
     document.getElementById("updated-label").textContent =
       `${fmtTimestamp(entry.timestamp)} · ${LABEL_KR[entry.label] || entry.label}`;
 
     content.innerHTML =
-      statTiles(top10, bottom5, presurgeEntry) +
-      presurgeTable(presurgeEntry ? presurgeEntry.candidates : null) +
+      statTiles(top10, bottom5, presurgeEntry, squeezeEntry) +
+      `<div class="grid-2">
+        ${presurgeTable(presurgeEntry ? presurgeEntry.candidates : null)}
+        ${shortsqueezeTable(squeezeEntry ? squeezeEntry.candidates : null)}
+      </div>` +
       `<div class="grid-2">
         ${rankTable(top10, "강한 업종 TOP 10", "등락률 내림차순")}
         ${rankTable(bottom5, "약한 업종 BOTTOM 5", "등락률 오름차순")}
@@ -451,6 +497,14 @@
       console.warn("presurge_history 로드 실패:", e);
     }
 
+    let squeezeHistory = [];
+    try {
+      const res = await fetch(`data/shortsqueeze_history.json?_=${Date.now()}`);
+      squeezeHistory = await res.json();
+    } catch (e) {
+      console.warn("shortsqueeze_history 로드 실패:", e);
+    }
+
     const picker = document.getElementById("snapshot-picker");
     history.forEach((entry, i) => {
       const opt = document.createElement("option");
@@ -459,9 +513,11 @@
       picker.appendChild(opt);
     });
     picker.value = history.length - 1;
-    picker.addEventListener("change", () => render(history, presurgeHistory, Number(picker.value)));
+    picker.addEventListener("change", () =>
+      render(history, presurgeHistory, squeezeHistory, Number(picker.value))
+    );
 
-    render(history, presurgeHistory, history.length - 1);
+    render(history, presurgeHistory, squeezeHistory, history.length - 1);
   }
 
   main();
