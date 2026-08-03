@@ -1,0 +1,324 @@
+<meta charset="utf-8" />
+<title>미국 업종 강도 대시보드</title>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<style>
+  :root {
+    color-scheme: light;
+    --surface-1: #fcfcfb;
+    --page: #f9f9f7;
+    --text-primary: #0b0b0b;
+    --text-secondary: #52514e;
+    --muted: #898781;
+    --gridline: #e1e0d9;
+    --border: rgba(11, 11, 11, 0.1);
+    --delta-good: #006300;
+    --delta-bad: #d03b3b;
+    --row-hover: #f2f1ed;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      color-scheme: dark;
+      --surface-1: #1a1a19;
+      --page: #0d0d0d;
+      --text-primary: #ffffff;
+      --text-secondary: #c3c2b7;
+      --muted: #898781;
+      --gridline: #2c2c2a;
+      --border: rgba(255, 255, 255, 0.1);
+      --delta-good: #0ca30c;
+      --delta-bad: #e66767;
+      --row-hover: #232322;
+    }
+  }
+  [data-theme="dark"] {
+    color-scheme: dark;
+    --surface-1: #1a1a19;
+    --page: #0d0d0d;
+    --text-primary: #ffffff;
+    --text-secondary: #c3c2b7;
+    --muted: #898781;
+    --gridline: #2c2c2a;
+    --border: rgba(255, 255, 255, 0.1);
+    --delta-good: #0ca30c;
+    --delta-bad: #e66767;
+    --row-hover: #232322;
+  }
+
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--page);
+    color: var(--text-primary);
+    font-family: system-ui, -apple-system, "Segoe UI", sans-serif;
+    -webkit-font-smoothing: antialiased;
+  }
+  .wrap {
+    max-width: 860px;
+    margin: 0 auto;
+    padding: 20px 16px 60px;
+  }
+  header h1 {
+    font-size: 1.35rem;
+    margin: 0 0 4px;
+  }
+  header p {
+    color: var(--text-secondary);
+    margin: 0 0 16px;
+    font-size: 0.9rem;
+  }
+  .controls {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+  }
+  select {
+    font: inherit;
+    padding: 7px 10px;
+    border-radius: 8px;
+    border: 1px solid var(--border);
+    background: var(--surface-1);
+    color: var(--text-primary);
+  }
+  .updated {
+    font-size: 0.82rem;
+    color: var(--muted);
+  }
+  .card {
+    background: var(--surface-1);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: 16px;
+    margin-bottom: 18px;
+  }
+  .card h2 {
+    font-size: 1rem;
+    margin: 0 0 10px;
+  }
+  .card h2 .hint {
+    font-weight: 400;
+    color: var(--muted);
+    font-size: 0.8rem;
+  }
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 0.88rem;
+  }
+  th, td {
+    text-align: left;
+    padding: 7px 8px;
+    border-bottom: 1px solid var(--gridline);
+    white-space: nowrap;
+  }
+  th {
+    color: var(--muted);
+    font-weight: 500;
+    font-size: 0.76rem;
+    text-transform: uppercase;
+    letter-spacing: 0.02em;
+  }
+  tr:hover td { background: var(--row-hover); }
+  td.name { white-space: normal; max-width: 220px; }
+  td.num { font-variant-numeric: tabular-nums; text-align: right; }
+  .delta-up { color: var(--delta-good); font-weight: 600; }
+  .delta-down { color: var(--delta-bad); font-weight: 600; }
+  .empty {
+    color: var(--muted);
+    font-size: 0.9rem;
+    padding: 30px 0;
+    text-align: center;
+  }
+  footer {
+    color: var(--muted);
+    font-size: 0.78rem;
+    text-align: center;
+    margin-top: 24px;
+  }
+  footer a { color: inherit; }
+</style>
+
+<div class="wrap">
+  <header>
+    <h1>🇺🇸 미국 업종 강도 대시보드</h1>
+    <p>Finviz 업종(~140개) 당일 등락률 기준. 자동 수집 — 하루 2회(미국 장 시작 / 한국시간 자정).</p>
+  </header>
+
+  <div class="controls">
+    <select id="snapshot-picker"></select>
+    <span class="updated" id="updated-label"></span>
+  </div>
+
+  <div id="content"></div>
+
+  <footer>
+    데이터: <a href="https://finviz.com/groups.ashx?g=industry&v=152" target="_blank" rel="noopener">Finviz</a>
+    · <a href="https://github.com/dlgksgml1158-commits/sector-dashboard" target="_blank" rel="noopener">소스</a>
+  </footer>
+</div>
+
+<script>
+  const LABEL_KR = { market_open: "미국 장 시작", midnight_kst: "한국시간 자정", manual: "수동 실행" };
+
+  function fmtPct(v) {
+    if (v === null || v === undefined || Number.isNaN(v)) return "-";
+    const sign = v > 0 ? "+" : "";
+    return `${sign}${v.toFixed(2)}%`;
+  }
+
+  function deltaClass(v) {
+    if (v > 0) return "delta-up";
+    if (v < 0) return "delta-down";
+    return "";
+  }
+
+  function fmtVolRatio(v) {
+    if (v === null || v === undefined || Number.isNaN(v)) return "-";
+    return `${v.toFixed(2)}x`;
+  }
+
+  function fmtMarketCap(v) {
+    if (!v) return "-";
+    return `${(v / 1e9).toLocaleString(undefined, { maximumFractionDigits: 0 })}B`;
+  }
+
+  function fmtTimestamp(iso) {
+    const d = new Date(iso);
+    return d.toLocaleString("ko-KR", {
+      timeZone: "Asia/Seoul",
+      month: "2-digit",
+      day: "2-digit",
+      hour: "2-digit",
+      minute: "2-digit",
+    }) + " KST";
+  }
+
+  function rankTable(rows, title, hint) {
+    const trs = rows
+      .map(
+        (r) => `
+      <tr>
+        <td class="name">${r.name}</td>
+        <td class="num ${deltaClass(r.change_pct)}">${fmtPct(r.change_pct)}</td>
+        <td class="num">${fmtVolRatio(r.volume_ratio)}</td>
+        <td class="num">${fmtMarketCap(r.market_cap)}</td>
+        <td class="num">${r.stocks ?? "-"}</td>
+      </tr>`
+      )
+      .join("");
+    return `
+      <div class="card">
+        <h2>${title} <span class="hint">${hint}</span></h2>
+        <table>
+          <thead>
+            <tr><th>업종</th><th>등락률</th><th>거래량비율</th><th>시총</th><th>종목수</th></tr>
+          </thead>
+          <tbody>${trs}</tbody>
+        </table>
+      </div>`;
+  }
+
+  function streakTable(history, latestIndustries) {
+    // 최신 스냅샷 TOP10에 있는 업종이, 그 직전 스냅샷들에서도 연속으로 TOP10이었는지 센다.
+    const top10Names = new Set(
+      [...latestIndustries].sort((a, b) => b.change_pct - a.change_pct).slice(0, 10).map((r) => r.name)
+    );
+    const streaks = {};
+    for (const name of top10Names) streaks[name] = 0;
+
+    for (let i = history.length - 1; i >= 0; i--) {
+      const top10 = new Set(
+        [...history[i].industries].sort((a, b) => b.change_pct - a.change_pct).slice(0, 10).map((r) => r.name)
+      );
+      let anyContinuing = false;
+      for (const name of top10Names) {
+        if (streaks[name] === history.length - 1 - i && top10.has(name)) {
+          streaks[name]++;
+          anyContinuing = true;
+        }
+      }
+      if (!anyContinuing) break;
+    }
+
+    const rows = Object.entries(streaks)
+      .filter(([, streak]) => streak >= 2)
+      .sort((a, b) => b[1] - a[1]);
+
+    if (rows.length === 0) {
+      return `
+        <div class="card">
+          <h2>연속 상위권 업종 <span class="hint">최근 스냅샷 기준 2회 이상 연속 TOP10</span></h2>
+          <p class="empty">아직 연속으로 강세인 업종이 없습니다 (히스토리가 더 쌓이면 나타납니다).</p>
+        </div>`;
+    }
+
+    const trs = rows
+      .map(([name, streak]) => {
+        const latest = latestIndustries.find((r) => r.name === name);
+        return `
+        <tr>
+          <td class="name">${name}</td>
+          <td class="num">${streak}회 연속</td>
+          <td class="num ${deltaClass(latest.change_pct)}">${fmtPct(latest.change_pct)}</td>
+        </tr>`;
+      })
+      .join("");
+
+    return `
+      <div class="card">
+        <h2>연속 상위권 업종 <span class="hint">최근 스냅샷 기준 2회 이상 연속 TOP10</span></h2>
+        <table>
+          <thead><tr><th>업종</th><th>연속 횟수</th><th>최근 등락률</th></tr></thead>
+          <tbody>${trs}</tbody>
+        </table>
+      </div>`;
+  }
+
+  function render(history, index) {
+    const content = document.getElementById("content");
+    const entry = history[index];
+    const sorted = [...entry.industries].sort((a, b) => b.change_pct - a.change_pct);
+    const top10 = sorted.slice(0, 10);
+    const bottom5 = sorted.slice(-5).reverse();
+
+    document.getElementById("updated-label").textContent =
+      `${fmtTimestamp(entry.timestamp)} · ${LABEL_KR[entry.label] || entry.label}`;
+
+    content.innerHTML =
+      rankTable(top10, "강한 업종 TOP 10", "등락률 내림차순") +
+      rankTable(bottom5, "약한 업종 BOTTOM 5", "등락률 오름차순") +
+      streakTable(history.slice(0, index + 1), entry.industries);
+  }
+
+  async function main() {
+    const content = document.getElementById("content");
+    let history;
+    try {
+      const res = await fetch(`data/sector_history.json?_=${Date.now()}`);
+      history = await res.json();
+    } catch (e) {
+      content.innerHTML = `<p class="empty">데이터를 불러오지 못했습니다: ${e}</p>`;
+      return;
+    }
+
+    if (!history || history.length === 0) {
+      content.innerHTML = `<p class="empty">아직 수집된 데이터가 없습니다. 첫 자동 수집을 기다려주세요.</p>`;
+      return;
+    }
+
+    const picker = document.getElementById("snapshot-picker");
+    history.forEach((entry, i) => {
+      const opt = document.createElement("option");
+      opt.value = i;
+      opt.textContent = `${fmtTimestamp(entry.timestamp)} · ${LABEL_KR[entry.label] || entry.label}`;
+      picker.appendChild(opt);
+    });
+    picker.value = history.length - 1;
+    picker.addEventListener("change", () => render(history, Number(picker.value)));
+
+    render(history, history.length - 1);
+  }
+
+  main();
+</script>

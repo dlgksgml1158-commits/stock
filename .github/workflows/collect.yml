@@ -1,0 +1,59 @@
+name: 업종 스냅샷 수집
+
+on:
+  schedule:
+    # GitHub Actions는 부하 상황에 따라 스케줄이 몇 시간씩 밀리는 경우가 있음
+    # (다른 프로젝트에서 실제로 관측됨). 정확한 시각이 중요한 건 아니라서
+    # (HFT 신호가 아니라 "장 시작/자정 무렵 분위기" 확인용) 지금은 2개만 걸어둠.
+    - cron: '35 13 * * 1-5'  # 미국 장 시작 무렵(~9:35am ET), 평일만. DST 미보정.
+    - cron: '3 15 * * *'     # 한국시간 00:03, 매일
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  collect:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    steps:
+      - name: 🔄 레포지토리 체크아웃
+        uses: actions/checkout@v4
+
+      - name: 🐍 Python 3.11 셋업
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: 📦 의존성 설치
+        run: pip install requests beautifulsoup4 lxml
+
+      - name: 🏷 라벨 결정
+        id: label
+        run: |
+          if [ "${{ github.event.schedule }}" = "35 13 * * 1-5" ]; then
+            echo "value=market_open" >> "$GITHUB_OUTPUT"
+          elif [ "${{ github.event.schedule }}" = "3 15 * * *" ]; then
+            echo "value=midnight_kst" >> "$GITHUB_OUTPUT"
+          else
+            echo "value=manual" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: 📊 업종 스냅샷 수집
+        run: python scripts/collect_sector_snapshot.py --label "${{ steps.label.outputs.value }}"
+
+      - name: 💾 변경사항 커밋 & 푸시
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "섹터 봇"
+          git add data/sector_history.json
+          if git diff --staged --quiet; then
+            echo "변경사항 없음 — 커밋 스킵"
+          else
+            TIMESTAMP=$(TZ='Asia/Seoul' date '+%Y-%m-%d %H:%M KST')
+            git commit -m "📊 업종 스냅샷 갱신 (${{ steps.label.outputs.value }}): $TIMESTAMP"
+            git pull --rebase origin main
+            git push
+            echo "✅ 커밋 완료"
+          fi
