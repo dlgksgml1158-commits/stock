@@ -256,5 +256,89 @@
         "volume": 1862593.0
       }
     ]
+  },
+  {
+    "timestamp": "2026-08-03T17:17:54.888779+00:00",
+    "label": "midnight_kst",
+    "candidates": [
+      {
+        "ticker": "MNPR",
+        "company": "Monopar Therapeutics Inc",
+        "float_shares": 4160000.0,
+        "short_float_pct": 32.7,
+        "short_ratio_days": 6.56,
+        "rel_volume": 1.62,
+        "squeeze_score": 347.5,
+        "avg_volume": 207460.0,
+        "price": 111.36,
+        "change_pct": 2.78,
+        "volume": 335769.0
+      },
+      {
+        "ticker": "AMCX",
+        "company": "AMC Global Media Inc",
+        "float_shares": 28640000.0,
+        "short_float_pct": 23.91,
+        "short_ratio_days": 11.45,
+        "rel_volume": 1.03,
+        "squeeze_score": 282.0,
+        "avg_volume": 598260.0,
+        "price": 10.99,
+        "change_pct": -1.88,
+        "volume": 618375.0
+      },
+      {
+        "ticker": "TWST",
+        "company": "Twist Bioscience Corp",
+        "float_shares": 59690000.0,
+        "short_float_pct": 23.65,
+        "short_ratio_days": 8.13,
+        "rel_volume": 0.95,
+        "squeeze_score": 182.7,
+        "avg_volume": 1740000.0,
+        "price": 96.58,
+        "change_pct": 5.49,
+        "volume": 1645990.0
+      },
+      {
+        "ticker": "CAPR",
+        "company": "Capricor Therapeutics Inc",
+        "float_shares": 52310000.0,
+        "short_float_pct": 29.78,
+        "short_ratio_days": 5.97,
+        "rel_volume": 0.93,
+        "squeeze_score": 165.3,
+        "avg_volume": 2610000.0,
+        "price": 3.91,
+        "change_pct": 1.69,
+        "volume": 2422195.0
+      },
+      {
+        "ticker": "NN",
+        "company": "NextNav Inc",
+        "float_shares": 75410000.0,
+        "short_float_pct": 21.52,
+        "short_ratio_days": 6.71,
+        "rel_volume": 0.9,
+        "squeeze_score": 130.0,
+        "avg_volume": 2420000.0,
+        "price": 13.74,
+        "change_pct": 4.84,
+        "volume": 2189850.0
+      },
+      {
+        "ticker": "BXBL",
+        "company": "BOXABL Inc",
+        "float_shares": 960000.0,
+        "short_float_pct": 28.6,
+        "short_ratio_days": 0.83,
+        "rel_volume": 0.95,
+        "squeeze_score": 22.6,
+        "avg_volume": 330050.0,
+        "price": 4.85,
+        "change_pct": 5.9,
+        "volume": 313513.0
+      }
+    ]
   }
 ]

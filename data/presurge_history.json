@@ -2536,5 +2536,215 @@
         "earnings": "Jul 31/b"
       }
     ]
+  },
+  {
+    "timestamp": "2026-08-03T17:17:24.487527+00:00",
+    "label": "midnight_kst",
+    "candidates": [
+      {
+        "ticker": "IITGR",
+        "company": "Integer Holdings Corp",
+        "sector": "Healthcare",
+        "market_cap": "4.23B",
+        "price": 124.49,
+        "change_pct": 2.71,
+        "avg_volume": "531.53K",
+        "rel_volume": 29.18,
+        "volume": "9,353,113",
+        "earnings": "Aug 03/b"
+      },
+      {
+        "ticker": "LLNTH",
+        "company": "Lantheus Holdings Inc",
+        "sector": "Healthcare",
+        "market_cap": "6.62B",
+        "price": 101.72,
+        "change_pct": 2.09,
+        "avg_volume": "1.03M",
+        "rel_volume": 8.91,
+        "volume": "5,521,360",
+        "earnings": "Aug 06/b"
+      },
+      {
+        "ticker": "SSUPN",
+        "company": "Supernus Pharmaceuticals Inc",
+        "sector": "Healthcare",
+        "market_cap": "2.71B",
+        "price": 46.61,
+        "change_pct": 4.44,
+        "avg_volume": "762.46K",
+        "rel_volume": 5.11,
+        "volume": "2,350,338",
+        "earnings": "Aug 03/b"
+      },
+      {
+        "ticker": "TTWO",
+        "company": "Two Harbors Investment Corp",
+        "sector": "Real Estate",
+        "market_cap": "1.27B",
+        "price": 12.05,
+        "change_pct": -0.33,
+        "avg_volume": "2.18M",
+        "rel_volume": 4.36,
+        "volume": "5,732,797",
+        "earnings": "Jul 28/a"
+      },
+      {
+        "ticker": "RRTO",
+        "company": "Rentokil Initial Plc ADR",
+        "sector": "Industrials",
+        "market_cap": "12.05B",
+        "price": 23.96,
+        "change_pct": 2.56,
+        "avg_volume": "1.00M",
+        "rel_volume": 3.08,
+        "volume": "1,860,684",
+        "earnings": "Jul 30/b"
+      },
+      {
+        "ticker": "BBHC",
+        "company": "Bausch Health Companies Inc",
+        "sector": "Healthcare",
+        "market_cap": "2.59B",
+        "price": 6.95,
+        "change_pct": 0.8,
+        "avg_volume": "2.82M",
+        "rel_volume": 2.8,
+        "volume": "4,758,942",
+        "earnings": "Jul 29/a"
+      },
+      {
+        "ticker": "SSTGW",
+        "company": "Stagwell Inc",
+        "sector": "Communication Services",
+        "market_cap": "2.18B",
+        "price": 8.81,
+        "change_pct": 4.2,
+        "avg_volume": "1.46M",
+        "rel_volume": 2.67,
+        "volume": "2,344,230",
+        "earnings": "Jul 30/b"
+      },
+      {
+        "ticker": "VVOD",
+        "company": "Vodafone Group plc ADR",
+        "sector": "Communication Services",
+        "market_cap": "35.92B",
+        "price": 15.6,
+        "change_pct": -1.14,
+        "avg_volume": "4.17M",
+        "rel_volume": 2.62,
+        "volume": "6,589,615",
+        "earnings": "-"
+      },
+      {
+        "ticker": "FFISV",
+        "company": "Fiserv Inc",
+        "sector": "Technology",
+        "market_cap": "29.03B",
+        "price": 54.44,
+        "change_pct": 0.92,
+        "avg_volume": "7.68M",
+        "rel_volume": 2.48,
+        "volume": "11,490,866",
+        "earnings": "Aug 06/b"
+      },
+      {
+        "ticker": "CCRI",
+        "company": "Carters Inc",
+        "sector": "Consumer Cyclical",
+        "market_cap": "1.49B",
+        "price": 40.33,
+        "change_pct": 4.58,
+        "avg_volume": "1.01M",
+        "rel_volume": 2.42,
+        "volume": "1,471,512",
+        "earnings": "Jul 31/b"
+      },
+      {
+        "ticker": "OOCTV",
+        "company": "Octave Intelligence Plc",
+        "sector": "Technology",
+        "market_cap": "5.08B",
+        "price": 18.91,
+        "change_pct": 3.67,
+        "avg_volume": "1.38M",
+        "rel_volume": 2.36,
+        "volume": "1,968,126",
+        "earnings": "Aug 12/b"
+      },
+      {
+        "ticker": "BBMY",
+        "company": "Bristol-Myers Squibb Co",
+        "sector": "Healthcare",
+        "market_cap": "132.27B",
+        "price": 64.75,
+        "change_pct": -0.86,
+        "avg_volume": "11.92M",
+        "rel_volume": 2.29,
+        "volume": "16,427,746",
+        "earnings": "Jul 30/b"
+      },
+      {
+        "ticker": "WWU",
+        "company": "Western Union Company",
+        "sector": "Financial",
+        "market_cap": "2.05B",
+        "price": 6.57,
+        "change_pct": 3.38,
+        "avg_volume": "9.05M",
+        "rel_volume": 2.27,
+        "volume": "12,402,270",
+        "earnings": "Jul 30/a"
+      },
+      {
+        "ticker": "FFMS",
+        "company": "Fresenius Medical Care AG ADR",
+        "sector": "Healthcare",
+        "market_cap": "12.35B",
+        "price": 25.18,
+        "change_pct": -1.87,
+        "avg_volume": "764.64K",
+        "rel_volume": 2.16,
+        "volume": "996,526",
+        "earnings": "May 05/b"
+      },
+      {
+        "ticker": "AALNY",
+        "company": "Alnylam Pharmaceuticals Inc",
+        "sector": "Healthcare",
+        "market_cap": "29.00B",
+        "price": 216.7,
+        "change_pct": 5.44,
+        "avg_volume": "1.46M",
+        "rel_volume": 2.09,
+        "volume": "1,846,196",
+        "earnings": "Jul 30/b"
+      },
+      {
+        "ticker": "BBSBR",
+        "company": "Banco Santander (Brasil) SA ADR",
+        "sector": "Financial",
+        "market_cap": "21.25B",
+        "price": 5.68,
+        "change_pct": 0.11,
+        "avg_volume": "1.72M",
+        "rel_volume": 2.09,
+        "volume": "2,164,979",
+        "earnings": "Jul 29/b"
+      },
+      {
+        "ticker": "TTFSL",
+        "company": "TFS Financial Corp",
+        "sector": "Financial",
+        "market_cap": "5.21B",
+        "price": 18.59,
+        "change_pct": 1.0,
+        "avg_volume": "920.22K",
+        "rel_volume": 2.01,
+        "volume": "1,115,826",
+        "earnings": "Jul 30/a"
+      }
+    ]
   }
 ]
