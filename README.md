@@ -20,7 +20,7 @@ Finviz 업종(~140개) 성과 페이지를 하루 2번(미국 장 시작 무렵 
 3. 저장소 → **Settings** → **Actions** → **General** → **Workflow permissions** →
    **Read and write permissions** 선택 → Save (자동 커밋에 필요)
 4. **Actions** 탭 → `업종 스냅샷 수집` → **Run workflow** 로 첫 데이터 수집 실행
-5. 약 1~2분 후 `https://<GITHUB_ID>.github.io/sector-dashboard/` 에서 확인
+5. 약 1~2분 후 `https://dlgksgml1158-commits.github.io/stock/` 에서 확인
 
 ## 로컬 실행
 
