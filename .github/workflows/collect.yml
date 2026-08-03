@@ -23,7 +23,7 @@ permissions:
 jobs:
   collect:
     runs-on: ubuntu-latest
-    timeout-minutes: 10
+    timeout-minutes: 20
 
     steps:
       - name: 🔄 레포지토리 체크아웃
@@ -52,8 +52,14 @@ jobs:
       - name: 📊 업종 스냅샷 수집
         run: python scripts/collect_sector_snapshot.py --label "${{ steps.label.outputs.value }}"
 
+      - name: ⏳ Finviz 레이트리밋 방지 대기
+        run: sleep 30
+
       - name: 🚀 급등 전 후보 수집
         run: python scripts/collect_presurge_screener.py --label "${{ steps.label.outputs.value }}"
+
+      - name: ⏳ Finviz 레이트리밋 방지 대기
+        run: sleep 30
 
       - name: 🩳 숏스퀴즈 후보 수집
         run: python scripts/collect_shortsqueeze_screener.py --label "${{ steps.label.outputs.value }}"

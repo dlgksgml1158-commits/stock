@@ -36,7 +36,7 @@ _MAX_PAGES = 5  # 페이지당 20개, relvol 상위 100개면 충분
 _CHANGE_MIN, _CHANGE_MAX = -3.0, 6.0
 
 
-def _get_with_retry(url: str, params: dict, max_retries: int = 4, backoff: float = 5.0) -> requests.Response:
+def _get_with_retry(url: str, params: dict, max_retries: int = 5, backoff: float = 8.0) -> requests.Response:
     """429(Too Many Requests)를 지수 백오프로 재시도."""
     for attempt in range(max_retries + 1):
         resp = requests.get(url, params=params, headers=_HEADERS, timeout=15)

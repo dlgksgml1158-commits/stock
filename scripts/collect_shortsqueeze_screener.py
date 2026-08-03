@@ -33,7 +33,7 @@ _FILTERS = "sh_short_o20,sh_avgvol_o200,sh_price_o2,ind_stocksonly"
 _MAX_PAGES = 5  # 페이지당 20개, Short Float 상위 100개 풀에서 스퀴즈 점수로 재정렬
 
 
-def _get_with_retry(url: str, params: dict, max_retries: int = 4, backoff: float = 5.0) -> requests.Response:
+def _get_with_retry(url: str, params: dict, max_retries: int = 5, backoff: float = 8.0) -> requests.Response:
     """429(Too Many Requests)를 지수 백오프로 재시도."""
     for attempt in range(max_retries + 1):
         resp = requests.get(url, params=params, headers=_HEADERS, timeout=15)
