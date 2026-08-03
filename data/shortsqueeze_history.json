@@ -1,1 +1,60 @@
-[]
+[
+  {
+    "timestamp": "2026-08-03T06:18:13.626261+00:00",
+    "label": "manual",
+    "candidates": [
+      {
+        "ticker": "ABR",
+        "company": "Arbor Realty Trust Inc",
+        "float_shares": 184320000.0,
+        "short_float_pct": 24.61,
+        "short_ratio_days": 9.88,
+        "rel_volume": 1.93,
+        "squeeze_score": 469.3,
+        "avg_volume": 4590000.0,
+        "price": 5.01,
+        "change_pct": 4.59,
+        "volume": 8877687.0
+      },
+      {
+        "ticker": "RIG",
+        "company": "Transocean Ltd",
+        "float_shares": 1010000000.0,
+        "short_float_pct": 23.96,
+        "short_ratio_days": 6.62,
+        "rel_volume": 1.71,
+        "squeeze_score": 271.2,
+        "avg_volume": 36650000.0,
+        "price": 5.32,
+        "change_pct": 4.72,
+        "volume": 62789331.0
+      },
+      {
+        "ticker": "DXC",
+        "company": "DXC Technology Co",
+        "float_shares": 158660000.0,
+        "short_float_pct": 20.17,
+        "short_ratio_days": 5.72,
+        "rel_volume": 1.93,
+        "squeeze_score": 222.7,
+        "avg_volume": 5590000.0,
+        "price": 11.24,
+        "change_pct": 0.0,
+        "volume": 10793633.0
+      },
+      {
+        "ticker": "EVER",
+        "company": "EverQuote Inc",
+        "float_shares": 26580000.0,
+        "short_float_pct": 20.08,
+        "short_ratio_days": 6.02,
+        "rel_volume": 1.5,
+        "squeeze_score": 181.3,
+        "avg_volume": 887060.0,
+        "price": 25.22,
+        "change_pct": 0.68,
+        "volume": 1331947.0
+      }
+    ]
+  }
+]
