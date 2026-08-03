@@ -172,5 +172,89 @@
         "volume": 1331947.0
       }
     ]
+  },
+  {
+    "timestamp": "2026-08-03T16:06:13.864470+00:00",
+    "label": "market_open",
+    "candidates": [
+      {
+        "ticker": "IEP",
+        "company": "Icahn Enterprises L P",
+        "float_shares": 48030000.0,
+        "short_float_pct": 34.94,
+        "short_ratio_days": 19.3,
+        "rel_volume": 0.69,
+        "squeeze_score": 465.3,
+        "avg_volume": 869670.0,
+        "price": 7.68,
+        "change_pct": -1.35,
+        "volume": 596517.0
+      },
+      {
+        "ticker": "PRME",
+        "company": "Prime Medicine Inc",
+        "float_shares": 94970000.0,
+        "short_float_pct": 35.31,
+        "short_ratio_days": 10.16,
+        "rel_volume": 0.66,
+        "squeeze_score": 236.8,
+        "avg_volume": 3300000.0,
+        "price": 2.87,
+        "change_pct": -1.71,
+        "volume": 2162192.0
+      },
+      {
+        "ticker": "MNPR",
+        "company": "Monopar Therapeutics Inc",
+        "float_shares": 4160000.0,
+        "short_float_pct": 32.7,
+        "short_ratio_days": 6.56,
+        "rel_volume": 1.02,
+        "squeeze_score": 218.8,
+        "avg_volume": 207460.0,
+        "price": 109.5,
+        "change_pct": 1.06,
+        "volume": 210635.0
+      },
+      {
+        "ticker": "ALT",
+        "company": "Altimmune Inc",
+        "float_shares": 183670000.0,
+        "short_float_pct": 26.27,
+        "short_ratio_days": 12.24,
+        "rel_volume": 0.66,
+        "squeeze_score": 212.2,
+        "avg_volume": 3940000.0,
+        "price": 2.97,
+        "change_pct": 4.58,
+        "volume": 2595450.0
+      },
+      {
+        "ticker": "JACK",
+        "company": "Jack In The Box Inc",
+        "float_shares": 16730000.0,
+        "short_float_pct": 41.35,
+        "short_ratio_days": 7.16,
+        "rel_volume": 0.7,
+        "squeeze_score": 207.2,
+        "avg_volume": 966520.0,
+        "price": 17.26,
+        "change_pct": 5.44,
+        "volume": 679994.0
+      },
+      {
+        "ticker": "CAPR",
+        "company": "Capricor Therapeutics Inc",
+        "float_shares": 52310000.0,
+        "short_float_pct": 29.78,
+        "short_ratio_days": 5.97,
+        "rel_volume": 0.71,
+        "squeeze_score": 126.2,
+        "avg_volume": 2610000.0,
+        "price": 3.98,
+        "change_pct": 3.38,
+        "volume": 1862593.0
+      }
+    ]
   }
 ]
