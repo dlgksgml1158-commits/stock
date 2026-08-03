@@ -15,6 +15,10 @@
     --delta-good: #006300;
     --delta-bad: #d03b3b;
     --row-hover: #f2f1ed;
+    /* 트리맵 전용: 사용자 요청대로 강세=빨강/약세=초록 (일반 등락 표기와 반대 배색) */
+    --treemap-strong: #d03b3b;
+    --treemap-weak: #1a7a1a;
+    --treemap-neutral: #f0efec;
   }
   @media (prefers-color-scheme: dark) {
     :root:not([data-theme="light"]) {
@@ -29,6 +33,9 @@
       --delta-good: #0ca30c;
       --delta-bad: #e66767;
       --row-hover: #232322;
+      --treemap-strong: #e66767;
+      --treemap-weak: #2f9e2f;
+      --treemap-neutral: #383835;
     }
   }
   [data-theme="dark"] {
@@ -43,6 +50,9 @@
     --delta-good: #0ca30c;
     --delta-bad: #e66767;
     --row-hover: #232322;
+    --treemap-strong: #e66767;
+    --treemap-weak: #2f9e2f;
+    --treemap-neutral: #383835;
   }
 
   * { box-sizing: border-box; }
@@ -178,6 +188,54 @@
     font-size: 0.9rem;
     padding: 30px 0;
     text-align: center;
+  }
+  .treemap-wrap {
+    position: relative;
+    width: 100%;
+    height: 480px;
+    border-radius: 8px;
+    overflow: hidden;
+  }
+  .treemap-cell {
+    position: absolute;
+    box-sizing: border-box;
+    border: 1px solid var(--surface-1);
+    padding: 4px 6px;
+    overflow: hidden;
+    color: #fff;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.55);
+    cursor: default;
+  }
+  .treemap-cell .tm-name {
+    font-size: 0.72rem;
+    font-weight: 600;
+    line-height: 1.2;
+    display: block;
+  }
+  .treemap-cell .tm-pct {
+    font-size: 0.78rem;
+    font-weight: 700;
+    font-variant-numeric: tabular-nums;
+    display: block;
+  }
+  .treemap-legend {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    font-size: 0.76rem;
+    color: var(--muted);
+    margin-top: 10px;
+  }
+  .treemap-legend .bar {
+    flex: 1;
+    height: 8px;
+    border-radius: 4px;
+    background: linear-gradient(
+      to right,
+      var(--treemap-weak),
+      var(--treemap-neutral),
+      var(--treemap-strong)
+    );
   }
   footer {
     color: var(--muted);
@@ -400,6 +458,144 @@
       </div>`;
   }
 
+  // --- 업종 트리맵 (마인드맵) ---------------------------------------------
+
+  function squarify(items, x, y, width, height) {
+    // Bruls/Huizing/van Wijk squarified treemap. items: [{value, ...}], value 합 = width*height.
+    const results = [];
+
+    function worstRatio(row, length) {
+      const sum = row.reduce((a, r) => a + r.value, 0);
+      let max = -Infinity;
+      let min = Infinity;
+      for (const r of row) {
+        if (r.value > max) max = r.value;
+        if (r.value < min) min = r.value;
+      }
+      const s2 = sum * sum;
+      const l2 = length * length;
+      return Math.max((l2 * max) / s2, s2 / (l2 * min));
+    }
+
+    function layoutRow(row, rx, ry, rw, rh) {
+      const sum = row.reduce((a, r) => a + r.value, 0);
+      if (rw >= rh) {
+        const colWidth = rh > 0 ? sum / rh : 0;
+        let curY = ry;
+        for (const item of row) {
+          const h = sum > 0 ? (item.value / sum) * rh : 0;
+          results.push({ item: item.item, x: rx, y: curY, width: colWidth, height: h });
+          curY += h;
+        }
+        return { x: rx + colWidth, y: ry, width: rw - colWidth, height: rh };
+      }
+      const rowHeight = rw > 0 ? sum / rw : 0;
+      let curX = rx;
+      for (const item of row) {
+        const w = sum > 0 ? (item.value / sum) * rw : 0;
+        results.push({ item: item.item, x: curX, y: ry, width: w, height: rowHeight });
+        curX += w;
+      }
+      return { x: rx, y: ry + rowHeight, width: rw, height: rh - rowHeight };
+    }
+
+    function recurse(items2, rx, ry, rw, rh) {
+      if (items2.length === 0) return;
+      if (items2.length === 1) {
+        layoutRow(items2, rx, ry, rw, rh);
+        return;
+      }
+      const length = Math.min(rw, rh);
+      let row = [items2[0]];
+      let i = 1;
+      while (i < items2.length) {
+        const testRow = row.concat([items2[i]]);
+        if (worstRatio(testRow, length) <= worstRatio(row, length)) {
+          row = testRow;
+          i++;
+        } else {
+          break;
+        }
+      }
+      const rest = items2.slice(i);
+      const remainder = layoutRow(row, rx, ry, rw, rh);
+      recurse(rest, remainder.x, remainder.y, remainder.width, remainder.height);
+    }
+
+    recurse(
+      items.filter((i) => i.value > 0),
+      x,
+      y,
+      width,
+      height
+    );
+    return results;
+  }
+
+  function hexToRgb(hex) {
+    const n = parseInt(hex.replace("#", ""), 16);
+    return [(n >> 16) & 255, (n >> 8) & 255, n & 255];
+  }
+
+  function lerpColor(hexA, hexB, t) {
+    const a = hexToRgb(hexA);
+    const b = hexToRgb(hexB);
+    const rgb = a.map((v, i) => Math.round(v + (b[i] - v) * t));
+    return `rgb(${rgb.join(",")})`;
+  }
+
+  function treemapColor(changePct, maxAbs) {
+    // 사용자 요청: 강세(양수)=빨강, 약세(음수)=초록. 0%는 중립 회색.
+    const strong = getComputedStyle(document.documentElement).getPropertyValue("--treemap-strong").trim();
+    const weak = getComputedStyle(document.documentElement).getPropertyValue("--treemap-weak").trim();
+    const neutral = getComputedStyle(document.documentElement).getPropertyValue("--treemap-neutral").trim();
+    const t = maxAbs > 0 ? Math.min(Math.abs(changePct) / maxAbs, 1) : 0;
+    return changePct >= 0 ? lerpColor(neutral, strong, t) : lerpColor(neutral, weak, t);
+  }
+
+  function treemapCard(industries) {
+    const containerId = "sector-treemap";
+    const maxAbs = Math.max(...industries.map((i) => Math.abs(i.change_pct)), 1);
+    // 실제 렌더 후(DOM에 붙은 뒤) 폭을 재서 채워 넣는다 — innerHTML 삽입 시점엔 레이아웃 폭을 모름.
+    window.__renderTreemap = () => {
+      const el = document.getElementById(containerId);
+      if (!el) return;
+      const width = el.clientWidth;
+      const height = el.clientHeight;
+      const items = industries
+        .filter((i) => i.market_cap)
+        .map((i) => ({ value: i.market_cap, item: i }));
+      const total = items.reduce((s, i) => s + i.value, 0);
+      const scale = total > 0 ? (width * height) / total : 0;
+      const scaled = items.map((i) => ({ value: i.value * scale, item: i.item }));
+      scaled.sort((a, b) => b.value - a.value);
+      const rects = squarify(scaled, 0, 0, width, height);
+      el.innerHTML = rects
+        .map((r) => {
+          const ind = r.item;
+          const showLabel = r.width >= 46 && r.height >= 26;
+          const showPct = r.width >= 46 && r.height >= 40;
+          return `
+          <div class="treemap-cell" title="${ind.name}: ${fmtPct(ind.change_pct)}"
+               style="left:${r.x}px; top:${r.y}px; width:${r.width}px; height:${r.height}px; background:${treemapColor(ind.change_pct, maxAbs)};">
+            ${showLabel ? `<span class="tm-name">${ind.name}</span>` : ""}
+            ${showPct ? `<span class="tm-pct">${fmtPct(ind.change_pct)}</span>` : ""}
+          </div>`;
+        })
+        .join("");
+    };
+    return `
+      <div class="card">
+        <h2>업종 트리맵 <span class="hint">사각형 크기=시가총액, 색상=등락률 (강세 빨강 · 약세 초록)</span></h2>
+        <div class="treemap-wrap" id="${containerId}"></div>
+        <div class="treemap-legend">
+          <span>약세</span>
+          <div class="bar"></div>
+          <span>강세</span>
+        </div>
+      </div>`;
+  }
+
   function statTile(label, name, deltaPct, sub) {
     return `
       <div class="stat-tile">
@@ -462,6 +658,7 @@
 
     content.innerHTML =
       statTiles(top10, bottom5, presurgeEntry, squeezeEntry) +
+      treemapCard(entry.industries) +
       `<div class="grid-2">
         ${presurgeTable(presurgeEntry ? presurgeEntry.candidates : null)}
         ${shortsqueezeTable(squeezeEntry ? squeezeEntry.candidates : null)}
@@ -471,6 +668,9 @@
         ${rankTable(bottom5, "약한 업종 BOTTOM 5", "등락률 오름차순")}
       </div>` +
       streakTable(history.slice(0, index + 1), entry.industries);
+
+    // treemap-wrap이 실제 DOM에 붙어 폭을 잴 수 있게 된 다음에 채운다.
+    if (window.__renderTreemap) window.__renderTreemap();
   }
 
   async function main() {
