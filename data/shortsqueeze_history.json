@@ -612,5 +612,102 @@
         "volume": 14599585.0
       }
     ]
+  },
+  {
+    "timestamp": "2026-08-04T17:01:06.969848+00:00",
+    "label": "midnight_kst",
+    "candidates": [
+      {
+        "ticker": "KPTI",
+        "company": "Karyopharm Therapeutics Inc",
+        "float_shares": 19590000.0,
+        "short_float_pct": 32.22,
+        "short_ratio_days": 6.35,
+        "rel_volume": 2.41,
+        "squeeze_score": 493.1,
+        "avg_volume": 994230.0,
+        "price": 2.05,
+        "change_pct": 4.06,
+        "volume": 2397803.0
+      },
+      {
+        "ticker": "GLUE",
+        "company": "Monte Rosa Therapeutics Inc",
+        "float_shares": 59760000.0,
+        "short_float_pct": 28.77,
+        "short_ratio_days": 12.98,
+        "rel_volume": 0.98,
+        "squeeze_score": 366.0,
+        "avg_volume": 1330000.0,
+        "price": 16.22,
+        "change_pct": 5.44,
+        "volume": 1297443.0
+      },
+      {
+        "ticker": "BTDR",
+        "company": "Bitdeer Technologies Group",
+        "float_shares": 131389999.99999999,
+        "short_float_pct": 43.35,
+        "short_ratio_days": 5.6,
+        "rel_volume": 1.47,
+        "squeeze_score": 356.9,
+        "avg_volume": 10170000.0,
+        "price": 11.94,
+        "change_pct": 4.97,
+        "volume": 14989494.0
+      },
+      {
+        "ticker": "AESI",
+        "company": "Atlas Energy Solutions Inc",
+        "float_shares": 79650000.0,
+        "short_float_pct": 28.79,
+        "short_ratio_days": 6.7,
+        "rel_volume": 1.47,
+        "squeeze_score": 283.6,
+        "avg_volume": 3430000.0,
+        "price": 10.65,
+        "change_pct": -2.61,
+        "volume": 5025170.0
+      },
+      {
+        "ticker": "FBIO",
+        "company": "Fortress Biotech Inc",
+        "float_shares": 22910000.0,
+        "short_float_pct": 23.49,
+        "short_ratio_days": 10.07,
+        "rel_volume": 1.13,
+        "squeeze_score": 267.3,
+        "avg_volume": 534530.0,
+        "price": 2.72,
+        "change_pct": -1.27,
+        "volume": 604545.0
+      },
+      {
+        "ticker": "EVER",
+        "company": "EverQuote Inc",
+        "float_shares": 26580000.0,
+        "short_float_pct": 20.08,
+        "short_ratio_days": 6.06,
+        "rel_volume": 1.45,
+        "squeeze_score": 176.4,
+        "avg_volume": 880920.0,
+        "price": 23.5,
+        "change_pct": -2.49,
+        "volume": 1278615.0
+      },
+      {
+        "ticker": "WGS",
+        "company": "GeneDx Holdings Corp",
+        "float_shares": 27410000.0,
+        "short_float_pct": 21.27,
+        "short_ratio_days": 4.3,
+        "rel_volume": 1.1,
+        "squeeze_score": 100.6,
+        "avg_volume": 1360000.0,
+        "price": 69.07,
+        "change_pct": 1.78,
+        "volume": 1499223.0
+      }
+    ]
   }
 ]
