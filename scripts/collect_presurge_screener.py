@@ -73,7 +73,10 @@ def fetch_presurge_candidates() -> list[dict]:
                 continue
             vals = [td.get_text(strip=True) for td in tds]
             # vals[0]은 Finviz가 항상 자동으로 붙이는 "No." 순번 컬럼.
-            _, ticker, company, sector, market_cap, price, change, avg_vol, rel_vol, volume, earnings = vals
+            _, ticker_text, company, sector, market_cap, price, change, avg_vol, rel_vol, volume, earnings = vals
+            # 티커 셀은 로고 폴백 글자(<a>의 <span>)와 실제 티커 링크가 붙어 있어서
+            # get_text()로는 앞글자가 중복된다("ALM" -> "AALM"). data 속성이 진짜 값.
+            ticker = tds[1].get("data-boxover-ticker") or ticker_text
             try:
                 change_pct = float(change.replace("%", ""))
                 relvol = float(rel_vol)
