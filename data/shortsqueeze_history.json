@@ -709,5 +709,115 @@
         "volume": 1499223.0
       }
     ]
+  },
+  {
+    "timestamp": "2026-08-05T15:50:16.500795+00:00",
+    "label": "market_open",
+    "candidates": [
+      {
+        "ticker": "UPST",
+        "company": "Upstart Holdings Inc",
+        "float_shares": 81920000.0,
+        "short_float_pct": 31.95,
+        "short_ratio_days": 5.76,
+        "rel_volume": 1.48,
+        "squeeze_score": 272.4,
+        "avg_volume": 4550000.0,
+        "price": 31.67,
+        "change_pct": 4.44,
+        "volume": 6752145.0
+      },
+      {
+        "ticker": "SNDX",
+        "company": "Syndax Pharmaceuticals Inc",
+        "float_shares": 80760000.0,
+        "short_float_pct": 25.78,
+        "short_ratio_days": 11.36,
+        "rel_volume": 0.71,
+        "squeeze_score": 207.9,
+        "avg_volume": 1830000.0,
+        "price": 19.6,
+        "change_pct": 2.72,
+        "volume": 1304587.0
+      },
+      {
+        "ticker": "BETR",
+        "company": "Better Home & Finance Holding Co",
+        "float_shares": 7480000.0,
+        "short_float_pct": 32.18,
+        "short_ratio_days": 5.43,
+        "rel_volume": 0.99,
+        "squeeze_score": 173.0,
+        "avg_volume": 443590.0,
+        "price": 17.27,
+        "change_pct": 0.03,
+        "volume": 439712.0
+      },
+      {
+        "ticker": "EYPT",
+        "company": "EyePoint Inc",
+        "float_shares": 78130000.0,
+        "short_float_pct": 21.02,
+        "short_ratio_days": 12.49,
+        "rel_volume": 0.65,
+        "squeeze_score": 170.7,
+        "avg_volume": 1320000.0,
+        "price": 12.19,
+        "change_pct": 4.49,
+        "volume": 863784.0
+      },
+      {
+        "ticker": "DDD",
+        "company": "3D Systems Corp",
+        "float_shares": 157340000.0,
+        "short_float_pct": 28.07,
+        "short_ratio_days": 9.38,
+        "rel_volume": 0.61,
+        "squeeze_score": 160.6,
+        "avg_volume": 4710000.0,
+        "price": 3.73,
+        "change_pct": 4.68,
+        "volume": 2870701.0
+      },
+      {
+        "ticker": "BTDR",
+        "company": "Bitdeer Technologies Group",
+        "float_shares": 131389999.99999999,
+        "short_float_pct": 43.35,
+        "short_ratio_days": 5.41,
+        "rel_volume": 0.64,
+        "squeeze_score": 150.1,
+        "avg_volume": 10530000.0,
+        "price": 11.53,
+        "change_pct": 1.36,
+        "volume": 6697770.0
+      },
+      {
+        "ticker": "FUBO",
+        "company": "fuboTV Inc",
+        "float_shares": 28880000.0,
+        "short_float_pct": 22.75,
+        "short_ratio_days": 4.54,
+        "rel_volume": 1.09,
+        "squeeze_score": 112.6,
+        "avg_volume": 1450000.0,
+        "price": 10.03,
+        "change_pct": 5.03,
+        "volume": 1584319.0
+      },
+      {
+        "ticker": "BOBS",
+        "company": "Bob's Discount Furniture Inc",
+        "float_shares": 30590000.0,
+        "short_float_pct": 24.52,
+        "short_ratio_days": 6.8,
+        "rel_volume": 0.61,
+        "squeeze_score": 101.7,
+        "avg_volume": 1100000.0,
+        "price": 18.56,
+        "change_pct": 0.19,
+        "volume": 671155.0
+      }
+    ]
   }
 ]
