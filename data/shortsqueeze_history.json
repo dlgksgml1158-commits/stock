@@ -1279,5 +1279,128 @@
         "volume": 62004236.0
       }
     ]
+  },
+  {
+    "timestamp": "2026-08-07T16:04:32.247226+00:00",
+    "label": "midnight_kst",
+    "candidates": [
+      {
+        "ticker": "EBS",
+        "company": "Emergent Biosolutions Inc",
+        "float_shares": 48720000.0,
+        "short_float_pct": 21.22,
+        "short_ratio_days": 12.06,
+        "rel_volume": 1.06,
+        "squeeze_score": 271.3,
+        "avg_volume": 857460.0,
+        "price": 5.18,
+        "change_pct": -2.54,
+        "volume": 906606.0
+      },
+      {
+        "ticker": "BETR",
+        "company": "Better Home & Finance Holding Co",
+        "float_shares": 7480000.0,
+        "short_float_pct": 32.18,
+        "short_ratio_days": 5.26,
+        "rel_volume": 1.38,
+        "squeeze_score": 233.6,
+        "avg_volume": 457240.0,
+        "price": 16.59,
+        "change_pct": -0.3,
+        "volume": 630243.0
+      },
+      {
+        "ticker": "UA",
+        "company": "Under Armour Inc",
+        "float_shares": 111580000.0,
+        "short_float_pct": 24.15,
+        "short_ratio_days": 8.13,
+        "rel_volume": 0.98,
+        "squeeze_score": 192.4,
+        "avg_volume": 3310000.0,
+        "price": 6.09,
+        "change_pct": -2.79,
+        "volume": 3254398.0
+      },
+      {
+        "ticker": "UAA",
+        "company": "Under Armour Inc",
+        "float_shares": 188220000.0,
+        "short_float_pct": 28.57,
+        "short_ratio_days": 6.14,
+        "rel_volume": 0.86,
+        "squeeze_score": 150.9,
+        "avg_volume": 8750000.0,
+        "price": 6.23,
+        "change_pct": -2.7,
+        "volume": 7566938.0
+      },
+      {
+        "ticker": "IOVA",
+        "company": "Iovance Biotherapeutics Inc",
+        "float_shares": 387870000.0,
+        "short_float_pct": 25.75,
+        "short_ratio_days": 6.23,
+        "rel_volume": 0.92,
+        "squeeze_score": 147.6,
+        "avg_volume": 16040000.0,
+        "price": 6.03,
+        "change_pct": -2.9,
+        "volume": 14705090.0
+      },
+      {
+        "ticker": "DBX",
+        "company": "Dropbox Inc",
+        "float_shares": 138680000.0,
+        "short_float_pct": 20.66,
+        "short_ratio_days": 7.01,
+        "rel_volume": 0.81,
+        "squeeze_score": 117.3,
+        "avg_volume": 4080000.0,
+        "price": 34.54,
+        "change_pct": 0.0,
+        "volume": 3320186.0
+      },
+      {
+        "ticker": "LYFT",
+        "company": "Lyft Inc",
+        "float_shares": 361420000.0,
+        "short_float_pct": 24.8,
+        "short_ratio_days": 6.51,
+        "rel_volume": 0.7,
+        "squeeze_score": 113.0,
+        "avg_volume": 13760000.0,
+        "price": 16.81,
+        "change_pct": 3.1,
+        "volume": 9577067.0
+      },
+      {
+        "ticker": "FIG",
+        "company": "Figma Inc",
+        "float_shares": 199300000.0,
+        "short_float_pct": 33.16,
+        "short_ratio_days": 2.89,
+        "rel_volume": 0.74,
+        "squeeze_score": 70.9,
+        "avg_volume": 22830000.0,
+        "price": 23.68,
+        "change_pct": -1.19,
+        "volume": 16786572.0
+      },
+      {
+        "ticker": "NBIS",
+        "company": "Nebius Group NV",
+        "float_shares": 202060000.0,
+        "short_float_pct": 30.22,
+        "short_ratio_days": 3.08,
+        "rel_volume": 0.71,
+        "squeeze_score": 66.1,
+        "avg_volume": 19830000.0,
+        "price": 185.94,
+        "change_pct": -2.07,
+        "volume": 14117761.0
+      }
+    ]
   }
 ]
