@@ -1402,5 +1402,63 @@
         "volume": 14117761.0
       }
     ]
+  },
+  {
+    "timestamp": "2026-08-07T16:27:55.630614+00:00",
+    "label": "market_open",
+    "candidates": [
+      {
+        "ticker": "DBX",
+        "company": "Dropbox Inc",
+        "float_shares": 138680000.0,
+        "short_float_pct": 20.66,
+        "short_ratio_days": 7.01,
+        "rel_volume": 0.86,
+        "squeeze_score": 124.6,
+        "avg_volume": 4080000.0,
+        "price": 34.81,
+        "change_pct": 0.8,
+        "volume": 3521938.0
+      },
+      {
+        "ticker": "LYFT",
+        "company": "Lyft Inc",
+        "float_shares": 361420000.0,
+        "short_float_pct": 24.8,
+        "short_ratio_days": 6.51,
+        "rel_volume": 0.75,
+        "squeeze_score": 121.1,
+        "avg_volume": 13760000.0,
+        "price": 16.97,
+        "change_pct": 4.08,
+        "volume": 10253631.0
+      },
+      {
+        "ticker": "FIG",
+        "company": "Figma Inc",
+        "float_shares": 199300000.0,
+        "short_float_pct": 33.16,
+        "short_ratio_days": 2.89,
+        "rel_volume": 0.79,
+        "squeeze_score": 75.7,
+        "avg_volume": 22830000.0,
+        "price": 23.75,
+        "change_pct": -0.93,
+        "volume": 17950567.0
+      },
+      {
+        "ticker": "NBIS",
+        "company": "Nebius Group NV",
+        "float_shares": 202060000.0,
+        "short_float_pct": 30.22,
+        "short_ratio_days": 3.08,
+        "rel_volume": 0.77,
+        "squeeze_score": 71.7,
+        "avg_volume": 19830000.0,
+        "price": 185.6,
+        "change_pct": -2.25,
+        "volume": 15278666.0
+      }
+    ]
   }
 ]
