@@ -1460,5 +1460,128 @@
         "volume": 15278666.0
       }
     ]
+  },
+  {
+    "timestamp": "2026-08-08T15:39:22.835267+00:00",
+    "label": "midnight_kst",
+    "candidates": [
+      {
+        "ticker": "IEP",
+        "company": "Icahn Enterprises L P",
+        "float_shares": 50800000.0,
+        "short_float_pct": 33.04,
+        "short_ratio_days": 19.03,
+        "rel_volume": 1.99,
+        "squeeze_score": 1251.2,
+        "avg_volume": 881820.0,
+        "price": 7.45,
+        "change_pct": -2.29,
+        "volume": 1752407.0
+      },
+      {
+        "ticker": "OFRM",
+        "company": "Once Upon a Farm PBC",
+        "float_shares": 20090000.0,
+        "short_float_pct": 26.77,
+        "short_ratio_days": 10.35,
+        "rel_volume": 1.93,
+        "squeeze_score": 534.7,
+        "avg_volume": 519789.99999999994,
+        "price": 17.93,
+        "change_pct": 2.87,
+        "volume": 1001146.0
+      },
+      {
+        "ticker": "PHAT",
+        "company": "Phathom Pharmaceuticals Inc",
+        "float_shares": 51020000.0,
+        "short_float_pct": 23.76,
+        "short_ratio_days": 9.67,
+        "rel_volume": 1.85,
+        "squeeze_score": 425.1,
+        "avg_volume": 1250000.0,
+        "price": 8.55,
+        "change_pct": 1.91,
+        "volume": 2311293.0
+      },
+      {
+        "ticker": "TRIP",
+        "company": "TripAdvisor Inc",
+        "float_shares": 107570000.0,
+        "short_float_pct": 30.38,
+        "short_ratio_days": 8.39,
+        "rel_volume": 1.59,
+        "squeeze_score": 405.3,
+        "avg_volume": 3890000.0,
+        "price": 10.78,
+        "change_pct": 3.45,
+        "volume": 6181502.0
+      },
+      {
+        "ticker": "DBX",
+        "company": "Dropbox Inc",
+        "float_shares": 138680000.0,
+        "short_float_pct": 20.66,
+        "short_ratio_days": 7.01,
+        "rel_volume": 2.26,
+        "squeeze_score": 327.3,
+        "avg_volume": 4080000.0,
+        "price": 34.81,
+        "change_pct": 0.78,
+        "volume": 9232241.0
+      },
+      {
+        "ticker": "PAR",
+        "company": "Par Technology Corp",
+        "float_shares": 40590000.0,
+        "short_float_pct": 25.13,
+        "short_ratio_days": 8.16,
+        "rel_volume": 1.52,
+        "squeeze_score": 311.7,
+        "avg_volume": 1250000.0,
+        "price": 17.81,
+        "change_pct": 4.03,
+        "volume": 1896654.0
+      },
+      {
+        "ticker": "IOVA",
+        "company": "Iovance Biotherapeutics Inc",
+        "float_shares": 387870000.0,
+        "short_float_pct": 25.75,
+        "short_ratio_days": 6.23,
+        "rel_volume": 1.93,
+        "squeeze_score": 309.6,
+        "avg_volume": 16040000.0,
+        "price": 6.34,
+        "change_pct": 2.09,
+        "volume": 30970676.0
+      },
+      {
+        "ticker": "OWL",
+        "company": "Blue Owl Capital Inc",
+        "float_shares": 647160000.0,
+        "short_float_pct": 20.17,
+        "short_ratio_days": 5.97,
+        "rel_volume": 1.57,
+        "squeeze_score": 189.1,
+        "avg_volume": 21880000.0,
+        "price": 11.87,
+        "change_pct": 3.58,
+        "volume": 34387405.0
+      },
+      {
+        "ticker": "ARRY",
+        "company": "Array Technologies Inc",
+        "float_shares": 151080000.0,
+        "short_float_pct": 20.37,
+        "short_ratio_days": 4.74,
+        "rel_volume": 1.66,
+        "squeeze_score": 160.3,
+        "avg_volume": 6500000.0,
+        "price": 5.55,
+        "change_pct": 5.71,
+        "volume": 10792336.0
+      }
+    ]
   }
 ]
