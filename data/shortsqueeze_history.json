@@ -2082,5 +2082,128 @@
         "volume": 92288192.0
       }
     ]
+  },
+  {
+    "timestamp": "2026-08-10T16:27:04.093669+00:00",
+    "label": "market_open",
+    "candidates": [
+      {
+        "ticker": "IEP",
+        "company": "Icahn Enterprises L P",
+        "float_shares": 50800000.0,
+        "short_float_pct": 33.04,
+        "short_ratio_days": 18.85,
+        "rel_volume": 0.78,
+        "squeeze_score": 485.8,
+        "avg_volume": 890260.0,
+        "price": 7.44,
+        "change_pct": -0.17,
+        "volume": 692248.0
+      },
+      {
+        "ticker": "TNXP",
+        "company": "Tonix Pharmaceuticals Holding Corp",
+        "float_shares": 15890000.0,
+        "short_float_pct": 22.56,
+        "short_ratio_days": 7.02,
+        "rel_volume": 1.69,
+        "squeeze_score": 267.6,
+        "avg_volume": 510650.0,
+        "price": 11.94,
+        "change_pct": -0.75,
+        "volume": 861398.0
+      },
+      {
+        "ticker": "HTZ",
+        "company": "Hertz Global Holdings Inc",
+        "float_shares": 340280000.0,
+        "short_float_pct": 28.66,
+        "short_ratio_days": 4.21,
+        "rel_volume": 2.09,
+        "squeeze_score": 252.2,
+        "avg_volume": 23170000.0,
+        "price": 2.22,
+        "change_pct": -2.32,
+        "volume": 48367951.0
+      },
+      {
+        "ticker": "XPOF",
+        "company": "Xponential Fitness Inc",
+        "float_shares": 28960000.0,
+        "short_float_pct": 29.79,
+        "short_ratio_days": 10.49,
+        "rel_volume": 0.74,
+        "squeeze_score": 231.2,
+        "avg_volume": 821940.0,
+        "price": 4.88,
+        "change_pct": -2.98,
+        "volume": 610274.0
+      },
+      {
+        "ticker": "SEZL",
+        "company": "Sezzle Inc",
+        "float_shares": 16800000.0,
+        "short_float_pct": 24.01,
+        "short_ratio_days": 5.96,
+        "rel_volume": 1.45,
+        "squeeze_score": 207.5,
+        "avg_volume": 677470.0,
+        "price": 119.79,
+        "change_pct": 1.5,
+        "volume": 981764.0
+      },
+      {
+        "ticker": "MNPR",
+        "company": "Monopar Therapeutics Inc",
+        "float_shares": 4160000.0,
+        "short_float_pct": 32.7,
+        "short_ratio_days": 6.24,
+        "rel_volume": 1.01,
+        "squeeze_score": 206.1,
+        "avg_volume": 218040.0,
+        "price": 116.45,
+        "change_pct": -2.31,
+        "volume": 219296.0
+      },
+      {
+        "ticker": "OMDA",
+        "company": "Omada Health Inc",
+        "float_shares": 27870000.0,
+        "short_float_pct": 28.64,
+        "short_ratio_days": 6.07,
+        "rel_volume": 0.81,
+        "squeeze_score": 140.8,
+        "avg_volume": 1310000.0,
+        "price": 24.84,
+        "change_pct": 4.94,
+        "volume": 1066727.0
+      },
+      {
+        "ticker": "NRGV",
+        "company": "Energy Vault Holdings Inc",
+        "float_shares": 132060000.0,
+        "short_float_pct": 23.21,
+        "short_ratio_days": 5.44,
+        "rel_volume": 0.75,
+        "squeeze_score": 94.7,
+        "avg_volume": 5640000.0,
+        "price": 3.5,
+        "change_pct": 0.29,
+        "volume": 4243495.0
+      },
+      {
+        "ticker": "SPCX",
+        "company": "Space Exploration Technologies Corp",
+        "float_shares": 656650000.0,
+        "short_float_pct": 25.13,
+        "short_ratio_days": 1.33,
+        "rel_volume": 0.79,
+        "squeeze_score": 26.4,
+        "avg_volume": 124130000.0,
+        "price": 130.35,
+        "change_pct": -2.08,
+        "volume": 98168409.0
+      }
+    ]
   }
 ]

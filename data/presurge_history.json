@@ -7456,5 +7456,251 @@
         "earnings": "Aug 06/a"
       }
     ]
+  },
+  {
+    "timestamp": "2026-08-10T16:26:31.812152+00:00",
+    "label": "market_open",
+    "candidates": [
+      {
+        "ticker": "PCLA",
+        "company": "PicoCELA Inc ADR",
+        "sector": "Communication Services",
+        "market_cap": "81.35M",
+        "price": 8.47,
+        "change_pct": 4.38,
+        "avg_volume": "1.67M",
+        "rel_volume": 4.82,
+        "volume": "3,863,898",
+        "earnings": "-"
+      },
+      {
+        "ticker": "ELAN",
+        "company": "Elanco Animal Health Inc",
+        "sector": "Healthcare",
+        "market_cap": "11.13B",
+        "price": 22.27,
+        "change_pct": 0.7,
+        "avg_volume": "6.32M",
+        "rel_volume": 4.28,
+        "volume": "12,946,107",
+        "earnings": "Aug 05/b"
+      },
+      {
+        "ticker": "ERO",
+        "company": "Ero Copper Corp",
+        "sector": "Basic Materials",
+        "market_cap": "3.75B",
+        "price": 35.96,
+        "change_pct": 4.79,
+        "avg_volume": "1.21M",
+        "rel_volume": 3.73,
+        "volume": "2,162,555",
+        "earnings": "Aug 05/a"
+      },
+      {
+        "ticker": "ADIG",
+        "company": "ADI Global Distribution Inc",
+        "sector": "Technology",
+        "market_cap": "2.07B",
+        "price": 27.36,
+        "change_pct": 1.22,
+        "avg_volume": "917.36K",
+        "rel_volume": 3.57,
+        "volume": "1,566,537",
+        "earnings": "Jun 03"
+      },
+      {
+        "ticker": "TNXP",
+        "company": "Tonix Pharmaceuticals Holding Corp",
+        "sector": "Healthcare",
+        "market_cap": "191.45M",
+        "price": 12.01,
+        "change_pct": -0.17,
+        "avg_volume": "510.65K",
+        "rel_volume": 3.52,
+        "volume": "861,387",
+        "earnings": "Aug 10/b"
+      },
+      {
+        "ticker": "CRCT",
+        "company": "Cricut Inc",
+        "sector": "Technology",
+        "market_cap": "1.27B",
+        "price": 6.05,
+        "change_pct": 3.6,
+        "avg_volume": "590.70K",
+        "rel_volume": 3.47,
+        "volume": "981,698",
+        "earnings": "Aug 04/a"
+      },
+      {
+        "ticker": "FNKO",
+        "company": "Funko Inc",
+        "sector": "Consumer Cyclical",
+        "market_cap": "348.93M",
+        "price": 6.22,
+        "change_pct": 5.8,
+        "avg_volume": "887.67K",
+        "rel_volume": 3.17,
+        "volume": "1,338,348",
+        "earnings": "Aug 06/a"
+      },
+      {
+        "ticker": "GTE",
+        "company": "Gran Tierra Energy Inc",
+        "sector": "Energy",
+        "market_cap": "320.55M",
+        "price": 9.06,
+        "change_pct": 1.12,
+        "avg_volume": "706.80K",
+        "rel_volume": 3.1,
+        "volume": "1,050,358",
+        "earnings": "Aug 05/b"
+      },
+      {
+        "ticker": "SEZL",
+        "company": "Sezzle Inc",
+        "sector": "Financial",
+        "market_cap": "4.06B",
+        "price": 120.82,
+        "change_pct": 2.37,
+        "avg_volume": "677.47K",
+        "rel_volume": 2.93,
+        "volume": "951,015",
+        "earnings": "Aug 06/a"
+      },
+      {
+        "ticker": "AAOI",
+        "company": "Applied Optoelectronics Inc",
+        "sector": "Technology",
+        "market_cap": "11.35B",
+        "price": 134.16,
+        "change_pct": -1.08,
+        "avg_volume": "12.27M",
+        "rel_volume": 2.42,
+        "volume": "14,208,812",
+        "earnings": "Aug 06/a"
+      },
+      {
+        "ticker": "JAB",
+        "company": "JAB Acquisition Corp I",
+        "sector": "Financial",
+        "market_cap": "279.20M",
+        "price": 9.9,
+        "change_pct": 0.0,
+        "avg_volume": "728.81K",
+        "rel_volume": 2.42,
+        "volume": "838,330",
+        "earnings": "-"
+      },
+      {
+        "ticker": "MATV",
+        "company": "Mativ Holdings Inc",
+        "sector": "Basic Materials",
+        "market_cap": "694.76M",
+        "price": 12.59,
+        "change_pct": -2.34,
+        "avg_volume": "516.36K",
+        "rel_volume": 2.36,
+        "volume": "582,256",
+        "earnings": "Aug 05/a"
+      },
+      {
+        "ticker": "CEF",
+        "company": "Sprott Physical Gold and Silver Trust",
+        "sector": "Financial",
+        "market_cap": "8.11B",
+        "price": 44.1,
+        "change_pct": 1.19,
+        "avg_volume": "685.48K",
+        "rel_volume": 2.29,
+        "volume": "752,082",
+        "earnings": "-"
+      },
+      {
+        "ticker": "WEAV",
+        "company": "Weave Communications Inc",
+        "sector": "Healthcare",
+        "market_cap": "432.50M",
+        "price": 5.41,
+        "change_pct": 2.2,
+        "avg_volume": "1.08M",
+        "rel_volume": 2.16,
+        "volume": "1,110,650",
+        "earnings": "Aug 06/a"
+      },
+      {
+        "ticker": "AMRZ",
+        "company": "Amrize Ltd",
+        "sector": "Basic Materials",
+        "market_cap": "25.71B",
+        "price": 46.44,
+        "change_pct": -0.43,
+        "avg_volume": "3.13M",
+        "rel_volume": 2.15,
+        "volume": "3,220,382",
+        "earnings": "Aug 06/a"
+      },
+      {
+        "ticker": "INTR",
+        "company": "Inter & Co Inc",
+        "sector": "Financial",
+        "market_cap": "2.33B",
+        "price": 5.29,
+        "change_pct": 0.38,
+        "avg_volume": "6.32M",
+        "rel_volume": 2.14,
+        "volume": "6,478,522",
+        "earnings": "Aug 05/a"
+      },
+      {
+        "ticker": "HALO",
+        "company": "Halozyme Therapeutics Inc",
+        "sector": "Healthcare",
+        "market_cap": "11.60B",
+        "price": 102.22,
+        "change_pct": -0.87,
+        "avg_volume": "1.99M",
+        "rel_volume": 2.13,
+        "volume": "2,026,053",
+        "earnings": "Aug 06/a"
+      },
+      {
+        "ticker": "KRP",
+        "company": "Kimbell Royalty Partners LP",
+        "sector": "Energy",
+        "market_cap": "1.75B",
+        "price": 14.97,
+        "change_pct": -0.1,
+        "avg_volume": "778.96K",
+        "rel_volume": 2.09,
+        "volume": "778,205",
+        "earnings": "Aug 07/b"
+      },
+      {
+        "ticker": "EMBJ",
+        "company": "Embraer SA ADR",
+        "sector": "Industrials",
+        "market_cap": "13.61B",
+        "price": 76.5,
+        "change_pct": 4.79,
+        "avg_volume": "1.39M",
+        "rel_volume": 2.05,
+        "volume": "1,367,654",
+        "earnings": "Aug 10/b"
+      },
+      {
+        "ticker": "CRC",
+        "company": "California Resources Corp",
+        "sector": "Energy",
+        "market_cap": "4.66B",
+        "price": 52.53,
+        "change_pct": 0.87,
+        "avg_volume": "811.01K",
+        "rel_volume": 2.0,
+        "volume": "777,858",
+        "earnings": "Aug 10/b"
+      }
+    ]
   }
 ]
