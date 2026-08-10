@@ -1933,5 +1933,154 @@
         "volume": 143994.0
       }
     ]
+  },
+  {
+    "timestamp": "2026-08-10T16:07:32.741072+00:00",
+    "label": "midnight_kst",
+    "candidates": [
+      {
+        "ticker": "IEP",
+        "company": "Icahn Enterprises L P",
+        "float_shares": 50800000.0,
+        "short_float_pct": 33.04,
+        "short_ratio_days": 18.85,
+        "rel_volume": 0.75,
+        "squeeze_score": 467.1,
+        "avg_volume": 890260.0,
+        "price": 7.46,
+        "change_pct": 0.07,
+        "volume": 665953.0
+      },
+      {
+        "ticker": "TNXP",
+        "company": "Tonix Pharmaceuticals Holding Corp",
+        "float_shares": 15890000.0,
+        "short_float_pct": 22.56,
+        "short_ratio_days": 7.02,
+        "rel_volume": 1.64,
+        "squeeze_score": 259.7,
+        "avg_volume": 510650.0,
+        "price": 12.05,
+        "change_pct": 0.17,
+        "volume": 839714.0
+      },
+      {
+        "ticker": "HTZ",
+        "company": "Hertz Global Holdings Inc",
+        "float_shares": 340280000.0,
+        "short_float_pct": 28.66,
+        "short_ratio_days": 4.21,
+        "rel_volume": 2.02,
+        "squeeze_score": 243.7,
+        "avg_volume": 23170000.0,
+        "price": 2.24,
+        "change_pct": -1.1,
+        "volume": 46744331.0
+      },
+      {
+        "ticker": "XPOF",
+        "company": "Xponential Fitness Inc",
+        "float_shares": 28960000.0,
+        "short_float_pct": 29.79,
+        "short_ratio_days": 10.49,
+        "rel_volume": 0.67,
+        "squeeze_score": 209.4,
+        "avg_volume": 821940.0,
+        "price": 4.93,
+        "change_pct": -1.99,
+        "volume": 548651.0
+      },
+      {
+        "ticker": "MNPR",
+        "company": "Monopar Therapeutics Inc",
+        "float_shares": 4160000.0,
+        "short_float_pct": 32.7,
+        "short_ratio_days": 6.24,
+        "rel_volume": 0.98,
+        "squeeze_score": 200.0,
+        "avg_volume": 218040.0,
+        "price": 116.4,
+        "change_pct": -2.36,
+        "volume": 213524.0
+      },
+      {
+        "ticker": "SEZL",
+        "company": "Sezzle Inc",
+        "float_shares": 16800000.0,
+        "short_float_pct": 24.01,
+        "short_ratio_days": 5.96,
+        "rel_volume": 1.37,
+        "squeeze_score": 196.0,
+        "avg_volume": 677470.0,
+        "price": 121.01,
+        "change_pct": 2.53,
+        "volume": 928844.0
+      },
+      {
+        "ticker": "PHAT",
+        "company": "Phathom Pharmaceuticals Inc",
+        "float_shares": 51020000.0,
+        "short_float_pct": 23.76,
+        "short_ratio_days": 9.49,
+        "rel_volume": 0.65,
+        "squeeze_score": 146.6,
+        "avg_volume": 1280000.0,
+        "price": 8.54,
+        "change_pct": -0.12,
+        "volume": 836936.0
+      },
+      {
+        "ticker": "OMDA",
+        "company": "Omada Health Inc",
+        "float_shares": 27870000.0,
+        "short_float_pct": 28.64,
+        "short_ratio_days": 6.07,
+        "rel_volume": 0.73,
+        "squeeze_score": 126.9,
+        "avg_volume": 1310000.0,
+        "price": 24.89,
+        "change_pct": 5.15,
+        "volume": 952420.0
+      },
+      {
+        "ticker": "PLUG",
+        "company": "Plug Power Inc",
+        "float_shares": 1330000000.0,
+        "short_float_pct": 24.79,
+        "short_ratio_days": 5.12,
+        "rel_volume": 0.78,
+        "squeeze_score": 99.0,
+        "avg_volume": 64510000.00000001,
+        "price": 2.13,
+        "change_pct": -2.29,
+        "volume": 50065758.0
+      },
+      {
+        "ticker": "NRGV",
+        "company": "Energy Vault Holdings Inc",
+        "float_shares": 132060000.0,
+        "short_float_pct": 23.21,
+        "short_ratio_days": 5.44,
+        "rel_volume": 0.71,
+        "squeeze_score": 89.6,
+        "avg_volume": 5640000.0,
+        "price": 3.52,
+        "change_pct": 0.86,
+        "volume": 3995490.0
+      },
+      {
+        "ticker": "SPCX",
+        "company": "Space Exploration Technologies Corp",
+        "float_shares": 656650000.0,
+        "short_float_pct": 25.13,
+        "short_ratio_days": 1.33,
+        "rel_volume": 0.74,
+        "squeeze_score": 24.7,
+        "avg_volume": 124130000.0,
+        "price": 133.27,
+        "change_pct": 0.12,
+        "volume": 92288192.0
+      }
+    ]
   }
 ]
