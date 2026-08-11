@@ -6366,5 +6366,801 @@
         "group_no": "301"
       }
     ]
+  },
+  {
+    "timestamp": "2026-08-11T02:09:16.035170+00:00",
+    "label": "kr_market_open",
+    "industries": [
+      {
+        "name": "가정용기기와용품",
+        "change_pct": 4.04,
+        "total": 20,
+        "up": 10,
+        "flat": 0,
+        "down": 10,
+        "up_ratio_pct": 50.0,
+        "group_no": "298"
+      },
+      {
+        "name": "손해보험",
+        "change_pct": 3.13,
+        "total": 12,
+        "up": 10,
+        "flat": 0,
+        "down": 2,
+        "up_ratio_pct": 83.3,
+        "group_no": "315"
+      },
+      {
+        "name": "제약",
+        "change_pct": 2.49,
+        "total": 175,
+        "up": 107,
+        "flat": 22,
+        "down": 46,
+        "up_ratio_pct": 61.1,
+        "group_no": "261"
+      },
+      {
+        "name": "화장품",
+        "change_pct": 2.49,
+        "total": 65,
+        "up": 45,
+        "flat": 8,
+        "down": 12,
+        "up_ratio_pct": 69.2,
+        "group_no": "266"
+      },
+      {
+        "name": "포장재",
+        "change_pct": 2.43,
+        "total": 27,
+        "up": 15,
+        "flat": 0,
+        "down": 12,
+        "up_ratio_pct": 55.6,
+        "group_no": "311"
+      },
+      {
+        "name": "IT서비스",
+        "change_pct": 2.34,
+        "total": 117,
+        "up": 53,
+        "flat": 7,
+        "down": 57,
+        "up_ratio_pct": 45.3,
+        "group_no": "267"
+      },
+      {
+        "name": "문구류",
+        "change_pct": 2.22,
+        "total": 1,
+        "up": 1,
+        "flat": 0,
+        "down": 0,
+        "up_ratio_pct": 100.0,
+        "group_no": "332"
+      },
+      {
+        "name": "복합유틸리티",
+        "change_pct": 1.94,
+        "total": 1,
+        "up": 1,
+        "flat": 0,
+        "down": 0,
+        "up_ratio_pct": 100.0,
+        "group_no": "331"
+      },
+      {
+        "name": "반도체와반도체장비",
+        "change_pct": 1.76,
+        "total": 171,
+        "up": 88,
+        "flat": 10,
+        "down": 73,
+        "up_ratio_pct": 51.5,
+        "group_no": "278"
+      },
+      {
+        "name": "인터넷과카탈로그소매",
+        "change_pct": 1.64,
+        "total": 6,
+        "up": 6,
+        "flat": 0,
+        "down": 0,
+        "up_ratio_pct": 100.0,
+        "group_no": "308"
+      },
+      {
+        "name": "석유와가스",
+        "change_pct": 1.57,
+        "total": 19,
+        "up": 15,
+        "flat": 1,
+        "down": 3,
+        "up_ratio_pct": 78.9,
+        "group_no": "313"
+      },
+      {
+        "name": "다각화된통신서비스",
+        "change_pct": 1.55,
+        "total": 3,
+        "up": 3,
+        "flat": 0,
+        "down": 0,
+        "up_ratio_pct": 100.0,
+        "group_no": "336"
+      },
+      {
+        "name": "양방향미디어와서비스",
+        "change_pct": 1.45,
+        "total": 16,
+        "up": 6,
+        "flat": 3,
+        "down": 7,
+        "up_ratio_pct": 37.5,
+        "group_no": "300"
+      },
+      {
+        "name": "식품과기본식료품소매",
+        "change_pct": 1.4,
+        "total": 7,
+        "up": 5,
+        "flat": 0,
+        "down": 2,
+        "up_ratio_pct": 71.4,
+        "group_no": "302"
+      },
+      {
+        "name": "건설",
+        "change_pct": 1.38,
+        "total": 78,
+        "up": 54,
+        "flat": 8,
+        "down": 16,
+        "up_ratio_pct": 69.2,
+        "group_no": "279"
+      },
+      {
+        "name": "에너지장비및서비스",
+        "change_pct": 1.34,
+        "total": 34,
+        "up": 13,
+        "flat": 3,
+        "down": 18,
+        "up_ratio_pct": 38.2,
+        "group_no": "295"
+      },
+      {
+        "name": "출판",
+        "change_pct": 1.34,
+        "total": 8,
+        "up": 5,
+        "flat": 1,
+        "down": 2,
+        "up_ratio_pct": 62.5,
+        "group_no": "314"
+      },
+      {
+        "name": "부동산",
+        "change_pct": 1.3,
+        "total": 31,
+        "up": 19,
+        "flat": 4,
+        "down": 8,
+        "up_ratio_pct": 61.3,
+        "group_no": "280"
+      },
+      {
+        "name": "가스유틸리티",
+        "change_pct": 1.28,
+        "total": 12,
+        "up": 8,
+        "flat": 2,
+        "down": 2,
+        "up_ratio_pct": 66.7,
+        "group_no": "312"
+      },
+      {
+        "name": "생명보험",
+        "change_pct": 1.25,
+        "total": 4,
+        "up": 2,
+        "flat": 1,
+        "down": 1,
+        "up_ratio_pct": 50.0,
+        "group_no": "330"
+      },
+      {
+        "name": "건축자재",
+        "change_pct": 1.24,
+        "total": 51,
+        "up": 37,
+        "flat": 2,
+        "down": 12,
+        "up_ratio_pct": 72.5,
+        "group_no": "289"
+      },
+      {
+        "name": "가구",
+        "change_pct": 1.2,
+        "total": 11,
+        "up": 8,
+        "flat": 0,
+        "down": 3,
+        "up_ratio_pct": 72.7,
+        "group_no": "303"
+      },
+      {
+        "name": "기타금융",
+        "change_pct": 1.19,
+        "total": 6,
+        "up": 2,
+        "flat": 2,
+        "down": 2,
+        "up_ratio_pct": 33.3,
+        "group_no": "319"
+      },
+      {
+        "name": "게임엔터테인먼트",
+        "change_pct": 1.14,
+        "total": 34,
+        "up": 20,
+        "flat": 4,
+        "down": 10,
+        "up_ratio_pct": 58.8,
+        "group_no": "263"
+      },
+      {
+        "name": "비철금속",
+        "change_pct": 1.06,
+        "total": 40,
+        "up": 24,
+        "flat": 3,
+        "down": 13,
+        "up_ratio_pct": 60.0,
+        "group_no": "322"
+      },
+      {
+        "name": "무선통신서비스",
+        "change_pct": 1.05,
+        "total": 4,
+        "up": 2,
+        "flat": 1,
+        "down": 1,
+        "up_ratio_pct": 50.0,
+        "group_no": "333"
+      },
+      {
+        "name": "레저용장비와제품",
+        "change_pct": 0.91,
+        "total": 13,
+        "up": 6,
+        "flat": 2,
+        "down": 5,
+        "up_ratio_pct": 46.2,
+        "group_no": "271"
+      },
+      {
+        "name": "교육서비스",
+        "change_pct": 0.88,
+        "total": 24,
+        "up": 14,
+        "flat": 3,
+        "down": 7,
+        "up_ratio_pct": 58.3,
+        "group_no": "290"
+      },
+      {
+        "name": "디스플레이패널",
+        "change_pct": 0.8,
+        "total": 6,
+        "up": 3,
+        "flat": 2,
+        "down": 1,
+        "up_ratio_pct": 50.0,
+        "group_no": "327"
+      },
+      {
+        "name": "상업서비스와공급품",
+        "change_pct": 0.77,
+        "total": 31,
+        "up": 16,
+        "flat": 6,
+        "down": 9,
+        "up_ratio_pct": 51.6,
+        "group_no": "324"
+      },
+      {
+        "name": "호텔,레스토랑,레저",
+        "change_pct": 0.46,
+        "total": 19,
+        "up": 11,
+        "flat": 0,
+        "down": 8,
+        "up_ratio_pct": 57.9,
+        "group_no": "317"
+      },
+      {
+        "name": "전문소매",
+        "change_pct": 0.45,
+        "total": 5,
+        "up": 3,
+        "flat": 0,
+        "down": 2,
+        "up_ratio_pct": 60.0,
+        "group_no": "328"
+      },
+      {
+        "name": "해운사",
+        "change_pct": 0.39,
+        "total": 11,
+        "up": 7,
+        "flat": 2,
+        "down": 2,
+        "up_ratio_pct": 63.6,
+        "group_no": "323"
+      },
+      {
+        "name": "증권",
+        "change_pct": 0.29,
+        "total": 39,
+        "up": 23,
+        "flat": 6,
+        "down": 10,
+        "up_ratio_pct": 59.0,
+        "group_no": "321"
+      },
+      {
+        "name": "섬유,의류,신발,호화품",
+        "change_pct": 0.28,
+        "total": 81,
+        "up": 39,
+        "flat": 6,
+        "down": 36,
+        "up_ratio_pct": 48.1,
+        "group_no": "274"
+      },
+      {
+        "name": "항공화물운송과물류",
+        "change_pct": 0.26,
+        "total": 13,
+        "up": 10,
+        "flat": 1,
+        "down": 2,
+        "up_ratio_pct": 76.9,
+        "group_no": "326"
+      },
+      {
+        "name": "종이와목재",
+        "change_pct": 0.19,
+        "total": 14,
+        "up": 6,
+        "flat": 2,
+        "down": 6,
+        "up_ratio_pct": 42.9,
+        "group_no": "318"
+      },
+      {
+        "name": "음료",
+        "change_pct": 0.16,
+        "total": 16,
+        "up": 10,
+        "flat": 3,
+        "down": 3,
+        "up_ratio_pct": 62.5,
+        "group_no": "309"
+      },
+      {
+        "name": "광고",
+        "change_pct": 0.16,
+        "total": 19,
+        "up": 12,
+        "flat": 1,
+        "down": 6,
+        "up_ratio_pct": 63.2,
+        "group_no": "310"
+      },
+      {
+        "name": "도로와철도운송",
+        "change_pct": 0.16,
+        "total": 8,
+        "up": 5,
+        "flat": 0,
+        "down": 3,
+        "up_ratio_pct": 62.5,
+        "group_no": "329"
+      },
+      {
+        "name": "항공사",
+        "change_pct": 0.15,
+        "total": 9,
+        "up": 2,
+        "flat": 1,
+        "down": 6,
+        "up_ratio_pct": 22.2,
+        "group_no": "305"
+      },
+      {
+        "name": "다각화된소비자서비스",
+        "change_pct": 0.13,
+        "total": 1,
+        "up": 1,
+        "flat": 0,
+        "down": 0,
+        "up_ratio_pct": 100.0,
+        "group_no": "339"
+      },
+      {
+        "name": "생명과학도구및서비스",
+        "change_pct": 0.11,
+        "total": 41,
+        "up": 23,
+        "flat": 6,
+        "down": 12,
+        "up_ratio_pct": 56.1,
+        "group_no": "262"
+      },
+      {
+        "name": "은행",
+        "change_pct": 0.01,
+        "total": 11,
+        "up": 5,
+        "flat": 1,
+        "down": 5,
+        "up_ratio_pct": 45.5,
+        "group_no": "301"
+      },
+      {
+        "name": "핸드셋",
+        "change_pct": 0.01,
+        "total": 57,
+        "up": 25,
+        "flat": 2,
+        "down": 30,
+        "up_ratio_pct": 43.9,
+        "group_no": "292"
+      },
+      {
+        "name": "복합기업",
+        "change_pct": -0.08,
+        "total": 22,
+        "up": 7,
+        "flat": 3,
+        "down": 12,
+        "up_ratio_pct": 31.8,
+        "group_no": "276"
+      },
+      {
+        "name": "건축제품",
+        "change_pct": -0.13,
+        "total": 11,
+        "up": 4,
+        "flat": 1,
+        "down": 6,
+        "up_ratio_pct": 36.4,
+        "group_no": "320"
+      },
+      {
+        "name": "건강관리장비와용품",
+        "change_pct": -0.16,
+        "total": 105,
+        "up": 46,
+        "flat": 23,
+        "down": 36,
+        "up_ratio_pct": 43.8,
+        "group_no": "281"
+      },
+      {
+        "name": "기타",
+        "change_pct": -0.17,
+        "total": 1535,
+        "up": 629,
+        "flat": 146,
+        "down": 760,
+        "up_ratio_pct": 41.0,
+        "group_no": "25"
+      },
+      {
+        "name": "식품",
+        "change_pct": -0.2,
+        "total": 92,
+        "up": 51,
+        "flat": 11,
+        "down": 30,
+        "up_ratio_pct": 55.4,
+        "group_no": "268"
+      },
+      {
+        "name": "운송인프라",
+        "change_pct": -0.22,
+        "total": 8,
+        "up": 5,
+        "flat": 0,
+        "down": 3,
+        "up_ratio_pct": 62.5,
+        "group_no": "296"
+      },
+      {
+        "name": "창업투자",
+        "change_pct": -0.33,
+        "total": 90,
+        "up": 22,
+        "flat": 18,
+        "down": 50,
+        "up_ratio_pct": 24.4,
+        "group_no": "277"
+      },
+      {
+        "name": "무역회사와판매업체",
+        "change_pct": -0.39,
+        "total": 8,
+        "up": 3,
+        "flat": 1,
+        "down": 4,
+        "up_ratio_pct": 37.5,
+        "group_no": "334"
+      },
+      {
+        "name": "가정용품",
+        "change_pct": -0.53,
+        "total": 11,
+        "up": 5,
+        "flat": 2,
+        "down": 4,
+        "up_ratio_pct": 45.5,
+        "group_no": "297"
+      },
+      {
+        "name": "자동차",
+        "change_pct": -0.56,
+        "total": 12,
+        "up": 5,
+        "flat": 2,
+        "down": 5,
+        "up_ratio_pct": 41.7,
+        "group_no": "273"
+      },
+      {
+        "name": "디스플레이장비및부품",
+        "change_pct": -0.59,
+        "total": 72,
+        "up": 25,
+        "flat": 7,
+        "down": 40,
+        "up_ratio_pct": 34.7,
+        "group_no": "269"
+      },
+      {
+        "name": "사무용전자제품",
+        "change_pct": -0.61,
+        "total": 1,
+        "up": 0,
+        "flat": 0,
+        "down": 1,
+        "up_ratio_pct": 0.0,
+        "group_no": "338"
+      },
+      {
+        "name": "자동차부품",
+        "change_pct": -0.69,
+        "total": 155,
+        "up": 76,
+        "flat": 20,
+        "down": 59,
+        "up_ratio_pct": 49.0,
+        "group_no": "270"
+      },
+      {
+        "name": "카드",
+        "change_pct": -0.73,
+        "total": 1,
+        "up": 0,
+        "flat": 0,
+        "down": 1,
+        "up_ratio_pct": 0.0,
+        "group_no": "337"
+      },
+      {
+        "name": "소프트웨어",
+        "change_pct": -0.75,
+        "total": 73,
+        "up": 27,
+        "flat": 10,
+        "down": 36,
+        "up_ratio_pct": 37.0,
+        "group_no": "287"
+      },
+      {
+        "name": "담배",
+        "change_pct": -0.75,
+        "total": 1,
+        "up": 0,
+        "flat": 0,
+        "down": 1,
+        "up_ratio_pct": 0.0,
+        "group_no": "275"
+      },
+      {
+        "name": "컴퓨터와주변기기",
+        "change_pct": -0.86,
+        "total": 21,
+        "up": 8,
+        "flat": 3,
+        "down": 10,
+        "up_ratio_pct": 38.1,
+        "group_no": "293"
+      },
+      {
+        "name": "전기유틸리티",
+        "change_pct": -1.0,
+        "total": 5,
+        "up": 0,
+        "flat": 0,
+        "down": 5,
+        "up_ratio_pct": 0.0,
+        "group_no": "325"
+      },
+      {
+        "name": "백화점과일반상점",
+        "change_pct": -1.07,
+        "total": 14,
+        "up": 7,
+        "flat": 0,
+        "down": 7,
+        "up_ratio_pct": 50.0,
+        "group_no": "264"
+      },
+      {
+        "name": "건강관리기술",
+        "change_pct": -1.41,
+        "total": 12,
+        "up": 7,
+        "flat": 0,
+        "down": 5,
+        "up_ratio_pct": 58.3,
+        "group_no": "288"
+      },
+      {
+        "name": "철강",
+        "change_pct": -1.46,
+        "total": 55,
+        "up": 29,
+        "flat": 3,
+        "down": 23,
+        "up_ratio_pct": 52.7,
+        "group_no": "304"
+      },
+      {
+        "name": "방송과엔터테인먼트",
+        "change_pct": -1.51,
+        "total": 58,
+        "up": 22,
+        "flat": 10,
+        "down": 26,
+        "up_ratio_pct": 37.9,
+        "group_no": "285"
+      },
+      {
+        "name": "판매업체",
+        "change_pct": -1.62,
+        "total": 13,
+        "up": 3,
+        "flat": 2,
+        "down": 8,
+        "up_ratio_pct": 23.1,
+        "group_no": "265"
+      },
+      {
+        "name": "화학",
+        "change_pct": -1.67,
+        "total": 123,
+        "up": 52,
+        "flat": 10,
+        "down": 61,
+        "up_ratio_pct": 42.3,
+        "group_no": "272"
+      },
+      {
+        "name": "기계",
+        "change_pct": -2.01,
+        "total": 104,
+        "up": 42,
+        "flat": 11,
+        "down": 51,
+        "up_ratio_pct": 40.4,
+        "group_no": "299"
+      },
+      {
+        "name": "전자장비와기기",
+        "change_pct": -2.04,
+        "total": 106,
+        "up": 35,
+        "flat": 5,
+        "down": 66,
+        "up_ratio_pct": 33.0,
+        "group_no": "282"
+      },
+      {
+        "name": "전기제품",
+        "change_pct": -2.2,
+        "total": 70,
+        "up": 22,
+        "flat": 7,
+        "down": 41,
+        "up_ratio_pct": 31.4,
+        "group_no": "283"
+      },
+      {
+        "name": "조선",
+        "change_pct": -2.23,
+        "total": 30,
+        "up": 7,
+        "flat": 3,
+        "down": 20,
+        "up_ratio_pct": 23.3,
+        "group_no": "291"
+      },
+      {
+        "name": "전기장비",
+        "change_pct": -2.87,
+        "total": 35,
+        "up": 6,
+        "flat": 3,
+        "down": 26,
+        "up_ratio_pct": 17.1,
+        "group_no": "306"
+      },
+      {
+        "name": "통신장비",
+        "change_pct": -2.92,
+        "total": 54,
+        "up": 12,
+        "flat": 7,
+        "down": 35,
+        "up_ratio_pct": 22.2,
+        "group_no": "294"
+      },
+      {
+        "name": "건강관리업체및서비스",
+        "change_pct": -2.98,
+        "total": 30,
+        "up": 10,
+        "flat": 1,
+        "down": 19,
+        "up_ratio_pct": 33.3,
+        "group_no": "316"
+      },
+      {
+        "name": "전자제품",
+        "change_pct": -3.42,
+        "total": 16,
+        "up": 6,
+        "flat": 1,
+        "down": 9,
+        "up_ratio_pct": 37.5,
+        "group_no": "307"
+      },
+      {
+        "name": "생물공학",
+        "change_pct": -4.12,
+        "total": 58,
+        "up": 29,
+        "flat": 6,
+        "down": 23,
+        "up_ratio_pct": 50.0,
+        "group_no": "286"
+      },
+      {
+        "name": "우주항공과국방",
+        "change_pct": -5.51,
+        "total": 33,
+        "up": 6,
+        "flat": 1,
+        "down": 26,
+        "up_ratio_pct": 18.2,
+        "group_no": "284"
+      }
+    ]
   }
 ]
