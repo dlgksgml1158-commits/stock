@@ -2425,5 +2425,154 @@
         "volume": 834746.0
       }
     ]
+  },
+  {
+    "timestamp": "2026-08-12T16:06:45.748856+00:00",
+    "label": "midnight_kst",
+    "candidates": [
+      {
+        "ticker": "ALT",
+        "company": "Altimmune Inc",
+        "float_shares": 183660000.0,
+        "short_float_pct": 28.28,
+        "short_ratio_days": 12.87,
+        "rel_volume": 0.67,
+        "squeeze_score": 243.9,
+        "avg_volume": 4040000.0,
+        "price": 3.17,
+        "change_pct": 5.83,
+        "volume": 2710494.0
+      },
+      {
+        "ticker": "RUM",
+        "company": "RUM Group Inc",
+        "float_shares": 72470000.0,
+        "short_float_pct": 37.09,
+        "short_ratio_days": 8.31,
+        "rel_volume": 0.78,
+        "squeeze_score": 240.4,
+        "avg_volume": 3230000.0,
+        "price": 7.21,
+        "change_pct": 4.16,
+        "volume": 2523035.0
+      },
+      {
+        "ticker": "CLBK",
+        "company": "Columbia Financial Inc",
+        "float_shares": 65819999.99999999,
+        "short_float_pct": 30.38,
+        "short_ratio_days": 4.93,
+        "rel_volume": 1.37,
+        "squeeze_score": 205.2,
+        "avg_volume": 4050000.0,
+        "price": 11.51,
+        "change_pct": 3.74,
+        "volume": 5558967.0
+      },
+      {
+        "ticker": "AIRS",
+        "company": "Airsculpt Technologies Inc",
+        "float_shares": 6750000.0,
+        "short_float_pct": 40.92,
+        "short_ratio_days": 3.79,
+        "rel_volume": 1.2,
+        "squeeze_score": 186.1,
+        "avg_volume": 727850.0,
+        "price": 3.15,
+        "change_pct": -1.87,
+        "volume": 873297.0
+      },
+      {
+        "ticker": "BTDR",
+        "company": "Bitdeer Technologies Group",
+        "float_shares": 131389999.99999999,
+        "short_float_pct": 44.08,
+        "short_ratio_days": 5.18,
+        "rel_volume": 0.71,
+        "squeeze_score": 162.1,
+        "avg_volume": 11180000.0,
+        "price": 9.1,
+        "change_pct": 4.72,
+        "volume": 7991714.0
+      },
+      {
+        "ticker": "STIM",
+        "company": "Neuronetics Inc",
+        "float_shares": 24000000.0,
+        "short_float_pct": 38.87,
+        "short_ratio_days": 3.72,
+        "rel_volume": 1.09,
+        "squeeze_score": 157.6,
+        "avg_volume": 2500000.0,
+        "price": 3.17,
+        "change_pct": -0.47,
+        "volume": 2725301.0
+      },
+      {
+        "ticker": "ABCL",
+        "company": "AbCellera Biologics Inc",
+        "float_shares": 235970000.0,
+        "short_float_pct": 20.48,
+        "short_ratio_days": 6.14,
+        "rel_volume": 0.98,
+        "squeeze_score": 123.2,
+        "avg_volume": 7870000.0,
+        "price": 9.94,
+        "change_pct": 1.9,
+        "volume": 7707702.0
+      },
+      {
+        "ticker": "HTZ",
+        "company": "Hertz Global Holdings Inc",
+        "float_shares": 343800000.0,
+        "short_float_pct": 30.02,
+        "short_ratio_days": 3.98,
+        "rel_volume": 1.03,
+        "squeeze_score": 123.1,
+        "avg_volume": 25920000.0,
+        "price": 2.51,
+        "change_pct": 2.45,
+        "volume": 26742048.0
+      },
+      {
+        "ticker": "DNUT",
+        "company": "Krispy Kreme Inc",
+        "float_shares": 93540000.0,
+        "short_float_pct": 20.59,
+        "short_ratio_days": 6.97,
+        "rel_volume": 0.75,
+        "squeeze_score": 107.6,
+        "avg_volume": 2760000.0,
+        "price": 3.21,
+        "change_pct": 4.05,
+        "volume": 2059581.0
+      },
+      {
+        "ticker": "MNPR",
+        "company": "Monopar Therapeutics Inc",
+        "float_shares": 4160000.0,
+        "short_float_pct": 25.6,
+        "short_ratio_days": 4.84,
+        "rel_volume": 0.83,
+        "squeeze_score": 102.8,
+        "avg_volume": 220260.0,
+        "price": 114.49,
+        "change_pct": 0.03,
+        "volume": 182889.0
+      },
+      {
+        "ticker": "PLUG",
+        "company": "Plug Power Inc",
+        "float_shares": 1330000000.0,
+        "short_float_pct": 22.08,
+        "short_ratio_days": 4.5,
+        "rel_volume": 0.81,
+        "squeeze_score": 80.5,
+        "avg_volume": 65330000.0,
+        "price": 2.28,
+        "change_pct": 2.7,
+        "volume": 52786150.0
+      }
+    ]
   }
 ]
