@@ -2574,5 +2574,141 @@
         "volume": 52786150.0
       }
     ]
+  },
+  {
+    "timestamp": "2026-08-12T16:30:05.779529+00:00",
+    "label": "market_open",
+    "candidates": [
+      {
+        "ticker": "ALT",
+        "company": "Altimmune Inc",
+        "float_shares": 183660000.0,
+        "short_float_pct": 28.28,
+        "short_ratio_days": 12.87,
+        "rel_volume": 0.75,
+        "squeeze_score": 273.0,
+        "avg_volume": 4040000.0,
+        "price": 3.16,
+        "change_pct": 5.33,
+        "volume": 3022341.0
+      },
+      {
+        "ticker": "RUM",
+        "company": "RUM Group Inc",
+        "float_shares": 72470000.0,
+        "short_float_pct": 37.09,
+        "short_ratio_days": 8.31,
+        "rel_volume": 0.86,
+        "squeeze_score": 265.1,
+        "avg_volume": 3230000.0,
+        "price": 7.26,
+        "change_pct": 4.99,
+        "volume": 2793059.0
+      },
+      {
+        "ticker": "CLBK",
+        "company": "Columbia Financial Inc",
+        "float_shares": 65819999.99999999,
+        "short_float_pct": 30.38,
+        "short_ratio_days": 4.93,
+        "rel_volume": 1.57,
+        "squeeze_score": 235.1,
+        "avg_volume": 4050000.0,
+        "price": 11.52,
+        "change_pct": 3.83,
+        "volume": 6353651.0
+      },
+      {
+        "ticker": "AIRS",
+        "company": "Airsculpt Technologies Inc",
+        "float_shares": 6750000.0,
+        "short_float_pct": 40.92,
+        "short_ratio_days": 3.79,
+        "rel_volume": 1.24,
+        "squeeze_score": 192.3,
+        "avg_volume": 727850.0,
+        "price": 3.21,
+        "change_pct": -0.16,
+        "volume": 901498.0
+      },
+      {
+        "ticker": "BTDR",
+        "company": "Bitdeer Technologies Group",
+        "float_shares": 131389999.99999999,
+        "short_float_pct": 44.08,
+        "short_ratio_days": 5.18,
+        "rel_volume": 0.77,
+        "squeeze_score": 175.8,
+        "avg_volume": 11180000.0,
+        "price": 9.16,
+        "change_pct": 5.41,
+        "volume": 8575579.0
+      },
+      {
+        "ticker": "STIM",
+        "company": "Neuronetics Inc",
+        "float_shares": 24000000.0,
+        "short_float_pct": 38.87,
+        "short_ratio_days": 3.72,
+        "rel_volume": 1.16,
+        "squeeze_score": 167.7,
+        "avg_volume": 2500000.0,
+        "price": 3.18,
+        "change_pct": -0.16,
+        "volume": 2901658.0
+      },
+      {
+        "ticker": "HTZ",
+        "company": "Hertz Global Holdings Inc",
+        "float_shares": 343800000.0,
+        "short_float_pct": 30.02,
+        "short_ratio_days": 3.98,
+        "rel_volume": 1.13,
+        "squeeze_score": 135.0,
+        "avg_volume": 25920000.0,
+        "price": 2.58,
+        "change_pct": 5.31,
+        "volume": 29249608.0
+      },
+      {
+        "ticker": "ABCL",
+        "company": "AbCellera Biologics Inc",
+        "float_shares": 235970000.0,
+        "short_float_pct": 20.48,
+        "short_ratio_days": 6.14,
+        "rel_volume": 1.02,
+        "squeeze_score": 128.3,
+        "avg_volume": 7870000.0,
+        "price": 10.06,
+        "change_pct": 3.02,
+        "volume": 8026745.0
+      },
+      {
+        "ticker": "MNPR",
+        "company": "Monopar Therapeutics Inc",
+        "float_shares": 4160000.0,
+        "short_float_pct": 25.6,
+        "short_ratio_days": 4.84,
+        "rel_volume": 0.91,
+        "squeeze_score": 112.8,
+        "avg_volume": 220260.0,
+        "price": 114.37,
+        "change_pct": -0.08,
+        "volume": 199935.0
+      },
+      {
+        "ticker": "PLUG",
+        "company": "Plug Power Inc",
+        "float_shares": 1330000000.0,
+        "short_float_pct": 22.08,
+        "short_ratio_days": 4.5,
+        "rel_volume": 0.86,
+        "squeeze_score": 85.4,
+        "avg_volume": 65330000.0,
+        "price": 2.3,
+        "change_pct": 3.6,
+        "volume": 56300890.0
+      }
+    ]
   }
 ]
