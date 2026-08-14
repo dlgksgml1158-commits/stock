@@ -3352,5 +3352,115 @@
         "volume": 13125084.0
       }
     ]
+  },
+  {
+    "timestamp": "2026-08-14T16:27:48.654211+00:00",
+    "label": "market_open",
+    "candidates": [
+      {
+        "ticker": "IEP",
+        "company": "Icahn Enterprises L P",
+        "float_shares": 50800000.0,
+        "short_float_pct": 33.33,
+        "short_ratio_days": 18.91,
+        "rel_volume": 1.51,
+        "squeeze_score": 951.7,
+        "avg_volume": 895460.0,
+        "price": 7.47,
+        "change_pct": -0.4,
+        "volume": 1353503.0
+      },
+      {
+        "ticker": "ARCT",
+        "company": "Arcturus Therapeutics Holdings Inc",
+        "float_shares": 26050000.0,
+        "short_float_pct": 27.67,
+        "short_ratio_days": 14.61,
+        "rel_volume": 1.25,
+        "squeeze_score": 505.3,
+        "avg_volume": 493440.0,
+        "price": 8.27,
+        "change_pct": 5.22,
+        "volume": 614666.0
+      },
+      {
+        "ticker": "MUX",
+        "company": "McEwen Inc",
+        "float_shares": 51000000.0,
+        "short_float_pct": 24.06,
+        "short_ratio_days": 11.2,
+        "rel_volume": 0.98,
+        "squeeze_score": 264.1,
+        "avg_volume": 1100000.0,
+        "price": 18.93,
+        "change_pct": 1.88,
+        "volume": 1080411.0
+      },
+      {
+        "ticker": "OMER",
+        "company": "Omeros Corp",
+        "float_shares": 69800000.0,
+        "short_float_pct": 22.09,
+        "short_ratio_days": 7.32,
+        "rel_volume": 0.87,
+        "squeeze_score": 140.7,
+        "avg_volume": 2110000.0,
+        "price": 17.05,
+        "change_pct": -1.73,
+        "volume": 1826486.0
+      },
+      {
+        "ticker": "RIG",
+        "company": "Transocean Ltd",
+        "float_shares": 1010000000.0,
+        "short_float_pct": 25.13,
+        "short_ratio_days": 6.67,
+        "rel_volume": 0.72,
+        "squeeze_score": 120.7,
+        "avg_volume": 38150000.0,
+        "price": 5.8,
+        "change_pct": 1.31,
+        "volume": 27550030.0
+      },
+      {
+        "ticker": "ABCL",
+        "company": "AbCellera Biologics Inc",
+        "float_shares": 235970000.0,
+        "short_float_pct": 20.48,
+        "short_ratio_days": 5.99,
+        "rel_volume": 0.8,
+        "squeeze_score": 98.1,
+        "avg_volume": 8070000.0,
+        "price": 11.08,
+        "change_pct": 1.0,
+        "volume": 6425945.0
+      },
+      {
+        "ticker": "HTZ",
+        "company": "Hertz Global Holdings Inc",
+        "float_shares": 343800000.0,
+        "short_float_pct": 30.02,
+        "short_ratio_days": 3.59,
+        "rel_volume": 0.78,
+        "squeeze_score": 84.1,
+        "avg_volume": 28740000.0,
+        "price": 2.3,
+        "change_pct": -1.88,
+        "volume": 22501976.0
+      },
+      {
+        "ticker": "ZENA",
+        "company": "ZenaTech Inc",
+        "float_shares": 34070000.0,
+        "short_float_pct": 22.37,
+        "short_ratio_days": 1.77,
+        "rel_volume": 1.5,
+        "squeeze_score": 59.4,
+        "avg_volume": 4310000.0,
+        "price": 2.13,
+        "change_pct": -0.0,
+        "volume": 6457851.0
+      }
+    ]
   }
 ]

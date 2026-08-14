@@ -10084,5 +10084,263 @@
         "earnings": "Aug 06/b"
       }
     ]
+  },
+  {
+    "timestamp": "2026-08-14T16:27:16.385991+00:00",
+    "label": "market_open",
+    "candidates": [
+      {
+        "ticker": "ARX",
+        "company": "Accelerant Holdings",
+        "sector": "Financial",
+        "market_cap": "4.28B",
+        "price": 19.63,
+        "change_pct": 0.6,
+        "avg_volume": "3.13M",
+        "rel_volume": 9.31,
+        "volume": "13,971,700",
+        "earnings": "Aug 13/b"
+      },
+      {
+        "ticker": "VIV",
+        "company": "Telefonica Brasil SA ADR",
+        "sector": "Communication Services",
+        "market_cap": "18.03B",
+        "price": 11.28,
+        "change_pct": -0.49,
+        "avg_volume": "1.22M",
+        "rel_volume": 7.06,
+        "volume": "4,143,079",
+        "earnings": "Jul 27/a"
+      },
+      {
+        "ticker": "DIOD",
+        "company": "Diodes Inc",
+        "sector": "Technology",
+        "market_cap": "4.71B",
+        "price": 102.36,
+        "change_pct": 5.31,
+        "avg_volume": "634.47K",
+        "rel_volume": 5.43,
+        "volume": "1,649,749",
+        "earnings": "Aug 05/a"
+      },
+      {
+        "ticker": "BRUN",
+        "company": "Boost Run Inc",
+        "sector": "Technology",
+        "market_cap": "1.82B",
+        "price": 23.82,
+        "change_pct": 5.63,
+        "avg_volume": "1.94M",
+        "rel_volume": 4.67,
+        "volume": "4,341,097",
+        "earnings": "Aug 14/b"
+      },
+      {
+        "ticker": "ZIM",
+        "company": "Zim Integrated Shipping Services Ltd",
+        "sector": "Industrials",
+        "market_cap": "3.40B",
+        "price": 28.2,
+        "change_pct": 5.15,
+        "avg_volume": "1.19M",
+        "rel_volume": 4.27,
+        "volume": "2,445,820",
+        "earnings": "Aug 19/b"
+      },
+      {
+        "ticker": "SECZ",
+        "company": "Securitize Corp",
+        "sector": "Technology",
+        "market_cap": "933.88M",
+        "price": 5.72,
+        "change_pct": 0.35,
+        "avg_volume": "1.22M",
+        "rel_volume": 4.09,
+        "volume": "2,401,769",
+        "earnings": "Aug 12/a"
+      },
+      {
+        "ticker": "RSKD",
+        "company": "Riskified Ltd",
+        "sector": "Technology",
+        "market_cap": "873.56M",
+        "price": 6.53,
+        "change_pct": 1.22,
+        "avg_volume": "1.09M",
+        "rel_volume": 3.58,
+        "volume": "1,867,723",
+        "earnings": "Aug 12/b"
+      },
+      {
+        "ticker": "CLBT",
+        "company": "Cellebrite DI Ltd",
+        "sector": "Technology",
+        "market_cap": "2.74B",
+        "price": 10.98,
+        "change_pct": 1.71,
+        "avg_volume": "2.50M",
+        "rel_volume": 3.41,
+        "volume": "4,084,796",
+        "earnings": "Aug 13/b"
+      },
+      {
+        "ticker": "IEP",
+        "company": "Icahn Enterprises L P",
+        "sector": "Energy",
+        "market_cap": "5.31B",
+        "price": 7.47,
+        "change_pct": -0.47,
+        "avg_volume": "895.46K",
+        "rel_volume": 3.15,
+        "volume": "1,349,682",
+        "earnings": "Aug 05/b"
+      },
+      {
+        "ticker": "AYA",
+        "company": "Aya Gold & Silver Inc",
+        "sector": "Basic Materials",
+        "market_cap": "3.80B",
+        "price": 26.53,
+        "change_pct": -1.52,
+        "avg_volume": "577.41K",
+        "rel_volume": 2.92,
+        "volume": "807,649",
+        "earnings": "-"
+      },
+      {
+        "ticker": "CBRS",
+        "company": "Cerebras Systems Inc",
+        "sector": "Technology",
+        "market_cap": "48.14B",
+        "price": 225.54,
+        "change_pct": -2.37,
+        "avg_volume": "7.36M",
+        "rel_volume": 2.88,
+        "volume": "10,134,242",
+        "earnings": "Aug 12/a"
+      },
+      {
+        "ticker": "SFNC",
+        "company": "Simmons First National Corp",
+        "sector": "Financial",
+        "market_cap": "3.46B",
+        "price": 23.93,
+        "change_pct": -0.02,
+        "avg_volume": "1.43M",
+        "rel_volume": 2.74,
+        "volume": "1,880,838",
+        "earnings": "Jul 16/a"
+      },
+      {
+        "ticker": "CHEF",
+        "company": "Chefs' Warehouse Inc",
+        "sector": "Consumer Defensive",
+        "market_cap": "4.53B",
+        "price": 111.16,
+        "change_pct": -0.79,
+        "avg_volume": "552.36K",
+        "rel_volume": 2.63,
+        "volume": "696,044",
+        "earnings": "Jul 29/b"
+      },
+      {
+        "ticker": "SGML",
+        "company": "Sigma Lithium Corp",
+        "sector": "Basic Materials",
+        "market_cap": "1.33B",
+        "price": 11.9,
+        "change_pct": 5.03,
+        "avg_volume": "2.35M",
+        "rel_volume": 2.41,
+        "volume": "2,732,847",
+        "earnings": "Aug 14/b"
+      },
+      {
+        "ticker": "SMJF",
+        "company": "SMJ International Holdings Inc",
+        "sector": "Consumer Cyclical",
+        "market_cap": "277.88M",
+        "price": 10.03,
+        "change_pct": 1.31,
+        "avg_volume": "768.48K",
+        "rel_volume": 2.4,
+        "volume": "887,213",
+        "earnings": "-"
+      },
+      {
+        "ticker": "OCTV",
+        "company": "Octave Intelligence Plc",
+        "sector": "Technology",
+        "market_cap": "5.09B",
+        "price": 18.94,
+        "change_pct": 0.21,
+        "avg_volume": "1.56M",
+        "rel_volume": 2.32,
+        "volume": "1,731,600",
+        "earnings": "Aug 12/b"
+      },
+      {
+        "ticker": "TBBB",
+        "company": "BBB Foods Inc",
+        "sector": "Consumer Defensive",
+        "market_cap": "5.81B",
+        "price": 48.21,
+        "change_pct": -2.02,
+        "avg_volume": "742.14K",
+        "rel_volume": 2.22,
+        "volume": "791,418",
+        "earnings": "Aug 12/a"
+      },
+      {
+        "ticker": "DV",
+        "company": "DoubleVerify Holdings Inc",
+        "sector": "Communication Services",
+        "market_cap": "2.06B",
+        "price": 13.28,
+        "change_pct": -0.15,
+        "avg_volume": "3.86M",
+        "rel_volume": 2.17,
+        "volume": "4,013,949",
+        "earnings": "Aug 06/a"
+      },
+      {
+        "ticker": "VAL",
+        "company": "Valaris Ltd",
+        "sector": "Energy",
+        "market_cap": "5.99B",
+        "price": 86.26,
+        "change_pct": 1.33,
+        "avg_volume": "979.19K",
+        "rel_volume": 2.16,
+        "volume": "1,016,436",
+        "earnings": "Aug 05/a"
+      },
+      {
+        "ticker": "MUX",
+        "company": "McEwen Inc",
+        "sector": "Basic Materials",
+        "market_cap": "1.16B",
+        "price": 18.94,
+        "change_pct": 1.96,
+        "avg_volume": "1.10M",
+        "rel_volume": 2.05,
+        "volume": "1,075,630",
+        "earnings": "Aug 06/b"
+      },
+      {
+        "ticker": "EROC",
+        "company": "ERock Inc",
+        "sector": "Industrials",
+        "market_cap": "3.54B",
+        "price": 16.15,
+        "change_pct": 3.13,
+        "avg_volume": "2.62M",
+        "rel_volume": 2.02,
+        "volume": "2,533,546",
+        "earnings": "Aug 11/a"
+      }
+    ]
   }
 ]
