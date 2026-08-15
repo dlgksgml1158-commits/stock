@@ -3462,5 +3462,141 @@
         "volume": 6457851.0
       }
     ]
+  },
+  {
+    "timestamp": "2026-08-15T15:31:43.225367+00:00",
+    "label": "midnight_kst",
+    "candidates": [
+      {
+        "ticker": "IEP",
+        "company": "Icahn Enterprises L P",
+        "float_shares": 50800000.0,
+        "short_float_pct": 33.33,
+        "short_ratio_days": 18.91,
+        "rel_volume": 3.75,
+        "squeeze_score": 2363.5,
+        "avg_volume": 895460.0,
+        "price": 7.42,
+        "change_pct": -1.07,
+        "volume": 3355900.0
+      },
+      {
+        "ticker": "FIEE",
+        "company": "FiEE Inc",
+        "float_shares": 240000.0,
+        "short_float_pct": 77.8,
+        "short_ratio_days": 0.72,
+        "rel_volume": 19.72,
+        "squeeze_score": 1104.6,
+        "avg_volume": 260320.0,
+        "price": 5.0,
+        "change_pct": 1.63,
+        "volume": 5133250.0
+      },
+      {
+        "ticker": "ARCT",
+        "company": "Arcturus Therapeutics Holdings Inc",
+        "float_shares": 26050000.0,
+        "short_float_pct": 27.67,
+        "short_ratio_days": 14.61,
+        "rel_volume": 1.89,
+        "squeeze_score": 764.0,
+        "avg_volume": 493440.0,
+        "price": 8.23,
+        "change_pct": 4.71,
+        "volume": 930679.0
+      },
+      {
+        "ticker": "MUX",
+        "company": "McEwen Inc",
+        "float_shares": 51000000.0,
+        "short_float_pct": 24.06,
+        "short_ratio_days": 11.2,
+        "rel_volume": 2.29,
+        "squeeze_score": 617.1,
+        "avg_volume": 1100000.0,
+        "price": 18.8,
+        "change_pct": 1.18,
+        "volume": 2521286.0
+      },
+      {
+        "ticker": "FBIO",
+        "company": "Fortress Biotech Inc",
+        "float_shares": 22910000.0,
+        "short_float_pct": 25.25,
+        "short_ratio_days": 9.59,
+        "rel_volume": 1.71,
+        "squeeze_score": 414.1,
+        "avg_volume": 602960.0,
+        "price": 2.93,
+        "change_pct": -1.68,
+        "volume": 1031522.0
+      },
+      {
+        "ticker": "NUVB",
+        "company": "Nuvation Bio Inc",
+        "float_shares": 251150000.0,
+        "short_float_pct": 21.27,
+        "short_ratio_days": 8.26,
+        "rel_volume": 2.06,
+        "squeeze_score": 361.9,
+        "avg_volume": 6470000.0,
+        "price": 6.22,
+        "change_pct": 1.97,
+        "volume": 13327045.0
+      },
+      {
+        "ticker": "OMER",
+        "company": "Omeros Corp",
+        "float_shares": 69810000.0,
+        "short_float_pct": 22.09,
+        "short_ratio_days": 7.32,
+        "rel_volume": 1.74,
+        "squeeze_score": 281.4,
+        "avg_volume": 2110000.0,
+        "price": 17.19,
+        "change_pct": -0.92,
+        "volume": 3675975.0
+      },
+      {
+        "ticker": "SVV",
+        "company": "Savers Value Village Inc",
+        "float_shares": 37820000.0,
+        "short_float_pct": 20.03,
+        "short_ratio_days": 6.19,
+        "rel_volume": 1.94,
+        "squeeze_score": 240.5,
+        "avg_volume": 1220000.0,
+        "price": 10.66,
+        "change_pct": -1.57,
+        "volume": 2371153.0
+      },
+      {
+        "ticker": "ABCL",
+        "company": "AbCellera Biologics Inc",
+        "float_shares": 235970000.0,
+        "short_float_pct": 20.48,
+        "short_ratio_days": 5.99,
+        "rel_volume": 1.53,
+        "squeeze_score": 187.7,
+        "avg_volume": 8070000.0,
+        "price": 11.38,
+        "change_pct": 3.74,
+        "volume": 12375084.0
+      },
+      {
+        "ticker": "ZENA",
+        "company": "ZenaTech Inc",
+        "float_shares": 34070000.0,
+        "short_float_pct": 22.37,
+        "short_ratio_days": 1.77,
+        "rel_volume": 1.83,
+        "squeeze_score": 72.5,
+        "avg_volume": 4310000.0,
+        "price": 2.14,
+        "change_pct": 0.47,
+        "volume": 7898970.0
+      }
+    ]
   }
 ]
