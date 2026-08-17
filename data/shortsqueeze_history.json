@@ -4123,5 +4123,128 @@
         "volume": 454241.0
       }
     ]
+  },
+  {
+    "timestamp": "2026-08-17T15:54:04.198379+00:00",
+    "label": "market_open",
+    "candidates": [
+      {
+        "ticker": "INDI",
+        "company": "Indie Semiconductor Inc",
+        "float_shares": 214830000.0,
+        "short_float_pct": 32.5,
+        "short_ratio_days": 11.27,
+        "rel_volume": 1.44,
+        "squeeze_score": 527.4,
+        "avg_volume": 6190000.0,
+        "price": 4.96,
+        "change_pct": 5.31,
+        "volume": 8918769.0
+      },
+      {
+        "ticker": "BETR",
+        "company": "Better Home & Finance Holding Co",
+        "float_shares": 6960000.0,
+        "short_float_pct": 35.69,
+        "short_ratio_days": 5.48,
+        "rel_volume": 1.25,
+        "squeeze_score": 244.5,
+        "avg_volume": 453240.0,
+        "price": 14.21,
+        "change_pct": 3.5,
+        "volume": 566796.0
+      },
+      {
+        "ticker": "CRMD",
+        "company": "CorMedix Inc",
+        "float_shares": 72270000.0,
+        "short_float_pct": 22.53,
+        "short_ratio_days": 12.18,
+        "rel_volume": 0.75,
+        "squeeze_score": 205.8,
+        "avg_volume": 1340000.0,
+        "price": 7.96,
+        "change_pct": 5.51,
+        "volume": 1010263.0
+      },
+      {
+        "ticker": "SMMT",
+        "company": "Summit Therapeutics Inc",
+        "float_shares": 152340000.0,
+        "short_float_pct": 23.79,
+        "short_ratio_days": 7.03,
+        "rel_volume": 1.01,
+        "squeeze_score": 168.9,
+        "avg_volume": 5160000.0,
+        "price": 12.95,
+        "change_pct": -3.0,
+        "volume": 5215520.0
+      },
+      {
+        "ticker": "SERV",
+        "company": "Serve Robotics Inc",
+        "float_shares": 82670000.0,
+        "short_float_pct": 32.03,
+        "short_ratio_days": 5.52,
+        "rel_volume": 0.86,
+        "squeeze_score": 152.1,
+        "avg_volume": 4800000.0,
+        "price": 4.97,
+        "change_pct": -0.3,
+        "volume": 4139842.0
+      },
+      {
+        "ticker": "SGMT",
+        "company": "Sagimet Biosciences Inc",
+        "float_shares": 56990000.0,
+        "short_float_pct": 20.35,
+        "short_ratio_days": 9.94,
+        "rel_volume": 0.75,
+        "squeeze_score": 151.7,
+        "avg_volume": 1170000.0,
+        "price": 10.93,
+        "change_pct": 3.6,
+        "volume": 882718.0
+      },
+      {
+        "ticker": "OSS",
+        "company": "One Stop Systems Inc",
+        "float_shares": 20300000.0,
+        "short_float_pct": 20.43,
+        "short_ratio_days": 3.31,
+        "rel_volume": 0.62,
+        "squeeze_score": 41.9,
+        "avg_volume": 1250000.0,
+        "price": 13.87,
+        "change_pct": 1.91,
+        "volume": 768928.0
+      },
+      {
+        "ticker": "JFB",
+        "company": "JFB Construction Holdings",
+        "float_shares": 4019999.9999999995,
+        "short_float_pct": 26.43,
+        "short_ratio_days": 2.42,
+        "rel_volume": 0.6,
+        "squeeze_score": 38.4,
+        "avg_volume": 438910.0,
+        "price": 4.53,
+        "change_pct": -1.51,
+        "volume": 261228.0
+      },
+      {
+        "ticker": "TOYO",
+        "company": "TOYO Co Ltd",
+        "float_shares": 9110000.0,
+        "short_float_pct": 22.6,
+        "short_ratio_days": 2.55,
+        "rel_volume": 0.6,
+        "squeeze_score": 34.6,
+        "avg_volume": 807300.0,
+        "price": 5.94,
+        "change_pct": -2.14,
+        "volume": 485271.0
+      }
+    ]
   }
 ]

@@ -11530,5 +11530,203 @@
         "earnings": "Aug 13/b"
       }
     ]
+  },
+  {
+    "timestamp": "2026-08-17T15:53:31.769254+00:00",
+    "label": "market_open",
+    "candidates": [
+      {
+        "ticker": "AURA",
+        "company": "Aura Biosciences Inc",
+        "sector": "Healthcare",
+        "market_cap": "792.20M",
+        "price": 7.64,
+        "change_pct": -0.66,
+        "avg_volume": "569.24K",
+        "rel_volume": 8.5,
+        "volume": "1,928,144",
+        "earnings": "Aug 11/b"
+      },
+      {
+        "ticker": "OCUL",
+        "company": "Ocular Therapeutix Inc",
+        "sector": "Healthcare",
+        "market_cap": "2.32B",
+        "price": 10.56,
+        "change_pct": 5.23,
+        "avg_volume": "2.57M",
+        "rel_volume": 5.16,
+        "volume": "5,275,402",
+        "earnings": "Aug 03/b"
+      },
+      {
+        "ticker": "ZIM",
+        "company": "Zim Integrated Shipping Services Ltd",
+        "sector": "Industrials",
+        "market_cap": "3.49B",
+        "price": 28.96,
+        "change_pct": 2.91,
+        "avg_volume": "1.24M",
+        "rel_volume": 4.1,
+        "volume": "2,024,539",
+        "earnings": "Aug 19/b"
+      },
+      {
+        "ticker": "SMJF",
+        "company": "SMJ International Holdings Inc",
+        "sector": "Consumer Cyclical",
+        "market_cap": "285.92M",
+        "price": 10.32,
+        "change_pct": 0.68,
+        "avg_volume": "785.89K",
+        "rel_volume": 3.47,
+        "volume": "1,080,509",
+        "earnings": "-"
+      },
+      {
+        "ticker": "ETON",
+        "company": "Eton Pharmaceuticals Inc",
+        "sector": "Healthcare",
+        "market_cap": "1.73B",
+        "price": 60.65,
+        "change_pct": 3.04,
+        "avg_volume": "502.03K",
+        "rel_volume": 3.06,
+        "volume": "612,431",
+        "earnings": "Aug 13/a"
+      },
+      {
+        "ticker": "KRNY",
+        "company": "Kearny Financial Corp",
+        "sector": "Financial",
+        "market_cap": "629.59M",
+        "price": 9.73,
+        "change_pct": 1.09,
+        "avg_volume": "524.90K",
+        "rel_volume": 2.55,
+        "volume": "533,838",
+        "earnings": "Jul 23/b"
+      },
+      {
+        "ticker": "SMMT",
+        "company": "Summit Therapeutics Inc",
+        "sector": "Healthcare",
+        "market_cap": "10.34B",
+        "price": 12.96,
+        "change_pct": -2.92,
+        "avg_volume": "5.16M",
+        "rel_volume": 2.54,
+        "volume": "5,211,699",
+        "earnings": "Jul 23/a"
+      },
+      {
+        "ticker": "KC",
+        "company": "Kingsoft Cloud Holdings Ltd ADR",
+        "sector": "Technology",
+        "market_cap": "3.39B",
+        "price": 11.45,
+        "change_pct": -2.21,
+        "avg_volume": "1.52M",
+        "rel_volume": 2.35,
+        "volume": "1,419,205",
+        "earnings": "Aug 19/b"
+      },
+      {
+        "ticker": "YSS",
+        "company": "York Space Systems Inc",
+        "sector": "Industrials",
+        "market_cap": "1.52B",
+        "price": 11.55,
+        "change_pct": 5.67,
+        "avg_volume": "2.05M",
+        "rel_volume": 2.33,
+        "volume": "1,897,219",
+        "earnings": "Aug 13/a"
+      },
+      {
+        "ticker": "EROC",
+        "company": "ERock Inc",
+        "sector": "Industrials",
+        "market_cap": "3.74B",
+        "price": 17.04,
+        "change_pct": 1.91,
+        "avg_volume": "2.67M",
+        "rel_volume": 2.28,
+        "volume": "2,424,910",
+        "earnings": "Aug 11/a"
+      },
+      {
+        "ticker": "ETOR",
+        "company": "Etoro Group Ltd",
+        "sector": "Financial",
+        "market_cap": "2.28B",
+        "price": 28.1,
+        "change_pct": -1.66,
+        "avg_volume": "915.78K",
+        "rel_volume": 2.23,
+        "volume": "814,421",
+        "earnings": "Aug 11/b"
+      },
+      {
+        "ticker": "HTFL",
+        "company": "Heartflow Inc",
+        "sector": "Healthcare",
+        "market_cap": "3.65B",
+        "price": 41.93,
+        "change_pct": -0.36,
+        "avg_volume": "1.61M",
+        "rel_volume": 2.22,
+        "volume": "1,422,550",
+        "earnings": "Aug 13/a"
+      },
+      {
+        "ticker": "ALH",
+        "company": "Alliance Laundry Holdings Inc",
+        "sector": "Consumer Cyclical",
+        "market_cap": "4.91B",
+        "price": 24.71,
+        "change_pct": -2.99,
+        "avg_volume": "604.40K",
+        "rel_volume": 2.21,
+        "volume": "531,451",
+        "earnings": "Aug 13/b"
+      },
+      {
+        "ticker": "TDAY",
+        "company": "USA TODAY Co Inc",
+        "sector": "Communication Services",
+        "market_cap": "1.03B",
+        "price": 7.0,
+        "change_pct": -0.6,
+        "avg_volume": "1.82M",
+        "rel_volume": 2.19,
+        "volume": "1,591,154",
+        "earnings": "Aug 06/b"
+      },
+      {
+        "ticker": "VIST",
+        "company": "Vista Energy SAB de CV ADR",
+        "sector": "Energy",
+        "market_cap": "7.99B",
+        "price": 71.94,
+        "change_pct": 5.32,
+        "avg_volume": "889.95K",
+        "rel_volume": 2.07,
+        "volume": "734,803",
+        "earnings": "Jul 16/a"
+      },
+      {
+        "ticker": "ATAT",
+        "company": "Atour Lifestyle Holdings Ltd ADR",
+        "sector": "Consumer Cyclical",
+        "market_cap": "3.96B",
+        "price": 35.06,
+        "change_pct": 2.55,
+        "avg_volume": "953.13K",
+        "rel_volume": 2.01,
+        "volume": "763,480",
+        "earnings": "Aug 20/b"
+      }
+    ]
   }
 ]
