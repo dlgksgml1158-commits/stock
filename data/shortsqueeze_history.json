@@ -3974,5 +3974,154 @@
         "volume": 4872675.0
       }
     ]
+  },
+  {
+    "timestamp": "2026-08-17T15:34:51.052498+00:00",
+    "label": "midnight_kst",
+    "candidates": [
+      {
+        "ticker": "CAPR",
+        "company": "Capricor Therapeutics Inc",
+        "float_shares": 52310000.0,
+        "short_float_pct": 30.56,
+        "short_ratio_days": 3.81,
+        "rel_volume": 2.37,
+        "squeeze_score": 275.9,
+        "avg_volume": 4200000.0,
+        "price": 6.72,
+        "change_pct": 1.05,
+        "volume": 9943373.0
+      },
+      {
+        "ticker": "BETR",
+        "company": "Better Home & Finance Holding Co",
+        "float_shares": 6960000.0,
+        "short_float_pct": 35.69,
+        "short_ratio_days": 5.48,
+        "rel_volume": 1.17,
+        "squeeze_score": 228.8,
+        "avg_volume": 453240.0,
+        "price": 14.3,
+        "change_pct": 4.15,
+        "volume": 531827.0
+      },
+      {
+        "ticker": "CRMD",
+        "company": "CorMedix Inc",
+        "float_shares": 72270000.0,
+        "short_float_pct": 22.53,
+        "short_ratio_days": 12.18,
+        "rel_volume": 0.72,
+        "squeeze_score": 197.6,
+        "avg_volume": 1340000.0,
+        "price": 7.91,
+        "change_pct": 4.97,
+        "volume": 970524.0
+      },
+      {
+        "ticker": "ABEO",
+        "company": "Abeona Therapeutics Inc",
+        "float_shares": 50390000.0,
+        "short_float_pct": 27.07,
+        "short_ratio_days": 10.06,
+        "rel_volume": 0.56,
+        "squeeze_score": 152.5,
+        "avg_volume": 1360000.0,
+        "price": 5.87,
+        "change_pct": -1.94,
+        "volume": 762132.0
+      },
+      {
+        "ticker": "SERV",
+        "company": "Serve Robotics Inc",
+        "float_shares": 82670000.0,
+        "short_float_pct": 32.03,
+        "short_ratio_days": 5.52,
+        "rel_volume": 0.83,
+        "squeeze_score": 146.7,
+        "avg_volume": 4800000.0,
+        "price": 4.94,
+        "change_pct": -1.0,
+        "volume": 3992868.0
+      },
+      {
+        "ticker": "SGMT",
+        "company": "Sagimet Biosciences Inc",
+        "float_shares": 56990000.0,
+        "short_float_pct": 20.35,
+        "short_ratio_days": 9.94,
+        "rel_volume": 0.67,
+        "squeeze_score": 135.5,
+        "avg_volume": 1170000.0,
+        "price": 11.01,
+        "change_pct": 4.36,
+        "volume": 782685.0
+      },
+      {
+        "ticker": "LUNR",
+        "company": "Intuitive Machines Inc",
+        "float_shares": 139810000.0,
+        "short_float_pct": 25.46,
+        "short_ratio_days": 2.7,
+        "rel_volume": 0.76,
+        "squeeze_score": 52.2,
+        "avg_volume": 13200000.0,
+        "price": 19.92,
+        "change_pct": 4.79,
+        "volume": 10025396.0
+      },
+      {
+        "ticker": "CLBK",
+        "company": "Columbia Financial Inc",
+        "float_shares": 96520000.0,
+        "short_float_pct": 20.72,
+        "short_ratio_days": 4.57,
+        "rel_volume": 0.55,
+        "squeeze_score": 52.1,
+        "avg_volume": 4380000.0,
+        "price": 11.9,
+        "change_pct": 0.97,
+        "volume": 2426025.0
+      },
+      {
+        "ticker": "OSS",
+        "company": "One Stop Systems Inc",
+        "float_shares": 20300000.0,
+        "short_float_pct": 20.43,
+        "short_ratio_days": 3.31,
+        "rel_volume": 0.57,
+        "squeeze_score": 38.5,
+        "avg_volume": 1250000.0,
+        "price": 13.9,
+        "change_pct": 2.09,
+        "volume": 708105.0
+      },
+      {
+        "ticker": "JFB",
+        "company": "JFB Construction Holdings",
+        "float_shares": 4019999.9999999995,
+        "short_float_pct": 26.43,
+        "short_ratio_days": 2.42,
+        "rel_volume": 0.59,
+        "squeeze_score": 37.7,
+        "avg_volume": 438910.0,
+        "price": 4.53,
+        "change_pct": -1.45,
+        "volume": 257326.0
+      },
+      {
+        "ticker": "TOYO",
+        "company": "TOYO Co Ltd",
+        "float_shares": 9110000.0,
+        "short_float_pct": 22.6,
+        "short_ratio_days": 2.55,
+        "rel_volume": 0.56,
+        "squeeze_score": 32.3,
+        "avg_volume": 807300.0,
+        "price": 5.91,
+        "change_pct": -2.64,
+        "volume": 454241.0
+      }
+    ]
   }
 ]
