@@ -4382,5 +4382,102 @@
         "volume": 4468797.0
       }
     ]
+  },
+  {
+    "timestamp": "2026-08-18T16:00:27.372839+00:00",
+    "label": "market_open",
+    "candidates": [
+      {
+        "ticker": "LBRX",
+        "company": "LB Pharmaceuticals Inc",
+        "float_shares": 23360000.0,
+        "short_float_pct": 20.32,
+        "short_ratio_days": 15.05,
+        "rel_volume": 0.68,
+        "squeeze_score": 208.0,
+        "avg_volume": 315420.0,
+        "price": 47.78,
+        "change_pct": 3.35,
+        "volume": 213951.0
+      },
+      {
+        "ticker": "CABA",
+        "company": "Cabaletta Bio Inc",
+        "float_shares": 141510000.0,
+        "short_float_pct": 28.82,
+        "short_ratio_days": 9.3,
+        "rel_volume": 0.71,
+        "squeeze_score": 190.3,
+        "avg_volume": 4380000.0,
+        "price": 2.86,
+        "change_pct": -0.94,
+        "volume": 3097321.0
+      },
+      {
+        "ticker": "BYND",
+        "company": "Beyond Meat Inc",
+        "float_shares": 17190000.0,
+        "short_float_pct": 25.3,
+        "short_ratio_days": 3.43,
+        "rel_volume": 1.24,
+        "squeeze_score": 107.6,
+        "avg_volume": 1270000.0,
+        "price": 11.79,
+        "change_pct": 1.39,
+        "volume": 1568973.0
+      },
+      {
+        "ticker": "BBNX",
+        "company": "Beta Bionics Inc",
+        "float_shares": 33810000.0,
+        "short_float_pct": 22.49,
+        "short_ratio_days": 6.84,
+        "rel_volume": 0.63,
+        "squeeze_score": 96.9,
+        "avg_volume": 1110000.0,
+        "price": 18.28,
+        "change_pct": 4.1,
+        "volume": 696376.0
+      },
+      {
+        "ticker": "JFB",
+        "company": "JFB Construction Holdings",
+        "float_shares": 4019999.9999999995,
+        "short_float_pct": 26.43,
+        "short_ratio_days": 2.35,
+        "rel_volume": 0.65,
+        "squeeze_score": 40.4,
+        "avg_volume": 451650.0,
+        "price": 4.23,
+        "change_pct": 0.71,
+        "volume": 291663.0
+      },
+      {
+        "ticker": "ZENA",
+        "company": "ZenaTech Inc",
+        "float_shares": 34070000.0,
+        "short_float_pct": 22.37,
+        "short_ratio_days": 1.78,
+        "rel_volume": 0.79,
+        "squeeze_score": 31.5,
+        "avg_volume": 4290000.0,
+        "price": 2.12,
+        "change_pct": 3.66,
+        "volume": 3373252.0
+      },
+      {
+        "ticker": "UMAC",
+        "company": "Unusual Machines Inc",
+        "float_shares": 45330000.0,
+        "short_float_pct": 20.82,
+        "short_ratio_days": 1.54,
+        "rel_volume": 0.77,
+        "squeeze_score": 24.7,
+        "avg_volume": 6120000.0,
+        "price": 31.86,
+        "change_pct": 5.67,
+        "volume": 4715198.0
+      }
+    ]
   }
 ]
