@@ -4920,5 +4920,141 @@
         "volume": 6476707.0
       }
     ]
+  },
+  {
+    "timestamp": "2026-08-20T15:44:08.448628+00:00",
+    "label": "midnight_kst",
+    "candidates": [
+      {
+        "ticker": "IEP",
+        "company": "Icahn Enterprises L P",
+        "float_shares": 51430000.0,
+        "short_float_pct": 32.92,
+        "short_ratio_days": 17.75,
+        "rel_volume": 1.11,
+        "squeeze_score": 648.6,
+        "avg_volume": 953610.0,
+        "price": 6.57,
+        "change_pct": -1.13,
+        "volume": 1059949.0
+      },
+      {
+        "ticker": "GEMI",
+        "company": "Gemini Space Station Inc",
+        "float_shares": 30290000.0,
+        "short_float_pct": 36.97,
+        "short_ratio_days": 6.82,
+        "rel_volume": 2.0,
+        "squeeze_score": 504.3,
+        "avg_volume": 1640000.0,
+        "price": 4.05,
+        "change_pct": 2.93,
+        "volume": 3275659.0
+      },
+      {
+        "ticker": "CRSP",
+        "company": "CRISPR Therapeutics AG",
+        "float_shares": 89770000.0,
+        "short_float_pct": 20.96,
+        "short_ratio_days": 11.38,
+        "rel_volume": 0.91,
+        "squeeze_score": 217.1,
+        "avg_volume": 1650000.0,
+        "price": 59.42,
+        "change_pct": -0.64,
+        "volume": 1494927.0
+      },
+      {
+        "ticker": "BEAM",
+        "company": "Beam Therapeutics Inc",
+        "float_shares": 93920000.0,
+        "short_float_pct": 25.02,
+        "short_ratio_days": 10.91,
+        "rel_volume": 0.61,
+        "squeeze_score": 166.5,
+        "avg_volume": 2150000.0,
+        "price": 28.48,
+        "change_pct": -2.03,
+        "volume": 1307196.0
+      },
+      {
+        "ticker": "WYFI",
+        "company": "Whitefiber Inc",
+        "float_shares": 9480000.0,
+        "short_float_pct": 68.21,
+        "short_ratio_days": 2.56,
+        "rel_volume": 0.77,
+        "squeeze_score": 134.5,
+        "avg_volume": 2530000.0,
+        "price": 21.21,
+        "change_pct": -0.8,
+        "volume": 1946471.0
+      },
+      {
+        "ticker": "BBNX",
+        "company": "Beta Bionics Inc",
+        "float_shares": 33810000.0,
+        "short_float_pct": 22.49,
+        "short_ratio_days": 6.62,
+        "rel_volume": 0.84,
+        "squeeze_score": 125.1,
+        "avg_volume": 1150000.0,
+        "price": 19.6,
+        "change_pct": -2.03,
+        "volume": 969494.0
+      },
+      {
+        "ticker": "TWST",
+        "company": "Twist Bioscience Corp",
+        "float_shares": 63500000.0,
+        "short_float_pct": 22.17,
+        "short_ratio_days": 7.8,
+        "rel_volume": 0.63,
+        "squeeze_score": 108.9,
+        "avg_volume": 1800000.0,
+        "price": 143.49,
+        "change_pct": 0.77,
+        "volume": 1129601.0
+      },
+      {
+        "ticker": "BYND",
+        "company": "Beyond Meat Inc",
+        "float_shares": 17190000.0,
+        "short_float_pct": 25.3,
+        "short_ratio_days": 3.28,
+        "rel_volume": 0.9,
+        "squeeze_score": 74.7,
+        "avg_volume": 1330000.0,
+        "price": 14.46,
+        "change_pct": 2.7,
+        "volume": 1196878.0
+      },
+      {
+        "ticker": "HIMS",
+        "company": "Hims & Hers Health Inc",
+        "float_shares": 210550000.0,
+        "short_float_pct": 29.55,
+        "short_ratio_days": 3.85,
+        "rel_volume": 0.63,
+        "squeeze_score": 71.7,
+        "avg_volume": 16170000.000000002,
+        "price": 32.33,
+        "change_pct": 3.99,
+        "volume": 10112848.0
+      },
+      {
+        "ticker": "TOYO",
+        "company": "TOYO Co Ltd",
+        "float_shares": 9110000.0,
+        "short_float_pct": 22.6,
+        "short_ratio_days": 2.32,
+        "rel_volume": 0.94,
+        "squeeze_score": 49.3,
+        "avg_volume": 888320.0,
+        "price": 4.48,
+        "change_pct": 3.35,
+        "volume": 833605.0
+      }
+    ]
   }
 ]
