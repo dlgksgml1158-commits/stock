@@ -5328,5 +5328,76 @@
         "volume": 522865.0
       }
     ]
+  },
+  {
+    "timestamp": "2026-08-21T16:02:20.223856+00:00",
+    "label": "market_open",
+    "candidates": [
+      {
+        "ticker": "FLO",
+        "company": "Flowers Foods Inc",
+        "float_shares": 196030000.0,
+        "short_float_pct": 22.45,
+        "short_ratio_days": 6.42,
+        "rel_volume": 1.1,
+        "squeeze_score": 158.5,
+        "avg_volume": 6860000.0,
+        "price": 7.17,
+        "change_pct": 0.99,
+        "volume": 7559206.0
+      },
+      {
+        "ticker": "DLO",
+        "company": "DLocal Limited",
+        "float_shares": 70290000.0,
+        "short_float_pct": 23.53,
+        "short_ratio_days": 6.35,
+        "rel_volume": 0.81,
+        "squeeze_score": 121.0,
+        "avg_volume": 2600000.0,
+        "price": 14.81,
+        "change_pct": 3.24,
+        "volume": 2099524.0
+      },
+      {
+        "ticker": "KLAR",
+        "company": "Klarna Group plc",
+        "float_shares": 144660000.0,
+        "short_float_pct": 22.65,
+        "short_ratio_days": 6.07,
+        "rel_volume": 0.73,
+        "squeeze_score": 100.4,
+        "avg_volume": 5400000.0,
+        "price": 14.43,
+        "change_pct": 3.07,
+        "volume": 3943727.0
+      },
+      {
+        "ticker": "MARA",
+        "company": "MARA Holdings Inc",
+        "float_shares": 377730000.0,
+        "short_float_pct": 28.18,
+        "short_ratio_days": 2.37,
+        "rel_volume": 1.29,
+        "squeeze_score": 86.2,
+        "avg_volume": 44860000.0,
+        "price": 11.24,
+        "change_pct": 0.79,
+        "volume": 58092962.0
+      },
+      {
+        "ticker": "BYND",
+        "company": "Beyond Meat Inc",
+        "float_shares": 16610000.0,
+        "short_float_pct": 26.18,
+        "short_ratio_days": 3.2,
+        "rel_volume": 0.67,
+        "squeeze_score": 56.1,
+        "avg_volume": 1360000.0,
+        "price": 14.64,
+        "change_pct": 1.1,
+        "volume": 916721.0
+      }
+    ]
   }
 ]
