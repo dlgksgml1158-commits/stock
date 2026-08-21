@@ -5192,5 +5192,141 @@
         "volume": 891979.0
       }
     ]
+  },
+  {
+    "timestamp": "2026-08-21T15:43:35.687665+00:00",
+    "label": "midnight_kst",
+    "candidates": [
+      {
+        "ticker": "IEP",
+        "company": "Icahn Enterprises L P",
+        "float_shares": 51430000.0,
+        "short_float_pct": 32.92,
+        "short_ratio_days": 17.3,
+        "rel_volume": 0.6,
+        "squeeze_score": 341.7,
+        "avg_volume": 978660.0,
+        "price": 6.76,
+        "change_pct": 1.63,
+        "volume": 586771.0
+      },
+      {
+        "ticker": "BTDR",
+        "company": "Bitdeer Technologies Group",
+        "float_shares": 145500000.0,
+        "short_float_pct": 39.8,
+        "short_ratio_days": 4.79,
+        "rel_volume": 1.19,
+        "squeeze_score": 226.9,
+        "avg_volume": 12090000.0,
+        "price": 11.02,
+        "change_pct": 5.61,
+        "volume": 14334563.0
+      },
+      {
+        "ticker": "TEM",
+        "company": "Tempus AI Inc",
+        "float_shares": 107190000.0,
+        "short_float_pct": 31.0,
+        "short_ratio_days": 5.2,
+        "rel_volume": 1.02,
+        "squeeze_score": 164.4,
+        "avg_volume": 6390000.0,
+        "price": 70.41,
+        "change_pct": 5.64,
+        "volume": 6499265.0
+      },
+      {
+        "ticker": "BEAM",
+        "company": "Beam Therapeutics Inc",
+        "float_shares": 93920000.0,
+        "short_float_pct": 25.02,
+        "short_ratio_days": 10.88,
+        "rel_volume": 0.56,
+        "squeeze_score": 152.4,
+        "avg_volume": 2160000.0,
+        "price": 30.05,
+        "change_pct": 5.83,
+        "volume": 1212875.0
+      },
+      {
+        "ticker": "FLO",
+        "company": "Flowers Foods Inc",
+        "float_shares": 196030000.0,
+        "short_float_pct": 22.45,
+        "short_ratio_days": 6.42,
+        "rel_volume": 1.03,
+        "squeeze_score": 148.5,
+        "avg_volume": 6860000.0,
+        "price": 7.15,
+        "change_pct": 0.7,
+        "volume": 7042089.0
+      },
+      {
+        "ticker": "DLO",
+        "company": "DLocal Limited",
+        "float_shares": 70290000.0,
+        "short_float_pct": 23.53,
+        "short_ratio_days": 6.35,
+        "rel_volume": 0.73,
+        "squeeze_score": 109.1,
+        "avg_volume": 2600000.0,
+        "price": 14.78,
+        "change_pct": 3.1,
+        "volume": 1895006.0
+      },
+      {
+        "ticker": "KLAR",
+        "company": "Klarna Group plc",
+        "float_shares": 144660000.0,
+        "short_float_pct": 22.65,
+        "short_ratio_days": 6.07,
+        "rel_volume": 0.69,
+        "squeeze_score": 94.9,
+        "avg_volume": 5400000.0,
+        "price": 14.41,
+        "change_pct": 2.96,
+        "volume": 3746104.0
+      },
+      {
+        "ticker": "MARA",
+        "company": "MARA Holdings Inc",
+        "float_shares": 377730000.0,
+        "short_float_pct": 28.18,
+        "short_ratio_days": 2.37,
+        "rel_volume": 1.22,
+        "squeeze_score": 81.5,
+        "avg_volume": 44860000.0,
+        "price": 11.19,
+        "change_pct": 0.36,
+        "volume": 54727266.0
+      },
+      {
+        "ticker": "BYND",
+        "company": "Beyond Meat Inc",
+        "float_shares": 16610000.0,
+        "short_float_pct": 26.18,
+        "short_ratio_days": 3.2,
+        "rel_volume": 0.66,
+        "squeeze_score": 55.3,
+        "avg_volume": 1360000.0,
+        "price": 14.91,
+        "change_pct": 3.0,
+        "volume": 893242.0
+      },
+      {
+        "ticker": "TOYO",
+        "company": "TOYO Co Ltd",
+        "float_shares": 9110000.0,
+        "short_float_pct": 22.6,
+        "short_ratio_days": 2.28,
+        "rel_volume": 0.58,
+        "squeeze_score": 29.9,
+        "avg_volume": 903560.0,
+        "price": 4.77,
+        "change_pct": 5.66,
+        "volume": 522865.0
+      }
+    ]
   }
 ]
