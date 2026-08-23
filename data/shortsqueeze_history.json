@@ -5548,5 +5548,154 @@
         "volume": 104100344.0
       }
     ]
+  },
+  {
+    "timestamp": "2026-08-23T15:32:14.876843+00:00",
+    "label": "midnight_kst",
+    "candidates": [
+      {
+        "ticker": "SVRA",
+        "company": "Savara Inc",
+        "float_shares": 102790000.0,
+        "short_float_pct": 35.82,
+        "short_ratio_days": 20.75,
+        "rel_volume": 1.71,
+        "squeeze_score": 1271.0,
+        "avg_volume": 1770000.0,
+        "price": 5.59,
+        "change_pct": 1.82,
+        "volume": 3035363.0
+      },
+      {
+        "ticker": "STOK",
+        "company": "Stoke Therapeutics Inc",
+        "float_shares": 53490000.0,
+        "short_float_pct": 29.56,
+        "short_ratio_days": 19.27,
+        "rel_volume": 1.55,
+        "squeeze_score": 882.9,
+        "avg_volume": 820350.0,
+        "price": 32.29,
+        "change_pct": 2.83,
+        "volume": 1274422.0
+      },
+      {
+        "ticker": "GEMI",
+        "company": "Gemini Space Station Inc",
+        "float_shares": 37400000.0,
+        "short_float_pct": 29.94,
+        "short_ratio_days": 6.59,
+        "rel_volume": 4.31,
+        "squeeze_score": 850.4,
+        "avg_volume": 1700000.0,
+        "price": 4.28,
+        "change_pct": 3.38,
+        "volume": 7324131.0
+      },
+      {
+        "ticker": "EYPT",
+        "company": "EyePoint Inc",
+        "float_shares": 80570000.0,
+        "short_float_pct": 22.36,
+        "short_ratio_days": 6.53,
+        "rel_volume": 2.97,
+        "squeeze_score": 433.7,
+        "avg_volume": 2760000.0,
+        "price": 5.32,
+        "change_pct": -1.48,
+        "volume": 8186380.0
+      },
+      {
+        "ticker": "DFDV",
+        "company": "DeFi Development Corp",
+        "float_shares": 23370000.0,
+        "short_float_pct": 23.9,
+        "short_ratio_days": 6.24,
+        "rel_volume": 2.32,
+        "squeeze_score": 346.0,
+        "avg_volume": 895200.0,
+        "price": 3.94,
+        "change_pct": 4.51,
+        "volume": 2075251.0
+      },
+      {
+        "ticker": "WW",
+        "company": "WW International Inc",
+        "float_shares": 9000000.0,
+        "short_float_pct": 22.39,
+        "short_ratio_days": 9.58,
+        "rel_volume": 1.55,
+        "squeeze_score": 332.5,
+        "avg_volume": 210220.0,
+        "price": 15.71,
+        "change_pct": 4.73,
+        "volume": 325487.0
+      },
+      {
+        "ticker": "FLO",
+        "company": "Flowers Foods Inc",
+        "float_shares": 196090000.0,
+        "short_float_pct": 22.44,
+        "short_ratio_days": 6.42,
+        "rel_volume": 2.27,
+        "squeeze_score": 327.0,
+        "avg_volume": 6860000.0,
+        "price": 6.95,
+        "change_pct": -2.11,
+        "volume": 15568862.0
+      },
+      {
+        "ticker": "BBW",
+        "company": "Build A Bear Workshop Inc",
+        "float_shares": 11870000.0,
+        "short_float_pct": 23.08,
+        "short_ratio_days": 7.26,
+        "rel_volume": 1.78,
+        "squeeze_score": 298.3,
+        "avg_volume": 377140.0,
+        "price": 38.89,
+        "change_pct": 2.94,
+        "volume": 670239.0
+      },
+      {
+        "ticker": "ANDG",
+        "company": "Andersen Group Inc",
+        "float_shares": 13540000.0,
+        "short_float_pct": 21.15,
+        "short_ratio_days": 6.94,
+        "rel_volume": 1.86,
+        "squeeze_score": 273.0,
+        "avg_volume": 412600.0,
+        "price": 50.16,
+        "change_pct": -0.32,
+        "volume": 769120.0
+      },
+      {
+        "ticker": "DLO",
+        "company": "DLocal Limited",
+        "float_shares": 70290000.0,
+        "short_float_pct": 23.53,
+        "short_ratio_days": 6.35,
+        "rel_volume": 1.72,
+        "squeeze_score": 257.0,
+        "avg_volume": 2600000.0,
+        "price": 15.17,
+        "change_pct": 5.79,
+        "volume": 4467085.0
+      },
+      {
+        "ticker": "MARA",
+        "company": "MARA Holdings Inc",
+        "float_shares": 377730000.0,
+        "short_float_pct": 28.18,
+        "short_ratio_days": 2.37,
+        "rel_volume": 2.32,
+        "squeeze_score": 154.9,
+        "avg_volume": 44860000.0,
+        "price": 11.26,
+        "change_pct": 0.99,
+        "volume": 104100344.0
+      }
+    ]
   }
 ]
