@@ -5697,5 +5697,193 @@
         "volume": 104100344.0
       }
     ]
+  },
+  {
+    "timestamp": "2026-08-24T14:22:30.245868+00:00",
+    "label": "market_open",
+    "candidates": [
+      {
+        "ticker": "GEMI",
+        "company": "Gemini Space Station Inc",
+        "float_shares": 37400000.0,
+        "short_float_pct": 29.94,
+        "short_ratio_days": 6.26,
+        "rel_volume": 0.86,
+        "squeeze_score": 161.2,
+        "avg_volume": 1790000.0,
+        "price": 4.46,
+        "change_pct": 4.25,
+        "volume": 1531642.0
+      },
+      {
+        "ticker": "ARCT",
+        "company": "Arcturus Therapeutics Holdings Inc",
+        "float_shares": 26050000.0,
+        "short_float_pct": 27.67,
+        "short_ratio_days": 11.17,
+        "rel_volume": 0.51,
+        "squeeze_score": 157.6,
+        "avg_volume": 644930.0,
+        "price": 13.05,
+        "change_pct": -2.97,
+        "volume": 330745.0
+      },
+      {
+        "ticker": "BETR",
+        "company": "Better Home & Finance Holding Co",
+        "float_shares": 7040000.0,
+        "short_float_pct": 35.28,
+        "short_ratio_days": 5.2,
+        "rel_volume": 0.57,
+        "squeeze_score": 104.6,
+        "avg_volume": 477340.0,
+        "price": 12.15,
+        "change_pct": 4.07,
+        "volume": 271253.0
+      },
+      {
+        "ticker": "DFDV",
+        "company": "DeFi Development Corp",
+        "float_shares": 23370000.0,
+        "short_float_pct": 23.9,
+        "short_ratio_days": 6.07,
+        "rel_volume": 0.63,
+        "squeeze_score": 91.4,
+        "avg_volume": 921040.0,
+        "price": 4.16,
+        "change_pct": 5.71,
+        "volume": 580306.0
+      },
+      {
+        "ticker": "PVLA",
+        "company": "Palvella Therapeutics Inc",
+        "float_shares": 9080000.0,
+        "short_float_pct": 22.78,
+        "short_ratio_days": 8.31,
+        "rel_volume": 0.44,
+        "squeeze_score": 83.3,
+        "avg_volume": 248900.0,
+        "price": 139.89,
+        "change_pct": -1.52,
+        "volume": 110111.0
+      },
+      {
+        "ticker": "BKKT",
+        "company": "Bakkt Inc",
+        "float_shares": 26680000.0,
+        "short_float_pct": 22.8,
+        "short_ratio_days": 4.08,
+        "rel_volume": 0.57,
+        "squeeze_score": 53.0,
+        "avg_volume": 1490000.0,
+        "price": 8.5,
+        "change_pct": -1.05,
+        "volume": 848458.0
+      },
+      {
+        "ticker": "BBW",
+        "company": "Build A Bear Workshop Inc",
+        "float_shares": 11870000.0,
+        "short_float_pct": 23.08,
+        "short_ratio_days": 7.15,
+        "rel_volume": 0.32,
+        "squeeze_score": 52.8,
+        "avg_volume": 383100.0,
+        "price": 39.91,
+        "change_pct": 2.62,
+        "volume": 122566.0
+      },
+      {
+        "ticker": "BTDR",
+        "company": "Bitdeer Technologies Group",
+        "float_shares": 145480000.0,
+        "short_float_pct": 39.81,
+        "short_ratio_days": 4.68,
+        "rel_volume": 0.28,
+        "squeeze_score": 52.2,
+        "avg_volume": 12390000.0,
+        "price": 11.52,
+        "change_pct": 1.32,
+        "volume": 3443137.0
+      },
+      {
+        "ticker": "WYFI",
+        "company": "Whitefiber Inc",
+        "float_shares": 9480000.0,
+        "short_float_pct": 68.21,
+        "short_ratio_days": 2.52,
+        "rel_volume": 0.3,
+        "squeeze_score": 51.6,
+        "avg_volume": 2560000.0,
+        "price": 20.58,
+        "change_pct": -0.68,
+        "volume": 767664.0
+      },
+      {
+        "ticker": "MNRO",
+        "company": "Monro Inc",
+        "float_shares": 24210000.0,
+        "short_float_pct": 27.45,
+        "short_ratio_days": 5.49,
+        "rel_volume": 0.32,
+        "squeeze_score": 48.2,
+        "avg_volume": 1210000.0,
+        "price": 12.82,
+        "change_pct": 2.17,
+        "volume": 389466.0
+      },
+      {
+        "ticker": "CRML",
+        "company": "Critical Metals Corp",
+        "float_shares": 82510000.0,
+        "short_float_pct": 25.72,
+        "short_ratio_days": 3.35,
+        "rel_volume": 0.47,
+        "squeeze_score": 40.5,
+        "avg_volume": 6330000.0,
+        "price": 6.95,
+        "change_pct": -2.32,
+        "volume": 2994620.0
+      },
+      {
+        "ticker": "BLSH",
+        "company": "Bullish",
+        "float_shares": 37580000.0,
+        "short_float_pct": 22.64,
+        "short_ratio_days": 5.14,
+        "rel_volume": 0.27,
+        "squeeze_score": 31.4,
+        "avg_volume": 1650000.0,
+        "price": 31.2,
+        "change_pct": 2.61,
+        "volume": 447130.0
+      },
+      {
+        "ticker": "NUAI",
+        "company": "New Era Energy & Digital Inc",
+        "float_shares": 84700000.0,
+        "short_float_pct": 27.72,
+        "short_ratio_days": 2.92,
+        "rel_volume": 0.31,
+        "squeeze_score": 25.1,
+        "avg_volume": 8039999.999999999,
+        "price": 4.82,
+        "change_pct": -0.62,
+        "volume": 2472370.0
+      },
+      {
+        "ticker": "MARA",
+        "company": "MARA Holdings Inc",
+        "float_shares": 377730000.0,
+        "short_float_pct": 28.18,
+        "short_ratio_days": 2.32,
+        "rel_volume": 0.31,
+        "squeeze_score": 20.3,
+        "avg_volume": 45960000.0,
+        "price": 11.76,
+        "change_pct": 4.44,
+        "volume": 14190188.0
+      }
+    ]
   }
 ]
