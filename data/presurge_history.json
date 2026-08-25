@@ -16660,5 +16660,215 @@
         "earnings": "Aug 25/b"
       }
     ]
+  },
+  {
+    "timestamp": "2026-08-25T16:10:43.994680+00:00",
+    "label": "market_open",
+    "candidates": [
+      {
+        "ticker": "SLF",
+        "company": "Sun Life Financial Inc",
+        "sector": "Financial",
+        "market_cap": "44.04B",
+        "price": 79.08,
+        "change_pct": 0.04,
+        "avg_volume": "727.54K",
+        "rel_volume": 18.27,
+        "volume": "5,846,115",
+        "earnings": "Aug 06/a"
+      },
+      {
+        "ticker": "QFIN",
+        "company": "Qfin Holdings Inc ADR",
+        "sector": "Financial",
+        "market_cap": "1.37B",
+        "price": 11.27,
+        "change_pct": 2.56,
+        "avg_volume": "1.58M",
+        "rel_volume": 7.54,
+        "volume": "5,251,738",
+        "earnings": "Aug 25/a"
+      },
+      {
+        "ticker": "ZURA",
+        "company": "Zura Bio Ltd",
+        "sector": "Healthcare",
+        "market_cap": "615.70M",
+        "price": 6.43,
+        "change_pct": 1.98,
+        "avg_volume": "1.21M",
+        "rel_volume": 3.14,
+        "volume": "1,667,363",
+        "earnings": "Aug 11/b"
+      },
+      {
+        "ticker": "SMJF",
+        "company": "SMJ International Holdings Inc",
+        "sector": "Consumer Cyclical",
+        "market_cap": "309.74M",
+        "price": 11.18,
+        "change_pct": -0.62,
+        "avg_volume": "917.69K",
+        "rel_volume": 3.07,
+        "volume": "1,239,962",
+        "earnings": "-"
+      },
+      {
+        "ticker": "AURA",
+        "company": "Aura Biosciences Inc",
+        "sector": "Healthcare",
+        "market_cap": "829.72M",
+        "price": 8.0,
+        "change_pct": 1.28,
+        "avg_volume": "631.29K",
+        "rel_volume": 2.8,
+        "volume": "777,162",
+        "earnings": "Aug 11/b"
+      },
+      {
+        "ticker": "ALVO",
+        "company": "Alvotech",
+        "sector": "Healthcare",
+        "market_cap": "2.01B",
+        "price": 5.16,
+        "change_pct": -1.71,
+        "avg_volume": "946.05K",
+        "rel_volume": 2.75,
+        "volume": "1,145,270",
+        "earnings": "Aug 19/a"
+      },
+      {
+        "ticker": "CRBP",
+        "company": "Corbus Pharmaceuticals Holdings Inc",
+        "sector": "Healthcare",
+        "market_cap": "215.37M",
+        "price": 11.13,
+        "change_pct": 4.16,
+        "avg_volume": "518.37K",
+        "rel_volume": 2.69,
+        "volume": "613,034",
+        "earnings": "Aug 06/b"
+      },
+      {
+        "ticker": "BZ",
+        "company": "Kanzhun Ltd ADR",
+        "sector": "Communication Services",
+        "market_cap": "6.26B",
+        "price": 15.97,
+        "change_pct": 3.4,
+        "avg_volume": "3.71M",
+        "rel_volume": 2.65,
+        "volume": "4,326,958",
+        "earnings": "Aug 25/b"
+      },
+      {
+        "ticker": "DBRG",
+        "company": "DigitalBridge Group Inc",
+        "sector": "Financial",
+        "market_cap": "3.04B",
+        "price": 15.98,
+        "change_pct": -0.03,
+        "avg_volume": "3.02M",
+        "rel_volume": 2.62,
+        "volume": "3,474,576",
+        "earnings": "Aug 04/a"
+      },
+      {
+        "ticker": "RHI",
+        "company": "Robert Half Inc",
+        "sector": "Industrials",
+        "market_cap": "4.55B",
+        "price": 44.43,
+        "change_pct": -1.53,
+        "avg_volume": "2.31M",
+        "rel_volume": 2.59,
+        "volume": "2,637,224",
+        "earnings": "Jul 23/a"
+      },
+      {
+        "ticker": "BTI",
+        "company": "British American Tobacco Plc ADR",
+        "sector": "Consumer Defensive",
+        "market_cap": "121.23B",
+        "price": 56.26,
+        "change_pct": -0.8,
+        "avg_volume": "4.25M",
+        "rel_volume": 2.57,
+        "volume": "4,807,886",
+        "earnings": "Jul 30/b"
+      },
+      {
+        "ticker": "ACRS",
+        "company": "Aclaris Therapeutics Inc",
+        "sector": "Healthcare",
+        "market_cap": "949.43M",
+        "price": 6.45,
+        "change_pct": 2.22,
+        "avg_volume": "1.82M",
+        "rel_volume": 2.53,
+        "volume": "2,024,128",
+        "earnings": "Aug 06/b"
+      },
+      {
+        "ticker": "BMNR",
+        "company": "BitMine Immersion Technologies Inc",
+        "sector": "Financial",
+        "market_cap": "15.29B",
+        "price": 25.34,
+        "change_pct": 4.97,
+        "avg_volume": "37.89M",
+        "rel_volume": 2.37,
+        "volume": "39,411,781",
+        "earnings": "Jul 29"
+      },
+      {
+        "ticker": "GOOS",
+        "company": "Canada Goose Holdings Inc",
+        "sector": "Consumer Cyclical",
+        "market_cap": "803.03M",
+        "price": 8.22,
+        "change_pct": -0.69,
+        "avg_volume": "723.79K",
+        "rel_volume": 2.29,
+        "volume": "728,557",
+        "earnings": "Jul 30/b"
+      },
+      {
+        "ticker": "EQNR",
+        "company": "Equinor ASA ADR",
+        "sector": "Energy",
+        "market_cap": "98.88B",
+        "price": 41.36,
+        "change_pct": -2.38,
+        "avg_volume": "3.56M",
+        "rel_volume": 2.14,
+        "volume": "3,353,122",
+        "earnings": "Jul 22/b"
+      },
+      {
+        "ticker": "XPEV",
+        "company": "XPeng Inc ADR",
+        "sector": "Consumer Cyclical",
+        "market_cap": "8.96B",
+        "price": 11.45,
+        "change_pct": 2.69,
+        "avg_volume": "7.52M",
+        "rel_volume": 2.1,
+        "volume": "6,945,046",
+        "earnings": "Aug 24/b"
+      },
+      {
+        "ticker": "ABUS",
+        "company": "Arbutus Biopharma Corp",
+        "sector": "Healthcare",
+        "market_cap": "1.02B",
+        "price": 5.14,
+        "change_pct": -1.06,
+        "avg_volume": "2.54M",
+        "rel_volume": 2.01,
+        "volume": "2,246,062",
+        "earnings": "Aug 12/b"
+      }
+    ]
   }
 ]

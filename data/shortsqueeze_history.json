@@ -6228,5 +6228,76 @@
         "volume": 4801577.0
       }
     ]
+  },
+  {
+    "timestamp": "2026-08-25T16:11:16.385820+00:00",
+    "label": "market_open",
+    "candidates": [
+      {
+        "ticker": "IEP",
+        "company": "Icahn Enterprises L P",
+        "float_shares": 51430000.0,
+        "short_float_pct": 32.92,
+        "short_ratio_days": 17.04,
+        "rel_volume": 0.85,
+        "squeeze_score": 476.8,
+        "avg_volume": 993670.0,
+        "price": 6.57,
+        "change_pct": -2.54,
+        "volume": 841446.0
+      },
+      {
+        "ticker": "RHI",
+        "company": "Robert Half Inc",
+        "float_shares": 98480000.0,
+        "short_float_pct": 23.76,
+        "short_ratio_days": 10.13,
+        "rel_volume": 1.14,
+        "squeeze_score": 274.4,
+        "avg_volume": 2310000.0,
+        "price": 44.43,
+        "change_pct": -1.53,
+        "volume": 2638048.0
+      },
+      {
+        "ticker": "ZURA",
+        "company": "Zura Bio Ltd",
+        "float_shares": 49960000.0,
+        "short_float_pct": 21.04,
+        "short_ratio_days": 8.7,
+        "rel_volume": 1.38,
+        "squeeze_score": 252.6,
+        "avg_volume": 1210000.0,
+        "price": 6.42,
+        "change_pct": 1.96,
+        "volume": 1667705.0
+      },
+      {
+        "ticker": "BETR",
+        "company": "Better Home & Finance Holding Co",
+        "float_shares": 7040000.0,
+        "short_float_pct": 35.28,
+        "short_ratio_days": 5.16,
+        "rel_volume": 0.76,
+        "squeeze_score": 138.4,
+        "avg_volume": 481450.0,
+        "price": 11.98,
+        "change_pct": 2.17,
+        "volume": 366839.0
+      },
+      {
+        "ticker": "TEM",
+        "company": "Tempus AI Inc",
+        "float_shares": 107360000.0,
+        "short_float_pct": 30.95,
+        "short_ratio_days": 4.95,
+        "rel_volume": 0.74,
+        "squeeze_score": 113.4,
+        "avg_volume": 6710000.0,
+        "price": 69.37,
+        "change_pct": 4.83,
+        "volume": 4974185.0
+      }
+    ]
   }
 ]
