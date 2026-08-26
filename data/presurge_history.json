@@ -17140,5 +17140,263 @@
         "earnings": "Aug 26/a"
       }
     ]
+  },
+  {
+    "timestamp": "2026-08-26T16:37:09.286688+00:00",
+    "label": "market_open",
+    "candidates": [
+      {
+        "ticker": "DKS",
+        "company": "Dicks Sporting Goods Inc",
+        "sector": "Consumer Cyclical",
+        "market_cap": "11.50B",
+        "price": 128.51,
+        "change_pct": 3.38,
+        "avg_volume": "2.00M",
+        "rel_volume": 9.34,
+        "volume": "9,406,832",
+        "earnings": "Aug 25/b"
+      },
+      {
+        "ticker": "PLAB",
+        "company": "Photronics Inc",
+        "sector": "Technology",
+        "market_cap": "1.79B",
+        "price": 30.39,
+        "change_pct": 3.65,
+        "avg_volume": "1.52M",
+        "rel_volume": 7.68,
+        "volume": "5,885,791",
+        "earnings": "Aug 26/b"
+      },
+      {
+        "ticker": "ARCT",
+        "company": "Arcturus Therapeutics Holdings Inc",
+        "sector": "Healthcare",
+        "market_cap": "439.28M",
+        "price": 15.45,
+        "change_pct": 0.1,
+        "avg_volume": "702.95K",
+        "rel_volume": 3.77,
+        "volume": "1,334,475",
+        "earnings": "Aug 06/a"
+      },
+      {
+        "ticker": "KSS",
+        "company": "Kohl's Corp",
+        "sector": "Consumer Cyclical",
+        "market_cap": "2.04B",
+        "price": 17.99,
+        "change_pct": 1.76,
+        "avg_volume": "4.65M",
+        "rel_volume": 3.57,
+        "volume": "8,339,570",
+        "earnings": "Aug 26/b"
+      },
+      {
+        "ticker": "TRMD",
+        "company": "Torm Plc",
+        "sector": "Energy",
+        "market_cap": "3.15B",
+        "price": 30.75,
+        "change_pct": -2.29,
+        "avg_volume": "701.59K",
+        "rel_volume": 3.48,
+        "volume": "1,227,142",
+        "earnings": "Aug 26/b"
+      },
+      {
+        "ticker": "BCCQ",
+        "company": "Bleichroeder Acquisition Corp III",
+        "sector": "Financial",
+        "market_cap": "461.84M",
+        "price": 10.04,
+        "change_pct": 0.3,
+        "avg_volume": "636.38K",
+        "rel_volume": 3.24,
+        "volume": "1,038,196",
+        "earnings": "-"
+      },
+      {
+        "ticker": "CRML",
+        "company": "Critical Metals Corp",
+        "sector": "Basic Materials",
+        "market_cap": "1.19B",
+        "price": 8.11,
+        "change_pct": 0.1,
+        "avg_volume": "6.51M",
+        "rel_volume": 3.0,
+        "volume": "9,817,859",
+        "earnings": "Feb 25"
+      },
+      {
+        "ticker": "HEI",
+        "company": "Heico Corp",
+        "sector": "Industrials",
+        "market_cap": "40.39B",
+        "price": 344.88,
+        "change_pct": -1.76,
+        "avg_volume": "513.54K",
+        "rel_volume": 2.75,
+        "volume": "711,227",
+        "earnings": "Aug 25/a"
+      },
+      {
+        "ticker": "MATV",
+        "company": "Mativ Holdings Inc",
+        "sector": "Basic Materials",
+        "market_cap": "671.69M",
+        "price": 12.17,
+        "change_pct": -1.45,
+        "avg_volume": "551.63K",
+        "rel_volume": 2.74,
+        "volume": "760,303",
+        "earnings": "Aug 05/a"
+      },
+      {
+        "ticker": "MAIR",
+        "company": "Madison Air Solutions Corp",
+        "sector": "Industrials",
+        "market_cap": "14.05B",
+        "price": 28.01,
+        "change_pct": 0.07,
+        "avg_volume": "2.26M",
+        "rel_volume": 2.61,
+        "volume": "2,967,578",
+        "earnings": "Jul 30/b"
+      },
+      {
+        "ticker": "JAZZ",
+        "company": "Jazz Pharmaceuticals plc",
+        "sector": "Healthcare",
+        "market_cap": "16.62B",
+        "price": 256.08,
+        "change_pct": -1.59,
+        "avg_volume": "830.70K",
+        "rel_volume": 2.6,
+        "volume": "1,088,023",
+        "earnings": "Aug 03/a"
+      },
+      {
+        "ticker": "META",
+        "company": "Meta Platforms Inc",
+        "sector": "Communication Services",
+        "market_cap": "1470.88B",
+        "price": 577.38,
+        "change_pct": 1.29,
+        "avg_volume": "18.35M",
+        "rel_volume": 2.53,
+        "volume": "23,374,472",
+        "earnings": "Jul 29/a"
+      },
+      {
+        "ticker": "VCTR",
+        "company": "Victory Capital Holdings Inc",
+        "sector": "Financial",
+        "market_cap": "7.40B",
+        "price": 120.26,
+        "change_pct": 4.26,
+        "avg_volume": "522.93K",
+        "rel_volume": 2.4,
+        "volume": "630,593",
+        "earnings": "Aug 05/a"
+      },
+      {
+        "ticker": "ASST",
+        "company": "Strive Inc",
+        "sector": "Financial",
+        "market_cap": "1.80B",
+        "price": 21.02,
+        "change_pct": -1.73,
+        "avg_volume": "4.57M",
+        "rel_volume": 2.34,
+        "volume": "5,391,507",
+        "earnings": "Aug 10/b"
+      },
+      {
+        "ticker": "BURL",
+        "company": "Burlington Stores Inc",
+        "sector": "Consumer Cyclical",
+        "market_cap": "19.67B",
+        "price": 312.46,
+        "change_pct": -0.89,
+        "avg_volume": "822.28K",
+        "rel_volume": 2.31,
+        "volume": "955,291",
+        "earnings": "Aug 27/b"
+      },
+      {
+        "ticker": "QMLS",
+        "company": "QumulusAI Inc",
+        "sector": "Technology",
+        "market_cap": "212.98M",
+        "price": 6.48,
+        "change_pct": 3.35,
+        "avg_volume": "542.58K",
+        "rel_volume": 2.14,
+        "volume": "583,884",
+        "earnings": "Aug 25/a"
+      },
+      {
+        "ticker": "LEG",
+        "company": "Leggett & Platt Inc",
+        "sector": "Consumer Cyclical",
+        "market_cap": "1.25B",
+        "price": 9.19,
+        "change_pct": -1.43,
+        "avg_volume": "2.36M",
+        "rel_volume": 2.13,
+        "volume": "2,524,509",
+        "earnings": "Aug 06/b"
+      },
+      {
+        "ticker": "LIFE",
+        "company": "Ethos Technologies Inc",
+        "sector": "Financial",
+        "market_cap": "2.49B",
+        "price": 39.1,
+        "change_pct": 1.4,
+        "avg_volume": "878.86K",
+        "rel_volume": 2.13,
+        "volume": "942,746",
+        "earnings": "Aug 03/a"
+      },
+      {
+        "ticker": "BOX",
+        "company": "Box Inc",
+        "sector": "Technology",
+        "market_cap": "4.61B",
+        "price": 33.24,
+        "change_pct": 0.74,
+        "avg_volume": "2.71M",
+        "rel_volume": 2.12,
+        "volume": "2,891,523",
+        "earnings": "Aug 25/a"
+      },
+      {
+        "ticker": "DTM",
+        "company": "DT Midstream Inc",
+        "sector": "Energy",
+        "market_cap": "13.55B",
+        "price": 132.79,
+        "change_pct": 4.77,
+        "avg_volume": "815.92K",
+        "rel_volume": 2.07,
+        "volume": "847,695",
+        "earnings": "Jul 30/b"
+      },
+      {
+        "ticker": "WSM",
+        "company": "Williams-Sonoma Inc",
+        "sector": "Consumer Cyclical",
+        "market_cap": "27.67B",
+        "price": 235.02,
+        "change_pct": 0.12,
+        "avg_volume": "1.06M",
+        "rel_volume": 2.05,
+        "volume": "1,092,558",
+        "earnings": "Aug 26/b"
+      }
+    ]
   }
 ]

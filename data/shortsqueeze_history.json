@@ -6396,5 +6396,115 @@
         "volume": 695301.0
       }
     ]
+  },
+  {
+    "timestamp": "2026-08-26T16:37:39.663922+00:00",
+    "label": "market_open",
+    "candidates": [
+      {
+        "ticker": "ARCT",
+        "company": "Arcturus Therapeutics Holdings Inc",
+        "float_shares": 26050000.0,
+        "short_float_pct": 25.05,
+        "short_ratio_days": 9.28,
+        "rel_volume": 1.9,
+        "squeeze_score": 441.7,
+        "avg_volume": 702950.0,
+        "price": 15.47,
+        "change_pct": 0.19,
+        "volume": 1335323.0
+      },
+      {
+        "ticker": "KSS",
+        "company": "Kohl's Corp",
+        "float_shares": 108300000.0,
+        "short_float_pct": 27.55,
+        "short_ratio_days": 6.42,
+        "rel_volume": 1.79,
+        "squeeze_score": 316.6,
+        "avg_volume": 4650000.0,
+        "price": 17.99,
+        "change_pct": 1.75,
+        "volume": 8340266.0
+      },
+      {
+        "ticker": "REAX",
+        "company": "The Real Brokerage Inc",
+        "float_shares": 15770000.0,
+        "short_float_pct": 23.79,
+        "short_ratio_days": 7.57,
+        "rel_volume": 1.42,
+        "squeeze_score": 255.7,
+        "avg_volume": 495750.0,
+        "price": 27.78,
+        "change_pct": -2.29,
+        "volume": 702384.0
+      },
+      {
+        "ticker": "LEU",
+        "company": "Centrus Energy Corp",
+        "float_shares": 19190000.0,
+        "short_float_pct": 29.02,
+        "short_ratio_days": 7.02,
+        "rel_volume": 0.85,
+        "squeeze_score": 173.2,
+        "avg_volume": 793570.0,
+        "price": 188.31,
+        "change_pct": -2.63,
+        "volume": 673160.0
+      },
+      {
+        "ticker": "RHI",
+        "company": "Robert Half Inc",
+        "float_shares": 98480000.0,
+        "short_float_pct": 22.35,
+        "short_ratio_days": 9.42,
+        "rel_volume": 0.76,
+        "squeeze_score": 160.0,
+        "avg_volume": 2340000.0,
+        "price": 44.12,
+        "change_pct": -1.73,
+        "volume": 1778209.0
+      },
+      {
+        "ticker": "CRML",
+        "company": "Critical Metals Corp",
+        "float_shares": 82510000.0,
+        "short_float_pct": 27.05,
+        "short_ratio_days": 3.43,
+        "rel_volume": 1.51,
+        "squeeze_score": 140.1,
+        "avg_volume": 6510000.0,
+        "price": 8.1,
+        "change_pct": 0.06,
+        "volume": 9819982.0
+      },
+      {
+        "ticker": "ASST",
+        "company": "Strive Inc",
+        "float_shares": 74520000.0,
+        "short_float_pct": 24.42,
+        "short_ratio_days": 3.98,
+        "rel_volume": 1.18,
+        "squeeze_score": 114.7,
+        "avg_volume": 4570000.0,
+        "price": 21.0,
+        "change_pct": -1.8,
+        "volume": 5392311.0
+      },
+      {
+        "ticker": "MP",
+        "company": "MP Materials Corp",
+        "float_shares": 144900000.0,
+        "short_float_pct": 20.16,
+        "short_ratio_days": 4.83,
+        "rel_volume": 0.84,
+        "squeeze_score": 81.8,
+        "avg_volume": 6050000.0,
+        "price": 59.34,
+        "change_pct": -1.38,
+        "volume": 5108890.0
+      }
+    ]
   }
 ]
