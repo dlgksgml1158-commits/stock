@@ -6299,5 +6299,102 @@
         "volume": 4974185.0
       }
     ]
+  },
+  {
+    "timestamp": "2026-08-26T16:26:00.331183+00:00",
+    "label": "midnight_kst",
+    "candidates": [
+      {
+        "ticker": "ARCT",
+        "company": "Arcturus Therapeutics Holdings Inc",
+        "float_shares": 26050000.0,
+        "short_float_pct": 25.05,
+        "short_ratio_days": 9.28,
+        "rel_volume": 1.85,
+        "squeeze_score": 430.1,
+        "avg_volume": 702950.0,
+        "price": 15.37,
+        "change_pct": -0.45,
+        "volume": 1303142.0
+      },
+      {
+        "ticker": "KSS",
+        "company": "Kohl's Corp",
+        "float_shares": 108300000.0,
+        "short_float_pct": 27.55,
+        "short_ratio_days": 6.42,
+        "rel_volume": 1.76,
+        "squeeze_score": 311.3,
+        "avg_volume": 4650000.0,
+        "price": 17.85,
+        "change_pct": 0.95,
+        "volume": 8165817.0
+      },
+      {
+        "ticker": "RHI",
+        "company": "Robert Half Inc",
+        "float_shares": 98480000.0,
+        "short_float_pct": 22.35,
+        "short_ratio_days": 9.42,
+        "rel_volume": 0.75,
+        "squeeze_score": 157.9,
+        "avg_volume": 2340000.0,
+        "price": 44.15,
+        "change_pct": -1.68,
+        "volume": 1765220.0
+      },
+      {
+        "ticker": "CRML",
+        "company": "Critical Metals Corp",
+        "float_shares": 82510000.0,
+        "short_float_pct": 27.05,
+        "short_ratio_days": 3.43,
+        "rel_volume": 1.47,
+        "squeeze_score": 136.4,
+        "avg_volume": 6510000.0,
+        "price": 8.03,
+        "change_pct": -0.88,
+        "volume": 9569379.0
+      },
+      {
+        "ticker": "ASST",
+        "company": "Strive Inc",
+        "float_shares": 74520000.0,
+        "short_float_pct": 24.42,
+        "short_ratio_days": 3.98,
+        "rel_volume": 1.16,
+        "squeeze_score": 112.7,
+        "avg_volume": 4570000.0,
+        "price": 21.09,
+        "change_pct": -1.4,
+        "volume": 5311131.0
+      },
+      {
+        "ticker": "MP",
+        "company": "MP Materials Corp",
+        "float_shares": 144900000.0,
+        "short_float_pct": 20.16,
+        "short_ratio_days": 4.83,
+        "rel_volume": 0.83,
+        "squeeze_score": 80.8,
+        "avg_volume": 6050000.0,
+        "price": 59.36,
+        "change_pct": -1.34,
+        "volume": 5047303.0
+      },
+      {
+        "ticker": "DFDV",
+        "company": "DeFi Development Corp",
+        "float_shares": 23370000.0,
+        "short_float_pct": 21.37,
+        "short_ratio_days": 5.2,
+        "rel_volume": 0.72,
+        "squeeze_score": 80.0,
+        "avg_volume": 960190.0,
+        "price": 4.48,
+        "change_pct": -2.09,
+        "volume": 695301.0
+      }
+    ]
   }
 ]
