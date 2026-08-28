@@ -17644,5 +17644,251 @@
         "earnings": "Aug 25/a"
       }
     ]
+  },
+  {
+    "timestamp": "2026-08-28T00:22:21.146776+00:00",
+    "label": "midnight_kst",
+    "candidates": [
+      {
+        "ticker": "JAZZ",
+        "company": "Jazz Pharmaceuticals plc",
+        "sector": "Healthcare",
+        "market_cap": "16.30B",
+        "price": 251.1,
+        "change_pct": 0.73,
+        "avg_volume": "857.46K",
+        "rel_volume": 5.53,
+        "volume": "4,740,334",
+        "earnings": "Aug 03/a"
+      },
+      {
+        "ticker": "WEAV",
+        "company": "Weave Communications Inc",
+        "sector": "Healthcare",
+        "market_cap": "583.99M",
+        "price": 7.3,
+        "change_pct": -0.14,
+        "avg_volume": "2.28M",
+        "rel_volume": 3.36,
+        "volume": "7,654,836",
+        "earnings": "Aug 06/a"
+      },
+      {
+        "ticker": "DKS",
+        "company": "Dicks Sporting Goods Inc",
+        "sector": "Consumer Cyclical",
+        "market_cap": "11.79B",
+        "price": 131.77,
+        "change_pct": 1.63,
+        "avg_volume": "2.18M",
+        "rel_volume": 3.1,
+        "volume": "6,754,572",
+        "earnings": "Aug 25/b"
+      },
+      {
+        "ticker": "ANF",
+        "company": "Abercrombie & Fitch Co",
+        "sector": "Consumer Cyclical",
+        "market_cap": "6.48B",
+        "price": 145.75,
+        "change_pct": -1.35,
+        "avg_volume": "1.48M",
+        "rel_volume": 3.06,
+        "volume": "4,546,787",
+        "earnings": "Aug 26/b"
+      },
+      {
+        "ticker": "BUD",
+        "company": "Anheuser-Busch InBev SA/NV ADR",
+        "sector": "Consumer Defensive",
+        "market_cap": "138.39B",
+        "price": 79.1,
+        "change_pct": 0.85,
+        "avg_volume": "1.97M",
+        "rel_volume": 3.03,
+        "volume": "5,989,980",
+        "earnings": "Jul 30/b"
+      },
+      {
+        "ticker": "GENB",
+        "company": "Generate Biomedicines Inc",
+        "sector": "Healthcare",
+        "market_cap": "2.02B",
+        "price": 15.77,
+        "change_pct": -2.29,
+        "avg_volume": "945.15K",
+        "rel_volume": 3.03,
+        "volume": "2,860,243",
+        "earnings": "Aug 06/b"
+      },
+      {
+        "ticker": "GAP",
+        "company": "Gap Inc",
+        "sector": "Consumer Cyclical",
+        "market_cap": "7.48B",
+        "price": 20.79,
+        "change_pct": -1.7,
+        "avg_volume": "7.70M",
+        "rel_volume": 2.97,
+        "volume": "22,901,614",
+        "earnings": "Aug 27/a"
+      },
+      {
+        "ticker": "AYA",
+        "company": "Aya Gold & Silver Inc",
+        "sector": "Basic Materials",
+        "market_cap": "4.22B",
+        "price": 29.29,
+        "change_pct": 5.47,
+        "avg_volume": "658.07K",
+        "rel_volume": 2.85,
+        "volume": "1,876,685",
+        "earnings": "-"
+      },
+      {
+        "ticker": "CAI",
+        "company": "Caris Life Sciences Inc",
+        "sector": "Healthcare",
+        "market_cap": "7.45B",
+        "price": 26.38,
+        "change_pct": -1.64,
+        "avg_volume": "3.90M",
+        "rel_volume": 2.8,
+        "volume": "10,904,581",
+        "earnings": "Aug 05/a"
+      },
+      {
+        "ticker": "CGBD",
+        "company": "Carlyle Secured Lending Inc",
+        "sector": "Financial",
+        "market_cap": "802.27M",
+        "price": 11.66,
+        "change_pct": 2.91,
+        "avg_volume": "566.41K",
+        "rel_volume": 2.78,
+        "volume": "1,576,066",
+        "earnings": "Aug 08/a"
+      },
+      {
+        "ticker": "BILI",
+        "company": "Bilibili Inc ADR",
+        "sector": "Communication Services",
+        "market_cap": "5.68B",
+        "price": 16.76,
+        "change_pct": 3.81,
+        "avg_volume": "2.48M",
+        "rel_volume": 2.72,
+        "volume": "6,739,142",
+        "earnings": "Aug 27/b"
+      },
+      {
+        "ticker": "QFIN",
+        "company": "Qfin Holdings Inc ADR",
+        "sector": "Financial",
+        "market_cap": "1.12B",
+        "price": 9.17,
+        "change_pct": -1.93,
+        "avg_volume": "1.85M",
+        "rel_volume": 2.62,
+        "volume": "4,853,322",
+        "earnings": "Aug 25/a"
+      },
+      {
+        "ticker": "AFRM",
+        "company": "Affirm Holdings Inc",
+        "sector": "Financial",
+        "market_cap": "25.95B",
+        "price": 77.49,
+        "change_pct": 1.35,
+        "avg_volume": "3.84M",
+        "rel_volume": 2.48,
+        "volume": "9,528,032",
+        "earnings": "Aug 27/a"
+      },
+      {
+        "ticker": "ESTC",
+        "company": "Elastic N.V",
+        "sector": "Technology",
+        "market_cap": "8.70B",
+        "price": 83.74,
+        "change_pct": 5.67,
+        "avg_volume": "2.18M",
+        "rel_volume": 2.41,
+        "volume": "5,251,045",
+        "earnings": "Aug 27/a"
+      },
+      {
+        "ticker": "HPQ",
+        "company": "HP Inc",
+        "sector": "Technology",
+        "market_cap": "27.10B",
+        "price": 29.63,
+        "change_pct": -2.92,
+        "avg_volume": "17.27M",
+        "rel_volume": 2.36,
+        "volume": "40,837,459",
+        "earnings": "Aug 26/a"
+      },
+      {
+        "ticker": "HTGC",
+        "company": "Hercules Capital Inc",
+        "sector": "Financial",
+        "market_cap": "3.28B",
+        "price": 17.52,
+        "change_pct": -0.68,
+        "avg_volume": "1.51M",
+        "rel_volume": 2.34,
+        "volume": "3,545,960",
+        "earnings": "Jul 30/a"
+      },
+      {
+        "ticker": "DG",
+        "company": "Dollar General Corp",
+        "sector": "Consumer Defensive",
+        "market_cap": "27.77B",
+        "price": 125.89,
+        "change_pct": 2.53,
+        "avg_volume": "2.85M",
+        "rel_volume": 2.24,
+        "volume": "6,406,162",
+        "earnings": "Aug 27/b"
+      },
+      {
+        "ticker": "HP",
+        "company": "Helmerich & Payne Inc",
+        "sector": "Energy",
+        "market_cap": "4.24B",
+        "price": 42.42,
+        "change_pct": 2.46,
+        "avg_volume": "1.23M",
+        "rel_volume": 2.17,
+        "volume": "2,668,609",
+        "earnings": "Aug 05/a"
+      },
+      {
+        "ticker": "SGI",
+        "company": "Somnigroup International Inc",
+        "sector": "Consumer Cyclical",
+        "market_cap": "13.14B",
+        "price": 62.48,
+        "change_pct": -0.56,
+        "avg_volume": "2.82M",
+        "rel_volume": 2.17,
+        "volume": "6,100,711",
+        "earnings": "Aug 06/b"
+      },
+      {
+        "ticker": "BOX",
+        "company": "Box Inc",
+        "sector": "Technology",
+        "market_cap": "4.81B",
+        "price": 34.74,
+        "change_pct": 4.04,
+        "avg_volume": "2.72M",
+        "rel_volume": 2.16,
+        "volume": "5,878,212",
+        "earnings": "Aug 25/a"
+      }
+    ]
   }
 ]
