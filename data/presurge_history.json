@@ -18406,5 +18406,263 @@
         "earnings": "Jul 28/a"
       }
     ]
+  },
+  {
+    "timestamp": "2026-08-29T18:22:01.769930+00:00",
+    "label": "midnight_kst",
+    "candidates": [
+      {
+        "ticker": "AFRM",
+        "company": "Affirm Holdings Inc",
+        "sector": "Financial",
+        "market_cap": "26.24B",
+        "price": 77.76,
+        "change_pct": 0.35,
+        "avg_volume": "3.90M",
+        "rel_volume": 7.47,
+        "volume": "29,084,738",
+        "earnings": "Aug 27/a"
+      },
+      {
+        "ticker": "TENB",
+        "company": "Tenable Holdings Inc",
+        "sector": "Technology",
+        "market_cap": "4.15B",
+        "price": 37.67,
+        "change_pct": 0.13,
+        "avg_volume": "3.43M",
+        "rel_volume": 7.01,
+        "volume": "24,009,825",
+        "earnings": "Jul 29/a"
+      },
+      {
+        "ticker": "TNON",
+        "company": "Tenon Medical Inc",
+        "sector": "Healthcare",
+        "market_cap": "3.34M",
+        "price": 5.0,
+        "change_pct": -0.4,
+        "avg_volume": "1.22M",
+        "rel_volume": 6.37,
+        "volume": "7,755,580",
+        "earnings": "Aug 13/a"
+      },
+      {
+        "ticker": "SUNB",
+        "company": "Sunbelt Rentals Holdings Inc",
+        "sector": "Industrials",
+        "market_cap": "30.01B",
+        "price": 73.2,
+        "change_pct": -0.62,
+        "avg_volume": "3.43M",
+        "rel_volume": 3.86,
+        "volume": "13,245,137",
+        "earnings": "Sep 09/b"
+      },
+      {
+        "ticker": "BEKE",
+        "company": "KE Holdings Inc ADR",
+        "sector": "Real Estate",
+        "market_cap": "19.49B",
+        "price": 18.32,
+        "change_pct": 3.33,
+        "avg_volume": "3.87M",
+        "rel_volume": 3.65,
+        "volume": "14,135,738",
+        "earnings": "Aug 21/b"
+      },
+      {
+        "ticker": "ACM",
+        "company": "AECOM",
+        "sector": "Industrials",
+        "market_cap": "8.90B",
+        "price": 69.17,
+        "change_pct": 4.42,
+        "avg_volume": "2.16M",
+        "rel_volume": 3.29,
+        "volume": "7,116,110",
+        "earnings": "Aug 10/a"
+      },
+      {
+        "ticker": "SGI",
+        "company": "Somnigroup International Inc",
+        "sector": "Consumer Cyclical",
+        "market_cap": "14.82B",
+        "price": 64.37,
+        "change_pct": 3.02,
+        "avg_volume": "2.83M",
+        "rel_volume": 3.02,
+        "volume": "8,546,565",
+        "earnings": "Aug 06/b"
+      },
+      {
+        "ticker": "CHA",
+        "company": "Chagee Holdings Ltd ADR",
+        "sector": "Consumer Cyclical",
+        "market_cap": "1.36B",
+        "price": 10.8,
+        "change_pct": 4.35,
+        "avg_volume": "679.83K",
+        "rel_volume": 2.96,
+        "volume": "2,014,060",
+        "earnings": "Aug 28/b"
+      },
+      {
+        "ticker": "HQY",
+        "company": "Healthequity Inc",
+        "sector": "Healthcare",
+        "market_cap": "7.97B",
+        "price": 96.37,
+        "change_pct": 3.19,
+        "avg_volume": "907.87K",
+        "rel_volume": 2.49,
+        "volume": "2,259,571",
+        "earnings": "Aug 27/b"
+      },
+      {
+        "ticker": "HDB",
+        "company": "HDFC Bank Ltd ADR",
+        "sector": "Financial",
+        "market_cap": "118.56B",
+        "price": 23.08,
+        "change_pct": 2.76,
+        "avg_volume": "9.08M",
+        "rel_volume": 2.41,
+        "volume": "21,841,795",
+        "earnings": "Jul 18/a"
+      },
+      {
+        "ticker": "DKS",
+        "company": "Dicks Sporting Goods Inc",
+        "sector": "Consumer Cyclical",
+        "market_cap": "12.09B",
+        "price": 135.09,
+        "change_pct": 2.52,
+        "avg_volume": "2.24M",
+        "rel_volume": 2.4,
+        "volume": "5,357,533",
+        "earnings": "Aug 25/b"
+      },
+      {
+        "ticker": "GENB",
+        "company": "Generate Biomedicines Inc",
+        "sector": "Healthcare",
+        "market_cap": "1.97B",
+        "price": 15.33,
+        "change_pct": -2.79,
+        "avg_volume": "980.41K",
+        "rel_volume": 2.4,
+        "volume": "2,354,944",
+        "earnings": "Aug 06/b"
+      },
+      {
+        "ticker": "GPRE",
+        "company": "Green Plains Inc",
+        "sector": "Basic Materials",
+        "market_cap": "1.03B",
+        "price": 14.66,
+        "change_pct": 4.42,
+        "avg_volume": "1.42M",
+        "rel_volume": 2.35,
+        "volume": "3,340,464",
+        "earnings": "Aug 06/b"
+      },
+      {
+        "ticker": "BZ",
+        "company": "Kanzhun Ltd ADR",
+        "sector": "Communication Services",
+        "market_cap": "6.98B",
+        "price": 17.8,
+        "change_pct": -1.11,
+        "avg_volume": "4.32M",
+        "rel_volume": 2.25,
+        "volume": "9,719,774",
+        "earnings": "Aug 25/b"
+      },
+      {
+        "ticker": "CRM",
+        "company": "Salesforce Inc",
+        "sector": "Technology",
+        "market_cap": "210.69B",
+        "price": 256.0,
+        "change_pct": 1.57,
+        "avg_volume": "15.40M",
+        "rel_volume": 2.23,
+        "volume": "34,362,741",
+        "earnings": "Aug 26/a"
+      },
+      {
+        "ticker": "KLAR",
+        "company": "Klarna Group plc",
+        "sector": "Financial",
+        "market_cap": "5.36B",
+        "price": 14.2,
+        "change_pct": 1.36,
+        "avg_volume": "5.42M",
+        "rel_volume": 2.2,
+        "volume": "11,937,987",
+        "earnings": "Aug 18/b"
+      },
+      {
+        "ticker": "BIPC",
+        "company": "Brookfield Infrastructure Corp",
+        "sector": "Utilities",
+        "market_cap": "5.26B",
+        "price": 38.63,
+        "change_pct": -1.9,
+        "avg_volume": "995.49K",
+        "rel_volume": 2.16,
+        "volume": "2,147,695",
+        "earnings": "Jul 30/b"
+      },
+      {
+        "ticker": "HRL",
+        "company": "Hormel Foods Corp",
+        "sector": "Consumer Defensive",
+        "market_cap": "11.87B",
+        "price": 21.57,
+        "change_pct": 1.36,
+        "avg_volume": "4.94M",
+        "rel_volume": 2.15,
+        "volume": "10,648,744",
+        "earnings": "Aug 27/b"
+      },
+      {
+        "ticker": "SUJA",
+        "company": "Suja Life Inc",
+        "sector": "Consumer Defensive",
+        "market_cap": "361.92M",
+        "price": 9.37,
+        "change_pct": 4.11,
+        "avg_volume": "553.73K",
+        "rel_volume": 2.1,
+        "volume": "1,163,373",
+        "earnings": "Aug 04/a"
+      },
+      {
+        "ticker": "PDFS",
+        "company": "PDF Solutions Inc",
+        "sector": "Technology",
+        "market_cap": "1.89B",
+        "price": 44.81,
+        "change_pct": -2.9,
+        "avg_volume": "671.39K",
+        "rel_volume": 2.03,
+        "volume": "1,363,075",
+        "earnings": "Aug 06/a"
+      },
+      {
+        "ticker": "ACGL",
+        "company": "Arch Capital Group Ltd",
+        "sector": "Financial",
+        "market_cap": "33.73B",
+        "price": 98.84,
+        "change_pct": 0.08,
+        "avg_volume": "1.98M",
+        "rel_volume": 2.01,
+        "volume": "3,990,833",
+        "earnings": "Jul 28/a"
+      }
+    ]
   }
 ]
