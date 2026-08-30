@@ -6874,5 +6874,89 @@
         "volume": 6088514.0
       }
     ]
+  },
+  {
+    "timestamp": "2026-08-30T18:34:50.570366+00:00",
+    "label": "midnight_kst",
+    "candidates": [
+      {
+        "ticker": "BBW",
+        "company": "Build A Bear Workshop Inc",
+        "float_shares": 11870000.0,
+        "short_float_pct": 25.06,
+        "short_ratio_days": 6.3,
+        "rel_volume": 4.62,
+        "squeeze_score": 729.4,
+        "avg_volume": 472560.0,
+        "price": 29.85,
+        "change_pct": 4.96,
+        "volume": 2184138.0
+      },
+      {
+        "ticker": "WBTN",
+        "company": "Webtoon Entertainment Inc",
+        "float_shares": 22200000.0,
+        "short_float_pct": 20.13,
+        "short_ratio_days": 11.86,
+        "rel_volume": 1.6,
+        "squeeze_score": 382.0,
+        "avg_volume": 376830.0,
+        "price": 10.24,
+        "change_pct": 2.81,
+        "volume": 601364.0
+      },
+      {
+        "ticker": "ZURA",
+        "company": "Zura Bio Ltd",
+        "float_shares": 49960000.0,
+        "short_float_pct": 22.9,
+        "short_ratio_days": 9.07,
+        "rel_volume": 1.5,
+        "squeeze_score": 311.6,
+        "avg_volume": 1260000.0,
+        "price": 5.72,
+        "change_pct": -2.22,
+        "volume": 1893428.0
+      },
+      {
+        "ticker": "KLAR",
+        "company": "Klarna Group plc",
+        "float_shares": 144660000.0,
+        "short_float_pct": 21.97,
+        "short_ratio_days": 5.86,
+        "rel_volume": 2.2,
+        "squeeze_score": 283.2,
+        "avg_volume": 5420000.0,
+        "price": 14.2,
+        "change_pct": 1.36,
+        "volume": 11937987.0
+      },
+      {
+        "ticker": "AIRS",
+        "company": "Airsculpt Technologies Inc",
+        "float_shares": 10460000.0,
+        "short_float_pct": 26.7,
+        "short_ratio_days": 4.05,
+        "rel_volume": 1.61,
+        "squeeze_score": 174.1,
+        "avg_volume": 688760.0,
+        "price": 2.6,
+        "change_pct": -0.38,
+        "volume": 1110448.0
+      },
+      {
+        "ticker": "BRNX",
+        "company": "BrenX Ltd",
+        "float_shares": 680000.0,
+        "short_float_pct": 36.55,
+        "short_ratio_days": 0.32,
+        "rel_volume": 7.87,
+        "squeeze_score": 92.0,
+        "avg_volume": 773170.0,
+        "price": 3.89,
+        "change_pct": 0.78,
+        "volume": 6088514.0
+      }
+    ]
   }
 ]
