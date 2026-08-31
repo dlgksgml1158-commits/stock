@@ -18922,5 +18922,59 @@
         "earnings": "Jul 28/a"
       }
     ]
+  },
+  {
+    "timestamp": "2026-08-31T19:37:03.002949+00:00",
+    "label": "market_open",
+    "candidates": [
+      {
+        "ticker": "SNN",
+        "company": "Smith & Nephew plc ADR",
+        "sector": "Healthcare",
+        "market_cap": "12.05B",
+        "price": 28.79,
+        "change_pct": -0.62,
+        "avg_volume": "1.50M",
+        "rel_volume": 3.19,
+        "volume": "4,500,449",
+        "earnings": "Aug 04/b"
+      },
+      {
+        "ticker": "SAIC",
+        "company": "Science Applications International Corp",
+        "sector": "Technology",
+        "market_cap": "5.46B",
+        "price": 129.13,
+        "change_pct": 2.52,
+        "avg_volume": "529.39K",
+        "rel_volume": 2.79,
+        "volume": "1,389,429",
+        "earnings": "Aug 31/b"
+      },
+      {
+        "ticker": "SPPP",
+        "company": "Sprott Physical Platinum and Palladium Trust",
+        "sector": "Financial",
+        "market_cap": "-",
+        "price": 14.71,
+        "change_pct": -1.61,
+        "avg_volume": "616.59K",
+        "rel_volume": 2.35,
+        "volume": "1,363,803",
+        "earnings": "-"
+      },
+      {
+        "ticker": "PURR",
+        "company": "Hyperliquid Strategies Inc",
+        "sector": "Financial",
+        "market_cap": "2.42B",
+        "price": 12.22,
+        "change_pct": 5.25,
+        "avg_volume": "16.07M",
+        "rel_volume": 2.23,
+        "volume": "33,753,459",
+        "earnings": "Aug 27/b"
+      }
+    ]
   }
 ]

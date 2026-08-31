@@ -6958,5 +6958,24 @@
         "volume": 6088514.0
       }
     ]
+  },
+  {
+    "timestamp": "2026-08-31T19:37:33.331996+00:00",
+    "label": "market_open",
+    "candidates": [
+      {
+        "ticker": "BBW",
+        "company": "Build A Bear Workshop Inc",
+        "float_shares": 11870000.0,
+        "short_float_pct": 25.06,
+        "short_ratio_days": 6.1,
+        "rel_volume": 2.36,
+        "squeeze_score": 360.8,
+        "avg_volume": 487780.0,
+        "price": 30.31,
+        "change_pct": 1.55,
+        "volume": 1150466.0
+      }
+    ]
   }
 ]
