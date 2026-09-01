@@ -7178,5 +7178,24 @@
         "volume": 3641802.0
       }
     ]
+  },
+  {
+    "timestamp": "2026-09-01T17:26:38.355283+00:00",
+    "label": "market_open",
+    "candidates": [
+      {
+        "ticker": "ASST",
+        "company": "Strive Inc",
+        "float_shares": 78700000.0,
+        "short_float_pct": 23.12,
+        "short_ratio_days": 3.64,
+        "rel_volume": 1.5,
+        "squeeze_score": 126.2,
+        "avg_volume": 5000000.0,
+        "price": 23.88,
+        "change_pct": -1.4,
+        "volume": 7522275.0
+      }
+    ]
   }
 ]
