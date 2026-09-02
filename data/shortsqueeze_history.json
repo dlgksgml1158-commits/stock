@@ -7216,5 +7216,76 @@
         "volume": 8118643.0
       }
     ]
+  },
+  {
+    "timestamp": "2026-09-02T17:18:16.960265+00:00",
+    "label": "market_open",
+    "candidates": [
+      {
+        "ticker": "ALT",
+        "company": "Altimmune Inc",
+        "float_shares": 183690000.0,
+        "short_float_pct": 27.75,
+        "short_ratio_days": 11.7,
+        "rel_volume": 1.13,
+        "squeeze_score": 366.9,
+        "avg_volume": 4360000.0,
+        "price": 3.26,
+        "change_pct": 5.34,
+        "volume": 4916863.0
+      },
+      {
+        "ticker": "ARCT",
+        "company": "Arcturus Therapeutics Holdings Inc",
+        "float_shares": 26050000.0,
+        "short_float_pct": 25.05,
+        "short_ratio_days": 8.24,
+        "rel_volume": 1.37,
+        "squeeze_score": 282.8,
+        "avg_volume": 792250.0,
+        "price": 16.53,
+        "change_pct": 1.88,
+        "volume": 1081600.0
+      },
+      {
+        "ticker": "VSTM",
+        "company": "Verastem Inc",
+        "float_shares": 81760000.0,
+        "short_float_pct": 23.13,
+        "short_ratio_days": 7.71,
+        "rel_volume": 1.57,
+        "squeeze_score": 280.0,
+        "avg_volume": 2450000.0,
+        "price": 8.02,
+        "change_pct": 5.45,
+        "volume": 3846301.0
+      },
+      {
+        "ticker": "ASST",
+        "company": "Strive Inc",
+        "float_shares": 78700000.0,
+        "short_float_pct": 23.12,
+        "short_ratio_days": 3.58,
+        "rel_volume": 1.18,
+        "squeeze_score": 97.7,
+        "avg_volume": 5090000.0,
+        "price": 23.88,
+        "change_pct": -0.5,
+        "volume": 5992508.0
+      },
+      {
+        "ticker": "BRNX",
+        "company": "BrenX Ltd",
+        "float_shares": 680000.0,
+        "short_float_pct": 36.55,
+        "short_ratio_days": 0.28,
+        "rel_volume": 2.13,
+        "squeeze_score": 21.8,
+        "avg_volume": 887250.0,
+        "price": 3.62,
+        "change_pct": 2.98,
+        "volume": 1886647.0
+      }
+    ]
   }
 ]
