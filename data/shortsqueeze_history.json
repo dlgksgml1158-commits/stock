@@ -1,63 +1,5 @@
 [
   {
-    "timestamp": "2026-08-03T07:12:21.202462+00:00",
-    "label": "manual",
-    "candidates": [
-      {
-        "ticker": "ABR",
-        "company": "Arbor Realty Trust Inc",
-        "float_shares": 184320000.0,
-        "short_float_pct": 24.61,
-        "short_ratio_days": 9.88,
-        "rel_volume": 1.93,
-        "squeeze_score": 469.3,
-        "avg_volume": 4590000.0,
-        "price": 5.01,
-        "change_pct": 4.59,
-        "volume": 8877687.0
-      },
-      {
-        "ticker": "RIG",
-        "company": "Transocean Ltd",
-        "float_shares": 1010000000.0,
-        "short_float_pct": 23.96,
-        "short_ratio_days": 6.62,
-        "rel_volume": 1.71,
-        "squeeze_score": 271.2,
-        "avg_volume": 36650000.0,
-        "price": 5.32,
-        "change_pct": 4.72,
-        "volume": 62789331.0
-      },
-      {
-        "ticker": "DXC",
-        "company": "DXC Technology Co",
-        "float_shares": 158660000.0,
-        "short_float_pct": 20.17,
-        "short_ratio_days": 5.72,
-        "rel_volume": 1.93,
-        "squeeze_score": 222.7,
-        "avg_volume": 5590000.0,
-        "price": 11.24,
-        "change_pct": 0.0,
-        "volume": 10793633.0
-      },
-      {
-        "ticker": "EVER",
-        "company": "EverQuote Inc",
-        "float_shares": 26580000.0,
-        "short_float_pct": 20.08,
-        "short_ratio_days": 6.02,
-        "rel_volume": 1.5,
-        "squeeze_score": 181.3,
-        "avg_volume": 887060.0,
-        "price": 25.22,
-        "change_pct": 0.68,
-        "volume": 1331947.0
-      }
-    ]
-  },
-  {
     "timestamp": "2026-08-03T16:06:13.864470+00:00",
     "label": "market_open",
     "candidates": [
@@ -7285,6 +7227,38 @@
         "price": 3.57,
         "change_pct": 0.0,
         "volume": 4281542.0
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-09-03T18:33:44.816720+00:00",
+    "label": "midnight_kst",
+    "candidates": [
+      {
+        "ticker": "AI",
+        "company": "C3.ai Inc",
+        "float_shares": 141040000.0,
+        "short_float_pct": 34.14,
+        "short_ratio_days": 8.11,
+        "rel_volume": 1.28,
+        "squeeze_score": 354.4,
+        "avg_volume": 5940000.0,
+        "price": 10.81,
+        "change_pct": 2.76,
+        "volume": 7631951.0
+      },
+      {
+        "ticker": "KLAR",
+        "company": "Klarna Group plc",
+        "float_shares": 143970000.0,
+        "short_float_pct": 22.07,
+        "short_ratio_days": 5.81,
+        "rel_volume": 1.49,
+        "squeeze_score": 191.1,
+        "avg_volume": 5470000.0,
+        "price": 14.57,
+        "change_pct": 0.17,
+        "volume": 8154283.0
       }
     ]
   }
