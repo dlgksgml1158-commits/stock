@@ -1,89 +1,5 @@
 [
   {
-    "timestamp": "2026-08-03T16:06:13.864470+00:00",
-    "label": "market_open",
-    "candidates": [
-      {
-        "ticker": "IEP",
-        "company": "Icahn Enterprises L P",
-        "float_shares": 48030000.0,
-        "short_float_pct": 34.94,
-        "short_ratio_days": 19.3,
-        "rel_volume": 0.69,
-        "squeeze_score": 465.3,
-        "avg_volume": 869670.0,
-        "price": 7.68,
-        "change_pct": -1.35,
-        "volume": 596517.0
-      },
-      {
-        "ticker": "PRME",
-        "company": "Prime Medicine Inc",
-        "float_shares": 94970000.0,
-        "short_float_pct": 35.31,
-        "short_ratio_days": 10.16,
-        "rel_volume": 0.66,
-        "squeeze_score": 236.8,
-        "avg_volume": 3300000.0,
-        "price": 2.87,
-        "change_pct": -1.71,
-        "volume": 2162192.0
-      },
-      {
-        "ticker": "MNPR",
-        "company": "Monopar Therapeutics Inc",
-        "float_shares": 4160000.0,
-        "short_float_pct": 32.7,
-        "short_ratio_days": 6.56,
-        "rel_volume": 1.02,
-        "squeeze_score": 218.8,
-        "avg_volume": 207460.0,
-        "price": 109.5,
-        "change_pct": 1.06,
-        "volume": 210635.0
-      },
-      {
-        "ticker": "ALT",
-        "company": "Altimmune Inc",
-        "float_shares": 183670000.0,
-        "short_float_pct": 26.27,
-        "short_ratio_days": 12.24,
-        "rel_volume": 0.66,
-        "squeeze_score": 212.2,
-        "avg_volume": 3940000.0,
-        "price": 2.97,
-        "change_pct": 4.58,
-        "volume": 2595450.0
-      },
-      {
-        "ticker": "JACK",
-        "company": "Jack In The Box Inc",
-        "float_shares": 16730000.0,
-        "short_float_pct": 41.35,
-        "short_ratio_days": 7.16,
-        "rel_volume": 0.7,
-        "squeeze_score": 207.2,
-        "avg_volume": 966520.0,
-        "price": 17.26,
-        "change_pct": 5.44,
-        "volume": 679994.0
-      },
-      {
-        "ticker": "CAPR",
-        "company": "Capricor Therapeutics Inc",
-        "float_shares": 52310000.0,
-        "short_float_pct": 29.78,
-        "short_ratio_days": 5.97,
-        "rel_volume": 0.71,
-        "squeeze_score": 126.2,
-        "avg_volume": 2610000.0,
-        "price": 3.98,
-        "change_pct": 3.38,
-        "volume": 1862593.0
-      }
-    ]
-  },
-  {
     "timestamp": "2026-08-03T17:17:54.888779+00:00",
     "label": "midnight_kst",
     "candidates": [
@@ -7259,6 +7175,64 @@
         "price": 14.57,
         "change_pct": 0.17,
         "volume": 8154283.0
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-09-04T17:02:20.136159+00:00",
+    "label": "market_open",
+    "candidates": [
+      {
+        "ticker": "RXRX",
+        "company": "Recursion Pharmaceuticals Inc",
+        "float_shares": 480260000.0,
+        "short_float_pct": 37.05,
+        "short_ratio_days": 9.12,
+        "rel_volume": 0.93,
+        "squeeze_score": 314.2,
+        "avg_volume": 19510000.0,
+        "price": 3.62,
+        "change_pct": 5.09,
+        "volume": 18214728.0
+      },
+      {
+        "ticker": "LEU",
+        "company": "Centrus Energy Corp",
+        "float_shares": 19190000.0,
+        "short_float_pct": 29.02,
+        "short_ratio_days": 7.31,
+        "rel_volume": 0.98,
+        "squeeze_score": 207.9,
+        "avg_volume": 761740.0,
+        "price": 171.85,
+        "change_pct": 0.82,
+        "volume": 743252.0
+      },
+      {
+        "ticker": "ASST",
+        "company": "Strive Inc",
+        "float_shares": 78700000.0,
+        "short_float_pct": 23.12,
+        "short_ratio_days": 3.41,
+        "rel_volume": 1.14,
+        "squeeze_score": 89.9,
+        "avg_volume": 5340000.0,
+        "price": 27.18,
+        "change_pct": 1.34,
+        "volume": 6108365.0
+      },
+      {
+        "ticker": "MP",
+        "company": "MP Materials Corp",
+        "float_shares": 144900000.0,
+        "short_float_pct": 20.16,
+        "short_ratio_days": 5.0,
+        "rel_volume": 0.89,
+        "squeeze_score": 89.7,
+        "avg_volume": 5840000.0,
+        "price": 54.97,
+        "change_pct": 2.22,
+        "volume": 5179060.0
       }
     ]
   }
