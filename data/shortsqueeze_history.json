@@ -1,167 +1,5 @@
 [
   {
-    "timestamp": "2026-08-04T00:16:10.796237+00:00",
-    "label": "manual",
-    "candidates": [
-      {
-        "ticker": "STOK",
-        "company": "Stoke Therapeutics Inc",
-        "float_shares": 51600000.0,
-        "short_float_pct": 30.41,
-        "short_ratio_days": 21.7,
-        "rel_volume": 4.36,
-        "squeeze_score": 2877.2,
-        "avg_volume": 723220.0,
-        "price": 29.56,
-        "change_pct": 2.43,
-        "volume": 3151999.0
-      },
-      {
-        "ticker": "IEP",
-        "company": "Icahn Enterprises L P",
-        "float_shares": 48030000.0,
-        "short_float_pct": 34.94,
-        "short_ratio_days": 19.3,
-        "rel_volume": 1.57,
-        "squeeze_score": 1058.7,
-        "avg_volume": 869670.0,
-        "price": 7.76,
-        "change_pct": -0.39,
-        "volume": 1364123.0
-      },
-      {
-        "ticker": "INDI",
-        "company": "Indie Semiconductor Inc",
-        "float_shares": 208290000.0,
-        "short_float_pct": 33.22,
-        "short_ratio_days": 12.12,
-        "rel_volume": 2.09,
-        "squeeze_score": 841.5,
-        "avg_volume": 5710000.0,
-        "price": 3.39,
-        "change_pct": 4.95,
-        "volume": 11955933.0
-      },
-      {
-        "ticker": "AMCX",
-        "company": "AMC Global Media Inc",
-        "float_shares": 28640000.0,
-        "short_float_pct": 23.91,
-        "short_ratio_days": 11.45,
-        "rel_volume": 2.38,
-        "squeeze_score": 651.6,
-        "avg_volume": 598260.0,
-        "price": 10.9,
-        "change_pct": -2.68,
-        "volume": 1426832.0
-      },
-      {
-        "ticker": "METC",
-        "company": "Ramaco Resources Inc",
-        "float_shares": 42020000.0,
-        "short_float_pct": 30.13,
-        "short_ratio_days": 7.97,
-        "rel_volume": 2.16,
-        "squeeze_score": 518.7,
-        "avg_volume": 1590000.0,
-        "price": 8.9,
-        "change_pct": -2.94,
-        "volume": 3440147.0
-      },
-      {
-        "ticker": "MNPR",
-        "company": "Monopar Therapeutics Inc",
-        "float_shares": 4160000.0,
-        "short_float_pct": 32.7,
-        "short_ratio_days": 6.56,
-        "rel_volume": 2.36,
-        "squeeze_score": 506.2,
-        "avg_volume": 207460.0,
-        "price": 111.64,
-        "change_pct": 3.04,
-        "volume": 489203.0
-      },
-      {
-        "ticker": "ABR",
-        "company": "Arbor Realty Trust Inc",
-        "float_shares": 184320000.0,
-        "short_float_pct": 24.61,
-        "short_ratio_days": 9.73,
-        "rel_volume": 1.61,
-        "squeeze_score": 385.5,
-        "avg_volume": 4660000.0,
-        "price": 5.16,
-        "change_pct": 2.99,
-        "volume": 7514380.0
-      },
-      {
-        "ticker": "PGEN",
-        "company": "Precigen Inc",
-        "float_shares": 159280000.0,
-        "short_float_pct": 25.76,
-        "short_ratio_days": 8.87,
-        "rel_volume": 1.61,
-        "squeeze_score": 367.9,
-        "avg_volume": 4620000.0,
-        "price": 6.61,
-        "change_pct": 5.42,
-        "volume": 7441195.0
-      },
-      {
-        "ticker": "TROX",
-        "company": "Tronox Holdings plc",
-        "float_shares": 118340000.0,
-        "short_float_pct": 21.7,
-        "short_ratio_days": 8.99,
-        "rel_volume": 1.66,
-        "squeeze_score": 323.8,
-        "avg_volume": 2860000.0,
-        "price": 5.7,
-        "change_pct": -2.4,
-        "volume": 4750914.0
-      },
-      {
-        "ticker": "SHOE",
-        "company": "Shoe Station Group Inc",
-        "float_shares": 17910000.0,
-        "short_float_pct": 23.65,
-        "short_ratio_days": 6.96,
-        "rel_volume": 1.51,
-        "squeeze_score": 248.6,
-        "avg_volume": 608850.0,
-        "price": 15.42,
-        "change_pct": 1.45,
-        "volume": 919623.0
-      },
-      {
-        "ticker": "NN",
-        "company": "NextNav Inc",
-        "float_shares": 75410000.0,
-        "short_float_pct": 21.52,
-        "short_ratio_days": 6.71,
-        "rel_volume": 1.56,
-        "squeeze_score": 225.3,
-        "avg_volume": 2420000.0,
-        "price": 13.24,
-        "change_pct": 0.99,
-        "volume": 3769105.0
-      },
-      {
-        "ticker": "FIG",
-        "company": "Figma Inc",
-        "float_shares": 199300000.0,
-        "short_float_pct": 33.16,
-        "short_ratio_days": 3.08,
-        "rel_volume": 1.61,
-        "squeeze_score": 164.4,
-        "avg_volume": 21420000.0,
-        "price": 24.92,
-        "change_pct": 2.47,
-        "volume": 34426030.0
-      }
-    ]
-  },
-  {
     "timestamp": "2026-08-04T16:00:21.099430+00:00",
     "label": "market_open",
     "candidates": [
@@ -7181,6 +7019,64 @@
         "price": 27.01,
         "change_pct": 0.71,
         "volume": 6717012.0
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-09-05T17:16:35.388224+00:00",
+    "label": "midnight_kst",
+    "candidates": [
+      {
+        "ticker": "GIII",
+        "company": "G-III Apparel Group Ltd",
+        "float_shares": 35180000.0,
+        "short_float_pct": 21.57,
+        "short_ratio_days": 12.55,
+        "rel_volume": 1.53,
+        "squeeze_score": 414.2,
+        "avg_volume": 604530.0,
+        "price": 27.74,
+        "change_pct": 1.87,
+        "volume": 924502.0
+      },
+      {
+        "ticker": "COLL",
+        "company": "Collegium Pharmaceutical Inc",
+        "float_shares": 31840000.0,
+        "short_float_pct": 20.49,
+        "short_ratio_days": 11.09,
+        "rel_volume": 1.53,
+        "squeeze_score": 347.7,
+        "avg_volume": 588420.0,
+        "price": 23.53,
+        "change_pct": -0.72,
+        "volume": 901142.0
+      },
+      {
+        "ticker": "KLAR",
+        "company": "Klarna Group plc",
+        "float_shares": 143970000.0,
+        "short_float_pct": 22.07,
+        "short_ratio_days": 5.72,
+        "rel_volume": 1.74,
+        "squeeze_score": 219.7,
+        "avg_volume": 5560000.0,
+        "price": 14.41,
+        "change_pct": 0.07,
+        "volume": 9655852.0
+      },
+      {
+        "ticker": "ASST",
+        "company": "Strive Inc",
+        "float_shares": 78700000.0,
+        "short_float_pct": 23.12,
+        "short_ratio_days": 3.41,
+        "rel_volume": 1.68,
+        "squeeze_score": 132.4,
+        "avg_volume": 5340000.0,
+        "price": 27.14,
+        "change_pct": 1.19,
+        "volume": 8996803.0
       }
     ]
   }
