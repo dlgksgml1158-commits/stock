@@ -1,167 +1,5 @@
 [
   {
-    "timestamp": "2026-08-07T00:49:57.870370+00:00",
-    "label": "market_open",
-    "candidates": [
-      {
-        "ticker": "IBTA",
-        "company": "Ibotta Inc",
-        "float_shares": 8670000.0,
-        "short_float_pct": 35.26,
-        "short_ratio_days": 14.13,
-        "rel_volume": 2.72,
-        "squeeze_score": 1355.2,
-        "avg_volume": 216370.0,
-        "price": 35.96,
-        "change_pct": 1.81,
-        "volume": 588952.0
-      },
-      {
-        "ticker": "FRMM",
-        "company": "Forum Markets Inc",
-        "float_shares": 5550000.0,
-        "short_float_pct": 47.99,
-        "short_ratio_days": 8.26,
-        "rel_volume": 2.22,
-        "squeeze_score": 880.0,
-        "avg_volume": 322410.0,
-        "price": 6.1,
-        "change_pct": -2.09,
-        "volume": 714219.0
-      },
-      {
-        "ticker": "LXEO",
-        "company": "Lexeo Therapeutics Inc",
-        "float_shares": 66790000.00000001,
-        "short_float_pct": 24.48,
-        "short_ratio_days": 18.03,
-        "rel_volume": 1.61,
-        "squeeze_score": 710.6,
-        "avg_volume": 906880.0,
-        "price": 4.55,
-        "change_pct": 2.25,
-        "volume": 1463826.0
-      },
-      {
-        "ticker": "EZPW",
-        "company": "EZCorp Inc",
-        "float_shares": 54280000.0,
-        "short_float_pct": 20.9,
-        "short_ratio_days": 11.95,
-        "rel_volume": 1.98,
-        "squeeze_score": 494.5,
-        "avg_volume": 949450.0,
-        "price": 29.18,
-        "change_pct": -2.01,
-        "volume": 1879283.0
-      },
-      {
-        "ticker": "METC",
-        "company": "Ramaco Resources Inc",
-        "float_shares": 42020000.0,
-        "short_float_pct": 30.13,
-        "short_ratio_days": 7.44,
-        "rel_volume": 1.99,
-        "squeeze_score": 446.1,
-        "avg_volume": 1700000.0,
-        "price": 9.59,
-        "change_pct": 3.79,
-        "volume": 3389273.0
-      },
-      {
-        "ticker": "EYPT",
-        "company": "EyePoint Inc",
-        "float_shares": 78130000.0,
-        "short_float_pct": 21.02,
-        "short_ratio_days": 12.23,
-        "rel_volume": 1.67,
-        "squeeze_score": 429.3,
-        "avg_volume": 1340000.0,
-        "price": 12.83,
-        "change_pct": 4.73,
-        "volume": 2240810.0
-      },
-      {
-        "ticker": "SRPT",
-        "company": "Sarepta Therapeutics Inc",
-        "float_shares": 100920000.0,
-        "short_float_pct": 28.23,
-        "short_ratio_days": 8.31,
-        "rel_volume": 1.53,
-        "squeeze_score": 358.9,
-        "avg_volume": 3430000.0,
-        "price": 16.78,
-        "change_pct": 5.34,
-        "volume": 5241391.0
-      },
-      {
-        "ticker": "NN",
-        "company": "NextNav Inc",
-        "float_shares": 75410000.0,
-        "short_float_pct": 21.52,
-        "short_ratio_days": 6.45,
-        "rel_volume": 2.42,
-        "squeeze_score": 335.9,
-        "avg_volume": 2520000.0,
-        "price": 15.0,
-        "change_pct": 1.18,
-        "volume": 6108478.0
-      },
-      {
-        "ticker": "OMDA",
-        "company": "Omada Health Inc",
-        "float_shares": 27870000.0,
-        "short_float_pct": 28.64,
-        "short_ratio_days": 6.39,
-        "rel_volume": 1.81,
-        "squeeze_score": 331.2,
-        "avg_volume": 1250000.0,
-        "price": 19.54,
-        "change_pct": 2.25,
-        "volume": 2262924.0
-      },
-      {
-        "ticker": "SEZL",
-        "company": "Sezzle Inc",
-        "float_shares": 16800000.0,
-        "short_float_pct": 24.01,
-        "short_ratio_days": 6.09,
-        "rel_volume": 1.78,
-        "squeeze_score": 260.3,
-        "avg_volume": 662900.0,
-        "price": 178.53,
-        "change_pct": 2.37,
-        "volume": 1182940.0
-      },
-      {
-        "ticker": "BBBY",
-        "company": "Bed Bath & Beyond Inc",
-        "float_shares": 65950000.0,
-        "short_float_pct": 22.16,
-        "short_ratio_days": 5.65,
-        "rel_volume": 1.67,
-        "squeeze_score": 209.1,
-        "avg_volume": 2590000.0,
-        "price": 4.5,
-        "change_pct": -2.6,
-        "volume": 4313695.0
-      },
-      {
-        "ticker": "TE",
-        "company": "T1 Energy Inc",
-        "float_shares": 234760000.0,
-        "short_float_pct": 20.83,
-        "short_ratio_days": 1.2,
-        "rel_volume": 1.52,
-        "squeeze_score": 38.0,
-        "avg_volume": 40810000.0,
-        "price": 5.55,
-        "change_pct": 1.46,
-        "volume": 62004236.0
-      }
-    ]
-  },
-  {
     "timestamp": "2026-08-07T16:04:32.247226+00:00",
     "label": "midnight_kst",
     "candidates": [
@@ -6843,6 +6681,103 @@
         "price": 2.32,
         "change_pct": 3.58,
         "volume": 2010939.0
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-09-09T17:15:42.109985+00:00",
+    "label": "market_open",
+    "candidates": [
+      {
+        "ticker": "MPT",
+        "company": "Medical Properties Trust Inc",
+        "float_shares": 490070000.0,
+        "short_float_pct": 29.49,
+        "short_ratio_days": 20.59,
+        "rel_volume": 0.91,
+        "squeeze_score": 552.6,
+        "avg_volume": 7020000.0,
+        "price": 3.91,
+        "change_pct": -1.9,
+        "volume": 6402811.0
+      },
+      {
+        "ticker": "LOVE",
+        "company": "Lovesac Company",
+        "float_shares": 13760000.0,
+        "short_float_pct": 20.44,
+        "short_ratio_days": 12.73,
+        "rel_volume": 1.54,
+        "squeeze_score": 400.7,
+        "avg_volume": 220830.0,
+        "price": 15.95,
+        "change_pct": -0.72,
+        "volume": 339494.0
+      },
+      {
+        "ticker": "SHOE",
+        "company": "Shoe Station Group Inc",
+        "float_shares": 17910000.0,
+        "short_float_pct": 37.04,
+        "short_ratio_days": 9.37,
+        "rel_volume": 1.04,
+        "squeeze_score": 360.9,
+        "avg_volume": 708230.0,
+        "price": 13.25,
+        "change_pct": -0.97,
+        "volume": 738226.0
+      },
+      {
+        "ticker": "INBX",
+        "company": "Inhibrx Biosciences Inc",
+        "float_shares": 11010000.0,
+        "short_float_pct": 29.2,
+        "short_ratio_days": 10.19,
+        "rel_volume": 1.18,
+        "squeeze_score": 351.1,
+        "avg_volume": 315660.0,
+        "price": 118.65,
+        "change_pct": 3.77,
+        "volume": 372984.0
+      },
+      {
+        "ticker": "SEI",
+        "company": "Solaris Energy Infrastructure Inc",
+        "float_shares": 53790000.0,
+        "short_float_pct": 27.85,
+        "short_ratio_days": 5.16,
+        "rel_volume": 0.97,
+        "squeeze_score": 139.4,
+        "avg_volume": 2900000.0,
+        "price": 67.4,
+        "change_pct": 5.38,
+        "volume": 2821654.0
+      },
+      {
+        "ticker": "SAIL",
+        "company": "Sailpoint Inc",
+        "float_shares": 71100000.0,
+        "short_float_pct": 28.37,
+        "short_ratio_days": 4.89,
+        "rel_volume": 0.97,
+        "squeeze_score": 134.6,
+        "avg_volume": 4130000.0,
+        "price": 17.85,
+        "change_pct": 0.34,
+        "volume": 4009176.0
+      },
+      {
+        "ticker": "ASST",
+        "company": "Strive Inc",
+        "float_shares": 78700000.0,
+        "short_float_pct": 23.12,
+        "short_ratio_days": 3.35,
+        "rel_volume": 0.95,
+        "squeeze_score": 73.6,
+        "avg_volume": 5440000.0,
+        "price": 26.69,
+        "change_pct": -1.71,
+        "volume": 5174619.0
       }
     ]
   }
