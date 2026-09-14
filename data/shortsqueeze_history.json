@@ -1,115 +1,5 @@
 [
   {
-    "timestamp": "2026-08-11T16:28:43.719613+00:00",
-    "label": "market_open",
-    "candidates": [
-      {
-        "ticker": "MPT",
-        "company": "Medical Properties Trust Inc",
-        "float_shares": 490810000.0,
-        "short_float_pct": 28.16,
-        "short_ratio_days": 23.0,
-        "rel_volume": 1.17,
-        "squeeze_score": 757.8,
-        "avg_volume": 6010000.0,
-        "price": 4.18,
-        "change_pct": 0.6,
-        "volume": 7046610.0
-      },
-      {
-        "ticker": "EZPW",
-        "company": "EZCorp Inc",
-        "float_shares": 54280000.0,
-        "short_float_pct": 20.9,
-        "short_ratio_days": 11.68,
-        "rel_volume": 0.93,
-        "squeeze_score": 227.0,
-        "avg_volume": 971160.0,
-        "price": 26.97,
-        "change_pct": -0.77,
-        "volume": 904671.0
-      },
-      {
-        "ticker": "ABEO",
-        "company": "Abeona Therapeutics Inc",
-        "float_shares": 50390000.0,
-        "short_float_pct": 26.26,
-        "short_ratio_days": 10.81,
-        "rel_volume": 0.77,
-        "squeeze_score": 218.6,
-        "avg_volume": 1220000.0,
-        "price": 7.51,
-        "change_pct": 0.87,
-        "volume": 933733.0
-      },
-      {
-        "ticker": "HROW",
-        "company": "Harrow Inc",
-        "float_shares": 31410000.0,
-        "short_float_pct": 21.79,
-        "short_ratio_days": 8.46,
-        "rel_volume": 1.12,
-        "squeeze_score": 206.5,
-        "avg_volume": 809330.0,
-        "price": 39.69,
-        "change_pct": -2.48,
-        "volume": 904264.0
-      },
-      {
-        "ticker": "PLUG",
-        "company": "Plug Power Inc",
-        "float_shares": 1330000000.0,
-        "short_float_pct": 24.79,
-        "short_ratio_days": 5.02,
-        "rel_volume": 1.57,
-        "squeeze_score": 195.4,
-        "avg_volume": 65780000.0,
-        "price": 2.21,
-        "change_pct": 4.98,
-        "volume": 103318194.0
-      },
-      {
-        "ticker": "BTDR",
-        "company": "Bitdeer Technologies Group",
-        "float_shares": 131389999.99999999,
-        "short_float_pct": 43.35,
-        "short_ratio_days": 5.18,
-        "rel_volume": 0.82,
-        "squeeze_score": 184.1,
-        "avg_volume": 11000000.0,
-        "price": 8.65,
-        "change_pct": -0.58,
-        "volume": 9054119.0
-      },
-      {
-        "ticker": "PHAT",
-        "company": "Phathom Pharmaceuticals Inc",
-        "float_shares": 51020000.0,
-        "short_float_pct": 23.76,
-        "short_ratio_days": 9.32,
-        "rel_volume": 0.79,
-        "squeeze_score": 174.9,
-        "avg_volume": 1300000.0,
-        "price": 8.66,
-        "change_pct": 1.1,
-        "volume": 1024123.0
-      },
-      {
-        "ticker": "KPTI",
-        "company": "Karyopharm Therapeutics Inc",
-        "float_shares": 19590000.0,
-        "short_float_pct": 32.22,
-        "short_ratio_days": 5.49,
-        "rel_volume": 0.73,
-        "squeeze_score": 129.1,
-        "avg_volume": 1150000.0,
-        "price": 2.06,
-        "change_pct": 4.91,
-        "volume": 834746.0
-      }
-    ]
-  },
-  {
     "timestamp": "2026-08-12T16:06:45.748856+00:00",
     "label": "midnight_kst",
     "candidates": [
@@ -6570,6 +6460,90 @@
         "price": 3.31,
         "change_pct": 4.92,
         "volume": 525928.0
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-09-14T19:50:04.121923+00:00",
+    "label": "midnight_kst",
+    "candidates": [
+      {
+        "ticker": "FLWS",
+        "company": "1-800 Flowers.com Inc",
+        "float_shares": 30550000.0,
+        "short_float_pct": 25.35,
+        "short_ratio_days": 25.15,
+        "rel_volume": 1.49,
+        "squeeze_score": 950.0,
+        "avg_volume": 307890.0,
+        "price": 3.06,
+        "change_pct": 1.33,
+        "volume": 458813.0
+      },
+      {
+        "ticker": "MMED",
+        "company": "MiniMed Group Inc",
+        "float_shares": 27170000.0,
+        "short_float_pct": 29.67,
+        "short_ratio_days": 5.67,
+        "rel_volume": 2.31,
+        "squeeze_score": 388.6,
+        "avg_volume": 1420000.0,
+        "price": 21.87,
+        "change_pct": -2.79,
+        "volume": 3277626.0
+      },
+      {
+        "ticker": "PLAY",
+        "company": "Dave & Buster's Entertainment Inc",
+        "float_shares": 33200000.000000004,
+        "short_float_pct": 26.16,
+        "short_ratio_days": 5.17,
+        "rel_volume": 2.23,
+        "squeeze_score": 301.6,
+        "avg_volume": 1680000.0,
+        "price": 8.38,
+        "change_pct": 2.89,
+        "volume": 3738890.0
+      },
+      {
+        "ticker": "STIM",
+        "company": "Neuronetics Inc",
+        "float_shares": 28880000.0,
+        "short_float_pct": 23.09,
+        "short_ratio_days": 3.16,
+        "rel_volume": 3.17,
+        "squeeze_score": 231.3,
+        "avg_volume": 2110000.0,
+        "price": 2.97,
+        "change_pct": -1.82,
+        "volume": 6692040.0
+      },
+      {
+        "ticker": "ASST",
+        "company": "Strive Inc",
+        "float_shares": 82320000.0,
+        "short_float_pct": 24.01,
+        "short_ratio_days": 3.5,
+        "rel_volume": 1.52,
+        "squeeze_score": 127.7,
+        "avg_volume": 5650000.0,
+        "price": 28.92,
+        "change_pct": 4.72,
+        "volume": 8607136.0
+      },
+      {
+        "ticker": "GRML",
+        "company": "Greenland Mines Ltd",
+        "float_shares": 2870000.0,
+        "short_float_pct": 22.43,
+        "short_ratio_days": 1.95,
+        "rel_volume": 1.76,
+        "squeeze_score": 77.0,
+        "avg_volume": 329700.0,
+        "price": 3.29,
+        "change_pct": 4.29,
+        "volume": 580304.0
       }
     ]
   }
