@@ -1,154 +1,5 @@
 [
   {
-    "timestamp": "2026-08-23T15:32:14.876843+00:00",
-    "label": "midnight_kst",
-    "candidates": [
-      {
-        "ticker": "SVRA",
-        "company": "Savara Inc",
-        "float_shares": 102790000.0,
-        "short_float_pct": 35.82,
-        "short_ratio_days": 20.75,
-        "rel_volume": 1.71,
-        "squeeze_score": 1271.0,
-        "avg_volume": 1770000.0,
-        "price": 5.59,
-        "change_pct": 1.82,
-        "volume": 3035363.0
-      },
-      {
-        "ticker": "STOK",
-        "company": "Stoke Therapeutics Inc",
-        "float_shares": 53490000.0,
-        "short_float_pct": 29.56,
-        "short_ratio_days": 19.27,
-        "rel_volume": 1.55,
-        "squeeze_score": 882.9,
-        "avg_volume": 820350.0,
-        "price": 32.29,
-        "change_pct": 2.83,
-        "volume": 1274422.0
-      },
-      {
-        "ticker": "GEMI",
-        "company": "Gemini Space Station Inc",
-        "float_shares": 37400000.0,
-        "short_float_pct": 29.94,
-        "short_ratio_days": 6.59,
-        "rel_volume": 4.31,
-        "squeeze_score": 850.4,
-        "avg_volume": 1700000.0,
-        "price": 4.28,
-        "change_pct": 3.38,
-        "volume": 7324131.0
-      },
-      {
-        "ticker": "EYPT",
-        "company": "EyePoint Inc",
-        "float_shares": 80570000.0,
-        "short_float_pct": 22.36,
-        "short_ratio_days": 6.53,
-        "rel_volume": 2.97,
-        "squeeze_score": 433.7,
-        "avg_volume": 2760000.0,
-        "price": 5.32,
-        "change_pct": -1.48,
-        "volume": 8186380.0
-      },
-      {
-        "ticker": "DFDV",
-        "company": "DeFi Development Corp",
-        "float_shares": 23370000.0,
-        "short_float_pct": 23.9,
-        "short_ratio_days": 6.24,
-        "rel_volume": 2.32,
-        "squeeze_score": 346.0,
-        "avg_volume": 895200.0,
-        "price": 3.94,
-        "change_pct": 4.51,
-        "volume": 2075251.0
-      },
-      {
-        "ticker": "WW",
-        "company": "WW International Inc",
-        "float_shares": 9000000.0,
-        "short_float_pct": 22.39,
-        "short_ratio_days": 9.58,
-        "rel_volume": 1.55,
-        "squeeze_score": 332.5,
-        "avg_volume": 210220.0,
-        "price": 15.71,
-        "change_pct": 4.73,
-        "volume": 325487.0
-      },
-      {
-        "ticker": "FLO",
-        "company": "Flowers Foods Inc",
-        "float_shares": 196090000.0,
-        "short_float_pct": 22.44,
-        "short_ratio_days": 6.42,
-        "rel_volume": 2.27,
-        "squeeze_score": 327.0,
-        "avg_volume": 6860000.0,
-        "price": 6.95,
-        "change_pct": -2.11,
-        "volume": 15568862.0
-      },
-      {
-        "ticker": "BBW",
-        "company": "Build A Bear Workshop Inc",
-        "float_shares": 11870000.0,
-        "short_float_pct": 23.08,
-        "short_ratio_days": 7.26,
-        "rel_volume": 1.78,
-        "squeeze_score": 298.3,
-        "avg_volume": 377140.0,
-        "price": 38.89,
-        "change_pct": 2.94,
-        "volume": 670239.0
-      },
-      {
-        "ticker": "ANDG",
-        "company": "Andersen Group Inc",
-        "float_shares": 13540000.0,
-        "short_float_pct": 21.15,
-        "short_ratio_days": 6.94,
-        "rel_volume": 1.86,
-        "squeeze_score": 273.0,
-        "avg_volume": 412600.0,
-        "price": 50.16,
-        "change_pct": -0.32,
-        "volume": 769120.0
-      },
-      {
-        "ticker": "DLO",
-        "company": "DLocal Limited",
-        "float_shares": 70290000.0,
-        "short_float_pct": 23.53,
-        "short_ratio_days": 6.35,
-        "rel_volume": 1.72,
-        "squeeze_score": 257.0,
-        "avg_volume": 2600000.0,
-        "price": 15.17,
-        "change_pct": 5.79,
-        "volume": 4467085.0
-      },
-      {
-        "ticker": "MARA",
-        "company": "MARA Holdings Inc",
-        "float_shares": 377730000.0,
-        "short_float_pct": 28.18,
-        "short_ratio_days": 2.37,
-        "rel_volume": 2.32,
-        "squeeze_score": 154.9,
-        "avg_volume": 44860000.0,
-        "price": 11.26,
-        "change_pct": 0.99,
-        "volume": 104100344.0
-      }
-    ]
-  },
-  {
     "timestamp": "2026-08-24T14:22:30.245868+00:00",
     "label": "market_open",
     "candidates": [
@@ -5556,6 +5407,116 @@
         "price": 4.97,
         "change_pct": -2.55,
         "volume": 6322787.0
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-09-26T18:31:01.426701+00:00",
+    "label": "midnight_kst",
+    "candidates": [
+      {
+        "ticker": "SHOE",
+        "company": "Shoe Station Group Inc",
+        "float_shares": 17930000.0,
+        "short_float_pct": 48.82,
+        "short_ratio_days": 9.48,
+        "rel_volume": 1.54,
+        "squeeze_score": 712.7,
+        "avg_volume": 923500.0,
+        "price": 13.0,
+        "change_pct": -1.66,
+        "volume": 1424005.0
+      },
+      {
+        "ticker": "IMVT",
+        "company": "Immunovant Inc",
+        "float_shares": 84820000.0,
+        "short_float_pct": 20.34,
+        "short_ratio_days": 13.65,
+        "rel_volume": 1.87,
+        "squeeze_score": 519.2,
+        "avg_volume": 1260000.0,
+        "price": 33.3,
+        "change_pct": -2.06,
+        "volume": 2350111.0
+      },
+      {
+        "ticker": "ORIC",
+        "company": "ORIC Pharmaceuticals Inc",
+        "float_shares": 68210000.0,
+        "short_float_pct": 25.7,
+        "short_ratio_days": 11.48,
+        "rel_volume": 1.63,
+        "squeeze_score": 480.9,
+        "avg_volume": 1530000.0,
+        "price": 13.16,
+        "change_pct": -0.15,
+        "volume": 2493810.0
+      },
+      {
+        "ticker": "XNDU",
+        "company": "Xanadu Quantum Technologies Ltd",
+        "float_shares": 15010000.0,
+        "short_float_pct": 48.11,
+        "short_ratio_days": 2.95,
+        "rel_volume": 3.25,
+        "squeeze_score": 461.3,
+        "avg_volume": 2450000.0,
+        "price": 4.98,
+        "change_pct": -2.35,
+        "volume": 7965299.0
+      },
+      {
+        "ticker": "TYRA",
+        "company": "Tyra Biosciences Inc",
+        "float_shares": 45770000.0,
+        "short_float_pct": 21.58,
+        "short_ratio_days": 11.11,
+        "rel_volume": 1.6,
+        "squeeze_score": 383.6,
+        "avg_volume": 888850.0,
+        "price": 21.76,
+        "change_pct": -2.9,
+        "volume": 1421983.0
+      },
+      {
+        "ticker": "OXM",
+        "company": "Oxford Industries Inc",
+        "float_shares": 13820000.0,
+        "short_float_pct": 26.42,
+        "short_ratio_days": 8.67,
+        "rel_volume": 1.63,
+        "squeeze_score": 373.4,
+        "avg_volume": 421170.0,
+        "price": 25.95,
+        "change_pct": -0.46,
+        "volume": 687968.0
+      },
+      {
+        "ticker": "GRAL",
+        "company": "GRAIL Inc",
+        "float_shares": 41960000.0,
+        "short_float_pct": 20.41,
+        "short_ratio_days": 10.06,
+        "rel_volume": 1.52,
+        "squeeze_score": 312.1,
+        "avg_volume": 851030.0,
+        "price": 126.89,
+        "change_pct": 1.34,
+        "volume": 1292245.0
+      },
+      {
+        "ticker": "MATW",
+        "company": "Matthews International Corp",
+        "float_shares": 28490000.0,
+        "short_float_pct": 20.44,
+        "short_ratio_days": 8.15,
+        "rel_volume": 1.62,
+        "squeeze_score": 269.9,
+        "avg_volume": 714310.0,
+        "price": 18.95,
+        "change_pct": -1.4,
+        "volume": 1154923.0
       }
     ]
   }
