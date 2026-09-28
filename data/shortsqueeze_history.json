@@ -1,141 +1,5 @@
 [
   {
-    "timestamp": "2026-08-24T16:07:11.743686+00:00",
-    "label": "market_open",
-    "candidates": [
-      {
-        "ticker": "ARCT",
-        "company": "Arcturus Therapeutics Holdings Inc",
-        "float_shares": 26050000.0,
-        "short_float_pct": 27.67,
-        "short_ratio_days": 11.17,
-        "rel_volume": 1.25,
-        "squeeze_score": 386.3,
-        "avg_volume": 644930.0,
-        "price": 13.82,
-        "change_pct": 2.75,
-        "volume": 807878.0
-      },
-      {
-        "ticker": "GEMI",
-        "company": "Gemini Space Station Inc",
-        "float_shares": 37400000.0,
-        "short_float_pct": 29.94,
-        "short_ratio_days": 6.26,
-        "rel_volume": 1.89,
-        "squeeze_score": 354.2,
-        "avg_volume": 1790000.0,
-        "price": 4.33,
-        "change_pct": 1.09,
-        "volume": 3384389.0
-      },
-      {
-        "ticker": "EZPW",
-        "company": "EZCorp Inc",
-        "float_shares": 54200000.0,
-        "short_float_pct": 22.57,
-        "short_ratio_days": 11.69,
-        "rel_volume": 1.05,
-        "squeeze_score": 277.0,
-        "avg_volume": 1050000.0,
-        "price": 34.01,
-        "change_pct": 5.56,
-        "volume": 1102689.0
-      },
-      {
-        "ticker": "NVAX",
-        "company": "Novavax Inc",
-        "float_shares": 156720000.0,
-        "short_float_pct": 29.13,
-        "short_ratio_days": 10.6,
-        "rel_volume": 0.66,
-        "squeeze_score": 203.8,
-        "avg_volume": 4310000.0,
-        "price": 8.75,
-        "change_pct": -2.1,
-        "volume": 2855181.0
-      },
-      {
-        "ticker": "RHI",
-        "company": "Robert Half Inc",
-        "float_shares": 98480000.0,
-        "short_float_pct": 23.76,
-        "short_ratio_days": 10.24,
-        "rel_volume": 0.83,
-        "squeeze_score": 201.9,
-        "avg_volume": 2290000.0,
-        "price": 45.7,
-        "change_pct": 2.12,
-        "volume": 1910647.0
-      },
-      {
-        "ticker": "WYFI",
-        "company": "Whitefiber Inc",
-        "float_shares": 9480000.0,
-        "short_float_pct": 68.21,
-        "short_ratio_days": 2.52,
-        "rel_volume": 0.81,
-        "squeeze_score": 139.2,
-        "avg_volume": 2560000.0,
-        "price": 20.76,
-        "change_pct": 0.18,
-        "volume": 2080047.0
-      },
-      {
-        "ticker": "BETR",
-        "company": "Better Home & Finance Holding Co",
-        "float_shares": 7040000.0,
-        "short_float_pct": 35.28,
-        "short_ratio_days": 5.2,
-        "rel_volume": 0.74,
-        "squeeze_score": 135.8,
-        "avg_volume": 477340.0,
-        "price": 11.89,
-        "change_pct": 1.81,
-        "volume": 354958.0
-      },
-      {
-        "ticker": "PVLA",
-        "company": "Palvella Therapeutics Inc",
-        "float_shares": 9080000.0,
-        "short_float_pct": 22.78,
-        "short_ratio_days": 8.31,
-        "rel_volume": 0.67,
-        "squeeze_score": 126.8,
-        "avg_volume": 248900.0,
-        "price": 141.98,
-        "change_pct": -0.04,
-        "volume": 166258.0
-      },
-      {
-        "ticker": "PLUG",
-        "company": "Plug Power Inc",
-        "float_shares": 1330000000.0,
-        "short_float_pct": 22.05,
-        "short_ratio_days": 4.96,
-        "rel_volume": 0.65,
-        "squeeze_score": 71.1,
-        "avg_volume": 59340000.0,
-        "price": 2.21,
-        "change_pct": -2.64,
-        "volume": 38532620.0
-      },
-      {
-        "ticker": "MARA",
-        "company": "MARA Holdings Inc",
-        "float_shares": 377730000.0,
-        "short_float_pct": 28.18,
-        "short_ratio_days": 2.32,
-        "rel_volume": 0.7,
-        "squeeze_score": 45.8,
-        "avg_volume": 45960000.0,
-        "price": 11.59,
-        "change_pct": 2.93,
-        "volume": 32232075.0
-      }
-    ]
-  },
-  {
     "timestamp": "2026-08-25T15:54:49.494230+00:00",
     "label": "midnight_kst",
     "candidates": [
@@ -5400,6 +5264,129 @@
         "price": 25.82,
         "change_pct": -0.5,
         "volume": 648569.0
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-09-28T21:12:44.505183+00:00",
+    "label": "midnight_kst",
+    "candidates": [
+      {
+        "ticker": "SVRA",
+        "company": "Savara Inc",
+        "float_shares": 103060000.0,
+        "short_float_pct": 42.06,
+        "short_ratio_days": 25.33,
+        "rel_volume": 2.56,
+        "squeeze_score": 2727.4,
+        "avg_volume": 1710000.0,
+        "price": 5.07,
+        "change_pct": 1.4,
+        "volume": 4370996.0
+      },
+      {
+        "ticker": "MMED",
+        "company": "MiniMed Group Inc",
+        "float_shares": 27170000.0,
+        "short_float_pct": 50.04,
+        "short_ratio_days": 7.84,
+        "rel_volume": 2.11,
+        "squeeze_score": 827.8,
+        "avg_volume": 1730000.0,
+        "price": 20.49,
+        "change_pct": 2.55,
+        "volume": 3649160.0
+      },
+      {
+        "ticker": "AVBP",
+        "company": "ArriVent BioPharma Inc",
+        "float_shares": 34640000.0,
+        "short_float_pct": 25.31,
+        "short_ratio_days": 16.56,
+        "rel_volume": 1.92,
+        "squeeze_score": 804.7,
+        "avg_volume": 529370.0,
+        "price": 29.3,
+        "change_pct": 2.99,
+        "volume": 1016619.0
+      },
+      {
+        "ticker": "LBRX",
+        "company": "LB Pharmaceuticals Inc",
+        "float_shares": 23920000.0,
+        "short_float_pct": 23.48,
+        "short_ratio_days": 16.45,
+        "rel_volume": 1.57,
+        "squeeze_score": 606.4,
+        "avg_volume": 341430.0,
+        "price": 37.89,
+        "change_pct": 1.5,
+        "volume": 534572.0
+      },
+      {
+        "ticker": "SHMD",
+        "company": "SCHMID Group NV",
+        "float_shares": 4530000.0,
+        "short_float_pct": 39.53,
+        "short_ratio_days": 2.25,
+        "rel_volume": 6.69,
+        "squeeze_score": 595.0,
+        "avg_volume": 795660.0,
+        "price": 4.38,
+        "change_pct": 0.11,
+        "volume": 5326368.0
+      },
+      {
+        "ticker": "RNA",
+        "company": "Atrium Therapeutics Inc",
+        "float_shares": 16600000.000000002,
+        "short_float_pct": 20.47,
+        "short_ratio_days": 13.51,
+        "rel_volume": 2.01,
+        "squeeze_score": 555.9,
+        "avg_volume": 251550.0,
+        "price": 8.42,
+        "change_pct": 1.57,
+        "volume": 504926.0
+      },
+      {
+        "ticker": "FDMT",
+        "company": "4D Molecular Therapeutics Inc",
+        "float_shares": 50420000.0,
+        "short_float_pct": 23.82,
+        "short_ratio_days": 12.78,
+        "rel_volume": 1.66,
+        "squeeze_score": 505.3,
+        "avg_volume": 939400.0,
+        "price": 14.56,
+        "change_pct": 0.62,
+        "volume": 1557421.0
+      },
+      {
+        "ticker": "NAMS",
+        "company": "NewAmsterdam Pharma Company NV",
+        "float_shares": 77130000.0,
+        "short_float_pct": 20.3,
+        "short_ratio_days": 12.17,
+        "rel_volume": 1.59,
+        "squeeze_score": 392.8,
+        "avg_volume": 1290000.0,
+        "price": 23.58,
+        "change_pct": 4.43,
+        "volume": 2056722.0
+      },
+      {
+        "ticker": "OXM",
+        "company": "Oxford Industries Inc",
+        "float_shares": 13820000.0,
+        "short_float_pct": 26.42,
+        "short_ratio_days": 8.59,
+        "rel_volume": 1.53,
+        "squeeze_score": 347.2,
+        "avg_volume": 425210.0,
+        "price": 25.85,
+        "change_pct": -0.39,
+        "volume": 648542.0
       }
     ]
   }
