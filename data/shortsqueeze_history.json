@@ -1,76 +1,5 @@
 [
   {
-    "timestamp": "2026-08-25T16:11:16.385820+00:00",
-    "label": "market_open",
-    "candidates": [
-      {
-        "ticker": "IEP",
-        "company": "Icahn Enterprises L P",
-        "float_shares": 51430000.0,
-        "short_float_pct": 32.92,
-        "short_ratio_days": 17.04,
-        "rel_volume": 0.85,
-        "squeeze_score": 476.8,
-        "avg_volume": 993670.0,
-        "price": 6.57,
-        "change_pct": -2.54,
-        "volume": 841446.0
-      },
-      {
-        "ticker": "RHI",
-        "company": "Robert Half Inc",
-        "float_shares": 98480000.0,
-        "short_float_pct": 23.76,
-        "short_ratio_days": 10.13,
-        "rel_volume": 1.14,
-        "squeeze_score": 274.4,
-        "avg_volume": 2310000.0,
-        "price": 44.43,
-        "change_pct": -1.53,
-        "volume": 2638048.0
-      },
-      {
-        "ticker": "ZURA",
-        "company": "Zura Bio Ltd",
-        "float_shares": 49960000.0,
-        "short_float_pct": 21.04,
-        "short_ratio_days": 8.7,
-        "rel_volume": 1.38,
-        "squeeze_score": 252.6,
-        "avg_volume": 1210000.0,
-        "price": 6.42,
-        "change_pct": 1.96,
-        "volume": 1667705.0
-      },
-      {
-        "ticker": "BETR",
-        "company": "Better Home & Finance Holding Co",
-        "float_shares": 7040000.0,
-        "short_float_pct": 35.28,
-        "short_ratio_days": 5.16,
-        "rel_volume": 0.76,
-        "squeeze_score": 138.4,
-        "avg_volume": 481450.0,
-        "price": 11.98,
-        "change_pct": 2.17,
-        "volume": 366839.0
-      },
-      {
-        "ticker": "TEM",
-        "company": "Tempus AI Inc",
-        "float_shares": 107360000.0,
-        "short_float_pct": 30.95,
-        "short_ratio_days": 4.95,
-        "rel_volume": 0.74,
-        "squeeze_score": 113.4,
-        "avg_volume": 6710000.0,
-        "price": 69.37,
-        "change_pct": 4.83,
-        "volume": 4974185.0
-      }
-    ]
-  },
-  {
     "timestamp": "2026-08-26T16:26:00.331183+00:00",
     "label": "midnight_kst",
     "candidates": [
@@ -5361,6 +5290,90 @@
         "price": 4.52,
         "change_pct": 3.22,
         "volume": 1777364.0
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-09-29T19:57:06.603957+00:00",
+    "label": "midnight_kst",
+    "candidates": [
+      {
+        "ticker": "SMMT",
+        "company": "Summit Therapeutics Inc",
+        "float_shares": 152340000.0,
+        "short_float_pct": 26.97,
+        "short_ratio_days": 8.03,
+        "rel_volume": 5.0,
+        "squeeze_score": 1082.8,
+        "avg_volume": 5120000.0,
+        "price": 16.4,
+        "change_pct": 5.94,
+        "volume": 25586609.0
+      },
+      {
+        "ticker": "TECX",
+        "company": "Tectonic Therapeutic Inc",
+        "float_shares": 10160000.0,
+        "short_float_pct": 21.84,
+        "short_ratio_days": 10.56,
+        "rel_volume": 4.29,
+        "squeeze_score": 989.4,
+        "avg_volume": 210040.0,
+        "price": 23.29,
+        "change_pct": -0.94,
+        "volume": 900823.0
+      },
+      {
+        "ticker": "LBRX",
+        "company": "LB Pharmaceuticals Inc",
+        "float_shares": 23920000.0,
+        "short_float_pct": 23.48,
+        "short_ratio_days": 17.14,
+        "rel_volume": 1.88,
+        "squeeze_score": 756.6,
+        "avg_volume": 327700.0,
+        "price": 37.32,
+        "change_pct": -1.5,
+        "volume": 617476.0
+      },
+      {
+        "ticker": "XNDU",
+        "company": "Xanadu Quantum Technologies Ltd",
+        "float_shares": 9340000.0,
+        "short_float_pct": 77.32,
+        "short_ratio_days": 2.8,
+        "rel_volume": 3.24,
+        "squeeze_score": 701.4,
+        "avg_volume": 2580000.0,
+        "price": 4.78,
+        "change_pct": 0.1,
+        "volume": 8356350.0
+      },
+      {
+        "ticker": "MMED",
+        "company": "MiniMed Group Inc",
+        "float_shares": 27170000.0,
+        "short_float_pct": 50.04,
+        "short_ratio_days": 8.03,
+        "rel_volume": 1.72,
+        "squeeze_score": 691.1,
+        "avg_volume": 1690000.0,
+        "price": 20.0,
+        "change_pct": -2.39,
+        "volume": 2908442.0
+      },
+      {
+        "ticker": "SHMD",
+        "company": "SCHMID Group NV",
+        "float_shares": 4530000.0,
+        "short_float_pct": 39.53,
+        "short_ratio_days": 2.05,
+        "rel_volume": 2.2,
+        "squeeze_score": 178.3,
+        "avg_volume": 872820.0,
+        "price": 4.45,
+        "change_pct": 1.71,
+        "volume": 1920550.0
       }
     ]
   }
