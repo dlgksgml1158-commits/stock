@@ -1,115 +1,5 @@
 [
   {
-    "timestamp": "2026-08-26T16:37:39.663922+00:00",
-    "label": "market_open",
-    "candidates": [
-      {
-        "ticker": "ARCT",
-        "company": "Arcturus Therapeutics Holdings Inc",
-        "float_shares": 26050000.0,
-        "short_float_pct": 25.05,
-        "short_ratio_days": 9.28,
-        "rel_volume": 1.9,
-        "squeeze_score": 441.7,
-        "avg_volume": 702950.0,
-        "price": 15.47,
-        "change_pct": 0.19,
-        "volume": 1335323.0
-      },
-      {
-        "ticker": "KSS",
-        "company": "Kohl's Corp",
-        "float_shares": 108300000.0,
-        "short_float_pct": 27.55,
-        "short_ratio_days": 6.42,
-        "rel_volume": 1.79,
-        "squeeze_score": 316.6,
-        "avg_volume": 4650000.0,
-        "price": 17.99,
-        "change_pct": 1.75,
-        "volume": 8340266.0
-      },
-      {
-        "ticker": "REAX",
-        "company": "The Real Brokerage Inc",
-        "float_shares": 15770000.0,
-        "short_float_pct": 23.79,
-        "short_ratio_days": 7.57,
-        "rel_volume": 1.42,
-        "squeeze_score": 255.7,
-        "avg_volume": 495750.0,
-        "price": 27.78,
-        "change_pct": -2.29,
-        "volume": 702384.0
-      },
-      {
-        "ticker": "LEU",
-        "company": "Centrus Energy Corp",
-        "float_shares": 19190000.0,
-        "short_float_pct": 29.02,
-        "short_ratio_days": 7.02,
-        "rel_volume": 0.85,
-        "squeeze_score": 173.2,
-        "avg_volume": 793570.0,
-        "price": 188.31,
-        "change_pct": -2.63,
-        "volume": 673160.0
-      },
-      {
-        "ticker": "RHI",
-        "company": "Robert Half Inc",
-        "float_shares": 98480000.0,
-        "short_float_pct": 22.35,
-        "short_ratio_days": 9.42,
-        "rel_volume": 0.76,
-        "squeeze_score": 160.0,
-        "avg_volume": 2340000.0,
-        "price": 44.12,
-        "change_pct": -1.73,
-        "volume": 1778209.0
-      },
-      {
-        "ticker": "CRML",
-        "company": "Critical Metals Corp",
-        "float_shares": 82510000.0,
-        "short_float_pct": 27.05,
-        "short_ratio_days": 3.43,
-        "rel_volume": 1.51,
-        "squeeze_score": 140.1,
-        "avg_volume": 6510000.0,
-        "price": 8.1,
-        "change_pct": 0.06,
-        "volume": 9819982.0
-      },
-      {
-        "ticker": "ASST",
-        "company": "Strive Inc",
-        "float_shares": 74520000.0,
-        "short_float_pct": 24.42,
-        "short_ratio_days": 3.98,
-        "rel_volume": 1.18,
-        "squeeze_score": 114.7,
-        "avg_volume": 4570000.0,
-        "price": 21.0,
-        "change_pct": -1.8,
-        "volume": 5392311.0
-      },
-      {
-        "ticker": "MP",
-        "company": "MP Materials Corp",
-        "float_shares": 144900000.0,
-        "short_float_pct": 20.16,
-        "short_ratio_days": 4.83,
-        "rel_volume": 0.84,
-        "squeeze_score": 81.8,
-        "avg_volume": 6050000.0,
-        "price": 59.34,
-        "change_pct": -1.38,
-        "volume": 5108890.0
-      }
-    ]
-  },
-  {
     "timestamp": "2026-08-27T23:03:32.890575+00:00",
     "label": "market_open",
     "candidates": [
@@ -5374,6 +5264,168 @@
         "price": 141.75,
         "change_pct": 3.79,
         "volume": 1319742.0
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-09-30T19:57:34.066302+00:00",
+    "label": "midnight_kst",
+    "candidates": [
+      {
+        "ticker": "SVRA",
+        "company": "Savara Inc",
+        "float_shares": 103060000.0,
+        "short_float_pct": 42.06,
+        "short_ratio_days": 25.63,
+        "rel_volume": 3.19,
+        "squeeze_score": 3438.8,
+        "avg_volume": 1690000.0,
+        "price": 5.16,
+        "change_pct": 1.67,
+        "volume": 5397385.0
+      },
+      {
+        "ticker": "MUX",
+        "company": "McEwen Inc",
+        "float_shares": 51000000.0,
+        "short_float_pct": 21.79,
+        "short_ratio_days": 11.18,
+        "rel_volume": 8.74,
+        "squeeze_score": 2129.2,
+        "avg_volume": 994220.0,
+        "price": 17.9,
+        "change_pct": -0.44,
+        "volume": 8691403.0
+      },
+      {
+        "ticker": "LXEO",
+        "company": "Lexeo Therapeutics Inc",
+        "float_shares": 69100000.0,
+        "short_float_pct": 29.85,
+        "short_ratio_days": 19.58,
+        "rel_volume": 2.14,
+        "squeeze_score": 1250.8,
+        "avg_volume": 1050000.0,
+        "price": 3.36,
+        "change_pct": -1.9,
+        "volume": 2252092.0
+      },
+      {
+        "ticker": "MMED",
+        "company": "MiniMed Group Inc",
+        "float_shares": 27170000.0,
+        "short_float_pct": 50.04,
+        "short_ratio_days": 7.88,
+        "rel_volume": 1.98,
+        "squeeze_score": 780.7,
+        "avg_volume": 1720000.0,
+        "price": 19.5,
+        "change_pct": -2.69,
+        "volume": 3406899.0
+      },
+      {
+        "ticker": "OFRM",
+        "company": "Once Upon a Farm PBC",
+        "float_shares": 20190000.0,
+        "short_float_pct": 25.97,
+        "short_ratio_days": 11.73,
+        "rel_volume": 2.27,
+        "squeeze_score": 691.5,
+        "avg_volume": 447050.0,
+        "price": 15.9,
+        "change_pct": 0.57,
+        "volume": 1015099.0
+      },
+      {
+        "ticker": "PCT",
+        "company": "PureCycle Technologies Inc",
+        "float_shares": 193090000.0,
+        "short_float_pct": 29.13,
+        "short_ratio_days": 13.45,
+        "rel_volume": 1.75,
+        "squeeze_score": 685.6,
+        "avg_volume": 4179999.9999999995,
+        "price": 4.41,
+        "change_pct": -0.56,
+        "volume": 7300759.0
+      },
+      {
+        "ticker": "SRZN",
+        "company": "Surrozen Inc",
+        "float_shares": 6090000.0,
+        "short_float_pct": 36.05,
+        "short_ratio_days": 5.2,
+        "rel_volume": 3.55,
+        "squeeze_score": 665.5,
+        "avg_volume": 422040.0,
+        "price": 31.65,
+        "change_pct": -1.03,
+        "volume": 1499046.0
+      },
+      {
+        "ticker": "CELC",
+        "company": "Celcuity Inc",
+        "float_shares": 40290000.0,
+        "short_float_pct": 28.2,
+        "short_ratio_days": 9.92,
+        "rel_volume": 2.0,
+        "squeeze_score": 559.5,
+        "avg_volume": 1150000.0,
+        "price": 79.73,
+        "change_pct": 3.04,
+        "volume": 2299376.0
+      },
+      {
+        "ticker": "SMMT",
+        "company": "Summit Therapeutics Inc",
+        "float_shares": 152340000.0,
+        "short_float_pct": 26.97,
+        "short_ratio_days": 7.54,
+        "rel_volume": 2.09,
+        "squeeze_score": 425.0,
+        "avg_volume": 5450000.0,
+        "price": 17.04,
+        "change_pct": 3.94,
+        "volume": 11366797.0
+      },
+      {
+        "ticker": "GRAL",
+        "company": "GRAIL Inc",
+        "float_shares": 42000000.0,
+        "short_float_pct": 20.39,
+        "short_ratio_days": 9.97,
+        "rel_volume": 1.99,
+        "squeeze_score": 404.5,
+        "avg_volume": 859220.0,
+        "price": 140.09,
+        "change_pct": 2.58,
+        "volume": 1706067.0
+      },
+      {
+        "ticker": "ABR",
+        "company": "Arbor Realty Trust Inc",
+        "float_shares": 178100000.0,
+        "short_float_pct": 23.64,
+        "short_ratio_days": 9.95,
+        "rel_volume": 1.54,
+        "squeeze_score": 362.2,
+        "avg_volume": 4230000.0,
+        "price": 3.88,
+        "change_pct": -2.37,
+        "volume": 6509959.0
+      },
+      {
+        "ticker": "CABO",
+        "company": "Cable One Inc",
+        "float_shares": 4630000.0,
+        "short_float_pct": 20.46,
+        "short_ratio_days": 3.35,
+        "rel_volume": 1.65,
+        "squeeze_score": 113.1,
+        "avg_volume": 282550.0,
+        "price": 11.02,
+        "change_pct": 0.82,
+        "volume": 466614.0
       }
     ]
   }
