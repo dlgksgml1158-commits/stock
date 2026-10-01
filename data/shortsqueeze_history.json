@@ -1,63 +1,5 @@
 [
   {
-    "timestamp": "2026-08-27T23:03:32.890575+00:00",
-    "label": "market_open",
-    "candidates": [
-      {
-        "ticker": "TBCH",
-        "company": "Turtle Beach Corp",
-        "float_shares": 13320000.0,
-        "short_float_pct": 32.87,
-        "short_ratio_days": 13.43,
-        "rel_volume": 5.83,
-        "squeeze_score": 2573.6,
-        "avg_volume": 326120.0,
-        "price": 12.98,
-        "change_pct": 1.41,
-        "volume": 1902053.0
-      },
-      {
-        "ticker": "ARCT",
-        "company": "Arcturus Therapeutics Holdings Inc",
-        "float_shares": 26050000.0,
-        "short_float_pct": 25.05,
-        "short_ratio_days": 8.91,
-        "rel_volume": 1.54,
-        "squeeze_score": 343.7,
-        "avg_volume": 732560.0,
-        "price": 16.17,
-        "change_pct": 2.15,
-        "volume": 1131735.0
-      },
-      {
-        "ticker": "GEMI",
-        "company": "Gemini Space Station Inc",
-        "float_shares": 37400000.0,
-        "short_float_pct": 25.01,
-        "short_ratio_days": 4.95,
-        "rel_volume": 1.78,
-        "squeeze_score": 220.4,
-        "avg_volume": 1890000.0,
-        "price": 4.71,
-        "change_pct": 3.74,
-        "volume": 3372564.0
-      },
-      {
-        "ticker": "LCID",
-        "company": "Lucid Group Inc",
-        "float_shares": 153880000.0,
-        "short_float_pct": 36.58,
-        "short_ratio_days": 3.26,
-        "rel_volume": 1.75,
-        "squeeze_score": 208.7,
-        "avg_volume": 17250000.0,
-        "price": 5.09,
-        "change_pct": 2.83,
-        "volume": 30203422.0
-      }
-    ]
-  },
-  {
     "timestamp": "2026-08-28T00:22:51.524136+00:00",
     "label": "midnight_kst",
     "candidates": [
@@ -5426,6 +5368,38 @@
         "price": 11.02,
         "change_pct": 0.82,
         "volume": 466614.0
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-10-01T19:01:06.965116+00:00",
+    "label": "market_open",
+    "candidates": [
+      {
+        "ticker": "MMED",
+        "company": "MiniMed Group Inc",
+        "float_shares": 27170000.0,
+        "short_float_pct": 50.04,
+        "short_ratio_days": 7.66,
+        "rel_volume": 1.48,
+        "squeeze_score": 567.3,
+        "avg_volume": 1770000.0,
+        "price": 19.4,
+        "change_pct": -0.36,
+        "volume": 2615302.0
+      },
+      {
+        "ticker": "XNDU",
+        "company": "Xanadu Quantum Technologies Ltd",
+        "float_shares": 9340000.0,
+        "short_float_pct": 77.32,
+        "short_ratio_days": 2.63,
+        "rel_volume": 1.45,
+        "squeeze_score": 294.9,
+        "avg_volume": 2750000.0,
+        "price": 4.53,
+        "change_pct": -1.19,
+        "volume": 3979353.0
       }
     ]
   }
