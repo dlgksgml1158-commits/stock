@@ -1,24 +1,5 @@
 [
   {
-    "timestamp": "2026-08-31T19:37:33.331996+00:00",
-    "label": "market_open",
-    "candidates": [
-      {
-        "ticker": "BBW",
-        "company": "Build A Bear Workshop Inc",
-        "float_shares": 11870000.0,
-        "short_float_pct": 25.06,
-        "short_ratio_days": 6.1,
-        "rel_volume": 2.36,
-        "squeeze_score": 360.8,
-        "avg_volume": 487780.0,
-        "price": 30.31,
-        "change_pct": 1.55,
-        "volume": 1150466.0
-      }
-    ]
-  },
-  {
     "timestamp": "2026-08-31T20:47:12.801219+00:00",
     "label": "midnight_kst",
     "candidates": [
@@ -5998,6 +5979,207 @@
         "price": 25.38,
         "change_pct": 5.05,
         "volume": 26393738.0
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-10-05T21:14:22.074007+00:00",
+    "label": "market_open",
+    "candidates": [
+      {
+        "ticker": "MMED",
+        "company": "MiniMed Group Inc",
+        "float_shares": 27170000.0,
+        "short_float_pct": 50.04,
+        "short_ratio_days": 7.2,
+        "rel_volume": 8.12,
+        "squeeze_score": 2925.5,
+        "avg_volume": 1890000.0,
+        "price": 20.16,
+        "change_pct": 2.34,
+        "volume": 15343975.0
+      },
+      {
+        "ticker": "XNDU",
+        "company": "Xanadu Quantum Technologies Ltd",
+        "float_shares": 2130000.0,
+        "short_float_pct": 339.06,
+        "short_ratio_days": 2.54,
+        "rel_volume": 2.22,
+        "squeeze_score": 1911.9,
+        "avg_volume": 2840000.0,
+        "price": 4.52,
+        "change_pct": 5.12,
+        "volume": 6315457.0
+      },
+      {
+        "ticker": "SVRA",
+        "company": "Savara Inc",
+        "float_shares": 102980000.0,
+        "short_float_pct": 42.09,
+        "short_ratio_days": 24.27,
+        "rel_volume": 1.6,
+        "squeeze_score": 1634.4,
+        "avg_volume": 1790000.0,
+        "price": 4.78,
+        "change_pct": -0.62,
+        "volume": 2862114.0
+      },
+      {
+        "ticker": "ZBIO",
+        "company": "Zenas Biopharma Inc",
+        "float_shares": 33110000.0,
+        "short_float_pct": 35.85,
+        "short_ratio_days": 16.05,
+        "rel_volume": 1.53,
+        "squeeze_score": 880.4,
+        "avg_volume": 739690.0,
+        "price": 27.83,
+        "change_pct": -1.64,
+        "volume": 1131909.0
+      },
+      {
+        "ticker": "BRVE",
+        "company": "Braveheart Bio Inc",
+        "float_shares": 2200000.0,
+        "short_float_pct": 111.87,
+        "short_ratio_days": 4.4,
+        "rel_volume": 1.59,
+        "squeeze_score": 782.6,
+        "avg_volume": 559080.0,
+        "price": 21.35,
+        "change_pct": 0.38,
+        "volume": 888957.0
+      },
+      {
+        "ticker": "IBRX",
+        "company": "ImmunityBio Inc",
+        "float_shares": 400990000.0,
+        "short_float_pct": 31.27,
+        "short_ratio_days": 12.4,
+        "rel_volume": 1.66,
+        "squeeze_score": 643.7,
+        "avg_volume": 10110000.0,
+        "price": 10.38,
+        "change_pct": 0.92,
+        "volume": 16753795.0
+      },
+      {
+        "ticker": "MATW",
+        "company": "Matthews International Corp",
+        "float_shares": 28490000.0,
+        "short_float_pct": 20.44,
+        "short_ratio_days": 7.77,
+        "rel_volume": 3.75,
+        "squeeze_score": 595.6,
+        "avg_volume": 749210.0,
+        "price": 19.33,
+        "change_pct": 0.21,
+        "volume": 2812888.0
+      },
+      {
+        "ticker": "SWKS",
+        "company": "Skyworks Solutions Inc",
+        "float_shares": 149870000.0,
+        "short_float_pct": 21.83,
+        "short_ratio_days": 5.27,
+        "rel_volume": 4.74,
+        "squeeze_score": 545.3,
+        "avg_volume": 6210000.0,
+        "price": 83.91,
+        "change_pct": -1.32,
+        "volume": 29442070.0
+      },
+      {
+        "ticker": "SANA",
+        "company": "Sana Biotechnology Inc",
+        "float_shares": 186790000.0,
+        "short_float_pct": 22.15,
+        "short_ratio_days": 13.55,
+        "rel_volume": 1.77,
+        "squeeze_score": 531.2,
+        "avg_volume": 3050000.0,
+        "price": 2.88,
+        "change_pct": -0.35,
+        "volume": 5390791.0
+      },
+      {
+        "ticker": "OXM",
+        "company": "Oxford Industries Inc",
+        "float_shares": 13820000.0,
+        "short_float_pct": 26.42,
+        "short_ratio_days": 8.36,
+        "rel_volume": 2.12,
+        "squeeze_score": 468.2,
+        "avg_volume": 436990.0,
+        "price": 25.38,
+        "change_pct": 1.81,
+        "volume": 925846.0
+      },
+      {
+        "ticker": "ABR",
+        "company": "Arbor Realty Trust Inc",
+        "float_shares": 178100000.0,
+        "short_float_pct": 23.64,
+        "short_ratio_days": 9.82,
+        "rel_volume": 1.9,
+        "squeeze_score": 441.1,
+        "avg_volume": 4290000.0,
+        "price": 3.47,
+        "change_pct": -2.53,
+        "volume": 8132260.0
+      },
+      {
+        "ticker": "CHH",
+        "company": "Choice Hotels International Inc",
+        "float_shares": 24630000.0,
+        "short_float_pct": 24.41,
+        "short_ratio_days": 10.82,
+        "rel_volume": 1.58,
+        "squeeze_score": 417.3,
+        "avg_volume": 555320.0,
+        "price": 99.58,
+        "change_pct": -2.85,
+        "volume": 876443.0
+      },
+      {
+        "ticker": "ECHO",
+        "company": "EchoStar Corp",
+        "float_shares": 132740000.00000001,
+        "short_float_pct": 20.05,
+        "short_ratio_days": 6.73,
+        "rel_volume": 1.72,
+        "squeeze_score": 232.1,
+        "avg_volume": 3950000.0,
+        "price": 98.21,
+        "change_pct": 4.2,
+        "volume": 6788938.0
+      },
+      {
+        "ticker": "KRUS",
+        "company": "Kura Sushi USA Inc",
+        "float_shares": 7300000.0,
+        "short_float_pct": 21.71,
+        "short_ratio_days": 6.51,
+        "rel_volume": 1.6,
+        "squeeze_score": 226.1,
+        "avg_volume": 243530.0,
+        "price": 40.37,
+        "change_pct": -2.79,
+        "volume": 389804.0
+      },
+      {
+        "ticker": "PZZA",
+        "company": "Papa John's International Inc",
+        "float_shares": 32320000.0,
+        "short_float_pct": 21.53,
+        "short_ratio_days": 5.02,
+        "rel_volume": 1.81,
+        "squeeze_score": 195.6,
+        "avg_volume": 1390000.0,
+        "price": 19.54,
+        "change_pct": 0.57,
+        "volume": 2509890.0
       }
     ]
   }
