@@ -1,24 +1,5 @@
 [
   {
-    "timestamp": "2026-09-01T18:24:07.099741+00:00",
-    "label": "midnight_kst",
-    "candidates": [
-      {
-        "ticker": "ASST",
-        "company": "Strive Inc",
-        "float_shares": 78700000.0,
-        "short_float_pct": 23.12,
-        "short_ratio_days": 3.64,
-        "rel_volume": 1.62,
-        "squeeze_score": 136.3,
-        "avg_volume": 5000000.0,
-        "price": 23.73,
-        "change_pct": -2.02,
-        "volume": 8118643.0
-      }
-    ]
-  },
-  {
     "timestamp": "2026-09-02T17:18:16.960265+00:00",
     "label": "market_open",
     "candidates": [
@@ -6232,6 +6213,181 @@
         "price": 82.48,
         "change_pct": -1.7,
         "volume": 8473879.0
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-10-06T20:11:00.876872+00:00",
+    "label": "midnight_kst",
+    "candidates": [
+      {
+        "ticker": "MMED",
+        "company": "MiniMed Group Inc",
+        "float_shares": 27170000.0,
+        "short_float_pct": 50.04,
+        "short_ratio_days": 6.49,
+        "rel_volume": 7.38,
+        "squeeze_score": 2396.7,
+        "avg_volume": 2100000.0,
+        "price": 19.64,
+        "change_pct": -2.58,
+        "volume": 15501637.0
+      },
+      {
+        "ticker": "IRON",
+        "company": "Disc Medicine Inc",
+        "float_shares": 28150000.0,
+        "short_float_pct": 25.6,
+        "short_ratio_days": 15.41,
+        "rel_volume": 2.87,
+        "squeeze_score": 1132.2,
+        "avg_volume": 467740.0,
+        "price": 61.65,
+        "change_pct": -2.65,
+        "volume": 1343074.0
+      },
+      {
+        "ticker": "TBCH",
+        "company": "Turtle Beach Corp",
+        "float_shares": 13920000.0,
+        "short_float_pct": 32.43,
+        "short_ratio_days": 13.47,
+        "rel_volume": 2.26,
+        "squeeze_score": 987.2,
+        "avg_volume": 335050.0,
+        "price": 13.51,
+        "change_pct": -2.53,
+        "volume": 756432.0
+      },
+      {
+        "ticker": "NTLA",
+        "company": "Intellia Therapeutics Inc",
+        "float_shares": 133940000.0,
+        "short_float_pct": 34.85,
+        "short_ratio_days": 11.65,
+        "rel_volume": 1.96,
+        "squeeze_score": 795.8,
+        "avg_volume": 4010000.0,
+        "price": 12.37,
+        "change_pct": -2.98,
+        "volume": 7852409.0
+      },
+      {
+        "ticker": "QDEL",
+        "company": "QuidelOrtho Corp",
+        "float_shares": 67960000.0,
+        "short_float_pct": 20.88,
+        "short_ratio_days": 9.85,
+        "rel_volume": 2.23,
+        "squeeze_score": 458.6,
+        "avg_volume": 1440000.0,
+        "price": 12.57,
+        "change_pct": 3.54,
+        "volume": 3213211.0
+      },
+      {
+        "ticker": "OXM",
+        "company": "Oxford Industries Inc",
+        "float_shares": 13820000.0,
+        "short_float_pct": 26.42,
+        "short_ratio_days": 8.21,
+        "rel_volume": 1.71,
+        "squeeze_score": 370.9,
+        "avg_volume": 444510.0,
+        "price": 25.46,
+        "change_pct": 0.3,
+        "volume": 761859.0
+      },
+      {
+        "ticker": "WLFC",
+        "company": "Willis Lease Finance Corp",
+        "float_shares": 8600000.0,
+        "short_float_pct": 22.5,
+        "short_ratio_days": 8.02,
+        "rel_volume": 2.05,
+        "squeeze_score": 369.9,
+        "avg_volume": 241340.0,
+        "price": 42.85,
+        "change_pct": 0.02,
+        "volume": 494272.0
+      },
+      {
+        "ticker": "KRUS",
+        "company": "Kura Sushi USA Inc",
+        "float_shares": 7300000.0,
+        "short_float_pct": 21.71,
+        "short_ratio_days": 6.45,
+        "rel_volume": 1.78,
+        "squeeze_score": 249.3,
+        "avg_volume": 245770.0,
+        "price": 40.06,
+        "change_pct": -0.77,
+        "volume": 437874.0
+      },
+      {
+        "ticker": "CPB",
+        "company": "Campbells Co",
+        "float_shares": 192380000.0,
+        "short_float_pct": 20.04,
+        "short_ratio_days": 5.63,
+        "rel_volume": 2.07,
+        "squeeze_score": 233.5,
+        "avg_volume": 6850000.0,
+        "price": 19.0,
+        "change_pct": -1.55,
+        "volume": 14188303.0
+      },
+      {
+        "ticker": "SAIL",
+        "company": "Sailpoint Inc",
+        "float_shares": 71570000.0,
+        "short_float_pct": 28.9,
+        "short_ratio_days": 4.87,
+        "rel_volume": 1.54,
+        "squeeze_score": 216.7,
+        "avg_volume": 4250000.0,
+        "price": 19.91,
+        "change_pct": -1.87,
+        "volume": 6539308.0
+      },
+      {
+        "ticker": "VELO",
+        "company": "Velo3D Inc",
+        "float_shares": 14860000.0,
+        "short_float_pct": 35.95,
+        "short_ratio_days": 3.55,
+        "rel_volume": 1.63,
+        "squeeze_score": 208.0,
+        "avg_volume": 1500000.0,
+        "price": 9.57,
+        "change_pct": 0.0,
+        "volume": 2444271.0
+      },
+      {
+        "ticker": "SWKS",
+        "company": "Skyworks Solutions Inc",
+        "float_shares": 149870000.0,
+        "short_float_pct": 21.83,
+        "short_ratio_days": 4.98,
+        "rel_volume": 1.77,
+        "squeeze_score": 192.4,
+        "avg_volume": 6570000.0,
+        "price": 82.79,
+        "change_pct": -1.33,
+        "volume": 11611406.0
+      },
+      {
+        "ticker": "NCLH",
+        "company": "Norwegian Cruise Line Holdings Ltd",
+        "float_shares": 454100000.0,
+        "short_float_pct": 20.92,
+        "short_ratio_days": 5.82,
+        "rel_volume": 1.52,
+        "squeeze_score": 185.1,
+        "avg_volume": 16329999.999999998,
+        "price": 15.52,
+        "change_pct": 4.4,
+        "volume": 24894496.0
       }
     ]
   }
