@@ -1,24 +1,5 @@
 [
   {
-    "timestamp": "2026-09-01T17:26:38.355283+00:00",
-    "label": "market_open",
-    "candidates": [
-      {
-        "ticker": "ASST",
-        "company": "Strive Inc",
-        "float_shares": 78700000.0,
-        "short_float_pct": 23.12,
-        "short_ratio_days": 3.64,
-        "rel_volume": 1.5,
-        "squeeze_score": 126.2,
-        "avg_volume": 5000000.0,
-        "price": 23.88,
-        "change_pct": -1.4,
-        "volume": 7522275.0
-      }
-    ]
-  },
-  {
     "timestamp": "2026-09-01T18:24:07.099741+00:00",
     "label": "midnight_kst",
     "candidates": [
@@ -6180,6 +6161,77 @@
         "price": 19.54,
         "change_pct": 0.57,
         "volume": 2507790.0
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-10-06T19:02:13.061780+00:00",
+    "label": "market_open",
+    "candidates": [
+      {
+        "ticker": "TBCH",
+        "company": "Turtle Beach Corp",
+        "float_shares": 13920000.0,
+        "short_float_pct": 32.43,
+        "short_ratio_days": 13.47,
+        "rel_volume": 1.88,
+        "squeeze_score": 821.2,
+        "avg_volume": 335050.0,
+        "price": 13.78,
+        "change_pct": -0.55,
+        "volume": 630937.0
+      },
+      {
+        "ticker": "NTLA",
+        "company": "Intellia Therapeutics Inc",
+        "float_shares": 133940000.0,
+        "short_float_pct": 34.85,
+        "short_ratio_days": 11.65,
+        "rel_volume": 1.54,
+        "squeeze_score": 625.2,
+        "avg_volume": 4010000.0,
+        "price": 12.47,
+        "change_pct": -2.24,
+        "volume": 6194349.0
+      },
+      {
+        "ticker": "CPB",
+        "company": "Campbells Co",
+        "float_shares": 192380000.0,
+        "short_float_pct": 20.04,
+        "short_ratio_days": 5.63,
+        "rel_volume": 1.57,
+        "squeeze_score": 177.1,
+        "avg_volume": 6850000.0,
+        "price": 19.09,
+        "change_pct": -1.1,
+        "volume": 10771588.0
+      },
+      {
+        "ticker": "VELO",
+        "company": "Velo3D Inc",
+        "float_shares": 14860000.0,
+        "short_float_pct": 35.95,
+        "short_ratio_days": 3.55,
+        "rel_volume": 1.34,
+        "squeeze_score": 171.0,
+        "avg_volume": 1500000.0,
+        "price": 9.5,
+        "change_pct": -0.77,
+        "volume": 2006305.0
+      },
+      {
+        "ticker": "SWKS",
+        "company": "Skyworks Solutions Inc",
+        "float_shares": 149870000.0,
+        "short_float_pct": 21.83,
+        "short_ratio_days": 4.98,
+        "rel_volume": 1.29,
+        "squeeze_score": 140.2,
+        "avg_volume": 6570000.0,
+        "price": 82.48,
+        "change_pct": -1.7,
+        "volume": 8473879.0
       }
     ]
   }
