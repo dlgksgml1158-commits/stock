@@ -1,76 +1,5 @@
 [
   {
-    "timestamp": "2026-09-02T17:18:16.960265+00:00",
-    "label": "market_open",
-    "candidates": [
-      {
-        "ticker": "ALT",
-        "company": "Altimmune Inc",
-        "float_shares": 183690000.0,
-        "short_float_pct": 27.75,
-        "short_ratio_days": 11.7,
-        "rel_volume": 1.13,
-        "squeeze_score": 366.9,
-        "avg_volume": 4360000.0,
-        "price": 3.26,
-        "change_pct": 5.34,
-        "volume": 4916863.0
-      },
-      {
-        "ticker": "ARCT",
-        "company": "Arcturus Therapeutics Holdings Inc",
-        "float_shares": 26050000.0,
-        "short_float_pct": 25.05,
-        "short_ratio_days": 8.24,
-        "rel_volume": 1.37,
-        "squeeze_score": 282.8,
-        "avg_volume": 792250.0,
-        "price": 16.53,
-        "change_pct": 1.88,
-        "volume": 1081600.0
-      },
-      {
-        "ticker": "VSTM",
-        "company": "Verastem Inc",
-        "float_shares": 81760000.0,
-        "short_float_pct": 23.13,
-        "short_ratio_days": 7.71,
-        "rel_volume": 1.57,
-        "squeeze_score": 280.0,
-        "avg_volume": 2450000.0,
-        "price": 8.02,
-        "change_pct": 5.45,
-        "volume": 3846301.0
-      },
-      {
-        "ticker": "ASST",
-        "company": "Strive Inc",
-        "float_shares": 78700000.0,
-        "short_float_pct": 23.12,
-        "short_ratio_days": 3.58,
-        "rel_volume": 1.18,
-        "squeeze_score": 97.7,
-        "avg_volume": 5090000.0,
-        "price": 23.88,
-        "change_pct": -0.5,
-        "volume": 5992508.0
-      },
-      {
-        "ticker": "BRNX",
-        "company": "BrenX Ltd",
-        "float_shares": 680000.0,
-        "short_float_pct": 36.55,
-        "short_ratio_days": 0.28,
-        "rel_volume": 2.13,
-        "squeeze_score": 21.8,
-        "avg_volume": 887250.0,
-        "price": 3.62,
-        "change_pct": 2.98,
-        "volume": 1886647.0
-      }
-    ]
-  },
-  {
     "timestamp": "2026-09-02T18:35:59.739668+00:00",
     "label": "midnight_kst",
     "candidates": [
@@ -6388,6 +6317,64 @@
         "price": 15.52,
         "change_pct": 4.4,
         "volume": 24894496.0
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-10-07T19:30:14.845602+00:00",
+    "label": "market_open",
+    "candidates": [
+      {
+        "ticker": "MMED",
+        "company": "MiniMed Group Inc",
+        "float_shares": 27170000.0,
+        "short_float_pct": 50.04,
+        "short_ratio_days": 5.86,
+        "rel_volume": 3.02,
+        "squeeze_score": 885.6,
+        "avg_volume": 2320000.0,
+        "price": 19.14,
+        "change_pct": -2.56,
+        "volume": 7006142.0
+      },
+      {
+        "ticker": "SPHR",
+        "company": "Sphere Entertainment Co",
+        "float_shares": 27030000.0,
+        "short_float_pct": 23.88,
+        "short_ratio_days": 9.03,
+        "rel_volume": 1.91,
+        "squeeze_score": 411.9,
+        "avg_volume": 714900.0,
+        "price": 106.29,
+        "change_pct": 0.86,
+        "volume": 1367024.0
+      },
+      {
+        "ticker": "HTZ",
+        "company": "Hertz Global Holdings Inc",
+        "float_shares": 341120000.0,
+        "short_float_pct": 33.97,
+        "short_ratio_days": 4.09,
+        "rel_volume": 1.6,
+        "squeeze_score": 222.3,
+        "avg_volume": 28350000.0,
+        "price": 2.09,
+        "change_pct": 1.46,
+        "volume": 45310720.0
+      },
+      {
+        "ticker": "CABO",
+        "company": "Cable One Inc",
+        "float_shares": 4630000.0,
+        "short_float_pct": 20.46,
+        "short_ratio_days": 3.0,
+        "rel_volume": 1.42,
+        "squeeze_score": 87.2,
+        "avg_volume": 315620.0,
+        "price": 13.11,
+        "change_pct": 1.08,
+        "volume": 447183.0
       }
     ]
   }
