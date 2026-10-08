@@ -1,37 +1,5 @@
 [
   {
-    "timestamp": "2026-09-03T17:10:06.478263+00:00",
-    "label": "market_open",
-    "candidates": [
-      {
-        "ticker": "AI",
-        "company": "C3.ai Inc",
-        "float_shares": 141040000.0,
-        "short_float_pct": 34.14,
-        "short_ratio_days": 8.11,
-        "rel_volume": 0.97,
-        "squeeze_score": 268.6,
-        "avg_volume": 5940000.0,
-        "price": 10.84,
-        "change_pct": 2.99,
-        "volume": 5738699.0
-      },
-      {
-        "ticker": "CABA",
-        "company": "Cabaletta Bio Inc",
-        "float_shares": 149890000.0,
-        "short_float_pct": 28.55,
-        "short_ratio_days": 9.0,
-        "rel_volume": 0.9,
-        "squeeze_score": 231.3,
-        "avg_volume": 4760000.0,
-        "price": 3.57,
-        "change_pct": 0.0,
-        "volume": 4281542.0
-      }
-    ]
-  },
-  {
     "timestamp": "2026-09-03T18:33:44.816720+00:00",
     "label": "midnight_kst",
     "candidates": [
@@ -6557,6 +6525,116 @@
         "price": 13.21,
         "change_pct": 1.85,
         "volume": 559497.0
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-10-08T19:24:54.446279+00:00",
+    "label": "market_open",
+    "candidates": [
+      {
+        "ticker": "WOLF",
+        "company": "Wolfspeed Inc",
+        "float_shares": 34880000.0,
+        "short_float_pct": 74.83,
+        "short_ratio_days": 7.23,
+        "rel_volume": 5.82,
+        "squeeze_score": 3148.7,
+        "avg_volume": 3610000.0,
+        "price": 30.57,
+        "change_pct": -2.55,
+        "volume": 21026397.0
+      },
+      {
+        "ticker": "MMED",
+        "company": "MiniMed Group Inc",
+        "float_shares": 27170000.0,
+        "short_float_pct": 50.04,
+        "short_ratio_days": 5.53,
+        "rel_volume": 6.04,
+        "squeeze_score": 1671.4,
+        "avg_volume": 2460000.0,
+        "price": 19.57,
+        "change_pct": 2.43,
+        "volume": 14858072.0
+      },
+      {
+        "ticker": "LXEO",
+        "company": "Lexeo Therapeutics Inc",
+        "float_shares": 69090000.0,
+        "short_float_pct": 29.86,
+        "short_ratio_days": 17.6,
+        "rel_volume": 1.53,
+        "squeeze_score": 804.1,
+        "avg_volume": 1170000.0,
+        "price": 3.22,
+        "change_pct": -2.72,
+        "volume": 1784423.0
+      },
+      {
+        "ticker": "MPT",
+        "company": "Medical Properties Trust Inc",
+        "float_shares": 489910000.0,
+        "short_float_pct": 29.66,
+        "short_ratio_days": 16.7,
+        "rel_volume": 1.47,
+        "squeeze_score": 728.1,
+        "avg_volume": 8700000.0,
+        "price": 3.18,
+        "change_pct": -1.39,
+        "volume": 12832482.0
+      },
+      {
+        "ticker": "EDIT",
+        "company": "Editas Medicine Inc",
+        "float_shares": 138530000.0,
+        "short_float_pct": 21.63,
+        "short_ratio_days": 12.12,
+        "rel_volume": 1.65,
+        "squeeze_score": 432.6,
+        "avg_volume": 2470000.0,
+        "price": 2.84,
+        "change_pct": 3.09,
+        "volume": 4069524.0
+      },
+      {
+        "ticker": "AVBP",
+        "company": "ArriVent BioPharma Inc",
+        "float_shares": 34640000.0,
+        "short_float_pct": 25.31,
+        "short_ratio_days": 9.95,
+        "rel_volume": 1.64,
+        "squeeze_score": 413.0,
+        "avg_volume": 881280.0,
+        "price": 16.58,
+        "change_pct": -1.86,
+        "volume": 1444224.0
+      },
+      {
+        "ticker": "BETR",
+        "company": "Better Home & Finance Holding Co",
+        "float_shares": 6570000.0,
+        "short_float_pct": 50.89,
+        "short_ratio_days": 5.43,
+        "rel_volume": 1.39,
+        "squeeze_score": 384.1,
+        "avg_volume": 616040.0,
+        "price": 9.89,
+        "change_pct": -0.3,
+        "volume": 854544.0
+      },
+      {
+        "ticker": "APLD",
+        "company": "Applied Digital Corp",
+        "float_shares": 269790000.0,
+        "short_float_pct": 21.45,
+        "short_ratio_days": 3.19,
+        "rel_volume": 2.48,
+        "squeeze_score": 169.7,
+        "avg_volume": 18160000.0,
+        "price": 23.55,
+        "change_pct": -1.07,
+        "volume": 44980562.0
       }
     ]
   }
