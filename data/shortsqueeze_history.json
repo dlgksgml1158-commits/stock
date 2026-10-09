@@ -1,63 +1,5 @@
 [
   {
-    "timestamp": "2026-09-04T17:02:20.136159+00:00",
-    "label": "market_open",
-    "candidates": [
-      {
-        "ticker": "RXRX",
-        "company": "Recursion Pharmaceuticals Inc",
-        "float_shares": 480260000.0,
-        "short_float_pct": 37.05,
-        "short_ratio_days": 9.12,
-        "rel_volume": 0.93,
-        "squeeze_score": 314.2,
-        "avg_volume": 19510000.0,
-        "price": 3.62,
-        "change_pct": 5.09,
-        "volume": 18214728.0
-      },
-      {
-        "ticker": "LEU",
-        "company": "Centrus Energy Corp",
-        "float_shares": 19190000.0,
-        "short_float_pct": 29.02,
-        "short_ratio_days": 7.31,
-        "rel_volume": 0.98,
-        "squeeze_score": 207.9,
-        "avg_volume": 761740.0,
-        "price": 171.85,
-        "change_pct": 0.82,
-        "volume": 743252.0
-      },
-      {
-        "ticker": "ASST",
-        "company": "Strive Inc",
-        "float_shares": 78700000.0,
-        "short_float_pct": 23.12,
-        "short_ratio_days": 3.41,
-        "rel_volume": 1.14,
-        "squeeze_score": 89.9,
-        "avg_volume": 5340000.0,
-        "price": 27.18,
-        "change_pct": 1.34,
-        "volume": 6108365.0
-      },
-      {
-        "ticker": "MP",
-        "company": "MP Materials Corp",
-        "float_shares": 144900000.0,
-        "short_float_pct": 20.16,
-        "short_ratio_days": 5.0,
-        "rel_volume": 0.89,
-        "squeeze_score": 89.7,
-        "avg_volume": 5840000.0,
-        "price": 54.97,
-        "change_pct": 2.22,
-        "volume": 5179060.0
-      }
-    ]
-  },
-  {
     "timestamp": "2026-09-04T18:19:21.141374+00:00",
     "label": "midnight_kst",
     "candidates": [
@@ -6999,6 +6941,38 @@
         "price": 3.86,
         "change_pct": 5.18,
         "volume": 14637236.0
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-10-09T18:58:23.836919+00:00",
+    "label": "market_open",
+    "candidates": [
+      {
+        "ticker": "MMED",
+        "company": "MiniMed Group Inc",
+        "float_shares": 27170000.0,
+        "short_float_pct": 50.04,
+        "short_ratio_days": 4.85,
+        "rel_volume": 4.29,
+        "squeeze_score": 1041.2,
+        "avg_volume": 2800000.0,
+        "price": 19.62,
+        "change_pct": -0.91,
+        "volume": 12003467.0
+      },
+      {
+        "ticker": "NTLA",
+        "company": "Intellia Therapeutics Inc",
+        "float_shares": 133940000.0,
+        "short_float_pct": 34.85,
+        "short_ratio_days": 10.83,
+        "rel_volume": 1.3,
+        "squeeze_score": 490.7,
+        "avg_volume": 4310000.0,
+        "price": 13.15,
+        "change_pct": 4.33,
+        "volume": 5621860.0
       }
     ]
   }
