@@ -1,37 +1,5 @@
 [
   {
-    "timestamp": "2026-09-04T18:19:21.141374+00:00",
-    "label": "midnight_kst",
-    "candidates": [
-      {
-        "ticker": "AKAN",
-        "company": "Akanda Corp",
-        "float_shares": 540000.0,
-        "short_float_pct": 48.92,
-        "short_ratio_days": 0.37,
-        "rel_volume": 28.66,
-        "squeeze_score": 518.8,
-        "avg_volume": 714120.0,
-        "price": 3.68,
-        "change_pct": 0.21,
-        "volume": 20465424.0
-      },
-      {
-        "ticker": "ASST",
-        "company": "Strive Inc",
-        "float_shares": 78700000.0,
-        "short_float_pct": 23.12,
-        "short_ratio_days": 3.41,
-        "rel_volume": 1.26,
-        "squeeze_score": 99.3,
-        "avg_volume": 5340000.0,
-        "price": 27.01,
-        "change_pct": 0.71,
-        "volume": 6717012.0
-      }
-    ]
-  },
-  {
     "timestamp": "2026-09-05T17:16:35.388224+00:00",
     "label": "midnight_kst",
     "candidates": [
@@ -6973,6 +6941,77 @@
         "price": 13.15,
         "change_pct": 4.33,
         "volume": 5621860.0
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-10-09T20:05:16.544777+00:00",
+    "label": "midnight_kst",
+    "candidates": [
+      {
+        "ticker": "MMED",
+        "company": "MiniMed Group Inc",
+        "float_shares": 27170000.0,
+        "short_float_pct": 50.04,
+        "short_ratio_days": 4.85,
+        "rel_volume": 6.57,
+        "squeeze_score": 1594.5,
+        "avg_volume": 2800000.0,
+        "price": 19.71,
+        "change_pct": -0.45,
+        "volume": 18392971.0
+      },
+      {
+        "ticker": "NTLA",
+        "company": "Intellia Therapeutics Inc",
+        "float_shares": 133940000.0,
+        "short_float_pct": 34.85,
+        "short_ratio_days": 10.83,
+        "rel_volume": 1.86,
+        "squeeze_score": 702.0,
+        "avg_volume": 4310000.0,
+        "price": 13.07,
+        "change_pct": 3.73,
+        "volume": 8021573.0
+      },
+      {
+        "ticker": "XPOF",
+        "company": "Xponential Fitness Inc",
+        "float_shares": 33890000.0,
+        "short_float_pct": 30.43,
+        "short_ratio_days": 11.79,
+        "rel_volume": 1.69,
+        "squeeze_score": 606.3,
+        "avg_volume": 874620.0,
+        "price": 4.95,
+        "change_pct": -0.3,
+        "volume": 1482039.0
+      },
+      {
+        "ticker": "AVBP",
+        "company": "ArriVent BioPharma Inc",
+        "float_shares": 34640000.0,
+        "short_float_pct": 25.31,
+        "short_ratio_days": 9.73,
+        "rel_volume": 1.9,
+        "squeeze_score": 467.9,
+        "avg_volume": 901250.0,
+        "price": 16.73,
+        "change_pct": 0.12,
+        "volume": 1709403.0
+      },
+      {
+        "ticker": "TDAY",
+        "company": "USA TODAY Co Inc",
+        "float_shares": 117390000.0,
+        "short_float_pct": 23.12,
+        "short_ratio_days": 11.55,
+        "rel_volume": 1.51,
+        "squeeze_score": 403.2,
+        "avg_volume": 2350000.0,
+        "price": 6.82,
+        "change_pct": -2.43,
+        "volume": 3552406.0
       }
     ]
   }
