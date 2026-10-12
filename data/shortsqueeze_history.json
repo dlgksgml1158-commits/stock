@@ -1,63 +1,5 @@
 [
   {
-    "timestamp": "2026-09-07T18:22:37.831075+00:00",
-    "label": "market_open",
-    "candidates": [
-      {
-        "ticker": "GIII",
-        "company": "G-III Apparel Group Ltd",
-        "float_shares": 35180000.0,
-        "short_float_pct": 21.57,
-        "short_ratio_days": 12.55,
-        "rel_volume": 1.53,
-        "squeeze_score": 414.2,
-        "avg_volume": 604530.0,
-        "price": 27.74,
-        "change_pct": 1.87,
-        "volume": 924502.0
-      },
-      {
-        "ticker": "COLL",
-        "company": "Collegium Pharmaceutical Inc",
-        "float_shares": 31840000.0,
-        "short_float_pct": 20.49,
-        "short_ratio_days": 11.09,
-        "rel_volume": 1.53,
-        "squeeze_score": 347.7,
-        "avg_volume": 588420.0,
-        "price": 23.53,
-        "change_pct": -0.72,
-        "volume": 901142.0
-      },
-      {
-        "ticker": "KLAR",
-        "company": "Klarna Group plc",
-        "float_shares": 143970000.0,
-        "short_float_pct": 22.07,
-        "short_ratio_days": 5.72,
-        "rel_volume": 1.74,
-        "squeeze_score": 219.7,
-        "avg_volume": 5560000.0,
-        "price": 14.41,
-        "change_pct": 0.07,
-        "volume": 9655852.0
-      },
-      {
-        "ticker": "ASST",
-        "company": "Strive Inc",
-        "float_shares": 78700000.0,
-        "short_float_pct": 23.12,
-        "short_ratio_days": 3.41,
-        "rel_volume": 1.68,
-        "squeeze_score": 132.4,
-        "avg_volume": 5340000.0,
-        "price": 27.14,
-        "change_pct": 1.19,
-        "volume": 8996803.0
-      }
-    ]
-  },
-  {
     "timestamp": "2026-09-07T19:07:27.885526+00:00",
     "label": "midnight_kst",
     "candidates": [
@@ -7142,6 +7084,168 @@
         "price": 6.82,
         "change_pct": -2.43,
         "volume": 3552445.0
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-10-12T21:51:35.817897+00:00",
+    "label": "market_open",
+    "candidates": [
+      {
+        "ticker": "TBCH",
+        "company": "Turtle Beach Corp",
+        "float_shares": 13920000.0,
+        "short_float_pct": 33.74,
+        "short_ratio_days": 13.54,
+        "rel_volume": 2.1,
+        "squeeze_score": 959.4,
+        "avg_volume": 346820.0,
+        "price": 13.44,
+        "change_pct": 1.51,
+        "volume": 729439.0
+      },
+      {
+        "ticker": "GLUE",
+        "company": "Monte Rosa Therapeutics Inc",
+        "float_shares": 60170000.0,
+        "short_float_pct": 32.72,
+        "short_ratio_days": 14.88,
+        "rel_volume": 1.59,
+        "squeeze_score": 774.1,
+        "avg_volume": 1320000.0,
+        "price": 10.52,
+        "change_pct": 2.14,
+        "volume": 2093868.0
+      },
+      {
+        "ticker": "AI",
+        "company": "C3.ai Inc",
+        "float_shares": 142620000.0,
+        "short_float_pct": 29.24,
+        "short_ratio_days": 8.45,
+        "rel_volume": 2.36,
+        "squeeze_score": 583.1,
+        "avg_volume": 4940000.0,
+        "price": 11.61,
+        "change_pct": 0.69,
+        "volume": 11643858.0
+      },
+      {
+        "ticker": "JBIO",
+        "company": "Jade Biosciences Inc",
+        "float_shares": 54500000.0,
+        "short_float_pct": 22.24,
+        "short_ratio_days": 13.44,
+        "rel_volume": 1.5,
+        "squeeze_score": 448.4,
+        "avg_volume": 901690.0,
+        "price": 14.0,
+        "change_pct": -2.71,
+        "volume": 1355585.0
+      },
+      {
+        "ticker": "ABR",
+        "company": "Arbor Realty Trust Inc",
+        "float_shares": 178100000.0,
+        "short_float_pct": 22.88,
+        "short_ratio_days": 8.84,
+        "rel_volume": 1.98,
+        "squeeze_score": 400.5,
+        "avg_volume": 4610000.0,
+        "price": 2.83,
+        "change_pct": -1.39,
+        "volume": 9117817.0
+      },
+      {
+        "ticker": "NVAX",
+        "company": "Novavax Inc",
+        "float_shares": 156740000.0,
+        "short_float_pct": 29.38,
+        "short_ratio_days": 8.49,
+        "rel_volume": 1.57,
+        "squeeze_score": 391.6,
+        "avg_volume": 5430000.0,
+        "price": 12.66,
+        "change_pct": -0.71,
+        "volume": 8500474.0
+      },
+      {
+        "ticker": "ENVX",
+        "company": "Enovix Corp",
+        "float_shares": 189860000.0,
+        "short_float_pct": 27.95,
+        "short_ratio_days": 7.45,
+        "rel_volume": 1.88,
+        "squeeze_score": 391.5,
+        "avg_volume": 7120000.0,
+        "price": 2.59,
+        "change_pct": 5.28,
+        "volume": 13352615.0
+      },
+      {
+        "ticker": "QDEL",
+        "company": "QuidelOrtho Corp",
+        "float_shares": 67960000.0,
+        "short_float_pct": 22.0,
+        "short_ratio_days": 9.69,
+        "rel_volume": 1.7,
+        "squeeze_score": 362.4,
+        "avg_volume": 1540000.0,
+        "price": 13.25,
+        "change_pct": -1.27,
+        "volume": 2614028.0
+      },
+      {
+        "ticker": "ASTS",
+        "company": "AST SpaceMobile Inc",
+        "float_shares": 187500000.0,
+        "short_float_pct": 34.58,
+        "short_ratio_days": 5.03,
+        "rel_volume": 1.68,
+        "squeeze_score": 292.2,
+        "avg_volume": 12890000.0,
+        "price": 51.46,
+        "change_pct": 0.97,
+        "volume": 21704537.0
+      },
+      {
+        "ticker": "PCRX",
+        "company": "Pacira BioSciences Inc",
+        "float_shares": 38180000.0,
+        "short_float_pct": 21.15,
+        "short_ratio_days": 7.43,
+        "rel_volume": 1.84,
+        "squeeze_score": 289.1,
+        "avg_volume": 1090000.0,
+        "price": 36.35,
+        "change_pct": 0.11,
+        "volume": 2007371.0
+      },
+      {
+        "ticker": "CABO",
+        "company": "Cable One Inc",
+        "float_shares": 4630000.0,
+        "short_float_pct": 31.87,
+        "short_ratio_days": 3.8,
+        "rel_volume": 1.88,
+        "squeeze_score": 227.7,
+        "avg_volume": 388380.0,
+        "price": 11.55,
+        "change_pct": 3.68,
+        "volume": 731185.0
+      },
+      {
+        "ticker": "MEDS",
+        "company": "DataMEDS AI Inc",
+        "float_shares": 1540000.0,
+        "short_float_pct": 34.1,
+        "short_ratio_days": 0.09,
+        "rel_volume": 3.55,
+        "squeeze_score": 10.9,
+        "avg_volume": 5960000.0,
+        "price": 3.07,
+        "change_pct": 3.72,
+        "volume": 21128758.0
       }
     ]
   }
