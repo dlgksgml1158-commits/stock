@@ -1,141 +1,5 @@
 [
   {
-    "timestamp": "2026-09-08T17:26:37.313418+00:00",
-    "label": "market_open",
-    "candidates": [
-      {
-        "ticker": "AVBP",
-        "company": "ArriVent BioPharma Inc",
-        "float_shares": 34640000.0,
-        "short_float_pct": 23.75,
-        "short_ratio_days": 16.01,
-        "rel_volume": 0.98,
-        "squeeze_score": 372.6,
-        "avg_volume": 513970.0,
-        "price": 31.27,
-        "change_pct": 1.03,
-        "volume": 501152.0
-      },
-      {
-        "ticker": "CHPT",
-        "company": "ChargePoint Holdings Inc",
-        "float_shares": 22750000.0,
-        "short_float_pct": 25.31,
-        "short_ratio_days": 3.9,
-        "rel_volume": 2.39,
-        "squeeze_score": 235.9,
-        "avg_volume": 1480000.0,
-        "price": 9.95,
-        "change_pct": 0.63,
-        "volume": 3537901.0
-      },
-      {
-        "ticker": "SOUN",
-        "company": "SoundHound AI Inc",
-        "float_shares": 399890000.0,
-        "short_float_pct": 40.66,
-        "short_ratio_days": 5.4,
-        "rel_volume": 1.0,
-        "squeeze_score": 219.6,
-        "avg_volume": 30120000.0,
-        "price": 6.66,
-        "change_pct": -1.26,
-        "volume": 30083183.0
-      },
-      {
-        "ticker": "DFDV",
-        "company": "DeFi Development Corp",
-        "float_shares": 23610000.0,
-        "short_float_pct": 21.15,
-        "short_ratio_days": 4.55,
-        "rel_volume": 1.88,
-        "squeeze_score": 180.9,
-        "avg_volume": 1100000.0,
-        "price": 6.07,
-        "change_pct": 3.32,
-        "volume": 2069634.0
-      },
-      {
-        "ticker": "OXM",
-        "company": "Oxford Industries Inc",
-        "float_shares": 13780000.0,
-        "short_float_pct": 23.29,
-        "short_ratio_days": 6.8,
-        "rel_volume": 0.98,
-        "squeeze_score": 155.2,
-        "avg_volume": 471970.0,
-        "price": 30.53,
-        "change_pct": -1.1,
-        "volume": 463977.0
-      },
-      {
-        "ticker": "PLUG",
-        "company": "Plug Power Inc",
-        "float_shares": 1330000000.0,
-        "short_float_pct": 21.82,
-        "short_ratio_days": 5.26,
-        "rel_volume": 0.95,
-        "squeeze_score": 109.0,
-        "avg_volume": 55280000.0,
-        "price": 2.29,
-        "change_pct": 5.46,
-        "volume": 52507666.0
-      },
-      {
-        "ticker": "AIRS",
-        "company": "Airsculpt Technologies Inc",
-        "float_shares": 10460000.0,
-        "short_float_pct": 26.7,
-        "short_ratio_days": 3.92,
-        "rel_volume": 0.96,
-        "squeeze_score": 100.5,
-        "avg_volume": 712270.0,
-        "price": 2.88,
-        "change_pct": 3.22,
-        "volume": 682122.0
-      },
-      {
-        "ticker": "ASST",
-        "company": "Strive Inc",
-        "float_shares": 78700000.0,
-        "short_float_pct": 23.12,
-        "short_ratio_days": 3.39,
-        "rel_volume": 1.18,
-        "squeeze_score": 92.5,
-        "avg_volume": 5370000.0,
-        "price": 27.05,
-        "change_pct": -0.35,
-        "volume": 6325162.0
-      },
-      {
-        "ticker": "BXBL",
-        "company": "BOXABL Inc",
-        "float_shares": 940000.0,
-        "short_float_pct": 57.77,
-        "short_ratio_days": 1.48,
-        "rel_volume": 0.97,
-        "squeeze_score": 82.9,
-        "avg_volume": 365970.0,
-        "price": 4.32,
-        "change_pct": -0.69,
-        "volume": 354238.0
-      },
-      {
-        "ticker": "BRNX",
-        "company": "BrenX Ltd",
-        "float_shares": 680000.0,
-        "short_float_pct": 36.55,
-        "short_ratio_days": 0.26,
-        "rel_volume": 2.05,
-        "squeeze_score": 19.5,
-        "avg_volume": 957330.0,
-        "price": 2.3,
-        "change_pct": 2.68,
-        "volume": 1959245.0
-      }
-    ]
-  },
-  {
     "timestamp": "2026-09-08T18:33:40.529070+00:00",
     "label": "midnight_kst",
     "candidates": [
@@ -7350,6 +7214,155 @@
         "price": 3.07,
         "change_pct": 3.72,
         "volume": 21162334.0
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-10-13T19:57:24.992797+00:00",
+    "label": "market_open",
+    "candidates": [
+      {
+        "ticker": "SVRA",
+        "company": "Savara Inc",
+        "float_shares": 102980000.0,
+        "short_float_pct": 42.3,
+        "short_ratio_days": 23.95,
+        "rel_volume": 1.81,
+        "squeeze_score": 1833.7,
+        "avg_volume": 1820000.0,
+        "price": 4.77,
+        "change_pct": -1.44,
+        "volume": 3290790.0
+      },
+      {
+        "ticker": "HPK",
+        "company": "HighPeak Energy Inc",
+        "float_shares": 22340000.0,
+        "short_float_pct": 35.8,
+        "short_ratio_days": 16.26,
+        "rel_volume": 2.4,
+        "squeeze_score": 1397.1,
+        "avg_volume": 491780.0,
+        "price": 10.11,
+        "change_pct": 4.12,
+        "volume": 1178983.0
+      },
+      {
+        "ticker": "MMED",
+        "company": "MiniMed Group Inc",
+        "float_shares": 27110000.0,
+        "short_float_pct": 67.13,
+        "short_ratio_days": 4.98,
+        "rel_volume": 3.49,
+        "squeeze_score": 1166.7,
+        "avg_volume": 3660000.0,
+        "price": 18.46,
+        "change_pct": -1.81,
+        "volume": 12771686.0
+      },
+      {
+        "ticker": "FLWS",
+        "company": "1-800 Flowers.com Inc",
+        "float_shares": 30170000.0,
+        "short_float_pct": 25.93,
+        "short_ratio_days": 25.52,
+        "rel_volume": 1.5,
+        "squeeze_score": 992.6,
+        "avg_volume": 306500.0,
+        "price": 2.6,
+        "change_pct": -2.62,
+        "volume": 460956.0
+      },
+      {
+        "ticker": "BCAX",
+        "company": "Bicara Therapeutics Inc",
+        "float_shares": 43520000.0,
+        "short_float_pct": 24.57,
+        "short_ratio_days": 17.1,
+        "rel_volume": 1.57,
+        "squeeze_score": 659.6,
+        "avg_volume": 625510.0,
+        "price": 17.33,
+        "change_pct": -0.03,
+        "volume": 980366.0
+      },
+      {
+        "ticker": "AVBP",
+        "company": "ArriVent BioPharma Inc",
+        "float_shares": 34800000.0,
+        "short_float_pct": 24.29,
+        "short_ratio_days": 9.04,
+        "rel_volume": 1.77,
+        "squeeze_score": 388.7,
+        "avg_volume": 935120.0,
+        "price": 16.08,
+        "change_pct": -2.31,
+        "volume": 1658340.0
+      },
+      {
+        "ticker": "BBAI",
+        "company": "BigBear.ai Holdings Inc",
+        "float_shares": 473760000.0,
+        "short_float_pct": 29.73,
+        "short_ratio_days": 7.22,
+        "rel_volume": 1.77,
+        "squeeze_score": 379.9,
+        "avg_volume": 19510000.0,
+        "price": 2.4,
+        "change_pct": 4.13,
+        "volume": 34469918.0
+      },
+      {
+        "ticker": "ABR",
+        "company": "Arbor Realty Trust Inc",
+        "float_shares": 178100000.0,
+        "short_float_pct": 22.88,
+        "short_ratio_days": 8.65,
+        "rel_volume": 1.67,
+        "squeeze_score": 330.5,
+        "avg_volume": 4710000.0,
+        "price": 2.83,
+        "change_pct": 0.01,
+        "volume": 7889190.0
+      },
+      {
+        "ticker": "QDEL",
+        "company": "QuidelOrtho Corp",
+        "float_shares": 67960000.0,
+        "short_float_pct": 22.0,
+        "short_ratio_days": 9.56,
+        "rel_volume": 1.5,
+        "squeeze_score": 315.5,
+        "avg_volume": 1560000.0,
+        "price": 14.04,
+        "change_pct": 5.96,
+        "volume": 2338887.0
+      },
+      {
+        "ticker": "CABO",
+        "company": "Cable One Inc",
+        "float_shares": 4630000.0,
+        "short_float_pct": 31.87,
+        "short_ratio_days": 3.73,
+        "rel_volume": 1.88,
+        "squeeze_score": 223.5,
+        "avg_volume": 395620.0,
+        "price": 11.93,
+        "change_pct": 3.25,
+        "volume": 744726.0
+      },
+      {
+        "ticker": "ASST",
+        "company": "Strive Inc",
+        "float_shares": 89600000.0,
+        "short_float_pct": 24.49,
+        "short_ratio_days": 3.22,
+        "rel_volume": 1.56,
+        "squeeze_score": 123.0,
+        "avg_volume": 6810000.0,
+        "price": 27.58,
+        "change_pct": -0.49,
+        "volume": 10652618.0
       }
     ]
   }

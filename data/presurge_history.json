@@ -1,251 +1,5 @@
 [
   {
-    "timestamp": "2026-09-08T17:26:06.799453+00:00",
-    "label": "market_open",
-    "candidates": [
-      {
-        "ticker": "GPRK",
-        "company": "Geopark Limited",
-        "sector": "Energy",
-        "market_cap": "783.30M",
-        "price": 12.07,
-        "change_pct": 4.41,
-        "avg_volume": "538.57K",
-        "rel_volume": 9.36,
-        "volume": "3,137,114",
-        "earnings": "Aug 04/a"
-      },
-      {
-        "ticker": "CHPT",
-        "company": "ChargePoint Holdings Inc",
-        "sector": "Consumer Cyclical",
-        "market_cap": "267.30M",
-        "price": 9.95,
-        "change_pct": 0.66,
-        "avg_volume": "1.48M",
-        "rel_volume": 3.85,
-        "volume": "3,533,378",
-        "earnings": "Sep 02/a"
-      },
-      {
-        "ticker": "ZIM",
-        "company": "Zim Integrated Shipping Services Ltd",
-        "sector": "Industrials",
-        "market_cap": "3.57B",
-        "price": 29.66,
-        "change_pct": 3.78,
-        "avg_volume": "1.41M",
-        "rel_volume": 3.47,
-        "volume": "3,042,917",
-        "earnings": "Aug 19/b"
-      },
-      {
-        "ticker": "IONS",
-        "company": "Ionis Pharmaceuticals Inc",
-        "sector": "Healthcare",
-        "market_cap": "9.37B",
-        "price": 56.39,
-        "change_pct": -2.93,
-        "avg_volume": "3.00M",
-        "rel_volume": 3.32,
-        "volume": "6,183,868",
-        "earnings": "Jul 29/b"
-      },
-      {
-        "ticker": "NAMS",
-        "company": "NewAmsterdam Pharma Company NV",
-        "sector": "Healthcare",
-        "market_cap": "2.95B",
-        "price": 24.67,
-        "change_pct": -2.88,
-        "avg_volume": "1.07M",
-        "rel_volume": 3.32,
-        "volume": "2,201,039",
-        "earnings": "Aug 05/b"
-      },
-      {
-        "ticker": "DFDV",
-        "company": "DeFi Development Corp",
-        "sector": "Financial",
-        "market_cap": "188.16M",
-        "price": 6.07,
-        "change_pct": 3.41,
-        "avg_volume": "1.10M",
-        "rel_volume": 3.02,
-        "volume": "2,065,573",
-        "earnings": "Aug 12/a"
-      },
-      {
-        "ticker": "TJGC",
-        "company": "TJGC Group Ltd",
-        "sector": "Communication Services",
-        "market_cap": "105.04M",
-        "price": 10.4,
-        "change_pct": -0.1,
-        "avg_volume": "832.20K",
-        "rel_volume": 2.78,
-        "volume": "1,441,595",
-        "earnings": "-"
-      },
-      {
-        "ticker": "PL",
-        "company": "Planet Labs PBC",
-        "sector": "Industrials",
-        "market_cap": "6.51B",
-        "price": 17.9,
-        "change_pct": -1.24,
-        "avg_volume": "10.79M",
-        "rel_volume": 2.63,
-        "volume": "17,672,677",
-        "earnings": "Sep 03/a"
-      },
-      {
-        "ticker": "LULU",
-        "company": "Lululemon Athletica Inc",
-        "sector": "Consumer Cyclical",
-        "market_cap": "11.88B",
-        "price": 102.55,
-        "change_pct": 1.93,
-        "avg_volume": "4.22M",
-        "rel_volume": 2.58,
-        "volume": "6,779,092",
-        "earnings": "Sep 03/a"
-      },
-      {
-        "ticker": "WLTH",
-        "company": "Wealthfront Corp",
-        "sector": "Technology",
-        "market_cap": "1.44B",
-        "price": 9.62,
-        "change_pct": 0.47,
-        "avg_volume": "1.57M",
-        "rel_volume": 2.45,
-        "volume": "2,384,524",
-        "earnings": "Sep 09/a"
-      },
-      {
-        "ticker": "CBC",
-        "company": "Central Bancompany Inc",
-        "sector": "Financial",
-        "market_cap": "7.89B",
-        "price": 32.94,
-        "change_pct": 0.92,
-        "avg_volume": "754.12K",
-        "rel_volume": 2.39,
-        "volume": "1,121,167",
-        "earnings": "Aug 04/b"
-      },
-      {
-        "ticker": "MOMO",
-        "company": "Hello Group Inc ADR",
-        "sector": "Communication Services",
-        "market_cap": "545.70M",
-        "price": 5.28,
-        "change_pct": -1.77,
-        "avg_volume": "689.62K",
-        "rel_volume": 2.23,
-        "volume": "958,585",
-        "earnings": "Sep 03/b"
-      },
-      {
-        "ticker": "HZO",
-        "company": "Marinemax Inc",
-        "sector": "Consumer Cyclical",
-        "market_cap": "1.15B",
-        "price": 52.15,
-        "change_pct": -0.01,
-        "avg_volume": "551.52K",
-        "rel_volume": 2.15,
-        "volume": "738,651",
-        "earnings": "Jul 23/b"
-      },
-      {
-        "ticker": "HAFN",
-        "company": "Hafnia Ltd",
-        "sector": "Industrials",
-        "market_cap": "4.47B",
-        "price": 8.95,
-        "change_pct": -2.93,
-        "avg_volume": "1.50M",
-        "rel_volume": 2.1,
-        "volume": "1,958,541",
-        "earnings": "Aug 28/b"
-      },
-      {
-        "ticker": "ARQT",
-        "company": "Arcutis Biotherapeutics Inc",
-        "sector": "Healthcare",
-        "market_cap": "3.06B",
-        "price": 24.32,
-        "change_pct": 1.76,
-        "avg_volume": "1.67M",
-        "rel_volume": 2.08,
-        "volume": "2,163,971",
-        "earnings": "Aug 05/a"
-      },
-      {
-        "ticker": "LAND",
-        "company": "Gladstone Land Corp",
-        "sector": "Real Estate",
-        "market_cap": "421.23M",
-        "price": 9.77,
-        "change_pct": -0.66,
-        "avg_volume": "720.37K",
-        "rel_volume": 2.08,
-        "volume": "934,509",
-        "earnings": "Aug 11/a"
-      },
-      {
-        "ticker": "ACGL",
-        "company": "Arch Capital Group Ltd",
-        "sector": "Financial",
-        "market_cap": "32.82B",
-        "price": 96.18,
-        "change_pct": -1.96,
-        "avg_volume": "2.08M",
-        "rel_volume": 2.07,
-        "volume": "2,683,866",
-        "earnings": "Jul 28/a"
-      },
-      {
-        "ticker": "ALB",
-        "company": "Albemarle Corp",
-        "sector": "Basic Materials",
-        "market_cap": "15.18B",
-        "price": 128.67,
-        "change_pct": 1.89,
-        "avg_volume": "2.32M",
-        "rel_volume": 2.07,
-        "volume": "2,991,922",
-        "earnings": "Aug 05/a"
-      },
-      {
-        "ticker": "AEO",
-        "company": "American Eagle Outfitters Inc",
-        "sector": "Consumer Cyclical",
-        "market_cap": "2.86B",
-        "price": 17.08,
-        "change_pct": -1.79,
-        "avg_volume": "4.64M",
-        "rel_volume": 2.04,
-        "volume": "5,888,721",
-        "earnings": "Sep 09/a"
-      },
-      {
-        "ticker": "HRI",
-        "company": "Herc Holdings Inc",
-        "sector": "Industrials",
-        "market_cap": "4.96B",
-        "price": 148.48,
-        "change_pct": 5.37,
-        "avg_volume": "522.90K",
-        "rel_volume": 2.01,
-        "volume": "652,743",
-        "earnings": "Jul 28/b"
-      }
-    ]
-  },
-  {
     "timestamp": "2026-09-08T18:33:10.113159+00:00",
     "label": "midnight_kst",
     "candidates": [
@@ -15092,6 +14846,108 @@
         "rel_volume": 2.0,
         "volume": "22,566,231",
         "earnings": "Oct 29/b"
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-10-13T19:56:52.786021+00:00",
+    "label": "market_open",
+    "candidates": [
+      {
+        "ticker": "MMED",
+        "company": "MiniMed Group Inc",
+        "sector": "Healthcare",
+        "market_cap": "5.22B",
+        "price": 18.57,
+        "change_pct": -1.22,
+        "avg_volume": "3.66M",
+        "rel_volume": 3.51,
+        "volume": "12,701,851",
+        "earnings": "Sep 01/b"
+      },
+      {
+        "ticker": "CTNM",
+        "company": "Contineum Therapeutics Inc",
+        "sector": "Healthcare",
+        "market_cap": "321.28M",
+        "price": 8.54,
+        "change_pct": -0.29,
+        "avg_volume": "648.45K",
+        "rel_volume": 3.45,
+        "volume": "2,217,623",
+        "earnings": "Jul 30/a"
+      },
+      {
+        "ticker": "TALO",
+        "company": "Talos Energy Inc",
+        "sector": "Energy",
+        "market_cap": "2.95B",
+        "price": 17.65,
+        "change_pct": 1.76,
+        "avg_volume": "2.12M",
+        "rel_volume": 3.02,
+        "volume": "6,350,349",
+        "earnings": "Nov 03/a"
+      },
+      {
+        "ticker": "PMT",
+        "company": "Pennymac Mortgage Investment Trust",
+        "sector": "Real Estate",
+        "market_cap": "619.14M",
+        "price": 7.1,
+        "change_pct": 0.71,
+        "avg_volume": "1.70M",
+        "rel_volume": 2.47,
+        "volume": "4,151,103",
+        "earnings": "Oct 29/a"
+      },
+      {
+        "ticker": "BBVA",
+        "company": "Banco Bilbao Vizcaya Argentaria SA ADR",
+        "sector": "Financial",
+        "market_cap": "143.83B",
+        "price": 26.47,
+        "change_pct": 1.07,
+        "avg_volume": "1.47M",
+        "rel_volume": 2.38,
+        "volume": "3,472,781",
+        "earnings": "Oct 29/b"
+      },
+      {
+        "ticker": "EIX",
+        "company": "Edison International",
+        "sector": "Utilities",
+        "market_cap": "21.28B",
+        "price": 55.29,
+        "change_pct": -0.62,
+        "avg_volume": "4.88M",
+        "rel_volume": 2.29,
+        "volume": "11,064,395",
+        "earnings": "Oct 29/a"
+      },
+      {
+        "ticker": "UNH",
+        "company": "Unitedhealth Group Inc",
+        "sector": "Healthcare",
+        "market_cap": "339.36B",
+        "price": 378.08,
+        "change_pct": -0.12,
+        "avg_volume": "5.01M",
+        "rel_volume": 2.15,
+        "volume": "10,665,690",
+        "earnings": "Oct 13/b"
+      },
+      {
+        "ticker": "XRPN",
+        "company": "Evernorth Holdings Inc",
+        "sector": "Financial",
+        "market_cap": "520.69M",
+        "price": 16.48,
+        "change_pct": -2.53,
+        "avg_volume": "612.57K",
+        "rel_volume": 2.02,
+        "volume": "1,225,052",
+        "earnings": "-"
       }
     ]
   }
