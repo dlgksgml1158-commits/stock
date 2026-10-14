@@ -1,102 +1,5 @@
 [
   {
-    "timestamp": "2026-09-09T17:15:42.109985+00:00",
-    "label": "market_open",
-    "candidates": [
-      {
-        "ticker": "MPT",
-        "company": "Medical Properties Trust Inc",
-        "float_shares": 490070000.0,
-        "short_float_pct": 29.49,
-        "short_ratio_days": 20.59,
-        "rel_volume": 0.91,
-        "squeeze_score": 552.6,
-        "avg_volume": 7020000.0,
-        "price": 3.91,
-        "change_pct": -1.9,
-        "volume": 6402811.0
-      },
-      {
-        "ticker": "LOVE",
-        "company": "Lovesac Company",
-        "float_shares": 13760000.0,
-        "short_float_pct": 20.44,
-        "short_ratio_days": 12.73,
-        "rel_volume": 1.54,
-        "squeeze_score": 400.7,
-        "avg_volume": 220830.0,
-        "price": 15.95,
-        "change_pct": -0.72,
-        "volume": 339494.0
-      },
-      {
-        "ticker": "SHOE",
-        "company": "Shoe Station Group Inc",
-        "float_shares": 17910000.0,
-        "short_float_pct": 37.04,
-        "short_ratio_days": 9.37,
-        "rel_volume": 1.04,
-        "squeeze_score": 360.9,
-        "avg_volume": 708230.0,
-        "price": 13.25,
-        "change_pct": -0.97,
-        "volume": 738226.0
-      },
-      {
-        "ticker": "INBX",
-        "company": "Inhibrx Biosciences Inc",
-        "float_shares": 11010000.0,
-        "short_float_pct": 29.2,
-        "short_ratio_days": 10.19,
-        "rel_volume": 1.18,
-        "squeeze_score": 351.1,
-        "avg_volume": 315660.0,
-        "price": 118.65,
-        "change_pct": 3.77,
-        "volume": 372984.0
-      },
-      {
-        "ticker": "SEI",
-        "company": "Solaris Energy Infrastructure Inc",
-        "float_shares": 53790000.0,
-        "short_float_pct": 27.85,
-        "short_ratio_days": 5.16,
-        "rel_volume": 0.97,
-        "squeeze_score": 139.4,
-        "avg_volume": 2900000.0,
-        "price": 67.4,
-        "change_pct": 5.38,
-        "volume": 2821654.0
-      },
-      {
-        "ticker": "SAIL",
-        "company": "Sailpoint Inc",
-        "float_shares": 71100000.0,
-        "short_float_pct": 28.37,
-        "short_ratio_days": 4.89,
-        "rel_volume": 0.97,
-        "squeeze_score": 134.6,
-        "avg_volume": 4130000.0,
-        "price": 17.85,
-        "change_pct": 0.34,
-        "volume": 4009176.0
-      },
-      {
-        "ticker": "ASST",
-        "company": "Strive Inc",
-        "float_shares": 78700000.0,
-        "short_float_pct": 23.12,
-        "short_ratio_days": 3.35,
-        "rel_volume": 0.95,
-        "squeeze_score": 73.6,
-        "avg_volume": 5440000.0,
-        "price": 26.69,
-        "change_pct": -1.71,
-        "volume": 5174619.0
-      }
-    ]
-  },
-  {
     "timestamp": "2026-09-09T18:30:56.064108+00:00",
     "label": "midnight_kst",
     "candidates": [
@@ -7467,6 +7370,64 @@
         "price": 27.59,
         "change_pct": -0.43,
         "volume": 11519404.0
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-10-14T18:10:07.120813+00:00",
+    "label": "market_open",
+    "candidates": [
+      {
+        "ticker": "IBRX",
+        "company": "ImmunityBio Inc",
+        "float_shares": 401040000.0,
+        "short_float_pct": 30.94,
+        "short_ratio_days": 11.93,
+        "rel_volume": 1.96,
+        "squeeze_score": 723.5,
+        "avg_volume": 10400000.0,
+        "price": 10.07,
+        "change_pct": 2.81,
+        "volume": 20432591.0
+      },
+      {
+        "ticker": "BCAX",
+        "company": "Bicara Therapeutics Inc",
+        "float_shares": 43520000.0,
+        "short_float_pct": 24.57,
+        "short_ratio_days": 16.75,
+        "rel_volume": 1.17,
+        "squeeze_score": 481.5,
+        "avg_volume": 638530.0,
+        "price": 17.33,
+        "change_pct": -0.06,
+        "volume": 745020.0
+      },
+      {
+        "ticker": "OXM",
+        "company": "Oxford Industries Inc",
+        "float_shares": 13820000.0,
+        "short_float_pct": 26.88,
+        "short_ratio_days": 8.25,
+        "rel_volume": 1.16,
+        "squeeze_score": 257.2,
+        "avg_volume": 450220.0,
+        "price": 25.83,
+        "change_pct": 0.42,
+        "volume": 521480.0
+      },
+      {
+        "ticker": "MBLY",
+        "company": "Mobileye Global Inc",
+        "float_shares": 166770000.0,
+        "short_float_pct": 26.73,
+        "short_ratio_days": 7.72,
+        "rel_volume": 1.19,
+        "squeeze_score": 245.6,
+        "avg_volume": 5770000.0,
+        "price": 7.14,
+        "change_pct": 1.66,
+        "volume": 6854387.0
       }
     ]
   }
