@@ -1,155 +1,5 @@
 [
   {
-    "timestamp": "2026-09-09T18:30:25.705411+00:00",
-    "label": "midnight_kst",
-    "candidates": [
-      {
-        "ticker": "FNV",
-        "company": "Franco-Nevada Corp",
-        "sector": "Basic Materials",
-        "market_cap": "51.53B",
-        "price": 267.17,
-        "change_pct": 1.08,
-        "avg_volume": "844.44K",
-        "rel_volume": 2.9,
-        "volume": "1,910,778",
-        "earnings": "Aug 11/a"
-      },
-      {
-        "ticker": "NEOG",
-        "company": "Neogen Corp",
-        "sector": "Healthcare",
-        "market_cap": "2.59B",
-        "price": 11.89,
-        "change_pct": 0.0,
-        "avg_volume": "1.96M",
-        "rel_volume": 2.9,
-        "volume": "4,453,278",
-        "earnings": "Jul 30/b"
-      },
-      {
-        "ticker": "CGNT",
-        "company": "Cognyte Software Ltd",
-        "sector": "Technology",
-        "market_cap": "598.81M",
-        "price": 8.1,
-        "change_pct": -1.54,
-        "avg_volume": "615.53K",
-        "rel_volume": 2.55,
-        "volume": "1,226,341",
-        "earnings": "Sep 09/b"
-      },
-      {
-        "ticker": "GME",
-        "company": "Gamestop Corp",
-        "sector": "Consumer Cyclical",
-        "market_cap": "8.91B",
-        "price": 19.86,
-        "change_pct": 5.12,
-        "avg_volume": "5.68M",
-        "rel_volume": 2.46,
-        "volume": "10,913,047",
-        "earnings": "Sep 08/b"
-      },
-      {
-        "ticker": "TJGC",
-        "company": "TJGC Group Ltd",
-        "sector": "Communication Services",
-        "market_cap": "107.36M",
-        "price": 10.63,
-        "change_pct": 1.14,
-        "avg_volume": "840.31K",
-        "rel_volume": 2.33,
-        "volume": "1,527,163",
-        "earnings": "-"
-      },
-      {
-        "ticker": "LXP",
-        "company": "LXP Industrial Trust",
-        "sector": "Real Estate",
-        "market_cap": "3.58B",
-        "price": 60.77,
-        "change_pct": -0.01,
-        "avg_volume": "724.67K",
-        "rel_volume": 2.3,
-        "volume": "1,304,106",
-        "earnings": "Jul 29/b"
-      },
-      {
-        "ticker": "LULU",
-        "company": "Lululemon Athletica Inc",
-        "sector": "Consumer Cyclical",
-        "market_cap": "11.66B",
-        "price": 100.68,
-        "change_pct": -2.43,
-        "avg_volume": "4.11M",
-        "rel_volume": 2.23,
-        "volume": "7,144,267",
-        "earnings": "Sep 03/a"
-      },
-      {
-        "ticker": "WLTH",
-        "company": "Wealthfront Corp",
-        "sector": "Technology",
-        "market_cap": "1.45B",
-        "price": 9.7,
-        "change_pct": 0.78,
-        "avg_volume": "1.49M",
-        "rel_volume": 2.18,
-        "volume": "2,529,677",
-        "earnings": "Sep 09/a"
-      },
-      {
-        "ticker": "LFST",
-        "company": "LifeStance Health Group Inc",
-        "sector": "Healthcare",
-        "market_cap": "4.84B",
-        "price": 12.68,
-        "change_pct": -0.96,
-        "avg_volume": "3.87M",
-        "rel_volume": 2.07,
-        "volume": "6,247,719",
-        "earnings": "Aug 06/b"
-      },
-      {
-        "ticker": "PTON",
-        "company": "Peloton Interactive Inc",
-        "sector": "Consumer Cyclical",
-        "market_cap": "2.24B",
-        "price": 5.09,
-        "change_pct": 1.09,
-        "avg_volume": "8.51M",
-        "rel_volume": 2.04,
-        "volume": "13,541,264",
-        "earnings": "Aug 06/b"
-      },
-      {
-        "ticker": "VALE",
-        "company": "Vale SA ADR",
-        "sector": "Basic Materials",
-        "market_cap": "65.52B",
-        "price": 15.4,
-        "change_pct": -1.06,
-        "avg_volume": "24.53M",
-        "rel_volume": 2.02,
-        "volume": "38,590,840",
-        "earnings": "Jul 31/b"
-      },
-      {
-        "ticker": "CBZ",
-        "company": "Cbiz Inc",
-        "sector": "Industrials",
-        "market_cap": "2.96B",
-        "price": 54.57,
-        "change_pct": -0.15,
-        "avg_volume": "1.27M",
-        "rel_volume": 2.01,
-        "volume": "1,998,058",
-        "earnings": "Jul 29/b"
-      }
-    ]
-  },
-  {
     "timestamp": "2026-09-10T17:08:57.101604+00:00",
     "label": "market_open",
     "candidates": [
@@ -15020,6 +14870,144 @@
         "rel_volume": 2.04,
         "volume": "1,339,418",
         "earnings": "Aug 28/b"
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-10-14T19:17:38.451077+00:00",
+    "label": "midnight_kst",
+    "candidates": [
+      {
+        "ticker": "VSTM",
+        "company": "Verastem Inc",
+        "sector": "Healthcare",
+        "market_cap": "692.36M",
+        "price": 7.64,
+        "change_pct": 2.62,
+        "avg_volume": "2.29M",
+        "rel_volume": 14.59,
+        "volume": "29,885,826",
+        "earnings": "Aug 06/a"
+      },
+      {
+        "ticker": "BZH",
+        "company": "Beazer Homes USA Inc",
+        "sector": "Consumer Cyclical",
+        "market_cap": "888.58M",
+        "price": 33.31,
+        "change_pct": -0.4,
+        "avg_volume": "720.69K",
+        "rel_volume": 8.29,
+        "volume": "5,349,459",
+        "earnings": "Aug 07/b"
+      },
+      {
+        "ticker": "BMBL",
+        "company": "Bumble Inc",
+        "sector": "Communication Services",
+        "market_cap": "787.19M",
+        "price": 5.97,
+        "change_pct": 0.25,
+        "avg_volume": "4.78M",
+        "rel_volume": 7.86,
+        "volume": "33,626,762",
+        "earnings": "Aug 05/a"
+      },
+      {
+        "ticker": "ANRO",
+        "company": "Alto Neuroscience Inc",
+        "sector": "Healthcare",
+        "market_cap": "848.70M",
+        "price": 21.63,
+        "change_pct": -2.1,
+        "avg_volume": "515.49K",
+        "rel_volume": 3.53,
+        "volume": "1,628,690",
+        "earnings": "Aug 12/a"
+      },
+      {
+        "ticker": "NATL",
+        "company": "NCR Atleos Corp",
+        "sector": "Technology",
+        "market_cap": "3.36B",
+        "price": 45.46,
+        "change_pct": -1.28,
+        "avg_volume": "710.65K",
+        "rel_volume": 3.19,
+        "volume": "2,028,311",
+        "earnings": "Aug 05/b"
+      },
+      {
+        "ticker": "GFS",
+        "company": "GlobalFoundries Inc",
+        "sector": "Technology",
+        "market_cap": "26.68B",
+        "price": 48.62,
+        "change_pct": 4.11,
+        "avg_volume": "4.25M",
+        "rel_volume": 2.72,
+        "volume": "10,347,664",
+        "earnings": "Nov 04/b"
+      },
+      {
+        "ticker": "FAST",
+        "company": "Fastenal Co",
+        "sector": "Industrials",
+        "market_cap": "59.36B",
+        "price": 51.73,
+        "change_pct": 0.58,
+        "avg_volume": "7.38M",
+        "rel_volume": 2.64,
+        "volume": "17,451,375",
+        "earnings": "Oct 14/b"
+      },
+      {
+        "ticker": "IBRX",
+        "company": "ImmunityBio Inc",
+        "sector": "Healthcare",
+        "market_cap": "10.47B",
+        "price": 9.88,
+        "change_pct": 0.82,
+        "avg_volume": "10.40M",
+        "rel_volume": 2.57,
+        "volume": "23,973,672",
+        "earnings": "Aug 04/b"
+      },
+      {
+        "ticker": "TNXP",
+        "company": "Tonix Pharmaceuticals Holding Corp",
+        "sector": "Healthcare",
+        "market_cap": "109.26M",
+        "price": 6.37,
+        "change_pct": 3.92,
+        "avg_volume": "558.41K",
+        "rel_volume": 2.2,
+        "volume": "1,101,519",
+        "earnings": "Aug 10/b"
+      },
+      {
+        "ticker": "NFG",
+        "company": "National Fuel Gas Co",
+        "sector": "Energy",
+        "market_cap": "7.54B",
+        "price": 79.29,
+        "change_pct": -2.21,
+        "avg_volume": "715.49K",
+        "rel_volume": 2.19,
+        "volume": "1,404,543",
+        "earnings": "Jul 29/a"
+      },
+      {
+        "ticker": "ANGO",
+        "company": "Angiodynamic Inc",
+        "sector": "Healthcare",
+        "market_cap": "465.12M",
+        "price": 11.06,
+        "change_pct": 1.47,
+        "avg_volume": "609.87K",
+        "rel_volume": 2.0,
+        "volume": "1,094,209",
+        "earnings": "Oct 08/b"
       }
     ]
   }
