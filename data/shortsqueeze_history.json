@@ -1,89 +1,5 @@
 [
   {
-    "timestamp": "2026-09-10T18:20:30.958770+00:00",
-    "label": "midnight_kst",
-    "candidates": [
-      {
-        "ticker": "HPK",
-        "company": "HighPeak Energy Inc",
-        "float_shares": 22260000.0,
-        "short_float_pct": 41.8,
-        "short_ratio_days": 18.25,
-        "rel_volume": 1.25,
-        "squeeze_score": 953.6,
-        "avg_volume": 509710.0,
-        "price": 8.56,
-        "change_pct": 4.26,
-        "volume": 635622.0
-      },
-      {
-        "ticker": "RNA",
-        "company": "Atrium Therapeutics Inc",
-        "float_shares": 17090000.0,
-        "short_float_pct": 20.37,
-        "short_ratio_days": 16.21,
-        "rel_volume": 1.2,
-        "squeeze_score": 396.2,
-        "avg_volume": 214740.0,
-        "price": 10.43,
-        "change_pct": -0.8,
-        "volume": 257890.0
-      },
-      {
-        "ticker": "FOUR",
-        "company": "Shift4 Payments Inc",
-        "float_shares": 55560000.0,
-        "short_float_pct": 25.3,
-        "short_ratio_days": 8.18,
-        "rel_volume": 1.2,
-        "squeeze_score": 248.3,
-        "avg_volume": 1720000.0,
-        "price": 42.78,
-        "change_pct": 4.02,
-        "volume": 2070933.0
-      },
-      {
-        "ticker": "SEDG",
-        "company": "Solaredge Technologies Inc",
-        "float_shares": 60450000.0,
-        "short_float_pct": 20.78,
-        "short_ratio_days": 4.29,
-        "rel_volume": 2.63,
-        "squeeze_score": 234.5,
-        "avg_volume": 2930000.0,
-        "price": 35.44,
-        "change_pct": 0.67,
-        "volume": 7699585.0
-      },
-      {
-        "ticker": "ASST",
-        "company": "Strive Inc",
-        "float_shares": 82230000.0,
-        "short_float_pct": 22.13,
-        "short_ratio_days": 3.31,
-        "rel_volume": 1.21,
-        "squeeze_score": 88.6,
-        "avg_volume": 5500000.0,
-        "price": 27.17,
-        "change_pct": 1.81,
-        "volume": 6650460.0
-      },
-      {
-        "ticker": "RXT",
-        "company": "Rackspace Technology Inc",
-        "float_shares": 98460000.0,
-        "short_float_pct": 27.88,
-        "short_ratio_days": 2.0,
-        "rel_volume": 1.15,
-        "squeeze_score": 64.1,
-        "avg_volume": 13730000.0,
-        "price": 3.16,
-        "change_pct": -2.37,
-        "volume": 15802211.0
-      }
-    ]
-  },
-  {
     "timestamp": "2026-09-11T17:10:23.134176+00:00",
     "label": "market_open",
     "candidates": [
@@ -7584,6 +7500,181 @@
         "price": 4.01,
         "change_pct": 0.0,
         "volume": 336312.0
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-10-15T19:03:35.269260+00:00",
+    "label": "midnight_kst",
+    "candidates": [
+      {
+        "ticker": "MMED",
+        "company": "MiniMed Group Inc",
+        "float_shares": 27110000.0,
+        "short_float_pct": 67.13,
+        "short_ratio_days": 3.51,
+        "rel_volume": 2.72,
+        "squeeze_score": 640.9,
+        "avg_volume": 5180000.0,
+        "price": 17.41,
+        "change_pct": 3.57,
+        "volume": 14077102.0
+      },
+      {
+        "ticker": "IBRX",
+        "company": "ImmunityBio Inc",
+        "float_shares": 401040000.0,
+        "short_float_pct": 30.94,
+        "short_ratio_days": 11.54,
+        "rel_volume": 1.46,
+        "squeeze_score": 521.3,
+        "avg_volume": 10750000.0,
+        "price": 9.97,
+        "change_pct": 0.6,
+        "volume": 15681354.0
+      },
+      {
+        "ticker": "LEU",
+        "company": "Centrus Energy Corp",
+        "float_shares": 19690000.0,
+        "short_float_pct": 30.16,
+        "short_ratio_days": 8.37,
+        "rel_volume": 1.36,
+        "squeeze_score": 343.3,
+        "avg_volume": 709500.0,
+        "price": 124.06,
+        "change_pct": 3.43,
+        "volume": 965774.0
+      },
+      {
+        "ticker": "SKYD",
+        "company": "Skydance Corp",
+        "float_shares": 536710000.00000006,
+        "short_float_pct": 22.48,
+        "short_ratio_days": 6.12,
+        "rel_volume": 2.03,
+        "squeeze_score": 279.3,
+        "avg_volume": 19700000.0,
+        "price": 7.3,
+        "change_pct": 3.4,
+        "volume": 39919875.0
+      },
+      {
+        "ticker": "CORZ",
+        "company": "Core Scientific Inc",
+        "float_shares": 308430000.0,
+        "short_float_pct": 21.39,
+        "short_ratio_days": 5.37,
+        "rel_volume": 1.99,
+        "squeeze_score": 228.6,
+        "avg_volume": 12280000.0,
+        "price": 14.09,
+        "change_pct": 4.27,
+        "volume": 24487646.0
+      },
+      {
+        "ticker": "ASTS",
+        "company": "AST SpaceMobile Inc",
+        "float_shares": 187500000.0,
+        "short_float_pct": 34.58,
+        "short_ratio_days": 4.79,
+        "rel_volume": 1.37,
+        "squeeze_score": 226.9,
+        "avg_volume": 13540000.0,
+        "price": 44.01,
+        "change_pct": 4.44,
+        "volume": 18614520.0
+      },
+      {
+        "ticker": "NUAI",
+        "company": "New Era Energy & Digital Inc",
+        "float_shares": 85730000.0,
+        "short_float_pct": 32.38,
+        "short_ratio_days": 3.66,
+        "rel_volume": 1.34,
+        "squeeze_score": 158.8,
+        "avg_volume": 7590000.0,
+        "price": 3.39,
+        "change_pct": -0.44,
+        "volume": 10177769.0
+      },
+      {
+        "ticker": "ASST",
+        "company": "Strive Inc",
+        "float_shares": 89600000.0,
+        "short_float_pct": 24.49,
+        "short_ratio_days": 3.05,
+        "rel_volume": 1.39,
+        "squeeze_score": 103.8,
+        "avg_volume": 7200000.0,
+        "price": 25.26,
+        "change_pct": 2.37,
+        "volume": 9988817.0
+      },
+      {
+        "ticker": "APLD",
+        "company": "Applied Digital Corp",
+        "float_shares": 272710000.0,
+        "short_float_pct": 20.77,
+        "short_ratio_days": 2.93,
+        "rel_volume": 1.48,
+        "squeeze_score": 90.1,
+        "avg_volume": 19300000.0,
+        "price": 20.05,
+        "change_pct": -1.38,
+        "volume": 28655605.0
+      },
+      {
+        "ticker": "IREN",
+        "company": "IREN Ltd",
+        "float_shares": 345290000.0,
+        "short_float_pct": 23.65,
+        "short_ratio_days": 1.86,
+        "rel_volume": 2.03,
+        "squeeze_score": 89.3,
+        "avg_volume": 43910000.0,
+        "price": 29.68,
+        "change_pct": -2.86,
+        "volume": 88942162.0
+      },
+      {
+        "ticker": "NBIS",
+        "company": "Nebius Group NV",
+        "float_shares": 222540000.0,
+        "short_float_pct": 20.08,
+        "short_ratio_days": 2.19,
+        "rel_volume": 1.88,
+        "squeeze_score": 82.7,
+        "avg_volume": 20420000.0,
+        "price": 184.38,
+        "change_pct": -0.88,
+        "volume": 38339326.0
+      },
+      {
+        "ticker": "CIFR",
+        "company": "Cipher Digital Inc",
+        "float_shares": 344600000.0,
+        "short_float_pct": 21.81,
+        "short_ratio_days": 2.08,
+        "rel_volume": 1.6,
+        "squeeze_score": 72.6,
+        "avg_volume": 36060000.0,
+        "price": 9.97,
+        "change_pct": 0.29,
+        "volume": 57715192.0
+      },
+      {
+        "ticker": "VWAV",
+        "company": "VisionWave Holdings Inc",
+        "float_shares": 1110000.0,
+        "short_float_pct": 26.54,
+        "short_ratio_days": 1.1,
+        "rel_volume": 1.33,
+        "squeeze_score": 38.8,
+        "avg_volume": 268700.0,
+        "price": 3.95,
+        "change_pct": -1.5,
+        "volume": 358218.0
       }
     ]
   }
