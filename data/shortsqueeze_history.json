@@ -1,63 +1,5 @@
 [
   {
-    "timestamp": "2026-09-11T17:10:23.134176+00:00",
-    "label": "market_open",
-    "candidates": [
-      {
-        "ticker": "AVBP",
-        "company": "ArriVent BioPharma Inc",
-        "float_shares": 34640000.0,
-        "short_float_pct": 25.09,
-        "short_ratio_days": 16.77,
-        "rel_volume": 1.17,
-        "squeeze_score": 492.3,
-        "avg_volume": 518309.99999999994,
-        "price": 28.63,
-        "change_pct": -0.24,
-        "volume": 605533.0
-      },
-      {
-        "ticker": "RH",
-        "company": "RH",
-        "float_shares": 15470000.0,
-        "short_float_pct": 31.54,
-        "short_ratio_days": 5.89,
-        "rel_volume": 1.54,
-        "squeeze_score": 286.1,
-        "avg_volume": 829050.0,
-        "price": 136.48,
-        "change_pct": 1.84,
-        "volume": 1278201.0
-      },
-      {
-        "ticker": "DFDV",
-        "company": "DeFi Development Corp",
-        "float_shares": 23610000.0,
-        "short_float_pct": 20.58,
-        "short_ratio_days": 4.27,
-        "rel_volume": 1.19,
-        "squeeze_score": 104.6,
-        "avg_volume": 1140000.0,
-        "price": 5.36,
-        "change_pct": 3.6,
-        "volume": 1352105.0
-      },
-      {
-        "ticker": "ASST",
-        "company": "Strive Inc",
-        "float_shares": 82230000.0,
-        "short_float_pct": 24.03,
-        "short_ratio_days": 3.55,
-        "rel_volume": 1.17,
-        "squeeze_score": 99.8,
-        "avg_volume": 5570000.0,
-        "price": 27.8,
-        "change_pct": 3.35,
-        "volume": 6532973.0
-      }
-    ]
-  },
-  {
     "timestamp": "2026-09-11T18:24:31.124773+00:00",
     "label": "midnight_kst",
     "candidates": [
@@ -7675,6 +7617,103 @@
         "price": 3.95,
         "change_pct": -1.5,
         "volume": 358218.0
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-10-16T17:40:55.213079+00:00",
+    "label": "market_open",
+    "candidates": [
+      {
+        "ticker": "NGNE",
+        "company": "Neurogene Inc",
+        "float_shares": 16760000.000000002,
+        "short_float_pct": 29.68,
+        "short_ratio_days": 18.73,
+        "rel_volume": 1.26,
+        "squeeze_score": 700.4,
+        "avg_volume": 265650.0,
+        "price": 23.55,
+        "change_pct": -1.67,
+        "volume": 334480.0
+      },
+      {
+        "ticker": "PCT",
+        "company": "PureCycle Technologies Inc",
+        "float_shares": 193090000.0,
+        "short_float_pct": 30.35,
+        "short_ratio_days": 12.52,
+        "rel_volume": 1.39,
+        "squeeze_score": 528.2,
+        "avg_volume": 4680000.0,
+        "price": 3.18,
+        "change_pct": -0.31,
+        "volume": 6526615.0
+      },
+      {
+        "ticker": "LBRX",
+        "company": "LB Pharmaceuticals Inc",
+        "float_shares": 23920000.0,
+        "short_float_pct": 25.13,
+        "short_ratio_days": 16.18,
+        "rel_volume": 1.26,
+        "squeeze_score": 512.3,
+        "avg_volume": 371550.0,
+        "price": 36.5,
+        "change_pct": -0.52,
+        "volume": 469232.0
+      },
+      {
+        "ticker": "FMC",
+        "company": "FMC Corp",
+        "float_shares": 123060000.0,
+        "short_float_pct": 23.59,
+        "short_ratio_days": 6.84,
+        "rel_volume": 2.44,
+        "squeeze_score": 393.7,
+        "avg_volume": 4250000.0,
+        "price": 5.84,
+        "change_pct": 3.91,
+        "volume": 10388573.0
+      },
+      {
+        "ticker": "DFH",
+        "company": "Dream Finders Homes Inc",
+        "float_shares": 26540000.0,
+        "short_float_pct": 33.02,
+        "short_ratio_days": 9.15,
+        "rel_volume": 1.22,
+        "squeeze_score": 368.6,
+        "avg_volume": 958100.0,
+        "price": 8.63,
+        "change_pct": 2.25,
+        "volume": 1169573.0
+      },
+      {
+        "ticker": "MMED",
+        "company": "MiniMed Group Inc",
+        "float_shares": 27110000.0,
+        "short_float_pct": 67.13,
+        "short_ratio_days": 3.26,
+        "rel_volume": 1.16,
+        "squeeze_score": 253.9,
+        "avg_volume": 5590000.0,
+        "price": 17.65,
+        "change_pct": -1.97,
+        "volume": 6489601.0
+      },
+      {
+        "ticker": "UAMY",
+        "company": "United States Antimony Corp",
+        "float_shares": 135610000.0,
+        "short_float_pct": 27.74,
+        "short_ratio_days": 6.03,
+        "rel_volume": 1.1,
+        "squeeze_score": 184.0,
+        "avg_volume": 6240000.0,
+        "price": 2.88,
+        "change_pct": 3.78,
+        "volume": 6850651.0
       }
     ]
   }
